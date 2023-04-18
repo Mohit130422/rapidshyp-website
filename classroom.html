@@ -28,7 +28,54 @@
             <h3>do you want to leave the session?</h3>
             <div class="btns">
                 <button class="outline-action-btn">Yes</button>
-                <button class="solid-action-btn">No</button>
+                <button class="solid-action-btn" onclick="$('#confirm-modal').hide()">No</button>
+            </div>
+        </div>
+    </div>
+    <div class="blur-overlay" id="report-modal">
+        <div class="report-box">
+            <div class="card-heading">
+                <div class="heading">
+                     Report
+                </div>
+                <div class="close-btn" onclick="$('#report-modal').hide(); location.reload(true);">
+                    <i class="fas fa-times close-modal"></i>
+                </div>
+            </div>
+            <div class="report-content">
+               <div class="report-ask">
+                   <p>Why are you reporting this post?</p>
+               </div>
+               <input type="hidden" id="inspirationIdForSpam" value="1107">
+                <div class="report-option" id="report-option">
+                    <li>
+                        <input type="radio" name="report-option" id="report-option-0" value="It's annoying or not interesting">
+                        <label for="report-option-0">Unwanted Content</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="report-option" id="report-option-1" value="It's inappropriate">
+                        <label for="report-option-1">Harassment & Hateful Content</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="report-option" id="report-option-2" value="It goes against my views">
+                        <label for="report-option-2">Violence</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="report-option" id="report-option-3" value="It's sexually explicit">
+                        <label for="report-option-3">Speak or Hear</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="report-option" id="report-option-4" value="It advocates violence">
+                        <label for="report-option-4">Presenting Content</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="report-option" id="report-option-5" value="Content not available">
+                        <label for="report-option-5">Viewing Content</label>
+                    </li>
+                </div>
+            </div>
+            <div class="report-btn" id="spam-report-button">
+                <span>Submit</span>
             </div>
         </div>
     </div>
@@ -45,7 +92,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-9 col-md-12 col-sm-12">
-                        <div class="master-wrapper">
+                        <div class="master-wrapper d-none">
                             <div class="classroom-wrapper image-on">
                                 <video autoplay loop>
                                   <source src="/assets/video/hero_video.mp4" type="video/mp4">
@@ -72,8 +119,8 @@
                                 </video>
                             </div> -->
                         </div>
-                        <div class="row participants-list d-none">
-                            <!-- <div class="col-lg-12 col-md-12 col-xsm-12">
+                        <div class="row participants-list">
+                            <div class="col-lg-12 col-md-12 col-xsm-12">
                                 <div class="participants">
                                         <div class="option">
                                             <div class="opt">
@@ -97,7 +144,7 @@
                                             <p class="opt"><img src="assets/images/icon/hand.svg" alt=""></p>
                                         </div>
                                 </div>
-                            </div> -->
+                            </div>
                             <div class="col-lg-3 col-md-4 col-xsm-4">
                                 <div class="participants">
                                         <div class="option">
@@ -404,7 +451,7 @@
                         <div class="chat-box">
                             <div class="head">
                                 <p>Messages</p>
-                                <img src="assets/images/icon/close.svg" alt="">
+                                <img src="assets/images/icon/close.svg" alt="" onclick="$('.chat-box').hide()">
                             </div>
                             <div class="messages-area">
                                 <div class="mssg">
@@ -487,9 +534,8 @@
                             <sapn class="items" id="vertical-menu">
                                 <img src="assets/images/icon/vertical-menu.png" alt="">
                                 <div class="item-menu">
-                                    <a href="">Feedback</a>
-                                    <a href="">Report</a>
-                                    <a href="">Mute All</a>
+                                    <span id="report">Report</span>
+                                    <span>Mute All</span>
                                 </div>
                             </sapn>
                             <sapn class="call-end">

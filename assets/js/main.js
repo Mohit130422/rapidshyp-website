@@ -69,6 +69,9 @@ $(document).ready(function () {
     $(".call-end").click(function(){
         $("#confirm-modal").css("display","flex");
     })
+    $("#report").click(function(){
+        $("#report-modal").css("display","flex");
+    })
     $("#message-box").click(function(){
         $(".chat-box").toggle();
     })
