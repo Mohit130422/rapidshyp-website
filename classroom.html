@@ -92,13 +92,16 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-9 col-md-12 col-sm-12">
-                        <div class="master-wrapper d-none">
+                        <div class="master-wrapper">
                             <div class="classroom-wrapper image-on">
-                                <video autoplay loop>
+                                <video autoplay loop id="myvideo" controlsList="nodownload">
                                   <source src="/assets/video/hero_video.mp4" type="video/mp4">
                                   Your browser does not support HTML video.
                                 </video>
                                 <!-- <img src="assets/images/profile-pic.png" alt=""> -->
+                                <div class="fullscreen" onclick="openFullScreen()">
+                                    <i class="fas fa-expand"></i>
+                                </div>
                             </div>
                             <div class="master-screen">
                                 <div class="user-img">
@@ -119,7 +122,7 @@
                                 </video>
                             </div> -->
                         </div>
-                        <div class="row participants-list">
+                        <div class="row participants-list d-none">
                             <div class="col-lg-12 col-md-12 col-xsm-12">
                                 <div class="participants">
                                         <div class="option">
@@ -549,6 +552,18 @@
     </main>
     
     <script src="assets/js/main.js"></script>
+    <script>
+        let elem = document.getElementById("myvideo");
+        function openFullScreen() {
+          if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) { /* Safari */
+            elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) { /* IE11 */
+            elem.msRequestFullscreen();
+          }
+        }
+    </script>
 </body>
 
 </html>
