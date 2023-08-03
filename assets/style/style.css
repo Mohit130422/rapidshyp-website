@@ -2834,8 +2834,7 @@ footer .subscribe-box input[type=submit] {
 }
 .sessionDetailView .sbenefits ul {
   margin: 0;
-  -webkit-padding-start: 1rem;
-          padding-inline-start: 1rem;
+  padding-inline-start: 1rem;
 }
 .sessionDetailView .sbenefits span {
   font-size: 14px;

@@ -266,7 +266,7 @@ main .waiting-room .video-wrapper .media-message {
   text-align: center;
 }
 main .waiting-room .session-info .details {
-  border: 1px solid #FF4E00;
+  border: 2px solid #eee;
   padding: 1rem 1.5rem;
   border-radius: 5px;
 }
@@ -292,13 +292,10 @@ main .waiting-room .session-info .details .count-time {
 }
 main .waiting-room .session-info .ready-to-join {
   padding: 0.5rem 0.25rem;
+  margin-top: 16px;
 }
 main .waiting-room .session-info .ready-to-join p {
   margin: 1rem auto;
-}
-main .waiting-room .session-info .ready-to-join .head {
-  font-size: 25px;
-  font-weight: 600;
 }
 main .waiting-room .session-info .ready-to-join .user-img {
   display: flex;
@@ -320,10 +317,17 @@ main .waiting-room .session-info .ready-to-join .user-img span {
 }
 main .waiting-room .session-info .ready-to-join .joiners {
   font-weight: 600;
+  text-align: center;
+}
+main .waiting-room .session-info .ready-to-join .head {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
 }
 main .waiting-room .session-info .join-buttons {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
   margin: auto;
 }
@@ -332,13 +336,15 @@ main .waiting-room .session-info .join-buttons .solid-action-btn {
   border: none;
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 8px;
+}
+main .waiting-room .session-info .join-buttons .cast {
+  display: none;
 }
 main .waiting-room .session-info .join-buttons img {
   width: 80px;
 }
-main .waiting-room .session-info small {
-  display: none;
-  justify-content: space-evenly;
+main .waiting-room .session-info .join-buttons small {
   color: #FF4E00;
   text-align: center;
   font-weight: 600;
@@ -351,20 +357,22 @@ main .waiting-room .test-audio {
   width: fit-content;
   padding: 8px;
   border-radius: 25px;
+  display: none;
 }
 main .waiting-room .test-audio span {
   margin-left: 8px;
 }
 main .waiting-room .guidelines {
   border: 2px solid #eee;
-  padding: 16px;
+  padding: 8px 16px;
   border-radius: 5px;
-  min-height: 110px;
+  min-height: 60px;
   margin: 16px 0;
 }
 main .waiting-room .guidelines p {
   font-weight: 600;
   color: #676767;
+  font-size: 12px;
 }
 main .classroom {
   background-color: #202124;
@@ -398,7 +406,6 @@ main .classroom .master-wrapper .classroom-wrapper {
   width: 100%;
   height: 400px;
   background-color: rgba(0, 0, 0, 0.5647058824);
-  position: relative;
 }
 main .classroom .master-wrapper .classroom-wrapper video {
   width: 100%;
@@ -460,34 +467,6 @@ main .classroom .master-wrapper .classroom-wrapper video::-webkit-media-controls
 main .classroom .master-wrapper .classroom-wrapper video::-webkit-media-controls-panel {
   width: calc(100% + 30px);
 }
-main .classroom .master-wrapper .classroom-wrapper img {
-  width: 100px;
-  height: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-  border-radius: 50%;
-}
-main .classroom .master-wrapper .classroom-wrapper .option {
-  opacity: 1;
-  position: absolute;
-  top: 5%;
-  right: 5%;
-  display: none;
-}
-main .classroom .master-wrapper .classroom-wrapper .option .opt {
-  background-color: #fff;
-  padding: 3px 6px;
-  border-radius: 50%;
-  margin: auto 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  z-index: 10;
-}
-main .classroom .master-wrapper .classroom-wrapper .option .opt img {
-  width: 20px;
-  height: 20px;
-}
 main .classroom .master-wrapper .classroom-wrapper:hover::before {
   content: "";
   position: absolute;
@@ -515,6 +494,34 @@ main .classroom .master-wrapper .classroom-wrapper:hover .fullscreen i {
 }
 main .classroom .master-wrapper .classroom-wrapper .fullscreen {
   display: none;
+}
+main .classroom .master-wrapper .classroom-wrapper img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 50%;
+}
+main .classroom .master-wrapper .classroom-wrapper .option {
+  opacity: 1;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  display: none;
+}
+main .classroom .master-wrapper .classroom-wrapper .option .opt {
+  background-color: #fff;
+  padding: 3px 6px;
+  border-radius: 50%;
+  margin: auto 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 10;
+}
+main .classroom .master-wrapper .classroom-wrapper .option .opt img {
+  width: 20px;
+  height: 20px;
 }
 main .classroom .master-wrapper .image-on {
   display: flex;
@@ -655,7 +662,6 @@ main .classroom .chat-box .typing-area img {
 }
 @media (max-width: 991px) {
   main .classroom .chat-box {
-    display: none;
     height: 400px;
     position: absolute;
     bottom: 10%;
@@ -672,10 +678,9 @@ main .classroom .chat-box .typing-area img {
 }
 @media (max-width: 576px) {
   main .classroom .chat-box {
-    display: none;
     height: 340px;
     position: absolute;
-    bottom: 10%;
+    bottom: 14%;
     z-index: 10;
     left: 0;
     right: 0;
@@ -723,11 +728,11 @@ main .classroom .actions #vertical-menu .item-menu {
   background-color: #fff;
   width: 120px;
 }
-main .classroom .actions #vertical-menu .item-menu span {
+main .classroom .actions #vertical-menu .item-menu a {
   color: #000;
   padding: 5px 8px;
 }
-main .classroom .actions #vertical-menu .item-menu span:hover {
+main .classroom .actions #vertical-menu .item-menu a:hover {
   background-color: #FF4E00;
   color: #fff;
 }
@@ -868,6 +873,8 @@ main .classroom .participants-list .col-lg-12, main .classroom .participants-lis
 }
 main .classroom .participants-list .col-lg-12 .participants, main .classroom .participants-list .col-md-12 .participants, main .classroom .participants-list .col-xsm-12 .participants, main .classroom .participants-list .col-lg-6 .participants, main .classroom .participants-list .col-md-6 .participants, main .classroom .participants-list .col-xsm-12 .participants {
   width: 100%;
+  display: flex;
+  background-color: #000;
 }
 main .classroom .participants-list .col-lg-12 .participants .user-img, main .classroom .participants-list .col-md-12 .participants .user-img, main .classroom .participants-list .col-xsm-12 .participants .user-img, main .classroom .participants-list .col-lg-6 .participants .user-img, main .classroom .participants-list .col-md-6 .participants .user-img, main .classroom .participants-list .col-xsm-12 .participants .user-img {
   height: 380px;
@@ -875,7 +882,11 @@ main .classroom .participants-list .col-lg-12 .participants .user-img, main .cla
   width: 100%;
 }
 main .classroom .participants-list .col-lg-12 .participants .user-img video, main .classroom .participants-list .col-md-12 .participants .user-img video, main .classroom .participants-list .col-xsm-12 .participants .user-img video, main .classroom .participants-list .col-lg-6 .participants .user-img video, main .classroom .participants-list .col-md-6 .participants .user-img video, main .classroom .participants-list .col-xsm-12 .participants .user-img video {
-  height: 350px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
 }
 main .classroom .participants-list .col-lg-12 .participants .user-img img, main .classroom .participants-list .col-md-12 .participants .user-img img, main .classroom .participants-list .col-xsm-12 .participants .user-img img, main .classroom .participants-list .col-lg-6 .participants .user-img img, main .classroom .participants-list .col-md-6 .participants .user-img img, main .classroom .participants-list .col-xsm-12 .participants .user-img img {
   margin: auto;
@@ -925,6 +936,14 @@ main .classroom .participants-list .no-participant {
   background-color: #000;
   font-weight: 500;
   font-size: 20px;
+}
+@media (max-width: 914px) {
+  main .classroom .participants-list .col-xsm-12 {
+    display: unset;
+  }
+  main .classroom .participants-list .col-xsm-12 .participants .user-img {
+    height: 220px;
+  }
 }
 @media (max-width: 991px) {
   main .classroom .master-wrapper .master-screen {
