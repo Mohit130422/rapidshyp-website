@@ -205,6 +205,10 @@ i {
   border: 3px solid #669DF6;
 }
 
+.disabled {
+  background-color: #d7d7d7;
+}
+
 main {
   padding: 25px;
   background-color: #fff;
@@ -267,11 +271,12 @@ main .waiting-room .video-wrapper .media-message {
 }
 main .waiting-room .session-info .details {
   border: 2px solid #eee;
-  padding: 1rem 1.5rem;
+  padding: 1rem 0;
   border-radius: 5px;
 }
 main .waiting-room .session-info .details p {
   margin-bottom: 0.25rem;
+  color: #000;
 }
 main .waiting-room .session-info .details .head {
   text-transform: uppercase;
@@ -282,13 +287,39 @@ main .waiting-room .session-info .details .name {
   font-weight: 600;
   font-size: 16px;
 }
-main .waiting-room .session-info .details .teacher-name, main .waiting-room .session-info .details .duration {
+main .waiting-room .session-info .details .teacher-info {
+  margin: 0.5rem 0;
+}
+main .waiting-room .session-info .details .teacher-info img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 50%;
+}
+main .waiting-room .session-info .details .teacher-info .teacher-name {
+  margin-left: 8px;
   font-weight: 600;
   color: #676767;
+}
+main .waiting-room .session-info .details .duration {
+  margin-top: 5px;
+  font-weight: 600;
+  color: #676767;
+  font-size: 12px;
 }
 main .waiting-room .session-info .details .count-time {
   font-size: 12px;
   font-weight: 500;
+}
+main .waiting-room .session-info .details img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 8px;
 }
 main .waiting-room .session-info .ready-to-join {
   padding: 0.5rem 0.25rem;
@@ -337,6 +368,14 @@ main .waiting-room .session-info .join-buttons .solid-action-btn {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 8px;
+  text-transform: capitalize;
+}
+main .waiting-room .session-info .join-buttons .solid-action-btn:hover {
+  color: #fff;
+}
+main .waiting-room .session-info .join-buttons .disabled {
+  background-color: #d7d7d7 !important;
+  cursor: not-allowed;
 }
 main .waiting-room .session-info .join-buttons .cast {
   display: none;
@@ -373,6 +412,17 @@ main .waiting-room .guidelines p {
   font-weight: 600;
   color: #676767;
   font-size: 12px;
+}
+@media (max-width: 576px) {
+  main .waiting-room .session-info .join-buttons {
+    position: fixed;
+    bottom: 7%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #fff;
+    padding: 2rem 0;
+  }
 }
 main .classroom {
   background-color: #202124;

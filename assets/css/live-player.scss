@@ -214,6 +214,9 @@ i{
 .active-participants{
     border: 3px solid #669DF6;
 }
+.disabled{
+    background-color: #d7d7d7;
+}
 main{
     padding: 25px;
     background-color: #fff;
@@ -273,10 +276,11 @@ main{
         .session-info{
             .details{
                 border: 2px solid #eee;
-                padding: 1rem 1.5rem;
+                padding: 1rem 0;
                 border-radius: 5px;
                 p{
                     margin-bottom: .25rem;
+                    color: #000;
                 }
                 .head{
                     text-transform: uppercase;
@@ -287,13 +291,36 @@ main{
                     font-weight: 600;
                     font-size: 16px;
                 }
-                .teacher-name, .duration{
+                .teacher-info{
+                    margin: .5rem 0;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        object-fit: cover;
+                        object-position: center;
+                        border-radius: 50%;
+                    }
+                    .teacher-name{
+                        margin-left: 8px;
+                        font-weight: 600;
+                        color: #676767;
+                    }
+                }
+                .duration{
+                    margin-top: 5px;
                     font-weight: 600;
                     color: #676767;
+                    font-size: 12px;
                 }
                 .count-time{
                     font-size: 12px;
                     font-weight: 500;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    border-radius: 8px;
                 }
             }
             .ready-to-join{
@@ -341,6 +368,14 @@ main{
                     font-size: 18px;
                     font-weight: 600;
                     margin-bottom: 8px;
+                    text-transform: capitalize;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+                .disabled{
+                    background-color: #d7d7d7 !important;
+                    cursor: not-allowed;
                 }
                 .cast{
                     display: none;
@@ -379,6 +414,19 @@ main{
                 font-weight: 600;
                 color: #676767;
                 font-size: 12px;
+            }
+        }
+        @media(max-width:576px){
+            .session-info{
+                .join-buttons{
+                    position: fixed;
+                    bottom: 7%;
+                    left: 0;
+                    right: 0;
+                    z-index: 10;
+                    background: #fff;
+                    padding: 2rem 0;
+                }
             }
         } 
     }
