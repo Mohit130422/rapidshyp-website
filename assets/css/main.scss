@@ -93,8 +93,8 @@ header{
     position: sticky;
     top: 0;
     padding: 0px 50px;
-    background-color: $secondary-light-color;
-    box-shadow: 0 4px 8px #00000010;
+    background-color: transparent;
+    // box-shadow: 0 4px 8px #00000010;
     display: grid;
     grid-template-columns: 165px auto 300px;
     z-index: 10;
@@ -129,15 +129,17 @@ header{
                 i{
                     font-size: 14px;
                 }
-                &:hover{
-                    font-weight: 700;
-                }
             }
             .solid-action-btn{
                 font-weight: 500;
             }
         }
     }
+}
+
+.active{
+    background-color: $light-color;
+    box-shadow: 0 4px 8px #00000010;
 }
 
 section{
