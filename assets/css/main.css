@@ -27,9 +27,6 @@ a {
   text-decoration: none;
   color: #000;
 }
-a:hover {
-  color: #000;
-}
 
 p {
   margin-bottom: 0;
@@ -49,10 +46,6 @@ i {
   border-radius: 45px;
   font-size: 18px;
   font-weight: 500;
-}
-.solid-action-btn:hover {
-  background-color: #fff;
-  color: #3E1A51;
 }
 
 .label {
@@ -82,33 +75,153 @@ i {
     height: 100%;
   }
 }
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.blur-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  animation-name: fadeIn;
+  animation-duration: 0.3s;
+  z-index: 1000;
+}
+.blur-overlay .dialog-box {
+  background-color: #ffffff;
+  margin: auto;
+  width: 700px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.24);
+  animation-name: fadeUp;
+  animation-duration: 0.5s;
+  z-index: 10000;
+  padding: 16px 25px;
+}
+.blur-overlay .dialog-box .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blur-overlay .dialog-box .head h5 {
+  font-weight: bold;
+}
+.blur-overlay .dialog-box .head .close {
+  padding: 0px 8px;
+  background-color: #606060;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.blur-overlay .dialog-box .content {
+  margin: 1rem 0;
+}
+.blur-overlay .dialog-box .content input:focus, .blur-overlay .dialog-box .content select:focus {
+  border-color: #FDE7F3 !important;
+  box-shadow: 0 0 0 0.25rem #FDE7F3;
+}
+.blur-overlay .dialog-box .content input[type=number]::-webkit-outer-spin-button,
+.blur-overlay .dialog-box .content input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.blur-overlay .dialog-box .content .solid-action-btn {
+  padding: 0.75rem 3rem;
+}
+.blur-overlay .dialog-box .content .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+.blur-overlay .dialog-box .content .loading::before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: loading 1s linear infinite;
+}
+.blur-overlay .dialog-box .content .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+.blur-overlay .dialog-box .content .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
 header {
   position: sticky;
   top: 0;
-  padding: 0px 50px;
+  padding: 20px 50px;
   background-color: transparent;
-  display: grid;
-  grid-template-columns: 165px auto 300px;
+  display: flex;
+  justify-content: space-evenly;
   z-index: 10;
 }
 header .brand {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
 }
 header .brand a img {
-  width: 150px;
+  width: 180px;
 }
 header .menu, header .cta-menu {
-  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 header .menu li, header .cta-menu li {
   list-style: none;
-  padding: 5px 24px;
+  padding: 0px 24px;
+  margin-top: 4px;
 }
 header .menu li a, header .cta-menu li a {
   display: flex;
@@ -116,6 +229,9 @@ header .menu li a, header .cta-menu li a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
+}
+header .menu li a:hover, header .cta-menu li a:hover {
+  color: #3E1A51;
 }
 header .menu li a img, header .menu li a i, header .cta-menu li a img, header .cta-menu li a i {
   margin-left: 5px;
@@ -125,9 +241,13 @@ header .menu li a i, header .cta-menu li a i {
 }
 header .menu li .solid-action-btn, header .cta-menu li .solid-action-btn {
   font-weight: 500;
+  margin: 0;
+}
+header .menu li .solid-action-btn:hover, header .cta-menu li .solid-action-btn:hover {
+  color: #fff;
 }
 
-.active {
+.active-head {
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.062745098);
 }
@@ -143,18 +263,22 @@ section {
   background-size: cover;
   padding-top: 0;
 }
-
-.hero-area {
-  min-height: 92vh;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-.hero-area::before {
+.hero-area-bg::before {
   content: "";
   position: absolute;
-  top: 5%;
+  top: 250px;
+  margin: auto;
+  z-index: 0;
+  right: 0;
+  width: 270px;
+  height: 675px;
+  background-image: url(../images/vector2.png);
+  background-repeat: no-repeat;
+}
+.hero-area-bg::after {
+  content: "";
+  position: absolute;
+  top: 2%;
   margin: auto;
   z-index: 1;
   left: 0px;
@@ -163,17 +287,13 @@ section {
   background-image: url(../images/vector1.png);
   background-repeat: no-repeat;
 }
-.hero-area::after {
-  content: "";
-  position: absolute;
-  bottom: -250px;
-  margin: auto;
-  z-index: 1;
-  right: 0;
-  width: 270px;
-  height: 675px;
-  background-image: url(../images/vector2.png);
-  background-repeat: no-repeat;
+
+.hero-area {
+  min-height: 92vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .hero-area .container {
   z-index: 2;
@@ -213,6 +333,9 @@ section {
 }
 .hero-area .container .join-us input::placeholder {
   color: #C5C5C5;
+}
+.hero-area .container .join-us input:focus-visible {
+  outline-color: #cdcdcd;
 }
 .hero-area .container .join-us button {
   font-size: 12px;
@@ -284,7 +407,7 @@ section {
 }
 .explore-features {
   overflow: hidden;
-  padding-top: 0;
+  padding-top: 70px;
 }
 .explore-features .carousel .carousel-indicators {
   position: unset;
@@ -365,7 +488,6 @@ section {
     padding: 8px 12px;
     margin-right: 16px;
     margin-bottom: 8px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1882352941);
   }
 }
 .explore-features .carousel .carousel-inner .carousel-item .dashboard-image {
