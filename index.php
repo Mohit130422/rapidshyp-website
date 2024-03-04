@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RapidShyp</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="/assets/images/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="node_modules/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap.min.css">
+    <script src="node_modules/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -661,7 +660,7 @@
                                     <div class="col-6">
                                         <div class="mb-3">
                                             <label for="email" class="form-label">Email address</label>
-                                            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required>
+                                            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter Email" required >
                                         </div>
                                     </div>
                                     <div class="col-6">

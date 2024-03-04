@@ -147,6 +147,14 @@ i {
 .blur-overlay .dialog-box .content {
   margin: 1rem 0;
 }
+.blur-overlay .dialog-box .content input::-moz-placeholder {
+  color: #C5C5C5;
+  font-size: 14px;
+}
+.blur-overlay .dialog-box .content input::placeholder {
+  color: #C5C5C5;
+  font-size: 14px;
+}
 .blur-overlay .dialog-box .content input:focus, .blur-overlay .dialog-box .content select:focus {
   border-color: #FDE7F3 !important;
   box-shadow: 0 0 0 0.25rem #FDE7F3;
