@@ -1,14 +1,21 @@
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
-        $(".header").addClass("active-head");
+        $(".navbar").addClass("active-head");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
-       $(".header").removeClass("active-head");
+       $(".navbar").removeClass("active-head");
     }
 });
 
 
 $(document).ready(function(){
+    $(function() {
+        $('#ChangeToggle').click(function() {
+          $('.navbar-toggler-icon').toggleClass('hidden');
+          $('#navbar-close').toggleClass('hidden');  
+        });
+    });
+
     $(".close").click(function(){
         $('#joinWaitlistModal').hide()
         location.reload(true);

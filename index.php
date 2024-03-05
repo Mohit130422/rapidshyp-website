@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RapidShyp</title>
@@ -16,46 +18,84 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="brand">
-            <a href="../"><img src="assets/images/Logo.svg" alt="Logo"></a>
-        </div>
-        <div class="menu">
-            <li><a href="#">Product <img src="assets/images/icon/arrow-down.svg" alt=""></a></li>
-            <li><a href="#">Solution <img src="assets/images/icon/arrow-down.svg" alt=""></a></li>
-            <li><a href="#">Resources <img src="assets/images/icon/arrow-down.svg" alt=""></a></li>
-            <li><a href="#">Company <img src="assets/images/icon/arrow-down.svg" alt=""></a></li>
-            <li><a href="pricing">Pricing</a></li>            
-        </div>
-        <div class="cta-menu">
-            <li><a href="contact-us" class="solid-action-btn">Let's Talk <i class="fas fa-chevron-right"></i></a></li>
-            <li><a href="#">Sign In</a></li>
-        </div>
+    <header class="header">       
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/images/Logo.svg" alt="Logo"></a>
+                <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <div id="navbar-close" class="hidden">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Link1</a></li>
+                              <li><a class="dropdown-item" href="#">Link2</a></li>
+                              <li><a class="dropdown-item" href="#">Link3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solution</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Link1</a></li>
+                          <li><a class="dropdown-item" href="#">Link2</a></li>
+                          <li><a class="dropdown-item" href="#">Link3</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Link1</a></li>
+                          <li><a class="dropdown-item" href="#">Link2</a></li>
+                          <li><a class="dropdown-item" href="#">Link3</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Link1</a></li>
+                          <li><a class="dropdown-item" href="#">Link2</a></li>
+                          <li><a class="dropdown-item" href="#">Link3</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                    </ul>
+                    <div class="navbar-nav d-flex">
+                        <li class="nav-item btn"><button class="solid-action-btn">Let's Talk <i class="fas fa-chevron-right"></i></button></li></li>
+                        <li class="nav-item"><a class="nav-link border-bottom-0" href="#">Sign In</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <section class="hero-area-bg">
         <div id="hero-area" class="hero-area">
             <div class="floating-elements">
                 <ul class="background">
-                    <li>Fastest Courier <img src="assets/images/icon/truck.svg" alt=""></li>
+                    <li>Expedited Shipping<img src="assets/images/icon/truck.svg" alt=""></li>
                     <li><img src="assets/images/icon/pink-circle.png" alt=""></li>
                     <li><img src="assets/images/icon/package.svg" alt=""></li>
                     <li><img src="assets/images/icon/yellow-circle.png" alt=""></li>
-                    <li>Customer Support <img src="assets/images/icon/support.svg" alt=""></li>
+                    <li>Quick Support <img src="assets/images/icon/support.svg" alt=""></li>
                 </ul>
             </div>
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-8 text-center">
-                        <span class="announce"><img src="assets/images/icon/flash.svg" alt="">Special Announcement Title Headline</span>
+                    <div class="col-12 text-center">
+                        <!-- <span class="announce"><img src="assets/images/icon/flash.svg" alt="">Streamline Your Online Shipping Process Like A Pro</span> -->
                         <div class="contents">
-                            <h2 class="head-title">Start Delivering <br> Your Parcel Like A Pro</h2>
-                            <p class="description">Get a bird's eye view with our customizable dashboard. Stay on top of things! <br> Revamp your work process with our game-changing feature.</p>
+                            <h2 class="head-title">Streamline Your Online Shipping <br>Process  Like A Pro</h2>
+                            <p class="description">Transform eCommerce shipping with a tech-enabled solution <br>to streamline order fulfillment, integrate everything, save time and cost</p>
                         </div>
                         <div class="join-us">
                             <form action="#" id="submit-button">
                                 <input type="text" placeholder="Type Your Email Here" id="useremail" required>
-                                <button type="submit" class="solid-action-btn" id="openWaitlistForm">Join The Waitlist</button>
+                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Join The Waitlist</span><img src="assets/images/icon/send.svg" alt=""></button>
                             </form>
                         </div>
                     </div>
@@ -68,17 +108,17 @@
                 <div class="row">
                     <div class="col-12">
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
-                            <div class="row align-items-center">
+                            <div class="row">
                                 <div class="col-lg-4 col-xl-4">
                                     <span class="label">Product</span>
-                                    <h2 class="title">Explore Our Product Feature</h2>
+                                    <h2 class="title">Delve into our product features </h2>
                                     <div class="carousel-indicators features">
                                         <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                             class="active" aria-current="true" aria-label="Slide 1">
                                             <div class="item">
-                                                <h5 class="head">Shipping Automation</h5>
-                                                <p class="body">Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard.</p>
-                                                <a href="#" class="footer">Explore The Feature <i class="fas fa-arrow-right"></i></a>
+                                                <h5 class="head">Order Management System</h5>
+                                                <p class="body">Manage your orders across channels, ensure automated hassle-free processing record-keeping and seamless operations at every step </p>
+                                                <!-- <a href="#" class="footer">Explore The Feature <i class="fas fa-arrow-right"></i></a> -->
                                                 <div class="scroll-path">
                                                     <span class="progress-bar"></span>
                                                 </div>
@@ -87,8 +127,8 @@
                                         <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                                             aria-label="Slide 2">
                                             <div class="item">
-                                                <h5 class="head">Shipping Automation</h5>
-                                                <p class="body">Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard.</p>
+                                                <h5 class="head">Carrier Allocation & Recommendation Engine</h5>
+                                                <p class="body">Elevate your shipping game with our cutting-edge AI-backed feature. Our intelligent system analyzes and recommends the best courier partner, optimizing your shipping perfomance for unparalleled efficiency</p>
                                                 <div class="scroll-path">
                                                     <span class="progress-bar"></span>
                                                 </div>
@@ -97,8 +137,8 @@
                                         <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                                             aria-label="Slide 3">
                                             <div class="item">
-                                                <h5 class="head">Shipping Automation</h5>
-                                                <p class="body">Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard.</p>
+                                                <h5 class="head">CX Suite</h5>
+                                                <p class="body">Customize your tracking page with your logo and brand colors, providing customers with a personalized touchpoint that reinforces your brand identity and fosters loyalty at every interaction </p>
                                                 <div class="scroll-path">
                                                     <span class="progress-bar"></span>
                                                 </div>
@@ -107,16 +147,13 @@
                                         <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                                             aria-label="Slide 4">
                                             <div class="item">
-                                                <h5 class="head">Shipping Automation</h5>
-                                                <p class="body">Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard. Get a bird's eye view with our customizable dashboard.</p>
+                                                <h5 class="head">NDR Management</h5>
+                                                <p class="body">Tackle non-delivery concerns head-on with our comprehensive feature. Ensure swift resolution of undelivered orders, minimizing costs and disruptions while safeguarding customer satisfaction. Stay ahead with seamless NDR handling </p>
                                                 <div class="scroll-path">
                                                     <span class="progress-bar"></span>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="join-btn">
-                                        <button class="solid-action-btn">Join The Waitlist</button>
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-xl-8">
@@ -134,6 +171,9 @@
                                             <img src="assets/images/dashboard.png" class="dashboard-image d-block m-auto" alt="...">
                                         </div>
                                     </div>
+                                </div>                                
+                                <div class="join-btn">
+                                    <button class="solid-action-btn">Join The Waitlist</button>
                                 </div>
                             </div>
                         </div>
@@ -148,61 +188,61 @@
             <div class="row">
                 <div class="col text-center">
                     <span class="label">Features</span>
-                    <h3 class="heading">What makes us better</h3>
+                    <h3 class="heading">Explore the excellence</h3>
                     <p class="sub-heading">Experience enhanced efficiency, heightened productivity, and a greater edge <br> over your competitors with these advanced capabilities.</p>
                     <div class="row mt-5">
-                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-6 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="assets/images/icon/psychology.png" alt="">
+                                    <img src="assets/images/icon/icon01.svg" alt="">
                                 </span>
-                                <p class="title">Powered by AI</p>
-                                <small>Bringing automation and intelligent decision-making to your processes.</small>
+                                <p class="title">Dedicated Shipping Advisors</p>
+                                <small>Streamline your shipping strategies and swiftly resolve any shipping-related issues</small>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-6 mb-5">
                             <div class="info">
                                 <span class="imgdesk yellow">
-                                    <img src="assets/images/icon/groups.png" alt="">
+                                    <img src="assets/images/icon/icon02.svg" alt="">
                                 </span>
-                                <p class="title">Team collaboration</p>
-                                <small>Our collaboration feature allows team members to work together seamlessly.</small>
+                                <p class="title">COD Remittance</p>
+                                <small>Maintain a regular cash flow with a 2-day COD remittance and scale your operations</small>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-6 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="assets/images/icon/chart_data.png" alt="">
+                                    <img src="assets/images/icon/icon03.svg" alt="">
                                 </span>
-                                <p class="title">Advanced analytics</p>
-                                <small>Provides powerful insights into your data, helping you make informed decisions.</small>
+                                <p class="title">Multi-Carrier Integration</p>
+                                <small>Access diverse carriers, ensure maximum efficiency with an AI-backed recommendation.</small>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-6 mb-5">
                             <div class="info">
                                 <span class="imgdesk yellow">
-                                    <img src="assets/images/icon/integration_instructions.png" alt="">
+                                    <img src="assets/images/icon/icon04.svg" alt="">
                                 </span>
-                                <p class="title">Fully integrated</p>
-                                <small>Embrace the power of seamless integration and experience the benefits.</small>
+                                <p class="title">Reduced RTO</p>
+                                <small>Say goodbye to costly RTOs. Save significantly with reduced RTO losses by up to 40%</small>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-6 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="assets/images/icon/equalizer.png" alt="">
+                                    <img src="assets/images/icon/icon05.svg" alt="">
                                 </span>
-                                <p class="title">Data control</p>
-                                <small>Take full control of your data with our comprehensive data control feature.</small>
+                                <p class="title">User Management</p>
+                                <small>Grant access of different modules to different teams and promote efficient teamwork dynamics</small>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-6 mb-5">
                             <div class="info">
                                 <span class="imgdesk yellow">
-                                    <img src="assets/images/icon/call_quality.png" alt="">
+                                    <img src="assets/images/icon/icon06.svg" alt="">
                                 </span>
-                                <p class="title">Premium Support</p>
-                                <small>We pride ourselves on delivering exceptional customer support.</small>
+                                <p class="title">Economical Prices</p>
+                                <small>Delight your customers with top-notch services and easy costs on your pockets.</small>
                             </div>
                         </div>
                     </div>
@@ -216,62 +256,68 @@
             <div class="row">
                 <div class="col text-center">
                     <span class="label">Solutiton</span>
-                    <h3 class="heading">What makes us better</h3>
+                    <h3 class="heading">What sets us apart</h3>
                     <p class="sub-heading">Experience enhanced efficiency, heightened productivity, and a greater edge <br> over your competitors with these advanced capabilities.</p>
                 </div>
             </div>
-            <div class="row mt-5 align-items-center">
+            <div class="row mt-5 align-items-center col-reverse">
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 text-start">
                     <div class="info">
                         <p>Print labels at scale</p>
-                        <h5>Print labels at scale</h5>
-                        <p class="mb-3">Stay on top of things and revamp your work process with our game-changing feature. Get a bird's eye view with our customizable dashboard. </p>
+                        <h5>Delightful Shipping Automation</h5>
+                        <p class="mb-3">Save time through automation of process from order placement to delivery confirmation</p>
                         <ul class="p-0">
-                            <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet</li>
-                            <li><i class="far fa-check-circle"></i>Consectetur adipiscing elit</li>
-                            <li><i class="far fa-check-circle"></i>Sed do eiusmod tempor incididunt ut labore</li>
+                            <li><i class="far fa-check-circle"></i>Print customized bulk labels </li>
+                            <li><i class="far fa-check-circle"></i>Generate instant invoice </li>
+                            <li><i class="far fa-check-circle"></i>Create effortless manifest</li>
                         </ul>
                         <a href="#">Join The Waitlist <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-5 pink">
-                    <img src="assets/images/solution.png" alt="">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
+                    <div>
+                        <img src="assets/images/solution.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="row mt-5 align-items-center">
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-5 yellow">
-                    <img src="assets/images/delight.png" alt="">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
+                    <div>
+                        <img src="assets/images/delight.png" alt="">
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 pl-5 text-start">
                     <div class="info">
                         <p style="color:#FBBC05">Delight your customers</p>
-                        <h5>Delight your customers</h5>
-                        <p class="mb-3">Stay on top of things and revamp your work process with our game-changing feature. Get a bird's eye view with our customizable dashboard. </p>
+                        <h5>Easy eCommerce Stores & Marketplaces Integration</h5>
+                        <p class="mb-3">Seamlessly integrate without even writing a single line of code</p>
                         <ul class="p-0">
-                            <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet</li>
-                            <li><i class="far fa-check-circle"></i>Consectetur adipiscing elit</li>
-                            <li><i class="far fa-check-circle"></i>Sed do eiusmod tempor incididunt ut labore</li>
+                            <li><i class="far fa-check-circle"></i>Expand reach & simplify growth </li>
+                            <li><i class="far fa-check-circle"></i>Auto-sync order in one place</li>
+                            <li><i class="far fa-check-circle"></i>Tap into a broader customer base</li>
                         </ul>
                         <a href="#">Join The Waitlist <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="row mt-5 align-items-center">
+            <div class="row mt-5 align-items-center col-reverse">
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 text-start">
                     <div class="info">
                         <p>Manage logistics spends</p>
-                        <h5>Manage logistics spends</h5>
-                        <p class="mb-3">Stay on top of things and revamp your work process with our game-changing feature. Get a bird's eye view with our customizable dashboard. </p>
+                        <h5>Controlled Logistics Spends</h5>
+                        <p class="mb-3">Choose a shipping partner by analyzing the costs beforehand</p>
                         <ul class="p-0">
-                            <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet</li>
-                            <li><i class="far fa-check-circle"></i>Consectetur adipiscing elit</li>
-                            <li><i class="far fa-check-circle"></i>Sed do eiusmod tempor incididunt ut labore</li>
+                            <li><i class="far fa-check-circle"></i>Estimate courier charges instantly</li>
+                            <li><i class="far fa-check-circle"></i>Use the free rate calculator</li>
+                            <li><i class="far fa-check-circle"></i>Get lowest shipping rates</li>
                         </ul>
                         <a href="#">Join The Waitlist <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-5 pink">
-                    <img src="assets/images/solution.png" alt="">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
+                    <div>
+                        <img src="assets/images/solution.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -287,7 +333,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
                             <img src="assets/images/post1.png" alt="">
@@ -304,7 +350,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
                             <img src="assets/images/post2.png" alt="">
@@ -321,7 +367,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
                             <img src="assets/images/post3.png" alt="">
@@ -338,7 +384,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
                             <img src="assets/images/post4.png" alt="">
@@ -355,7 +401,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
                             <img src="assets/images/post1.png" alt="">
@@ -372,7 +418,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
                             <img src="assets/images/post2.png" alt="">
@@ -389,7 +435,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
                             <img src="assets/images/post3.png" alt="">
@@ -406,7 +452,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
                             <img src="assets/images/post4.png" alt="">
@@ -440,81 +486,103 @@
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                How do I know if I’m eligible for Circle?
+                                What is RapidShyp?
                             </button>
                           </h2>
                           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            <div class="accordion-body">RapidShyp is a shipping aggregator platform that empowers businesses to efficiently navigate their shipping needs across diverse carriers and delivery channels. Businesses can seamlessly integrate their shipping operations, access multiple courier services, and streamline the process of sending packages to customers.</div>
+                            <div class="accordion-body">RapidShyp aims to simplify logistics management for businesses of all sizes, offering features such as order tracking, label generation, and shipment management to optimize the shipping experience.</div>
                           </div>
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                How do I know if I’m eligible for Circle?
+                                How does RapidShyp work?
                             </button>
                           </h2>
                           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                            <div class="accordion-body">RapidShyp works by providing a platform where businesses can manage their shipping operations efficiently. It integrates with various courier services, allowing businesses to compare rates, generate shipping labels, track shipments, and streamline the shipping process.</div>
+                            <div class="accordion-body">Our AI-enabled carrier selection functionality uses advanced algorithms to analyze various factors such as shipping costs, delivery times, and courier reliability. Based on this analysis, it automatically suggests the most optimal carrier for your shipment, ensuring timely delivery at the best price.</div>
                           </div>
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                How do I know if I’m eligible for Circle?
+                                How can I integrate my eCommerce store with RapidShyp?
                             </button>
                           </h2>
                           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                            <div class="accordion-body">Rapidshyp provides easy-to-use integration tools and plugins for most major eCommerce platforms. Simply follow the step-by-step guide provided on our website, or reach out to our support team for assistance.</div>
                           </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingFour">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                  How do I know if I’m eligible for Circle?
+                                Which courier partners are integrated with RapidShyp?
                               </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                              <div class="accordion-body">Rapidshyp has partnered with a wide range of leading courier companies in India, including Xpressbees, DTDC, Bluedart, Delhivery, and many more. This ensures that our users have access to the broadest pincode coverage and the best delivery options available.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingFive">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                  How do I know if I’m eligible for Circle?
+                                How will RapidShyp help in reducing shipping costs?
                               </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                              <div class="accordion-body">Rapidshyp's Shipping Automation platform offers features such as AI-enabled carrier selection, bulk shipping discounts, and route optimization. These functionalities collectively help businesses reduce operational overheads and avail the best shipping rates.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingSix">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                  How do I know if I’m eligible for Circle?
+                                How does RapidShyp calculate shipping charges?
                               </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                              <div class="accordion-body">Shipping charges are calculated based on factors such as package dimensions, weight, destination, and selected shipping service. RapidShyp provides real-time shipping rates for different carriers. You can check the prices by logging in to your seller's account. Charges are based on volumetric or dead weight, whichever is higher.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingSeven">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                  How do I know if I’m eligible for Circle?
+                                Does RapidShyp offer insurance for shipments?
                               </button>
                             </h2>
                             <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                              <div class="accordion-body">RapidShyp offers insurance options for shipments to provide coverage against loss, damage, or theft during transit. We provide coverage up to 3500 INR. We will reimburse the product value or 3500 INR whichever is lower. Sellers can opt for insurance coverage on their own based on their specific requirements. We are working on providing insurance coverage for products whose value is higher than 3500 INR.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingEight">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                                  How do I know if I’m eligible for Circle?
+                                What is an Automated Non-Delivery Report (NDR)?
                               </button>
                             </h2>
                             <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                              <div class="accordion-body">Automated Non-Delivery Report (NDR) Management is a feature that automates the handling of undelivered shipments. Instead of manually sorting through non-deliveries, the system automatically categorizes and takes predefined actions, ensuring faster resolution and improved customer satisfaction.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingNine">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                How does RapidShyp handle shipping to remote or rural areas?
+                              </button>
+                            </h2>
+                            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">RapidShyp works with its network of courier partners to reach remote or rural areas. At the same time, delivery times can vary, RapidShyp endeavors to ensure timely and reliable delivery to all locations within its service network.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTen">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                                What would be the pricing of the platform?
+                              </button>
+                            </h2>
+                            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">RapidShyp is free to use for all operating e-commerce sellers irrespective of their current growth phase. You just need to pay freight charges when you ship the order. Other value-added services could be availed by contacting the respective KAM.</div>
                             </div>
                         </div>
                       </div>
@@ -527,14 +595,12 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h3 class="heading mb-0">Ready to start? <br> Be an early bird to explore</h3>
-                    <p class="sub-heading">Unlock the full potential of your startup by delivering a clear message that resonates.</p>
+                    <h3 class="heading mb-0">Transform your eCommerce <br>Shipping with RapidShyp!</h3>
+                    <p class="sub-heading">Simplify logistics, reduce costs, and delight customers with the innovative eCommerce shipping solution.</p>
                     <div class="row mt-4 align-items-center">
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-12 col-sm-12 d-flex mb-4">
                             <input type="text" name="" id="" placeholder="Type Your Email Here">
-                        </div>
-                        <div class="col-md-4 col-sm-12 p-0">
-                            <button class="solid-action-btn">Join The Waitlist</button>
+                            <button class="solid-action-btn"><span>Join The Waitlist</span> <img src="assets/images/icon/forward_to_inbox.svg" alt=""></button>
                         </div>
                     </div>
                 </div>
@@ -555,9 +621,15 @@
                     <div class="brand mb-4">
                         <a href="#"><img src="assets/images/Logo.svg" alt=""></a>
                     </div>
-                    <p class="mb-4">Stay current with all the latest information, trends and industry expectation and more.</p>
+                    <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and reduced costs.</p>
+                    <div class="social-media mb-4">
+                        <p>Follow Us On:</p>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-4">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <p>Product</p>
@@ -577,7 +649,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-4">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <p>Resources</p>
@@ -599,7 +671,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12">
+                <div class="col-lg-2 col-md-6 col-4">
                     <p>Pricing</p>
                     <div class="links">
                         <a href="" class="link">Open Positions</a>
@@ -607,20 +679,6 @@
                         <a href="" class="link">Contractual</a>
                         <a href="" class="link">Contact Us</a>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="social-media">
-                        <p>Follow Us On:</p>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
                 </div>
             </div>
         </div>
