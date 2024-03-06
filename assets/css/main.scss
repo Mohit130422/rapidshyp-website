@@ -878,6 +878,16 @@ section{
         min-width: 700px;
         .accordion-item{
             width: 100%;
+            button{
+                &:focus{
+                    border: none;
+                    box-shadow: 0 0 0 0.25rem $bg-shade1;
+                }
+                &:not(.collapsed){
+                    color: $text-dark;
+                    background-color: $bg-shade1;
+                }
+            }
         }
     }
     @media (max-width: 991px) {

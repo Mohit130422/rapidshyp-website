@@ -512,17 +512,17 @@
                             </button>
                           </h2>
                           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Rapidshyp provides easy-to-use integration tools and plugins for most major eCommerce platforms. Simply follow the step-by-step guide provided on our website, or reach out to our support team for assistance.</div>
+                            <div class="accordion-body">RapidShyp provides easy-to-use integration tools and plugins for most major eCommerce platforms. Simply follow the step-by-step guide provided on our website, or reach out to our support team for assistance.</div>
                           </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingFour">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                Which courier partners are integrated with RapidShyp?
+                                    Which courier partners are integrated with RapidShyp?
                               </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">Rapidshyp has partnered with a wide range of leading courier companies in India, including Xpressbees, DTDC, Bluedart, Delhivery, and many more. This ensures that our users have access to the broadest pincode coverage and the best delivery options available.</div>
+                              <div class="accordion-body">RapidShyp has partnered with a wide range of leading courier companies in India, including Xpressbees, DTDC, Delhivery, and many more. This ensures that our users have access to the broadest pincode coverage and the best delivery options available.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -532,7 +532,7 @@
                               </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">Rapidshyp's Shipping Automation platform offers features such as AI-enabled carrier selection, bulk shipping discounts, and route optimization. These functionalities collectively help businesses reduce operational overheads and avail the best shipping rates.</div>
+                              <div class="accordion-body">RapidShyp's Shipping Automation platform offers features such as AI-enabled carrier selection, bulk shipping discounts, and route optimization. These functionalities collectively help businesses reduce operational overheads and avail the best shipping rates.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -542,46 +542,36 @@
                               </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">Shipping charges are calculated based on factors such as package dimensions, weight, destination, and selected shipping service. RapidShyp provides real-time shipping rates for different carriers. You can check the prices by logging in to your seller's account. Charges are based on volumetric or dead weight, whichever is higher.</div>
+                              <div class="accordion-body">Shipping charges are calculated based on factors such as package dimensions, weight, destination, and selected shipping service. RapidShyp provides real-time shipping rates for different carriers. You can check the prices by connecting with us at <b>connect@rapidshyp.com</b></div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingSeven">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                Does RapidShyp offer insurance for shipments?
+                                Does RapidShyp offer security cover for lost shipments?
                               </button>
                             </h2>
                             <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">RapidShyp offers insurance options for shipments to provide coverage against loss, damage, or theft during transit. We provide coverage up to 3500 INR. We will reimburse the product value or 3500 INR whichever is lower. Sellers can opt for insurance coverage on their own based on their specific requirements. We are working on providing insurance coverage for products whose value is higher than 3500 INR.</div>
+                              <div class="accordion-body">RapidShyp offers security cover for lost shipments to provide coverage against loss, damage, or theft during transit. We provide coverage up to 3500 INR. We will reimburse the product value or 3500 INR whichever is lower. We are working on providing security cover for products whose value is higher than 3500 INR.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingEight">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                                What is an Automated Non-Delivery Report (NDR)?
+                                How does RapidShyp handle shipping to remote or rural areas?
                               </button>
                             </h2>
                             <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">Automated Non-Delivery Report (NDR) Management is a feature that automates the handling of undelivered shipments. Instead of manually sorting through non-deliveries, the system automatically categorizes and takes predefined actions, ensuring faster resolution and improved customer satisfaction.</div>
+                              <div class="accordion-body">RapidShyp works with its network of courier partners to reach remote or rural areas. At the same time, delivery times can vary, RapidShyp endeavors to ensure timely and reliable delivery to all locations within its service network.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingNine">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                                How does RapidShyp handle shipping to remote or rural areas?
-                              </button>
-                            </h2>
-                            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">RapidShyp works with its network of courier partners to reach remote or rural areas. At the same time, delivery times can vary, RapidShyp endeavors to ensure timely and reliable delivery to all locations within its service network.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTen">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
                                 What would be the pricing of the platform?
                               </button>
                             </h2>
-                            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
                               <div class="accordion-body">RapidShyp is free to use for all operating e-commerce sellers irrespective of their current growth phase. You just need to pay freight charges when you ship the order. Other value-added services could be availed by contacting the respective KAM.</div>
                             </div>
                         </div>

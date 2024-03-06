@@ -834,6 +834,14 @@ section {
 .faq .accordion .accordion-item {
   width: 100%;
 }
+.faq .accordion .accordion-item button:focus {
+  border: none;
+  box-shadow: 0 0 0 0.25rem #fbe2f6;
+}
+.faq .accordion .accordion-item button:not(.collapsed) {
+  color: #000000;
+  background-color: #fbe2f6;
+}
 @media (max-width: 991px) {
   .faq .accordion {
     min-width: inherit;
