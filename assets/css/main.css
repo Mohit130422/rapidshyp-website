@@ -5,6 +5,7 @@ html, body {
   background-color: #FCFBFD;
   font-family: "Manrope", sans-serif;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 .overflow-hidden {
@@ -174,7 +175,7 @@ i {
 }
 .blur-overlay .dialog-box {
   background-color: #ffffff;
-  margin: auto;
+  margin: auto 10px;
   width: 700px;
   border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.24);
@@ -193,9 +194,6 @@ i {
 }
 .blur-overlay .dialog-box .head .close {
   padding: 0px 8px;
-  background-color: #606060;
-  color: #fff;
-  border-radius: 2px;
   cursor: pointer;
 }
 .blur-overlay .dialog-box .content {
@@ -291,6 +289,9 @@ header .navbar .container-fluid .navbar-collapse .nav-link {
   font-weight: 500;
   padding: 0 1.5rem;
 }
+header .navbar .container-fluid .navbar-collapse .nav-link::after {
+  display: none;
+}
 header .navbar .container-fluid .d-flex {
   align-items: center;
 }
@@ -378,7 +379,7 @@ section {
   height: 675px;
   background-image: url(../images/vector2.png);
   background-repeat: no-repeat;
-  animation: zoomRight 3s ease-in-out;
+  animation: fadeUp 3s ease-in-out;
 }
 .hero-area-bg::after {
   content: "";
@@ -391,7 +392,7 @@ section {
   height: 675px;
   background-image: url(../images/vector1.png);
   background-repeat: no-repeat;
-  animation: zoomLeft 3s ease-in-out;
+  animation: fadeUp 3s ease-in-out;
 }
 
 .hero-area {
@@ -554,6 +555,7 @@ section {
   }
 }
 .explore-features {
+  padding: 50px 0;
   overflow: hidden;
 }
 .explore-features .carousel .carousel-indicators {
@@ -637,14 +639,25 @@ section {
     margin-bottom: 8px;
   }
 }
+.explore-features .carousel .carousel-inner {
+  width: 140%;
+  height: 750px !important;
+}
 .explore-features .carousel .carousel-inner .carousel-item .dashboard-image {
   width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
   border-radius: 12px;
   box-shadow: 0px 56px 232px -56px rgba(0, 0, 0, 0.2509803922);
 }
 @media (max-width: 576px) {
   .explore-features .carousel .carousel-indicators {
     display: inline-block;
+  }
+  .explore-features .carousel .carousel-inner {
+    width: 100%;
+    height: inherit !important;
   }
   .explore-features .carousel .join-btn {
     text-align: center;

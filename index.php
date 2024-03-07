@@ -3,18 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
+     <!--tags for no-indexing-->
     <meta name="robots" content="noindex">
     <meta name="googlebot" content="noindex">
+       <!-- Tracking and Analytics -->
+    <meta name="google-site-verification" content="ziG_d23YoEToCxxi0a1or4i7ITVf1hjtCCO7qg3vldQ" />
+    <meta name="msvalidate.01" content="0EEEAB0A6F290CF1DFC746D92732C29B" />
+    <meta name="facebook-domain-verification" content="g2yq7dt5v0crk4gyidro1pc39uq2h0" />
+    <!--end tags for no-indexing--> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RapidShyp</title>
+    <meta content="description" name="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience.">
+    <title>RapidShyp-eCommerce Shipping Solution in India </title>
+    <link rel="canonical" href="https:/www.rapidshyp.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="/assets/images/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/owl.theme.default.min.css">
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="node_modules/bootstrap.bundle.min.js"></script>
     <script src="node_modules/jquery.min.js"></script>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WDPFB7D3');
+    </script>
+    <!--css for whole website-->
+    <link rel="stylesheet" href="assets/css/main.css?v=0.4">
+    
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/65bcdfd98d261e1b5f5b4aa3/1hlkskr5v';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
 </head>
 
 <body>
@@ -30,42 +64,25 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Product <i class="fas fa-caret-down"></i></a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features <i class="fas fa-caret-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#solution">Solution <i class="fas fa-caret-down"></i></a>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fas fa-caret-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#">Link1</a></li>
-                              <li><a class="dropdown-item" href="#">Link2</a></li>
-                              <li><a class="dropdown-item" href="#">Link3</a></li>
+                              <li><a class="dropdown-item" href="https://www.rapidshyp.com/blog/">Blog</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solution</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Link1</a></li>
-                          <li><a class="dropdown-item" href="#">Link2</a></li>
-                          <li><a class="dropdown-item" href="#">Link3</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Link1</a></li>
-                          <li><a class="dropdown-item" href="#">Link2</a></li>
-                          <li><a class="dropdown-item" href="#">Link3</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Link1</a></li>
-                          <li><a class="dropdown-item" href="#">Link2</a></li>
-                          <li><a class="dropdown-item" href="#">Link3</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
                     </ul>
                     <div class="navbar-nav d-flex">
-                        <li class="nav-item btn"><button class="solid-action-btn">Let's Talk <i class="fas fa-chevron-right"></i></button></li></li>
+                        <li class="nav-item btn"><button class="solid-action-btn openWaitlistModal">Let's Talk <i class="fas fa-chevron-right"></i></button></li></li>
                         <li class="nav-item"><a class="nav-link border-bottom-0" href="#">Sign In</a></li>
                     </div>
                 </div>
@@ -89,7 +106,7 @@
                     <div class="col-12 text-center">
                         <!-- <span class="announce"><img src="assets/images/icon/flash.svg" alt="">Streamline Your Online Shipping Process Like A Pro</span> -->
                         <div class="contents">
-                            <h2 class="head-title">Streamline Your Online Shipping <br>Process  Like A Pro</h2>
+                            <h2 class="head-title">Start Delivering  <br>Your Parcel Like A Pro</h2>
                             <p class="description">Transform eCommerce shipping with a tech-enabled solution <br>to streamline order fulfillment, integrate everything, save time and cost</p>
                         </div>
                         <div class="join-us">
@@ -103,7 +120,7 @@
             </div>
         </div>
 
-        <div class="explore-features">
+        <div class="explore-features" id="products">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -155,6 +172,37 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="owl-carousel owl-theme" id="product-carousel">
+                                        <div class="item">
+                                            <h5 class="head">Order Management System</h5>
+                                            <p class="body">Manage your orders across channels, ensure automated hassle-free processing record-keeping and seamless operations at every step </p>
+                                            <!-- <a href="#" class="footer">Explore The Feature <i class="fas fa-arrow-right"></i></a> -->
+                                            <div class="scroll-path">
+                                                <span class="progress-bar"></span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <h5 class="head">Carrier Allocation & Recommendation Engine</h5>
+                                            <p class="body">Elevate your shipping game with our cutting-edge AI-backed feature. Our intelligent system analyzes and recommends the best courier partner, optimizing your shipping perfomance for unparalleled efficiency</p>
+                                            <div class="scroll-path">
+                                                <span class="progress-bar"></span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <h5 class="head">CX Suite</h5>
+                                            <p class="body">Customize your tracking page with your logo and brand colors, providing customers with a personalized touchpoint that reinforces your brand identity and fosters loyalty at every interaction </p>
+                                            <div class="scroll-path">
+                                                <span class="progress-bar"></span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <h5 class="head">NDR Management</h5>
+                                            <p class="body">Tackle non-delivery concerns head-on with our comprehensive feature. Ensure swift resolution of undelivered orders, minimizing costs and disruptions while safeguarding customer satisfaction. Stay ahead with seamless NDR handling </p>
+                                            <div class="scroll-path">
+                                                <span class="progress-bar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-lg-8 col-xl-8">
                                     <div class="carousel-inner">
@@ -172,8 +220,8 @@
                                         </div>
                                     </div>
                                 </div>                                
-                                <div class="join-btn">
-                                    <button class="solid-action-btn">Join The Waitlist</button>
+                                <div class="join-btn mb-4">
+                                    <button class="solid-action-btn openWaitlistModal">Join The Waitlist</button>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +231,7 @@
         </div>
     </section>
 
-    <section class="what-makes-better">
+    <section class="what-makes-better" id="features">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
@@ -251,7 +299,7 @@
         </div>
     </section>
 
-    <section class="what-makes-better2">
+    <section class="what-makes-better2" id="solution">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
@@ -271,7 +319,7 @@
                             <li><i class="far fa-check-circle"></i>Generate instant invoice </li>
                             <li><i class="far fa-check-circle"></i>Create effortless manifest</li>
                         </ul>
-                        <a href="#">Join The Waitlist <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="openWaitlistModal" onclick="return false;">Join The Waitlist <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
@@ -296,7 +344,7 @@
                             <li><i class="far fa-check-circle"></i>Auto-sync order in one place</li>
                             <li><i class="far fa-check-circle"></i>Tap into a broader customer base</li>
                         </ul>
-                        <a href="#">Join The Waitlist <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="openWaitlistModal" onclick="return false;">Join The Waitlist <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -311,7 +359,7 @@
                             <li><i class="far fa-check-circle"></i>Use the free rate calculator</li>
                             <li><i class="far fa-check-circle"></i>Get lowest shipping rates</li>
                         </ul>
-                        <a href="#">Join The Waitlist <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="openWaitlistModal" onclick="return false;">Join The Waitlist <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
@@ -588,9 +636,11 @@
                     <h3 class="heading mb-0">Transform your eCommerce <br>Shipping with RapidShyp!</h3>
                     <p class="sub-heading">Simplify logistics, reduce costs, and delight customers with the innovative eCommerce shipping solution.</p>
                     <div class="row mt-4 align-items-center">
-                        <div class="col-md-12 col-sm-12 d-flex mb-4">
-                            <input type="text" name="" id="" placeholder="Type Your Email Here">
-                            <button class="solid-action-btn"><span>Join The Waitlist</span> <img src="assets/images/icon/forward_to_inbox.svg" alt=""></button>
+                        <div class="col-md-12 col-sm-12 mb-4">
+                            <form action="#" class="d-flex" id="explore-form">
+                                <input type="text" name="" id="explore-email" placeholder="Type Your Email Here" required>
+                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Join The Waitlist</span> <img src="assets/images/icon/forward_to_inbox.svg" alt=""></button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -614,8 +664,8 @@
                     <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and reduced costs.</p>
                     <div class="social-media mb-4">
                         <p>Follow Us On:</p>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/rapidshyp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://in.linkedin.com/company/rapidshyp" target="_blank"><i class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-facebook"></i></a>
                     </div>
                 </div>
@@ -693,35 +743,35 @@
                                 <input type="hidden" name="key" value="<?php echo $date ?>">
 
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col-sm-12 col-md-6">
                                         <div class="mb-3">
                                             <label for="name" class="form-label">Name</label>
                                             <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name" required>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-12 col-md-6">
                                         <div class="mb-3">
                                             <label for="company" class="form-label">Company Name</label>
                                             <input type="text" class="form-control" name="company" id="company" placeholder="Enter Company Name" required>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-12 col-md-6">
                                         <div class="mb-3">
                                             <label for="email" class="form-label">Email address</label>
                                             <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter Email" required >
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-12 col-md-6">
                                         <div class="mb-3">
                                             <label for="phone" class="form-label">Mobile Number</label>
                                             <input type="number" class="form-control" name="phone" id="phone" placeholder="Mobile Number" onKeyPress="if(this.value.length==10) return false;" required>
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-sm-12 col-md-12">
                                         <div class="mb-3">
                                             <label for="count" class="form-label">How Many Shipment/Order do you have received in a Month?</label>
-                                            <select class="form-select" name="count" id="count" placeholder="How many orders do you ship every month?" required>
-                                                <option>How many orders do you ship every month?</option>
+                                            <select class="form-select" name="count" id="count" placeholder="--Select option--" required>
+                                                <option>--Select option--</option>
                                                 <option value="Setting up new Business">Setting up new Business</option>
                                                 <option value="Between 1 to 10 Orders">Between 1 to 10 Orders</option>
                                                 <option value="11 to 100 Orders">11 to 100 Orders</option>

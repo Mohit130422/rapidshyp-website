@@ -15,16 +15,25 @@ $(document).ready(function(){
           $('#navbar-close').toggleClass('hidden');  
         });
     });
-
+    $(".openWaitlistModal").click(function(){
+        $("#joinWaitlistModal").css('display','flex');
+    })
     $(".close").click(function(){
         $('#joinWaitlistModal').hide()
         location.reload(true);
     })
     $("#submit-button").submit(function(e){
         var email = $("#useremail").val();
-        console.log(email);
+        // console.log(email);
         $("#joinWaitlistModal").css('display','flex');
         $("#email").val(email);
+        return false;
+    });
+    $("#explore-form").submit(function(e){
+        var exploreEmail = $("#explore-email").val();
+        // console.log(email);
+        $("#joinWaitlistModal").css('display','flex');
+        $("#email").val(exploreEmail);
         return false;
     });  
     $('.php-email-form').on('submit', function (e) {
@@ -68,5 +77,20 @@ $(document).ready(function(){
             }
         });
     });  
-
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
 });
