@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   margin: 0;
   padding: 0;
   background-color: #FCFBFD;
   font-family: "Manrope", sans-serif;
   position: relative;
-  scroll-behavior: smooth;
 }
 
 .overflow-hidden {
@@ -64,7 +67,7 @@ i {
 }
 
 .heading {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 800;
   margin: 16px 0;
 }
@@ -106,12 +109,20 @@ i {
     transform: translate(0, 0px);
   }
 }
-@keyframes scroll {
+@keyframes scrollVertical {
   0% {
     height: 0%;
   }
   100% {
     height: 100%;
+  }
+}
+@keyframes scrollHorizontal {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
   }
 }
 @keyframes fadeUp {
@@ -268,6 +279,9 @@ header .navbar {
 header .navbar .container-fluid {
   padding: 0;
 }
+header .navbar .container-fluid .navbar-brand {
+  margin-right: 5rem;
+}
 header .navbar .container-fluid .navbar-toggler {
   border: none;
 }
@@ -330,7 +344,7 @@ header .active-head {
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 55px;
+    top: 65px;
     background-color: #fff;
   }
   header .navbar-collapse .navbar-nav .nav-item .nav-link {
@@ -358,7 +372,7 @@ header .active-head {
 }
 
 section {
-  padding: 70px 0 50px;
+  padding: 50px 0 25px;
 }
 
 .hero-area-bg {
@@ -526,7 +540,7 @@ section {
     margin-top: 50px;
   }
   .hero-area-bg .container .contents .head-title {
-    font-size: 34px;
+    font-size: 31px;
   }
   .hero-area-bg .container .join-us {
     position: relative;
@@ -616,7 +630,7 @@ section {
   background-color: #3E1A51;
   background: linear-gradient(300deg, #fbbc05, #3e1a51);
   background-size: 60% 120%;
-  animation: scroll 4s ease-in-out infinite;
+  animation: scrollVertical 4s ease-in-out infinite;
 }
 .explore-features .carousel .carousel-indicators .solid-action-btn {
   padding: 14px 32px;
@@ -639,9 +653,12 @@ section {
     margin-bottom: 8px;
   }
 }
+.explore-features .carousel .owl-carousel {
+  display: none;
+}
 .explore-features .carousel .carousel-inner {
-  width: 140%;
-  height: 750px !important;
+  width: 115%;
+  height: 690px !important;
 }
 .explore-features .carousel .carousel-inner .carousel-item .dashboard-image {
   width: 100%;
@@ -653,14 +670,62 @@ section {
 }
 @media (max-width: 576px) {
   .explore-features .carousel .carousel-indicators {
-    display: inline-block;
+    display: none;
   }
   .explore-features .carousel .carousel-inner {
+    display: none;
     width: 100%;
     height: inherit !important;
   }
+  .explore-features .carousel .owl-carousel {
+    display: block;
+  }
+  .explore-features .carousel .owl-carousel .item {
+    position: relative;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  .explore-features .carousel .owl-carousel .item .img {
+    margin-bottom: 16px;
+  }
+  .explore-features .carousel .owl-carousel .item h5 {
+    font-size: 18px;
+    margin: 0px 0 16px;
+    font-weight: 700;
+  }
+  .explore-features .carousel .owl-carousel .item p {
+    font-size: 12px;
+  }
+  .explore-features .carousel .owl-carousel .item a {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+  }
+  .explore-features .carousel .owl-carousel .item .scroll-path {
+    height: 4px;
+    background-color: #dfdfdf;
+    position: absolute;
+    top: 102%;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .explore-features .carousel .owl-carousel .item .scroll-path::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: #3E1A51;
+    background-color: #3E1A51;
+    background-image: linear-gradient(100deg, #3e1a51, #fbbc05);
+    background-size: 120% 120%;
+    animation: scrollHorizontal 4s ease-in-out infinite;
+  }
   .explore-features .carousel .join-btn {
     text-align: center;
+    margin-top: 1.5rem;
   }
 }
 .explore-features .tools-step .step {
@@ -731,7 +796,7 @@ section {
 }
 @media (max-width: 576px) {
   .explore-features {
-    padding-top: 70px;
+    padding: 70px 0 0;
   }
 }
 
@@ -745,10 +810,11 @@ section {
 }
 .what-makes-better .info .title, .what-makes-better2 .info .title {
   font-weight: 800;
-  margin: 18px 0 16px;
+  margin: 27px 0 9px;
 }
 .what-makes-better .info small, .what-makes-better2 .info small {
   font-size: 14px;
+  line-height: 2;
 }
 .what-makes-better .info .yellow, .what-makes-better2 .info .yellow {
   background-color: #ffeed0;
@@ -770,7 +836,7 @@ section {
   font-size: 16px;
 }
 .what-makes-better2 .info h5 {
-  font-size: 42px;
+  font-size: 41px;
   font-weight: 600;
   margin: 16px 0;
 }
@@ -791,8 +857,11 @@ section {
   width: 100%;
 }
 @media (max-width: 576px) {
+  .what-makes-better2 .info {
+    padding: 0.5rem;
+  }
   .what-makes-better2 .info h5 {
-    font-size: 32px;
+    font-size: 23px;
   }
 }
 
@@ -922,6 +991,9 @@ section {
   box-shadow: 0px 4px 45px 0px rgba(0, 0, 0, 0.2509803922);
 }
 @media (max-width: 576px) {
+  .ready-to-explore h3 {
+    font-size: 26px;
+  }
   .ready-to-explore .col-sm-12 {
     position: relative;
   }
@@ -948,6 +1020,10 @@ footer {
 footer .brand img {
   width: 200px;
 }
+footer .mb-4 {
+  color: #36485C;
+  font-weight: 500;
+}
 footer .social-media {
   display: flex;
   align-items: center;
@@ -960,8 +1036,12 @@ footer .social-media a {
   display: inline-block;
   position: relative;
   margin-right: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #3E1A51;
+}
+footer .social-media a img {
+  width: 1.25rem;
+  margin-bottom: 0.3rem;
 }
 footer p {
   font-weight: 700;
@@ -974,6 +1054,9 @@ footer .links .link {
   font-size: 14px;
   color: #36485C;
   transition: all 0.3s ease-in-out;
+}
+footer .links .link i {
+  margin-right: 4px;
 }
 footer img {
   width: 100%;
