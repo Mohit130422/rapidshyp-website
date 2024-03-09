@@ -13,6 +13,9 @@
     <!--end tags for no-indexing--> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="eCommerce Shipping Solution in India -RapidShyp" />
+    <meta property="og:description" content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
+    <meta property="og:image" content="https:/www.rapidshyp.com" />
     <meta content="description" name="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience.">
     <title>eCommerce Shipping Solution in India -RapidShyp</title>
     <link rel="canonical" href="https:/www.rapidshyp.com" />
