@@ -1,11 +1,15 @@
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
         $(".navbar").addClass("active-head");
+        $('.navbar-collapse').removeClass('show'); 
+        $('#navbar-close').addClass('hidden'); 
+        $('.navbar-toggler-icon').removeClass('hidden'); 
     } else {
         //remove the background property so it comes transparent again (defined in your css)
        $(".navbar").removeClass("active-head");
     }
 });
+
 
 
 $(document).ready(function(){
@@ -15,12 +19,16 @@ $(document).ready(function(){
           $('#navbar-close').toggleClass('hidden');  
         });
     });
+    $(".active" ).on( "mouseenter", function() { 
+        $(this).carousel('pause') 
+      }, function () { 
+        $(this).carousel('cycle') 
+    })
     $(".openWaitlistModal").click(function(){
         $("#joinWaitlistModal").css('display','flex');
     })
     $(".close").click(function(){
         $('#joinWaitlistModal').hide()
-        location.reload(true);
     })
     $("#submit-button").submit(function(e){
         var email = $("#useremail").val();
@@ -83,7 +91,7 @@ $(document).ready(function(){
         nav:false,
         dots:false,
         autoplay:true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 8000,
         autoplayHoverPause:true,
         responsive:{
             0:{

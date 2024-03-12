@@ -111,10 +111,10 @@ i{
     }    
 }
 @keyframes scrollVertical {
-    0%{
+    from{
         height: 0%;
     }
-    100%{
+    to{
         height: 100%;
     }
 }
@@ -575,7 +575,7 @@ section{
 
 @media (max-width:991px) {
     #hero-area {
-        min-height: initial;
+        min-height: 45vh;
         align-items: flex-start;
     }
 }
@@ -624,9 +624,8 @@ section{
                 font-weight: 700;
                 margin-top: 16px;
                 }
-                
                 .scroll-path{
-                    width: 5px;
+                    width: 4px;
                     background-color: #dfdfdf;
                     position: absolute;
                     top: 0;
@@ -640,8 +639,8 @@ section{
                         position: absolute;
                         width: 5px;
                         background-color: $primary-color;
-                        background: linear-gradient(300deg,#fbbc05,#3e1a51);
-                        background-size: 60% 120%;
+                        // background: linear-gradient(300deg,#fbbc05,#3e1a51);
+                        // background-size: 60% 120%;
                         animation: scrollVertical 4s ease-in-out infinite;
                     }
                 }
@@ -677,7 +676,10 @@ section{
         }
         .carousel-inner{
             width: 115%;
-            height: 690px !important;
+            // height: 690px !important;
+            box-shadow: 0px 20px 30px #bababaf0;
+            border-radius: 10px;
+            overflow: hidden;
             .carousel-item{
                 // padding-left: 120px;
                 .dashboard-image{
@@ -739,10 +741,10 @@ section{
                             height: 4px;
                             // width: 5px;
                             background-color: $primary-color;
-                            background-color: $primary-color;
-                            background-image: linear-gradient(100deg, #3e1a51, #fbbc05);
-                            background-size: 120% 120%;
-                            animation: scrollHorizontal 4s ease-in-out infinite;
+                            // background-color: $primary-color;
+                            // background-image: linear-gradient(100deg, #3e1a51, #fbbc05);
+                            // background-size: 120% 120%;
+                            animation: scrollHorizontal 8s ease-in-out infinite;
                         }
                     }
                }
@@ -804,7 +806,7 @@ section{
             margin-top: 16px;
             }
             .scroll-path{
-                width: 5px;
+                width: 4px;
                 background-color: #dfdfdf;
                 position: absolute;
                 top: 0;
@@ -817,9 +819,9 @@ section{
                     position: absolute;
                     width: 5px;
                     background-color: $primary-color;
-                    background: linear-gradient(300deg,#fbbc05,#3e1a51);
+                    // background: linear-gradient(300deg,#fbbc05,#3e1a51);
                     background-size: 60% 120%;
-                    animation: scroll 5s ease-in-out infinite;
+                    animation: scroll 4s ease-in-out;
                 }
            }
        }
@@ -1056,7 +1058,7 @@ section{
 }
 
 footer{
-    padding: 70px 0 50px;
+    padding: 70px 0 0px;
     overflow: hidden;
     .brand{
         img{
@@ -1105,5 +1107,16 @@ footer{
     }
     img{
         width: 100%;
+    }
+}
+
+.adlinks{
+    padding: .75rem;
+    font-size: 14px;
+    a{
+        color: #36485C;
+    }
+    @media(max-width:576px){
+        font-size: 12px;
     }
 }

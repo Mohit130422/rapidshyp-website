@@ -110,10 +110,10 @@ i {
   }
 }
 @keyframes scrollVertical {
-  0% {
+  from {
     height: 0%;
   }
-  100% {
+  to {
     height: 100%;
   }
 }
@@ -564,7 +564,7 @@ section {
 }
 @media (max-width: 991px) {
   #hero-area {
-    min-height: initial;
+    min-height: 45vh;
     align-items: flex-start;
   }
 }
@@ -613,7 +613,7 @@ section {
   margin-top: 16px;
 }
 .explore-features .carousel .carousel-indicators .item .scroll-path {
-  width: 5px;
+  width: 4px;
   background-color: #dfdfdf;
   position: absolute;
   top: 0;
@@ -628,8 +628,6 @@ section {
   position: absolute;
   width: 5px;
   background-color: #3E1A51;
-  background: linear-gradient(300deg, #fbbc05, #3e1a51);
-  background-size: 60% 120%;
   animation: scrollVertical 4s ease-in-out infinite;
 }
 .explore-features .carousel .carousel-indicators .solid-action-btn {
@@ -658,7 +656,9 @@ section {
 }
 .explore-features .carousel .carousel-inner {
   width: 115%;
-  height: 690px !important;
+  box-shadow: 0px 20px 30px rgba(186, 186, 186, 0.9411764706);
+  border-radius: 10px;
+  overflow: hidden;
 }
 .explore-features .carousel .carousel-inner .carousel-item .dashboard-image {
   width: 100%;
@@ -718,10 +718,7 @@ section {
     position: absolute;
     height: 4px;
     background-color: #3E1A51;
-    background-color: #3E1A51;
-    background-image: linear-gradient(100deg, #3e1a51, #fbbc05);
-    background-size: 120% 120%;
-    animation: scrollHorizontal 4s ease-in-out infinite;
+    animation: scrollHorizontal 8s ease-in-out infinite;
   }
   .explore-features .carousel .join-btn {
     text-align: center;
@@ -776,7 +773,7 @@ section {
   margin-top: 16px;
 }
 .explore-features .features .item .scroll-path {
-  width: 5px;
+  width: 4px;
   background-color: #dfdfdf;
   position: absolute;
   top: 0;
@@ -790,9 +787,8 @@ section {
   position: absolute;
   width: 5px;
   background-color: #3E1A51;
-  background: linear-gradient(300deg, #fbbc05, #3e1a51);
   background-size: 60% 120%;
-  animation: scroll 5s ease-in-out infinite;
+  animation: scroll 4s ease-in-out;
 }
 @media (max-width: 576px) {
   .explore-features {
@@ -1014,7 +1010,7 @@ section {
 }
 
 footer {
-  padding: 70px 0 50px;
+  padding: 70px 0 0px;
   overflow: hidden;
 }
 footer .brand img {
@@ -1060,4 +1056,17 @@ footer .links .link i {
 }
 footer img {
   width: 100%;
+}
+
+.adlinks {
+  padding: 0.75rem;
+  font-size: 14px;
+}
+.adlinks a {
+  color: #36485C;
+}
+@media (max-width: 576px) {
+  .adlinks {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=main.css.map */
