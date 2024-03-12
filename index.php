@@ -28,7 +28,7 @@
     <script src="node_modules/jquery.min.js"></script>
     <script src="node_modules/owl.carousel.min.js"></script>
     <script src="node_modules/bootstrap.bundle.min.js"></script>
-    <!-- <script>
+    <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
@@ -43,12 +43,12 @@
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
-    </script> -->
+    </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.1.5">
+    <link rel="stylesheet" href="assets/css/main.css?v=0.1.6">
 
     <!-- Start of Tawk.to Script -->
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
     (function() {
@@ -60,11 +60,11 @@
         s1.setAttribute('crossorigin', '*');
         s0.parentNode.insertBefore(s1, s0);
     })();
-    </script> -->
+    </script>
     <!--End of Tawk.to Script-->
 
     <!-- FAqs schema start -->
-    <!-- <script type="application/ld+json">
+    <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -151,7 +151,7 @@
             }
         }]
     }
-    </script> -->
+    </script>
     <!-- FAqs schema end -->
 
 </head>
@@ -897,7 +897,7 @@
     <footer id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="brand mb-4">
                         <a href="/"><img src="assets/images/Logo.svg" alt=""></a>
                     </div>
@@ -916,7 +916,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-6">
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
                             <p>Product</p>
                             <div class="links">
                                 <span class="link">Order Management System</span>
@@ -925,7 +925,7 @@
                                 <span class="link">NDR Management</span>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
                             <p>Features</p>
                             <div class="links">
                                 <span class="link">Dedicated Shipping Advisors</span>
@@ -939,14 +939,14 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-6">
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
                             <p>Resources</p>
                             <div class="links">
                                 <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a>
                                 <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-8">
+                        <div class="col-sm-12 col-md-8 col-lg-8 m-margin-20">
                             <p>Contact Us</p>
                             <div class="links">
                                 <a href="mailto:support@rapidshyp.com" class="link" target="_blank"><i

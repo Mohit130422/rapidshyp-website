@@ -42,6 +42,12 @@ i {
   cursor: pointer;
 }
 
+@media (max-width: 992px) {
+  .m-margin-20 {
+    margin-bottom: 20px;
+  }
+}
+
 .solid-action-btn {
   background-color: #3E1A51;
   color: #ffffff;
@@ -531,7 +537,57 @@ section {
     display: none;
   }
 }
+@media (max-width: 992px) {
+  .hero-area .floating-elements .background li:first-child {
+    top: 2vh;
+    font-size: 12px;
+  }
+  .hero-area .floating-elements .background li:first-child img {
+    width: 30px;
+    margin-left: 5px;
+  }
+  .hero-area .floating-elements .background li:nth-child(2) {
+    top: 8vh;
+    left: 80vw;
+  }
+  .hero-area .floating-elements .background li:nth-child(3) {
+    top: 30vh;
+    left: 3vw;
+  }
+  .hero-area .floating-elements .background li:nth-child(3) img {
+    width: 30px;
+  }
+  .hero-area .floating-elements .background li:nth-child(4) {
+    top: 42vh;
+    left: 20vw;
+  }
+  .hero-area .floating-elements .background li:nth-child(5) {
+    top: 39vh;
+    left: 80vw;
+    font-size: 12px;
+  }
+  .hero-area .floating-elements .background li:nth-child(5) img {
+    width: 14px;
+    margin-left: 5px;
+  }
+}
 
+@media (max-width: 992px) {
+  .hero-area-bg .container .contents {
+    margin: 5rem 0 3rem 0;
+  }
+  .hero-area-bg .container .contents .head-title {
+    font-size: 55px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-area-bg .container .contents {
+    margin: 5rem 0 3rem 0;
+  }
+  .hero-area-bg .container .contents .head-title {
+    font-size: 45px;
+  }
+}
 @media (max-width: 576px) {
   .hero-area-bg::after {
     top: 55px;
@@ -667,6 +723,19 @@ section {
      object-fit: contain;
   border-radius: 12px;
   box-shadow: 0px 56px 232px -56px rgba(0, 0, 0, 0.2509803922);
+}
+@media (max-width: 992px) {
+  .explore-features .carousel .carousel-indicators {
+    display: inline-block;
+  }
+  .explore-features .carousel .carousel-inner {
+    width: 100%;
+    height: inherit !important;
+  }
+  .explore-features .carousel .join-btn {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
 }
 @media (max-width: 576px) {
   .explore-features .carousel .carousel-indicators {
@@ -852,6 +921,14 @@ section {
 .what-makes-better2 img {
   width: 100%;
 }
+@media (max-width: 992px) {
+  .what-makes-better2 .info {
+    padding: 0.5rem;
+  }
+  .what-makes-better2 .info h5 {
+    font-size: 24px;
+  }
+}
 @media (max-width: 576px) {
   .what-makes-better2 .info {
     padding: 0.5rem;
@@ -921,6 +998,9 @@ section {
   background-color: #fbe2f6;
 }
 @media (max-width: 991px) {
+  .faq .heading {
+    font-size: 25px;
+  }
   .faq .accordion {
     min-width: inherit;
   }
@@ -985,6 +1065,28 @@ section {
   top: 15%;
   left: -16px;
   box-shadow: 0px 4px 45px 0px rgba(0, 0, 0, 0.2509803922);
+}
+@media (max-width: 992px) {
+  .ready-to-explore h3 {
+    font-size: 25px;
+  }
+  .ready-to-explore .col-sm-12 {
+    position: relative;
+  }
+  .ready-to-explore .col-sm-12 input {
+    width: 100%;
+  }
+  .ready-to-explore .col-sm-12 .solid-action-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  .ready-to-explore .col-sm-12 .solid-action-btn span {
+    display: none;
+  }
+  .ready-to-explore .col-sm-12 .solid-action-btn img {
+    display: block;
+  }
 }
 @media (max-width: 576px) {
   .ready-to-explore h3 {
