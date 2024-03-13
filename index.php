@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--tags for no-indexing-->
     <meta property="og:image" content="https://www.rapidshyp.com/assets/images/couriers.png">
     <meta property="og:title" content="eCommerce Shipping Solution in India -RapidShyp" />
     <meta property="og:description"
@@ -12,7 +11,7 @@
     <meta name="google-site-verification" content="ziG_d23YoEToCxxi0a1or4i7ITVf1hjtCCO7qg3vldQ" />
     <meta name="msvalidate.01" content="0EEEAB0A6F290CF1DFC746D92732C29B" />
     <meta name="facebook-domain-verification" content="g2yq7dt5v0crk4gyidro1pc39uq2h0" />
-    <!--end tags for no-indexing-->
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta content="description"
@@ -154,6 +153,49 @@
     </script>
     <!-- FAqs schema end -->
 
+    <!-- organization schema start -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "eCommerce Shipping Solution in India -RapidShyp",
+        "url": "https://www.rapidshyp.com/",
+        "logo": "https://www.rapidshyp.com/assets/images/Logo.svg",
+        "alternateName": "RapidShyp",
+        "sameAs": [
+            "https://www.instagram.com/rapidshyp/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+            "https://in.linkedin.com/company/rapidshyp",
+            "https://twitter.com/rapidshyp"
+        ],
+        "contactPoint": [{
+                "@type": "ContactPoint",
+                "telephone": "7669007700",
+                "contactType": "technical support",
+                "email": "support@rapidshyp.com",
+                "contactOption": "HearingImpairedSupported",
+                "areaServed": "IN",
+                "availableLanguage": [
+                    "en",
+                    "hi"
+                ]
+            },
+            {
+                "@type": "ContactPoint",
+                "telephone": "7669007700",
+                "contactType": "sales",
+                "email": "connect@rapidshyp.com",
+                "contactOption": "HearingImpairedSupported",
+                "areaServed": "IN",
+                "availableLanguage": [
+                    "en",
+                    "hi"
+                ]
+            }
+        ]
+    }
+    </script>
+    <!-- organization schema end -->
+
 </head>
 
 <body>
@@ -184,9 +226,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#faqs">FAQs</a>
                         </li>
-                        <li class="nav-item">
+                        <!--<li class="nav-item">
                             <a class="nav-link" href="https://www.rapidshyp.com/blog/" rel="nofollow">Blog</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
@@ -409,7 +451,7 @@
                                 <span class="imgdesk yellow">
                                     <img src="assets/images/icon/icon02.svg" alt="">
                                 </span>
-                                <p class="title">Rapid COD</p>
+                                <p class="title">RapidCOD</p>
                                 <small>Maintain a regular cash flow with a 2-day COD remittance and scale your
                                     operations</small>
                             </div>
