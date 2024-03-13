@@ -20,6 +20,8 @@
     <link rel="canonical" href="https:/www.rapidshyp.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="/assets/images/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.png" sizes="32x32" />
+    <link rel="icon" href="/assets/favicon-192.png" sizes="192x192" />
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
