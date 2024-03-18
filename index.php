@@ -46,7 +46,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.1.6">
+    <link rel="stylesheet" href="assets/css/main.css?v=0.1.7">
 
     <!-- Start of Tawk.to Script -->
     <script type="text/javascript">
@@ -986,7 +986,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
                             <p>Resources</p>
                             <div class="links">
-                                <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a>
+                                <!-- <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> -->
                                 <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
                             </div>
                         </div>
@@ -1010,12 +1010,15 @@
         </div>
         <img src="assets/images/footer-img.png" alt="">
     </footer>
+
     <div class="adlinks">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    &copy; Copyright 2024 <strong><span>RapidShyp</span></strong> | <a href="privacy">Privacy Policy</a>
-                    | <a href="tnc">Terms & Conditions</a> | <a href="shipping-return-policy">Refund and Cancellation
+                    &copy; Copyright 2024 <strong><span>RapidShyp</span></strong> | <a href="privacy-policy">Privacy
+                        Policy</a>
+                    | <a href="tnc">Terms & Conditions</a> | <a href="shipping-return-policy">Refund and
+                        Cancellation
                         Policy</a>
                 </div>
             </div>

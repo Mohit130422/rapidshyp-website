@@ -1111,6 +1111,15 @@ section {
   }
 }
 
+.terms-condition h1 {
+  font-size: 28px;
+  font-weight: 800;
+}
+.terms-condition h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
 footer {
   padding: 70px 0 0px;
   overflow: hidden;
