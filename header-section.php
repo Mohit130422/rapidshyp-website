@@ -46,7 +46,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.1.7">
+    <link rel="stylesheet" href="assets/css/main.css?v=0.1.8">
 
     <!-- Start of Tawk.to Script -->
     <script type="text/javascript">
@@ -160,13 +160,13 @@
     {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "eCommerce Shipping Solution in India -RapidShyp",
+        "name": "RapidShyp",
         "url": "https://www.rapidshyp.com/",
         "logo": "https://www.rapidshyp.com/assets/images/Logo.svg",
         "alternateName": "RapidShyp",
         "sameAs": [
-            "https://www.instagram.com/rapidshyp/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
-            "https://in.linkedin.com/company/rapidshyp",
+            "https://www.instagram.com/rapidshyp/",
+            "https://www.linkedin.com/company/rapidshyp",
             "https://twitter.com/rapidshyp"
         ],
         "contactPoint": [{
@@ -199,173 +199,3 @@
     <!-- organization schema end -->
 
 </head>
-
-<body>
-    <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img src="assets/images/Logo.svg" alt="Logo"></a>
-                <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    <div id="navbar-close" class="hidden">
-                        <i class="fas fa-times"></i>
-                    </div>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#product">Product</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#features">Features</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#solution">Solution</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#faqs">FAQs</a>
-                        </li>
-                        <!--<li class="nav-item">
-                            <a class="nav-link" href="https://www.rapidshyp.com/blog/" rel="nofollow">Blog</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
-                        </li>
-                    </ul>
-                    <div class="navbar-nav d-flex">
-                        <li class="nav-item btn"><button class="solid-action-btn openWaitlistModal">Let's Talk <i
-                                    class="fas fa-chevron-right"></i></button></li>
-                        </li>
-                        <!-- <li class="nav-item"><a class="nav-link border-bottom-0" href="#">Sign In</a></li> -->
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <section class="terms-condition">
-        <div class="container">
-            <div class="mb-4">
-                <h1>Shipping/ Cancellation/ Refund Policy</h1>
-            </div>
-            <div class="mb-4">
-                <p>You may cancel your account at anytime by emailing to support [at] rapidshyp [dot] com</p>
-            </div>
-            <div class="mb-4">
-                <p>Once your account is cancelled all of your Content will be immediately deleted from the Service.
-                    Since deletion of all data is final please be sure that you do in fact want to cancel your account
-                    before doing so.</p>
-            </div>
-            <div class="mb-4">
-                <p>If you cancel the Service in the middle of the month, you will receive one final invoice via email.
-                    Once that invoice has been paid you will not be charged again.</p>
-            </div>
-            <div class="mb-4">
-                <p>We reserve the right to modify or terminate the service for any reason, without notice at any time.
-                </p>
-            </div>
-            <div class="mb-4">
-                <p>Fraud: Without limiting any other remedies, we may suspend or terminate your account if we suspect
-                    that you (by conviction, settlement, insurance or escrow investigation, or otherwise) have engaged
-                    in fraudulent activity in connection with the Site.</p>
-            </div>
-            <div class="mb-4">
-                <p><strong>Note:</strong> No refunds are offered, even if a plan is canceled mid-month.</p>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="brand mb-4">
-                        <a href="/"><img src="assets/images/Logo.svg" alt=""></a>
-                    </div>
-                    <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
-                        shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and
-                        reduced costs.</p>
-                    <div class="social-media mb-4">
-                        <p>Follow Us On:</p>
-                        <a href="https://www.instagram.com/rapidshyp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                            target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://in.linkedin.com/company/rapidshyp" target="_blank"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a href="https://twitter.com/rapidshyp" target="_blank"><img
-                                src="assets/images/icon/x-twitter.svg" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-6">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
-                            <p>Product</p>
-                            <div class="links">
-                                <span class="link">Order Management System</span>
-                                <span class="link">SmartSelect</span>
-                                <span class="link">Xperience Suite</span>
-                                <span class="link">NDR Management</span>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
-                            <p>Features</p>
-                            <div class="links">
-                                <span class="link">Dedicated Shipping Advisors</span>
-                                <span class="link">RapidCOD</span>
-                                <span class="link">Multi-Carrier Access</span>
-                                <span class="link">RTO Reduction</span>
-                                <span class="link">Shipment Security</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-6">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
-                            <p>Resources</p>
-                            <div class="links">
-                                <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a>
-                                <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-8 col-lg-8 m-margin-20">
-                            <p>Contact Us</p>
-                            <div class="links">
-                                <a href="mailto:support@rapidshyp.com" class="link" target="_blank"><i
-                                        class="fas fa-envelope"></i> Support: support@rapidshyp.com</a>
-                                <a href="mailto:connect@rapidshyp.com" class="link" target="_blank"><i
-                                        class="fas fa-envelope"></i> Sales: connect@rapidshyp.com</a>
-                                <a href="tel:7669007700" class="link" target="_blank"><i class="fas fa-phone-alt"></i>
-                                    7669007700</a>
-                                <a href="https://maps.app.goo.gl/TMc7FNnFvwGYSVVLA" target="_blank" class="link"><i
-                                        class="fas fa-map-marker-alt"></i> RapidShyp Head Office <br> 6th Floor, Unitech
-                                    Trade Centre <br>Sushant Lok Phase-1, Sector 43 <br>Gurgaon, Haryana -122002</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="assets/images/footer-img.png" alt="">
-    </footer>
-
-    <div class="adlinks">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    &copy; Copyright 2024 <strong><span>RapidShyp</span></strong> | <a href="privacy-policy">Privacy
-                        Policy</a>
-                    | <a href="tnc">Terms & Conditions</a> | <a href="shipping-return-policy">Refund and
-                        Cancellation
-                        Policy</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="assets/js/main.js"></script>
-</body>
-
-</html>

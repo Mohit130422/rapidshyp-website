@@ -686,6 +686,10 @@ section {
   background-color: #3E1A51;
   animation: scrollVertical 4s ease-in-out infinite;
 }
+.explore-features .carousel .carousel-indicators .item:hover .scroll-path::before {
+  -webkit-animation: 0;
+  animation-play-state: paused;
+}
 .explore-features .carousel .carousel-indicators .solid-action-btn {
   padding: 14px 32px;
   font-size: 16px;
@@ -789,6 +793,10 @@ section {
     background-color: #3E1A51;
     animation: scrollHorizontal 8s ease-in-out infinite;
   }
+  .explore-features .carousel .owl-carousel .item:hover .scroll-path::before {
+    -webkit-animation: 0;
+    animation-play-state: paused;
+  }
   .explore-features .carousel .join-btn {
     text-align: center;
     margin-top: 1.5rem;
@@ -857,7 +865,11 @@ section {
   width: 5px;
   background-color: #3E1A51;
   background-size: 60% 120%;
-  animation: scroll 4s ease-in-out;
+  animation: scroll 4s ease-in-out infinite;
+}
+.explore-features .features .item:hover .scroll-path::before {
+  -webkit-animation: 0;
+  animation-play-state: paused;
 }
 @media (max-width: 576px) {
   .explore-features {

@@ -709,8 +709,19 @@ section{
                         // background: linear-gradient(300deg,#fbbc05,#3e1a51);
                         // background-size: 60% 120%;
                         animation: scrollVertical 4s ease-in-out infinite;
+                        
                     }
                 }
+                &:hover{
+                    .scroll-path{
+                        &::before{
+                            // -webkit-animation: 0;
+                            animation-play-state: paused;
+                        }
+                    }
+                   
+                }
+
            }
            .solid-action-btn{
                 padding: 14px 32px;
@@ -825,7 +836,20 @@ section{
                             // background-image: linear-gradient(100deg, #3e1a51, #fbbc05);
                             // background-size: 120% 120%;
                             animation: scrollHorizontal 8s ease-in-out infinite;
+                            // &:hover{
+                            //     -webkit-animation: 0;
+                            //     animation-play-state: paused;
+                            // }
                         }
+                    }
+                    &:hover{
+                        .scroll-path{
+                            &::before{
+                                // -webkit-animation: 0;
+                                animation-play-state: paused;
+                            }
+                        }
+                       
                     }
                }
             }
@@ -901,9 +925,19 @@ section{
                     background-color: $primary-color;
                     // background: linear-gradient(300deg,#fbbc05,#3e1a51);
                     background-size: 60% 120%;
-                    animation: scroll 4s ease-in-out;
-                }
+                    animation: scroll 4s ease-in-out infinite;
+                }                
            }
+           &:hover{
+            .scroll-path{
+                &::before{
+                    // -webkit-animation: 0;
+                    animation-play-state: paused;
+                }
+            }
+           
+        }
+           
        }
        
     }
