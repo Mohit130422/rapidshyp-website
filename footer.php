@@ -46,6 +46,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
                             <p>Resources</p>
                             <div class="links">
+                                <a href="https://app.rapidshyp.com" class="link" rel="nofollow">Sign In</a>
                                 <!-- <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> -->
                                 <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
                             </div>

@@ -745,8 +745,7 @@
                                     </div>
                                     <div class="col-sm-12 col-md-12">
                                         <div class="mb-3">
-                                            <label for="count" class="form-label">How Many Shipment/Order do you have
-                                                received in a Month?</label>
+                                            <label for="count" class="form-label">How many orders do you receive in a month?</label>
                                             <select class="form-select" name="count" id="count"
                                                 placeholder="--Select option--" required>
                                                 <option>--Select option--</option>
