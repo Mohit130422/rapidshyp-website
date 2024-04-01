@@ -1213,6 +1213,11 @@ section{
         font-size: 1.25rem;
         font-weight: 600;
     }
+    .pdf {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        border-radius: 10px;
+    }
 }
 
 footer{

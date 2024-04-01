@@ -10,10 +10,12 @@
                         reduced costs.</p>
                     <div class="social-media mb-4">
                         <p>Follow Us On:</p>
-                        <a href="https://www.instagram.com/rapidshyp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        <a href="https://www.instagram.com/rapidshyp"
                             target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://in.linkedin.com/company/rapidshyp" target="_blank"><i
                                 class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/rapidshyp" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
                         <a href="https://twitter.com/rapidshyp" target="_blank"><img
                                 src="assets/images/icon/x-twitter.svg" alt=""></a>
                     </div>
@@ -21,23 +23,23 @@
                 <div class="col-lg-4 col-md-6 col-6">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
-                            <!--<p>Product</p>
+                            <p>Product</p>
                             <div class="links">
                                 <span class="link">Order Management System</span>
                                 <span class="link">SmartSelect</span>
                                 <span class="link">Xperience Suite</span>
                                 <span class="link">NDR Management</span>
-                            </div>-->
+                            </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
-                            <!--<p>Features</p>
+                            <p>Features</p>
                             <div class="links">
                                 <span class="link">Dedicated Shipping Advisors</span>
                                 <span class="link">RapidCOD</span>
                                 <span class="link">Multi-Carrier Access</span>
                                 <span class="link">RTO Reduction</span>
                                 <span class="link">Shipment Security</span>
-                            </div>-->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -46,7 +48,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
                             <p>Resources</p>
                             <div class="links">
-                                <a href="https://app.rapidshyp.com" class="link" rel="nofollow">Sign In</a>
+                                <!-- <a href="https://app.rapidshyp.com" class="link" rel="nofollow">Sign In</a> -->
                                 <!-- <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> -->
                                 <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
                             </div>

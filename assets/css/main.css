@@ -687,7 +687,6 @@ section {
   animation: scrollVertical 4s ease-in-out infinite;
 }
 .explore-features .carousel .carousel-indicators .item:hover .scroll-path::before {
-  -webkit-animation: 0;
   animation-play-state: paused;
 }
 .explore-features .carousel .carousel-indicators .solid-action-btn {
@@ -794,7 +793,6 @@ section {
     animation: scrollHorizontal 8s ease-in-out infinite;
   }
   .explore-features .carousel .owl-carousel .item:hover .scroll-path::before {
-    -webkit-animation: 0;
     animation-play-state: paused;
   }
   .explore-features .carousel .join-btn {
@@ -868,7 +866,6 @@ section {
   animation: scroll 4s ease-in-out infinite;
 }
 .explore-features .features .item:hover .scroll-path::before {
-  -webkit-animation: 0;
   animation-play-state: paused;
 }
 @media (max-width: 576px) {
@@ -1130,6 +1127,11 @@ section {
 .terms-condition h2 {
   font-size: 1.25rem;
   font-weight: 600;
+}
+.terms-condition .pdf {
+  width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: 10px;
 }
 
 footer {
