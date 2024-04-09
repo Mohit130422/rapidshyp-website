@@ -304,13 +304,44 @@ header .navbar .container-fluid .navbar-toggler .hidden .fa-times {
 header .navbar .container-fluid .navbar-collapse {
   justify-content: space-evenly;
 }
-header .navbar .container-fluid .navbar-collapse .nav-link {
+header .navbar .container-fluid .navbar-collapse .nav-item {
+  position: relative;
+}
+header .navbar .container-fluid .navbar-collapse .nav-item .nav-link {
   color: #000000;
   font-weight: 500;
   padding: 0 1.5rem;
+  cursor: pointer;
 }
-header .navbar .container-fluid .navbar-collapse .nav-link::after {
+header .navbar .container-fluid .navbar-collapse .nav-item .nav-link::after {
   display: none;
+}
+header .navbar .container-fluid .navbar-collapse .nav-item .nav-link img {
+  transform: rotate(180deg);
+}
+header .navbar .container-fluid .navbar-collapse .nav-item .hover-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  top: 25px;
+  -webkit-clip-path: polygon(0 100%, 100% 99%, 100% 8%, 65% 8%, 54% 0, 51% 7%, 0 8%);
+          clip-path: polygon(0 100%, 100% 99%, 100% 8%, 65% 8%, 54% 0, 51% 7%, 0 8%);
+  border-radius: 5px;
+  box-shadow: 0px -6px 54px 0px rgba(0, 0, 0, 0.1490196078);
+}
+header .navbar .container-fluid .navbar-collapse .nav-item .hover-menu ul {
+  padding: 0;
+}
+header .navbar .container-fluid .navbar-collapse .nav-item .hover-menu li {
+  list-style: none;
+}
+header .navbar .container-fluid .navbar-collapse .nav-item .hover-menu li .nav-link {
+  padding: 16px;
+}
+header .navbar .container-fluid .navbar-collapse .nav-item .hover-menu li:hover {
+  background-color: #fbe2f6;
 }
 header .navbar .container-fluid .d-flex {
   align-items: center;

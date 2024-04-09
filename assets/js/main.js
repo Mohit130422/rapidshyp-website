@@ -10,6 +10,16 @@ $(window).on("scroll", function() {
     }
 });
 
+$(document).mouseup(function(e) 
+{
+    var container = $(".hover-menu");
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && container.has(e.target).length === 0) 
+    {
+        container.hide();
+    }
+});
 
 
 $(document).ready(function(){
@@ -23,6 +33,9 @@ $(document).ready(function(){
         $(this).carousel('pause') 
       }, function () { 
         $(this).carousel('cycle') 
+    })
+    $("#resources").click(function(){
+        $(".hover-menu").toggle();
     })
     $(".openWaitlistModal").click(function(){
         $("#joinWaitlistModal").css('display','flex');

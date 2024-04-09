@@ -1,7 +1,7 @@
 <?php include 'header-section.php';?>
 
 <body>
-    <?php include 'header.php';?>
+    <?php include 'headerv2.php';?>
 
     <section class="terms-condition">
         <div class="container">
