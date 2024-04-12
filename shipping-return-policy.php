@@ -1,8 +1,8 @@
 <?php include 'header-section.php';?>
-
+<title>Shipping return policy - RapidShyp</title>
+</head>
 <body>
     <?php include 'headerv2.php';?>
-
     <section class="terms-condition">
         <div class="container">
             <div class="mb-4">

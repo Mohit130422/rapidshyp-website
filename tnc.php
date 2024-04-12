@@ -1,6 +1,7 @@
+
 <?php include 'header-section.php';?>
-
-
+<title>Merchant Agreement, Terms and Conditions - RapidShyp</title>
+</head>
 
 <body>
     <?php include 'headerv2.php';?>

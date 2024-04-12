@@ -1,4 +1,96 @@
 <?php include 'header-section.php';?>
+    <title>eCommerce Shipping Solution in India -RapidShyp</title>
+    <!-- FAqs schema start -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "What is RapidShyp?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp is a shipping aggregator platform that empowers businesses to navigate their shipping needs across diverse carriers and delivery channels. Businesses can seamlessly integrate their shipping operations, access multiple courier services, and streamline sending packages to customers. 
+
+                RapidShyp aims to simplify logistics management
+                for businesses of all sizes,
+                offering features such as order tracking,
+                label generation,
+                and shipment management to optimise the shipping experience.
+                "
+            }
+        }, {
+            "@type": "Question",
+            "name": "How does RapidShyp work?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp works by providing a platform where businesses can manage their shipping operations efficiently. It integrates with various courier services, allowing businesses to compare rates, generate shipping labels, track shipments, and streamline the shipping process.
+
+                Our AI - enabled carrier recommendation - SmartSelect,
+                uses advanced algorithms and analyzes multiple factors,
+                including shipping cost,
+                delivery SLA,
+                pickup performance,
+                POD facilities,
+                courier serviceability,
+                etc to recommend the best courier
+                for your shipment.
+                "
+            }
+        }, {
+            "@type": "Question",
+            "name": "How can I integrate my eCommerce store with RapidShyp?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp provides easy-to-use integration tools and plugins for most major eCommerce platforms. Simply follow the step-by-step guide provided on our website or reach out to our support team for assistance."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Which courier partners are integrated with RapidShyp?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp has partnered with a wide range of leading courier companies in India, including Xpressbees, DTDC, Delhivery, and many more. This ensures our users can access the broadest pincode coverage and the best delivery options available."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How will RapidShyp help in reducing shipping costs?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp's Shipping Automation platform offers features such as AI-enabled carrier selection, bulk shipping discounts, and route optimisation. These functionalities collectively help businesses reduce operational overheads and avail the best shipping rates."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How does RapidShyp calculate shipping charges?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Shipping charges are calculated based on factors such as package dimensions, weight, destination, and selected shipping service. RapidShyp provides real-time shipping rates for different carriers. You can check the prices by connecting with us at connect@rapidshyp.com"
+            }
+        }, {
+            "@type": "Question",
+            "name": "Does RapidShyp offer security cover for lost shipments?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp offers security cover for lost shipments to provide coverage against loss, damage, or theft during transit. For more details connect with us at <a href="mailto:support@rapidshyp.com"><b>support@rapidshyp.com</b></a>"
+            }
+        }, {
+            "@type": "Question",
+            "name": "How does RapidShyp handle shipping to remote or rural areas?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp works with its network of courier partners to reach remote or rural areas. However, delivery times can vary. RapidShyp endeavors to ensure timely and reliable delivery to all locations within its service network."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What is the pricing of the platform?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp is free for all operating e-commerce sellers, regardless of their current growth phase. You just need to pay freight charges when you ship the order. You can also avail of other value-added services by contacting your dedicated shipping advisor or our customer support desk."
+            }
+        }]
+    }
+    </script>
+    <!-- FAqs schema end -->
+</head>
 
 <body>
     <?php include 'header.php';?>

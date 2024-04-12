@@ -80,9 +80,9 @@
                 <div class="col text-center">
                     &copy; Copyright 2024 <strong><span>RapidShyp</span></strong> | <a href="privacy">Privacy
                         Policy</a>
-                    | <a href="tnc">Terms & Conditions</a> | <a href="shipping-return-policy">Refund and
+                     | <a href="tnc">Terms & Conditions</a> <!--| <a href="shipping-return-policy">Refund and
                         Cancellation
-                        Policy</a>
+                        Policy</a> -->
                 </div>
             </div>
         </div>

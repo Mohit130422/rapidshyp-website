@@ -1,5 +1,6 @@
 <?php include 'header-section.php';?>
-
+<title>Privacy Policy - RapidShyp</title>
+</head>
 <body>
     <?php include 'headerv2.php';?>
     <section class="terms-condition">
