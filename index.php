@@ -1,4 +1,5 @@
 <?php include 'header-section.php';?>
+    <link rel="canonical" href="https:/www.rapidshyp.com"/>
     <title>eCommerce Shipping Solution in India -RapidShyp</title>
     <!-- FAqs schema start -->
     <script type="application/ld+json">
@@ -118,8 +119,7 @@
                         <div class="join-us mb-2">
                             <form action="#" id="submit-button">
                                 <input type="text" placeholder="Type Your Email Here" id="useremail" required>
-                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Schedule
-                                        Demo</span><img src="assets/images/icon/send.svg" alt=""></button>
+                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Book a Demo</span><img src="assets/images/icon/send.svg" alt=""></button>
                             </form>
                         </div>
                     </div>
@@ -268,7 +268,7 @@
                                     </div>
                                 </div>
                                 <div class="join-btn mb-4">
-                                    <button class="solid-action-btn openWaitlistModal">Schedule Demo</button>
+                                    <button class="solid-action-btn openWaitlistModal">Book a Demo</button>
                                 </div>
                             </div>
                         </div>
@@ -374,13 +374,13 @@
                             <li><i class="far fa-check-circle"></i>Automate manifest and label generation </li>
                             <li><i class="far fa-check-circle"></i>Apply courier rules for bulk shipping</li>
                         </ul>
-                        <a href="#" class="openWaitlistModal" onclick="return false;">Schedule Demo <i
+                        <a href="#" class="openWaitlistModal" onclick="return false;">Book a Demo <i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                     <div>
-                        <img src="assets/images/label-dash.png" alt="">
+                        <img src="assets/images/label-dash.webp" alt="">
                     </div>
                 </div>
             </div>
@@ -400,7 +400,7 @@
                             <li><i class="far fa-check-circle"></i>Auto-sync order in one place</li>
                             <li><i class="far fa-check-circle"></i>View a compiled buyer data</li>
                         </ul>
-                        <a href="#" class="openWaitlistModal" onclick="return false;">Schedule Demo <i
+                        <a href="#" class="openWaitlistModal" onclick="return false;">Book a Demo <i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -417,7 +417,7 @@
                             <li><i class="far fa-check-circle"></i>View shipping metrics and performance</li>
                             <li><i class="far fa-check-circle"></i>Monitor shipping spends</li>
                         </ul>
-                        <a href="#" class="openWaitlistModal" onclick="return false;">Schedule Demo <i
+                        <a href="#" class="openWaitlistModal" onclick="return false;">Book a Demo <i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -768,8 +768,7 @@
                             <form action="#" class="d-flex" id="explore-form">
                                 <input type="text" name="" id="explore-email" placeholder="Type Your Email Here"
                                     required>
-                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Schedule
-                                        Demo</span> <img src="assets/images/icon/forward_to_inbox.svg" alt=""></button>
+                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Book a Demo</span> <img src="assets/images/icon/forward_to_inbox.svg" alt=""></button>
                             </form>
                         </div>
                     </div>

@@ -1,4 +1,9 @@
 <header class="header">
+    <div class="topHeader">
+        <p id="countdown"></p>
+        <p><strong>Our beta version is now LIVE!</strong> Explore the ultimate shipping solution for effortless business growth</p>
+        <span class="openWaitlistModal">Explore Now <i class="fas fa-chevron-right"></i></span>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img src="assets/images/Logo.svg" alt="Logo"></a>
@@ -17,11 +22,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#features">Features</a>
+                            <a class="nav-link" href="features">Features</a>
                         </li>
                         <li class="nav-item">
                             <p class="nav-link" id="resources">Resources <img src="assets/images/icon/arrow-down.svg" alt=""></p>
-                            <div class="hover-menu">
+                            <div class="hover-menu" id="sub-menu">
                                 <ul>
                                     <li>
                                     <a class="nav-link" href="https://www.rapidshyp.com/blog/">Blog</a>
@@ -40,7 +45,7 @@
                         </li>
                     </ul>
                     <div class="navbar-nav d-flex">
-                        <li class="nav-item btn"><button class="solid-action-btn openWaitlistModal">Schedule Demo <i
+                        <li class="nav-item btn"><button class="solid-action-btn openWaitlistModal">Book a Demo<i
                                     class="fas fa-chevron-right"></i></button></li>
                         </li>
                         <!-- <li class="nav-item"><a class="nav-link border-bottom-0" href="#">Sign In</a></li> -->

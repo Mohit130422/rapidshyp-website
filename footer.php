@@ -90,7 +90,7 @@
     <div class="blur-overlay" id="joinWaitlistModal">
         <div class="dialog-box">
             <div class="head">
-                <h5>Schedule Demo</h5>
+                <h5>Book a Demo</h5>
                 <div class="close">
                     <i class="fas fa-times"></i>
                 </div>
