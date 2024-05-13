@@ -523,6 +523,7 @@ section {
   top: 2%;
 }
 .feature .explore-features {
+  position: relative;
   padding: 0px;
 }
 .feature .explore-features .title {
@@ -587,6 +588,14 @@ section {
 }
 .feature .explore-features .feature-slider ul .owl-carousel li .even .head .icon {
   background-color: #FBBC05;
+}
+@media (max-width: 768px) {
+  .feature .explore-features .title {
+    font-size: 25px;
+  }
+  .feature .explore-features .descrp {
+    font-size: 14px;
+  }
 }
 
 .hero-area {
@@ -1150,6 +1159,45 @@ section {
   color: #fff;
   margin-left: 0;
   padding: 13px 37px;
+}
+@media (max-width: 576px) {
+  .better-feature .sub-heading {
+    padding: 0;
+  }
+}
+
+.partners .info-card {
+  background-image: linear-gradient(to right, #ECECED, #ffffff);
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.partners .info-card .info h4 {
+  font-weight: 700;
+}
+.partners .info-card .img {
+  text-align: center;
+  margin: 16px 0;
+}
+.partners .info-card .img img {
+  width: 70%;
+  margin: auto;
+}
+@media (max-width: 576px) {
+  .partners .info .bold-heading {
+    font-size: 25px !important;
+    margin-bottom: 0 !important;
+  }
+  .partners .info .sub-title {
+    font-size: 14px !important;
+  }
+  .partners .info .txt-cta {
+    font-size: 14px !important;
+  }
+  .partners .info-card {
+    height: -moz-max-content;
+    height: max-content;
+  }
 }
 
 .customer-love .heading {

@@ -104,6 +104,11 @@
                                 <input type="hidden" name="access_key"
                                     value="<?= hash_hmac('sha256', $date, 'cb39d436dc8dad92779a267dd5594144935e56fadb354b8a5b0e50919202ef741d67b0d11d6d83ee143db8d80be4d0f1') ?>">
                                 <input type="hidden" name="key" value="<?php echo $date ?>">
+                                <input type="hidden" id="form-utms-content" name="content" value="">
+                                <input type="hidden" id="form-utms-source" name="source" value="">
+                                <input type="hidden" id="form-utms-medium" name="medium" value="">
+                                <input type="hidden" id="form-utms-term" name="term" value="">
+                                <input type="hidden" id="form-utms-campaign" name="campaign" value="">
 
                                 <div class="row">
                                     <div class="col-sm-12 col-md-6">
