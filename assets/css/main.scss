@@ -429,10 +429,12 @@ header{
         left: 0;
         right: 0;
         // padding: 10px 40px;
-        background-color: transparent;
-        background-color: $light-color;
+        background: #ffffffbf;
         box-shadow: 0 4px 8px #00000010;
         z-index: 10;
+        // border-bottom: 1px solid #dcdcdc5c;
+        backdrop-filter: blur(5px);
+        transition: all .5s ease;
     }
     @media(max-width: 991px){
         padding: 0;

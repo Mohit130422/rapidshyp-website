@@ -1,5 +1,5 @@
 <?php include 'header-section.php';?>
-<title>Features - RapidShyp</title>
+<title>RapidShyp Features - eCommerce Shipping Solution and Courier Aggregator</title>
 
 </head>
 
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <div class="explore-features ">
+        <div class="explore-features">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7 col-md-6 col-sm-12">
@@ -32,7 +32,7 @@
                     <div class="col-lg-5 col-md-6 col-sm-12">
                         <p class="descrp">Leave the heavy lifting to us and focus on core operations. Say goodbye to
                             missing follow-ups with couriers, manual order uploading, lack of communication, and
-                            complicated tracking. Switch to RapidShyp- your hack to growth!</p>
+                            complicated tracking</p>
                         <!-- <a href="#">All Features</a> -->
                     </div>
                 </div>
@@ -52,8 +52,8 @@
                                             </div>
                                             <div class="body">
                                                 <strong>10 + Trusted Courier Partners</strong>
-                                                <p>Choose from an extensive network of couriers, including EcomExpress,
-                                                    Delhivery, Xpressbees DTDC, and more. Get access to the best
+                                                <p>Choose from an extensive network of couriers, including Ecom Express,
+                                                    Delhivery, Xpressbees, DTDC, and more. Get access to the best
                                                     shipping rates and services for your brand</p>
                                             </div>
                                         </div>
@@ -156,7 +156,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 text-start">
                         <div class="info">
                             <h5>SmartSelect</h5>
-                            <p class="mb-5">Leverage the power of AI to find the perfect
+                            <p class="mb-5">Leverage the power of AI to recommend the perfect
                                 partner for every shipment- single or bulk,
                                 optimized for speed, cost, or your custom needs
                             </p>
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3" >
                         <div>
                             <img src="assets/images/feature4.png" alt="">
                         </div>
@@ -187,7 +187,7 @@
                     </div>
                 </div>
                 <div class="row align-items-center col-reverse">
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-5 text-start">
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-5 text-start" >
                         <div class="info">
                             <h5>Shipment Security</h5>
                             <p class="mb-5">Rest easy with shipment security cover for
@@ -204,7 +204,7 @@
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3" >
                         <div>
                             <img src="assets/images/feature6.png" alt="">
                         </div>
@@ -238,7 +238,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="owl-carousel owl-theme" id="feature-carousel">
+                    <div class="owl-carousel owl-theme" id="feature-carousel" >
                         <div class="item">
                             <div class="icon">
                                 <img src="assets/images/icon/clear-visible.svg" alt="">
