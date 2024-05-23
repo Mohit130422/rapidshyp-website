@@ -18,7 +18,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#product">Product</a>
+                            <a class="nav-link" href="/#product">Product</a>
                         </li>
 
                         <li class="nav-item">
@@ -45,7 +45,7 @@
                         </li>
                     </ul>
                     <div class="navbar-nav d-flex">
-                        <li class="nav-item btn"><button class="solid-action-btn openWaitlistModal">Book a Demo<i
+                        <li class="nav-item btn"><button class="solid-action-btn openWaitlistModal">Book a Demo  <i
                                     class="fas fa-chevron-right"></i></button></li>
                         </li>
                         <!-- <li class="nav-item"><a class="nav-link border-bottom-0" href="#">Sign In</a></li> -->

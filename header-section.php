@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta property="og:image" content="https://www.rapidshyp.com/assets/images/couriers.png">
-    <meta property="og:title" content="eCommerce Shipping Solution in India -RapidShyp" />
     <meta property="og:description"
         content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
     <!-- Tracking and Analytics -->
@@ -13,8 +12,7 @@
     <meta name="msvalidate.01" content="0EEEAB0A6F290CF1DFC746D92732C29B" />
     <meta name="facebook-domain-verification" content="g2yq7dt5v0crk4gyidro1pc39uq2h0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="description"
-        name="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience.">
+    <meta name="description" content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience."/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="/assets/images/icon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/assets/favicon.png" sizes="32x32" />
@@ -23,8 +21,6 @@
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
     <link rel="stylesheet" href="node_modules/owl.theme.default.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="node_modules/jquery.min.js"></script>
     <script src="node_modules/owl.carousel.min.js"></script>
     <script src="node_modules/bootstrap.bundle.min.js"></script>
@@ -45,7 +41,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.2.2">
+    <link rel="stylesheet" href="assets/css/main.css?v=0.2.4">
 
     <!-- Start of Tawk.to Script -->
     <script type="text/javascript">

@@ -10,7 +10,6 @@ $(window).on("scroll", function () {
     }
 });
 
-AOS.init();
 document.addEventListener('DOMContentLoaded', function () {
     const toggleButton = document.getElementById('resources');
     const toggleDiv = document.getElementById('sub-menu');

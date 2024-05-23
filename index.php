@@ -1,5 +1,8 @@
 <?php include 'header-section.php';?>
-    <link rel="canonical" href="https:/www.rapidshyp.com"/>
+
+    <link rel="canonical" href="https:/www.rapidshyp.com" />
+    <meta property="og:title" content="eCommerce Shipping Solution in India -RapidShyp" />
+    <meta name="title" content="eCommerce Shipping Solution in India -RapidShyp" />
     <title>eCommerce Shipping Solution in India -RapidShyp</title>
     <!-- FAqs schema start -->
     <script type="application/ld+json">
@@ -11,32 +14,14 @@
             "name": "What is RapidShyp?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "RapidShyp is a shipping aggregator platform that empowers businesses to navigate their shipping needs across diverse carriers and delivery channels. Businesses can seamlessly integrate their shipping operations, access multiple courier services, and streamline sending packages to customers. 
-
-                RapidShyp aims to simplify logistics management
-                for businesses of all sizes,
-                offering features such as order tracking,
-                label generation,
-                and shipment management to optimise the shipping experience.
-                "
+                "text": "RapidShyp is a shipping aggregator platform that empowers businesses to navigate their shipping needs across diverse carriers and delivery channels. Businesses can seamlessly integrate their shipping operations, access multiple courier services, and streamline sending packages to customers. RapidShyp aims to simplify logistics management for businesses of all sizes, offering features such as order tracking, label generation, and shipment management to optimise the shipping experience. "
             }
         }, {
             "@type": "Question",
             "name": "How does RapidShyp work?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "RapidShyp works by providing a platform where businesses can manage their shipping operations efficiently. It integrates with various courier services, allowing businesses to compare rates, generate shipping labels, track shipments, and streamline the shipping process.
-
-                Our AI - enabled carrier recommendation - SmartSelect,
-                uses advanced algorithms and analyzes multiple factors,
-                including shipping cost,
-                delivery SLA,
-                pickup performance,
-                POD facilities,
-                courier serviceability,
-                etc to recommend the best courier
-                for your shipment.
-                "
+                "text": "RapidShyp works by providing a platform where businesses can manage their shipping operations efficiently. It integrates with various courier services, allowing businesses to compare rates, generate shipping labels, track shipments, and streamline the shipping process. Our AI - enabled carrier recommendation - SmartSelect, uses advanced algorithms and analyzes multiple factors, including shipping cost,delivery SLA, pickup performance, POD facilities, courier serviceability, etc to recommend the best courier for your shipment."
             }
         }, {
             "@type": "Question",

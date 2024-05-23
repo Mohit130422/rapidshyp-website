@@ -1,5 +1,7 @@
 <?php include 'header-section.php';?>
-<title>Shipping return policy - RapidShyp</title>
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <title>Shipping Return Policy - RapidShyp</title>
 </head>
 <body>
     <?php include 'headerv2.php';?>

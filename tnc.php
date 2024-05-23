@@ -1,6 +1,10 @@
 
 <?php include 'header-section.php';?>
+<meta property="og:title" content="Merchant Agreement, Terms and Conditions - RapidShyp" />
+<meta property="title" content="Merchant Agreement, Terms and Conditions - RapidShyp" />
 <title>Merchant Agreement, Terms and Conditions - RapidShyp</title>
+
+<link rel="canonical" href="https://www.rapidshyp.com/tnc" />
 </head>
 
 <body>
@@ -14,7 +18,7 @@
             </div>
             <div class="mb-4">
                 <object class="pdf" data="assets/images/terms-of-services.pdf#toolbar=0"
-                    width="800" height="800" controlsList="nodownload" >
+                    width="800" height="800" controlsList="nodownload" type="application/pdf">
                 </object>
             </div>
         </div>

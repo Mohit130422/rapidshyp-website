@@ -1,4 +1,8 @@
 <?php include 'header-section.php';?>
+
+<meta property="og:title" content="RapidShyp Features - eCommerce Shipping Solution and Courier Aggregator" />
+<meta name="title" content="RapidShyp Features - eCommerce Shipping Solution and Courier Aggregator" />
+<link rel="canonical" href="https://www.rapidshyp.com/features" />
 <title>RapidShyp Features - eCommerce Shipping Solution and Courier Aggregator</title>
 
 </head>
