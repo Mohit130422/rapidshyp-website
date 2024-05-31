@@ -99,6 +99,7 @@ $(document).ready(function () {
                     $('.sent-message').text(response.message);
                     $('.sent-message').show();
                     $('.php-email-form').trigger('reset'); // Reset the form on success
+                    gtag_report_conversion(window.location);
                 } else {
                     $('.error-message').text(response.message);
                     $('.error-message').show();
