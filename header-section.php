@@ -42,7 +42,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.2.4">
+    <link rel="stylesheet" href="assets/css/main.css?v=0.2.5">
 
     <!-- Start of Tawk.to Script -->
     <script type="text/javascript">
@@ -59,32 +59,6 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
-
-    <!--Start of UTM params Script-->
-    <script type="text/javascript">
-    // Parse the URL
-    function getParameterByName(name) {
-        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-            results = regex.exec(location.search);
-        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    }
-    // Give the URL parameters variable names
-    var source = getParameterByName('utm_source');
-    var medium = getParameterByName('utm_medium');
-    var campaign = getParameterByName('utm_campaign');
-    var term = getParameterByName('utm_term');
-    var content = getParameterByName('utm_content');
-    // Put the variable names into the hidden fields in the form.
-    // Find the appropriate hidden field via the input ID 
-    console.log(source);
-    document.getElementById("form-utms-content").value = content;
-    document.getElementById("form-utms-source").value = source;
-    document.getElementById("form-utms-medium").value = medium;
-    document.getElementById("form-utms-term").value = term;
-    document.getElementById("form-utms-campaign").value = campaign;
-    </script>
-    <!--End of UTM params Script-->
 
     <!-- organization schema start -->
     <script type="application/ld+json">

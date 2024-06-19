@@ -1,9 +1,9 @@
 <header class="header">
-    <div class="topHeader">
+    <!-- <div class="topHeader">
         <p id="countdown"></p>
         <p><strong>Our beta version is now LIVE!</strong> Explore the ultimate shipping solution for effortless business growth</p>
         <span class="openWaitlistModal">Explore Now <i class="fas fa-chevron-right"></i></span>
-    </div>
+    </div> -->
     <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img src="assets/images/Logo.svg" alt="Logo"></a>
@@ -33,6 +33,9 @@
                                     </li>
                                     <li>
                                         <a class="nav-link mt-0" href="#faqs">FAQs</a>                   
+                                    </li>
+                                    <li>
+                                        <a class="nav-link mt-0" href="shipment-tracking">Shipment Tracking</a>                   
                                     </li>
                                 </ul>
                             </div>

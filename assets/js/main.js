@@ -71,6 +71,39 @@ $(document).ready(function () {
         $("#email").val(exploreEmail);
         return false;
     });
+    // Set the target day and time (Thursday 10:00 AM)
+    var targetDay = 4; // Thursday (0=Sunday, 1=Monday, ..., 6=Saturday)
+    var targetHour = 11; // 11:00 AM
+    var targetMinute = 0;
+    var targetSecond = 0;
+
+    var now = new Date();
+    var target = new Date();
+    target.setDate(now.getDate() + (targetDay + 7 - now.getDay()) % 7); // next target day
+    target.setHours(targetHour, targetMinute, targetSecond, 0);
+
+    function updateCountdown() {
+        var currentTime = new Date();
+        var timeDifference = target - currentTime;
+
+        if (timeDifference <= 0) {
+            // Countdown is over
+            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
+        } else {
+            var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
+            // $('#countdown').html("<img src='assets/images/icon/countdown.gif'> " + days + "d : " + hours + "h : " + minutes + " m : " + seconds + "s");
+        }
+    }
+
+    // Update countdown every second
+    var countdownInterval = setInterval(updateCountdown, 1000);
+
+    // Initial call to display countdown immediately
+    updateCountdown();
     $('.php-email-form').on('submit', function (e) {
         e.preventDefault();
 
@@ -100,6 +133,9 @@ $(document).ready(function () {
                     $('.sent-message').show();
                     $('.php-email-form').trigger('reset'); // Reset the form on success
                     gtag_report_conversion(window.location);
+                    setTimeout(function() {
+                        window.location.reload();
+                    }, 4500); // Refresh the page after 4.5 seconds
                 } else {
                     $('.error-message').text(response.message);
                     $('.error-message').show();
@@ -108,7 +144,7 @@ $(document).ready(function () {
             },
             error: function (xhr, status, error) {
                 // $('.error-message').text("An error occurred: " + xhr.responseText);
-                $('.error-message').show();
+                $('.error-message').text('There was an error sending your message. Please try again later.').show();
                 $('.loading').hide();
             }
         });
@@ -176,37 +212,130 @@ $(document).ready(function () {
         }
     })
 
-    // Set the target day and time (Thursday 10:00 AM)
-    var targetDay = 4; // Thursday (0=Sunday, 1=Monday, ..., 6=Saturday)
-    var targetHour = 11; // 11:00 AM
-    var targetMinute = 0;
-    var targetSecond = 0;
+    const savedLookupType = localStorage.getItem('lookupType');
+    if (savedLookupType) {
+        $('input[name="lookupType"][value="' + savedLookupType + '"]').prop('checked', true);
+        toggleInputs(savedLookupType);
+    }
 
-    var now = new Date();
-    var target = new Date();
-    target.setDate(now.getDate() + (targetDay + 7 - now.getDay()) % 7); // next target day
-    target.setHours(targetHour, targetMinute, targetSecond, 0);
+    $('input[name="lookupType"]').change(function() {
+        const selectedType = $(this).val();
+        localStorage.setItem('lookupType', selectedType);
+        location.reload();
+    });
 
-    function updateCountdown() {
-        var currentTime = new Date();
-        var timeDifference = target - currentTime;
-
-        if (timeDifference <= 0) {
-            // Countdown is over
-            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
+    function toggleInputs(lookupType) {
+        if (lookupType === 'order_id') {
+            $('#orderInput').removeClass('hidden');
+            $('#awbInput').addClass('hidden');
         } else {
-            var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
-            // $('#countdown').html("<img src='assets/images/icon/countdown.gif'> " + days + "d : " + hours + "h : " + minutes + " m : " + seconds + "s");
+            $('#orderInput').addClass('hidden');
+            $('#awbInput').removeClass('hidden');
         }
     }
 
-    // Update countdown every second
-    var countdownInterval = setInterval(updateCountdown, 1000);
+    toggleInputs($('input[name="lookupType"]:checked').val());
 
-    // Initial call to display countdown immediately
-    updateCountdown();
+    $('#mobile_no').on('input', function() {
+        this.value = this.value.replace(/\D/g, '');
+        if (this.value.length > 10) {
+            this.value = this.value.slice(0, 10);
+        }
+    });
+
+
+    $('#lookupForm').submit(function(e) {
+        e.preventDefault();
+        let lookupType = $('input[name="lookupType"]:checked').val();
+        let formData = {};
+        let apiUrl = 'lookup.php';
+
+        if (lookupType === 'order_id') {
+            let mobileNo = $('#mobile_no').val();
+            if (!/^\d{10}$/.test(mobileNo)) {
+                $('#responseMessage').html('Please enter a valid 10-digit mobile number.');
+                return;
+            }
+
+            formData = {
+                order_id: $('#order_id').val(),
+                mobile_no: mobileNo,
+                csrf: $('#csrf').val()
+            };
+        } else {
+            formData = {
+                awb_no: $('#awb_no').val(),
+                csrf: $('#csrf').val()
+            };
+        }
+        $('.ship-loading').show();
+        $.ajax({
+            url: apiUrl,
+            type: 'POST',
+            data: formData,
+            dataType: 'json',
+            success: function(response) {
+                if (response.success) {
+                    let data = response.records;
+                    let shipment_data = response.records[0].shipment_details;
+                    let tableRows = '';
+                    $('#order-date').html(data[0].creation_date.split(' ')[0]);
+                    $('#order-id').html(data[0].seller_order_id);
+                    shipment_data.forEach(function(item) {
+                        item.product_details.forEach(function(product){
+                            let order_status = item.shipment_status.replaceAll('_', ' ');
+                            if(item.shipment_status == "IN_TRANSIT"){
+                                var color = 'intransit';
+                            }else if (item.shipment_status == "OUT_FOR_DELIVERY"){
+                                var color = 'label';
+                            }else if (item.shipment_status == "UNDELIVERED"){
+                                var color = 'cancel';
+                            }
+                            else if (item.shipment_status == "CANCELLED"){
+                                var color = 'cancel';
+                            }else{
+                                var color = 'delivered'
+                            }
+                            $('.tracking-table').css('display','block');
+                        tableRows += `
+                            <tr>
+                                <td class="align-middle" width="35%">${product.product_name} <img src="assets/images/icon/info.svg"
+                                                    alt="" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                    title="SKU:${product.product_sku}"></td>
+                                <td class="align-middle">${item.courier_name}</td>
+                                <td class="align-middle">${item.current_courier_edd.split(' ')[0]}</td>
+                                <td class="align-middle"><span class="${color}">${item.current_tracking_status_desc}</span></td>
+                                 <td class="headcol align-middle"><button class="solid-action-btn" onClick=trackBy('${item.awb}')>Track <i class="fas fa-arrow-up"></i></button></td>
+                            </tr>`;
+                        })
+                    });
+                    $('#trackingTable tbody').html(tableRows);
+                    $('#trackingTable').removeClass('hidden');
+                    $('#responseMessage').html('');              
+
+                   
+                } else {
+                    
+                    $('#responseMessage').html('Shipment Not found....!');
+                    setTimeout(function() {
+                        $('#responseMessage').hide();
+                    }, 3000); //hide error message
+                    $('#trackingTable').addClass('hidden');
+                }
+                $('#lookupForm').trigger('reset');
+                $('.ship-loading').hide();
+            },
+            error: function() {
+                $('#responseMessage').html('An error occurred. Please try again.');
+            }
+        });
+    });
 });
+
+function trackBy(awbNo){
+    if (awbNo) {
+        window.open('https://app.rapidshyp.com/t/' + awbNo,'_blank');
+    } else {
+        $('#responseMessage').html('AWB number is not available.');
+    }
+}
