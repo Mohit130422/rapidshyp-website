@@ -418,7 +418,6 @@ header{
                     }
                     .hover-menu{
                         display: none;
-                        width: 200px;
                         position: absolute;
                         background-color: $light-color;
                         left: 0;
@@ -506,7 +505,7 @@ header{
             }
         }
         .d-flex{
-            flex-direction: column-reverse;
+            // flex-direction: column-reverse;
             align-items: flex-start !important;
             .nav-item{
                 width: 100%;

@@ -5,8 +5,8 @@ $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
 
 <meta property="og:title" content="RapidShyp Tracking - eCommerce Shipping Solution and Courier Aggregator" />
-<meta name="title" content="RapidShyp Tracking - eCommerce Shipping Solution and Courier Aggregator" />
-<link rel="canonical" href="https://www.rapidshyp.com/tracking" />
+<meta name="title" content="Track your Order - RapidShyp" />
+<link rel="canonical" href="https://www.rapidshyp.com/shipment-tracking" />
 <title>RapidShyp Tracking - eCommerce Shipping Solution and Courier Aggregator</title>
 
 </head>

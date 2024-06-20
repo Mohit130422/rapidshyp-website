@@ -34,9 +34,6 @@
                                     <li>
                                         <a class="nav-link mt-0" href="#faqs">FAQs</a>                   
                                     </li>
-                                    <li>
-                                        <a class="nav-link mt-0" href="shipment-tracking">Shipment Tracking</a>                   
-                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -48,10 +45,10 @@
                         </li>
                     </ul>
                     <div class="navbar-nav d-flex">
+                        <li class="nav-item"><a class="nav-link mt-0" href="shipment-tracking">Track Order</a> </li>
                         <li class="nav-item btn"><button class="solid-action-btn openWaitlistModal">Book a Demo  <i
                                     class="fas fa-chevron-right"></i></button></li>
                         </li>
-                        <!-- <li class="nav-item"><a class="nav-link border-bottom-0" href="#">Sign In</a></li> -->
                     </div>
                 </div>
             </div>
