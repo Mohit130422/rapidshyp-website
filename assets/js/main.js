@@ -71,39 +71,6 @@ $(document).ready(function () {
         $("#email").val(exploreEmail);
         return false;
     });
-    // Set the target day and time (Thursday 10:00 AM)
-    var targetDay = 4; // Thursday (0=Sunday, 1=Monday, ..., 6=Saturday)
-    var targetHour = 11; // 11:00 AM
-    var targetMinute = 0;
-    var targetSecond = 0;
-
-    var now = new Date();
-    var target = new Date();
-    target.setDate(now.getDate() + (targetDay + 7 - now.getDay()) % 7); // next target day
-    target.setHours(targetHour, targetMinute, targetSecond, 0);
-
-    function updateCountdown() {
-        var currentTime = new Date();
-        var timeDifference = target - currentTime;
-
-        if (timeDifference <= 0) {
-            // Countdown is over
-            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
-        } else {
-            var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
-            // $('#countdown').html("<img src='assets/images/icon/countdown.gif'> " + days + "d : " + hours + "h : " + minutes + " m : " + seconds + "s");
-        }
-    }
-
-    // Update countdown every second
-    var countdownInterval = setInterval(updateCountdown, 1000);
-
-    // Initial call to display countdown immediately
-    updateCountdown();
     $('.php-email-form').on('submit', function (e) {
         e.preventDefault();
 
@@ -132,18 +99,17 @@ $(document).ready(function () {
                     $('.sent-message').text(response.message);
                     $('.sent-message').show();
                     $('.php-email-form').trigger('reset'); // Reset the form on success
-                    gtag_report_conversion(window.location);
                     setTimeout(function() {
-                        window.location.reload();
-                    }, 4500); // Refresh the page after 4.5 seconds
+                        window.location.reload(); // Reload the page after 4 seconds
+                    }, 4000);
                 } else {
                     $('.error-message').text(response.message);
                     $('.error-message').show();
                 }
                 $('.loading').hide();
+                gtag_report_conversion(window.location);
             },
             error: function (xhr, status, error) {
-                // $('.error-message').text("An error occurred: " + xhr.responseText);
                 $('.error-message').text('There was an error sending your message. Please try again later.').show();
                 $('.loading').hide();
             }
@@ -211,6 +177,43 @@ $(document).ready(function () {
             }
         }
     })
+
+    // Set the target day and time (Thursday 10:00 AM)
+    var targetDay = 4; // Thursday (0=Sunday, 1=Monday, ..., 6=Saturday)
+    var targetHour = 11; // 11:00 AM
+    var targetMinute = 0;
+    var targetSecond = 0;
+
+    var now = new Date();
+    var target = new Date();
+    target.setDate(now.getDate() + (targetDay + 7 - now.getDay()) % 7); // next target day
+    target.setHours(targetHour, targetMinute, targetSecond, 0);
+
+    function updateCountdown() {
+        var currentTime = new Date();
+        var timeDifference = target - currentTime;
+
+        if (timeDifference <= 0) {
+            // Countdown is over
+            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
+        } else {
+            var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
+            // $('#countdown').html("<img src='assets/images/icon/countdown.gif'> " + days + "d : " + hours + "h : " + minutes + " m : " + seconds + "s");
+        }
+    }
+
+    // Update countdown every second
+    var countdownInterval = setInterval(updateCountdown, 1000);
+
+    // Initial call to display countdown immediately
+    updateCountdown();
+
+
+    //shipment tracking js
 
     const savedLookupType = localStorage.getItem('lookupType');
     if (savedLookupType) {
@@ -283,18 +286,15 @@ $(document).ready(function () {
                     $('#order-id').html(data[0].seller_order_id);
                     shipment_data.forEach(function(item) {
                         item.product_details.forEach(function(product){
-                            let order_status = item.shipment_status.replaceAll('_', ' ');
-                            if(item.shipment_status == "IN_TRANSIT"){
-                                var color = 'intransit';
-                            }else if (item.shipment_status == "OUT_FOR_DELIVERY"){
+                            let order_status = item.current_tracking_status_desc.replaceAll('_', ' ');
+                            if(item.current_tracking_status_desc == "Delivered"){
+                                var color = 'delivered';
+                            }else if (item.current_tracking_status_desc == "OUT_FOR_DELIVERY"){
                                 var color = 'label';
-                            }else if (item.shipment_status == "UNDELIVERED"){
-                                var color = 'cancel';
-                            }
-                            else if (item.shipment_status == "CANCELLED"){
+                            }else if (item.current_tracking_status_desc == "Undelivered" || item.current_tracking_status_desc == "CANCELLED"){
                                 var color = 'cancel';
                             }else{
-                                var color = 'delivered'
+                                var color = 'intransit'
                             }
                             $('.tracking-table').css('display','block');
                         tableRows += `
@@ -331,7 +331,6 @@ $(document).ready(function () {
         });
     });
 });
-
 function trackBy(awbNo){
     if (awbNo) {
         window.open('https://app.rapidshyp.com/t/' + awbNo,'_blank');

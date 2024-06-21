@@ -209,6 +209,14 @@ i {
     transform: translateX(-50%);
   }
 }
+@keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
 mark {
   background-image: linear-gradient(to right, #FDE8E7, #FFEAAB);
   padding: 0 0.4em 0.3em;
