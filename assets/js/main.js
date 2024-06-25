@@ -81,9 +81,6 @@ $(document).ready(function () {
         });
 
         var json = JSON.stringify(data);
-        console.log(json);
-
-
         $('.loading').show();
         $('.error-message').hide();
         $('.sent-message').hide();
@@ -177,41 +174,28 @@ $(document).ready(function () {
             }
         }
     })
-
-    // Set the target day and time (Thursday 10:00 AM)
-    var targetDay = 4; // Thursday (0=Sunday, 1=Monday, ..., 6=Saturday)
-    var targetHour = 11; // 11:00 AM
-    var targetMinute = 0;
-    var targetSecond = 0;
-
-    var now = new Date();
-    var target = new Date();
-    target.setDate(now.getDate() + (targetDay + 7 - now.getDay()) % 7); // next target day
-    target.setHours(targetHour, targetMinute, targetSecond, 0);
-
-    function updateCountdown() {
-        var currentTime = new Date();
-        var timeDifference = target - currentTime;
-
-        if (timeDifference <= 0) {
-            // Countdown is over
-            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
-        } else {
-            var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-            $('#countdown').html("<img src='assets/images/icon/congrats.gif'> ");
-            // $('#countdown').html("<img src='assets/images/icon/countdown.gif'> " + days + "d : " + hours + "h : " + minutes + " m : " + seconds + "s");
+    $('#publishers').owlCarousel({
+        loop: false,
+        margin: 20,
+        loop: true,
+        dots: false,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 4000,
+        autoplaySpeed: 4000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 4
+            },
+            1000: {
+                items: 5
+            }
         }
-    }
-
-    // Update countdown every second
-    var countdownInterval = setInterval(updateCountdown, 1000);
-
-    // Initial call to display countdown immediately
-    updateCountdown();
-
+    })
 
     //shipment tracking js
 
@@ -287,7 +271,7 @@ $(document).ready(function () {
                     shipment_data.forEach(function(item) {
                         item.product_details.forEach(function(product){
                             let order_status = item.current_tracking_status_desc.replaceAll('_', ' ');
-                            if(item.current_tracking_status_desc == "Delivered"){
+                            if(item.current_tracking_status_desc == "Delivered" || item.current_tracking_status_desc == "RTO Delivered"){
                                 var color = 'delivered';
                             }else if (item.current_tracking_status_desc == "OUT_FOR_DELIVERY"){
                                 var color = 'label';
