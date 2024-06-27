@@ -98,7 +98,7 @@ $(document).ready(function () {
                     $('.php-email-form').trigger('reset'); // Reset the form on success
                     setTimeout(function() {
                         window.location.reload(); // Reload the page after 4 seconds
-                    }, 4000);
+                    }, 8000);
                 } else {
                     $('.error-message').text(response.message);
                     $('.error-message').show();

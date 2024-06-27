@@ -62,9 +62,15 @@ function storeUtmParams() {
     });
     setCookie('latest_utm', JSON.stringify(latestUtm), 30); // Store for 30 days
 
+     // Store referrer and last visited page URL
+     setCookie('referrer', document.referrer, 30); // Store for 30 days
+     setCookie('last_visited_page', window.location.href, 30); // Store for 30 days
+
     // Log the UTM data for debugging
     console.log('First UTM:', existingFirstUtm ? JSON.parse(existingFirstUtm) : firstUtm);
     console.log('Latest UTM:', latestUtm);
+    console.log('Referrer:', document.referrer);
+    console.log('Last Visited Page:', window.location.href);
 }
 
 // Store UTM params when the page loads
