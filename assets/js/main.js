@@ -283,12 +283,12 @@ $(document).ready(function () {
                             $('.tracking-table').css('display','block');
                         tableRows += `
                             <tr>
-                                <td class="align-middle" width="35%">${product.product_name} <img src="assets/images/icon/info.svg"
+                                <td class="align-middle" width="30%">${product.product_name} <img src="assets/images/icon/info.svg"
                                                     alt="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                     title="SKU:${product.product_sku}"></td>
                                 <td class="align-middle">${item.courier_name}</td>
                                 <td class="align-middle">${item.current_courier_edd.split(' ')[0]}</td>
-                                <td class="align-middle"><span class="${color}">${item.current_tracking_status_desc}</span></td>
+                                <td class="align-middle" width="20%"><span class="${color}">${item.current_tracking_status_desc}</span></td>
                                  <td class="headcol align-middle"><button class="solid-action-btn" onClick=trackBy('${item.awb}')>Track <i class="fas fa-arrow-up"></i></button></td>
                             </tr>`;
                         })

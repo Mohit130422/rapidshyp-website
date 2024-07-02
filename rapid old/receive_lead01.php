@@ -70,13 +70,10 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
         $utm_medium="";
         $utm_campaign="";
         $utm_content="";
-        $first_utm_source="";
-        $first_utm_medium="";
-        $first_utm_campaign="";
-        $first_utm_content="";
-        $referrer="";
-        $latestreferrer="";
-        $lastvisitedpage="";
+         $first_utm_source="";
+         $first_utm_medium="";
+         $first_utm_campaign="";
+         $first_utm_content="";
         
         if(isset($_COOKIE['latest_utm']))
         {
@@ -85,27 +82,19 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
             $utm_medium=(isset($utm['utm_medium'])?$utm['utm_medium']:"");
             $utm_campaign=(isset($utm['utm_campaign'])?$utm['utm_campaign']:"");
             $utm_content=(isset($utm['utm_content'])?$utm['utm_content']:"");
-            $referrer=(isset($utm['referrer'])?$utm['referrer']:"");
-
             
             
         }
         if(isset($_COOKIE['first_utm']))
         {
-            $futm=json_decode($_COOKIE['first_utm'],true);
-            $first_utm_source=(isset($futm['utm_source'])?$futm['utm_source']:"");
-            $first_utm_medium=(isset($futm['utm_medium'])?$futm['utm_medium']:"");
+              $futm=json_decode($_COOKIE['first_utm'],true);
+              $first_utm_source=(isset($futm['utm_source'])?$futm['utm_source']:"");
+                $first_utm_medium=(isset($futm['utm_medium'])?$futm['utm_medium']:"");
             $first_utm_campaign=(isset($futm['utm_campaign'])?$futm['utm_campaign']:"");
-            $first_utm_content=(isset($futm['utm_content'])?$futm['utm_content']:"");
-            $latestreferrer=(isset($futm['latest_referrer'])?$futm['latest_referrer']:"");
-
+          $first_utm_content=(isset($futm['utm_content'])?$futm['utm_content']:"");
             
             
-        }
-
-
-        if(isset($_COOKIE['last_visited_page']))
-            $lastvisitedpage=(isset($_COOKIE['last_visited_page'])?$_COOKIE['last_visited_page']:"");
+          }
 
         // The data you want to send via POST
         $data = [
@@ -122,9 +111,6 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
                  'firstutmmedium' => $first_utm_medium,
                  'firstutmcampaign' => $first_utm_campaign,
                  'firstutmcontent' => $first_utm_content,
-                 'referrer' => $referrer,
-                 'initialreferrer' => $latestreferrer,
-                 'lastvisitedpage' => $lastvisitedpage,
                 'Company Name' => (isset($payload['company'])?$payload['company']:"")
             ],
             'actions' => [
