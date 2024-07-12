@@ -17,6 +17,7 @@
                     <div class="col-12">
                         <div class="contents newsroom">
                             <h2 class="head-title"> Press & Media <br> Coverage</h2>
+                            <p class="sub-tile">Explore Our Journey: Engaging Stories, Significant Milestones, and Latest Updates</p>
                         </div>
                     </div>
                 </div>
@@ -38,16 +39,16 @@
                     <h4 class="heading">Featured in Top Publications</h4>
                     <div class="owl-carousel owl-theme publishers" id="publishers">
                         <div class="item">
-                            <img src="assets/images/publication/hindustan_times.png" alt="">
+                            <img src="assets/images/publication/Publication_Logos_01.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="assets/images/publication/new_York_times.png" alt="">
+                            <img src="assets/images/publication/Publication_Logos_02.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="assets/images/publication/inc42.png" alt="">
+                            <img src="assets/images/publication/Publication_Logos_03.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="assets/images/publication/new_York_times.png" alt="">
+                            <img src="assets/images/publication/Publication_Logos_04.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -59,113 +60,76 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col">
-                    <p class="sub-heading">Press Releases</p>
-                    <h3 class="heading">Making The Headlines</h3>
+                    <p class="sub-heading">RapidShyp News: Don’t Miss a Thing</p>
+                    <h3 class="heading">Crafting Powerful Headlines</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post1.png" alt="">
+                            <img src="assets/images/publication/banner_CXO_Today.png" alt="">
                         </div>
                         <div class="body">
                             <div>
-                                <span class="time">15th May 2024</span>
+                                <span class="time">27th June 2024</span>
                             </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
+                            <p class="content">World MSMEs Day: Celebrating Key Drivers of eCommerce</p>
                         </div>
                         <div class="footer">
-                            <a href="#">Know More</a>
+                            <a href="https://cxotoday.com/specials/world-msme-day-fueling-the-future/" target="_blank">Know More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post1.png" alt="">
+                            <img src="assets/images/publication/banner_Fnancial_Express.png" alt="">
                         </div>
                         <div class="body">
                             <div>
-                                <span class="time">15th May 2024</span>
+                                <span class="time">17th June 2024</span>
                             </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
+                            <p class="content">Budget 2024: Logistics Industry Hopes for Consistent Growth, Infra Boost, Tax Reforms</p>
                         </div>
                         <div class="footer">
-                            <a href="#">Know More</a>
+                            <a href="https://www.financialexpress.com/budget/budget-2024-expectations-logistics-industry-hope-for-consistency-in-growth-policy-continued-infra-push-tax-reforms-financial-incentives-3527356/" target="_blank">Know More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post1.png" alt="">
+                            <img src="assets/images/publication/banner_Logistics_Insider.png" alt="">
                         </div>
                         <div class="body">
                             <div>
-                                <span class="time">15th May 2024</span>
+                                <span class="time">21st May 2024</span>
                             </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
+                            <p class="content">Om Logistics Expands into D2C Shipping with RapidShyp</p>
                         </div>
                         <div class="footer">
-                            <a href="#">Know More</a>
+                            <a href="https://www.logisticsinsider.in/om-logistics-expands-into-d2c-shipping-with-rapidshyp/" target="_blank">Know More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post1.png" alt="">
+                            <img src="assets/images/publication/banner_Yourstory.png" alt="">
                         </div>
                         <div class="body">
                             <div>
-                                <span class="time">15th May 2024</span>
+                                <span class="time">20th May 2024</span>
                             </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
+                            <p class="content">Leveraging decades-long expertise, Om Logistics Launches RapidShyp</p>
                         </div>
                         <div class="footer">
-                            <a href="#">Know More</a>
+                            <a href="https://yourstory.com/2024/05/startup-news-and-updates-daily-roundup-may-20-2024" target="_blank">Know More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="assets/images/post1.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div>
-                                <span class="time">15th May 2024</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Know More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="assets/images/post1.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div>
-                                <span class="time">15th May 2024</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Know More</a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>

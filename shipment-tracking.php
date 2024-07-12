@@ -94,7 +94,7 @@ include 'header-section.php';?>
                                             <th scope="col">Courier</th>
                                             <th scope="col">EDD</th>
                                             <th scope="col" width="20%">Status</th>
-                                            <th class="headcol" scope="col">Action</th>
+                                            <th class="br-2 headcol" scope="col">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>

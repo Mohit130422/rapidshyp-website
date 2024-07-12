@@ -521,7 +521,7 @@ section {
 }
 
 .hero-area-bg {
-  background-image: url(../images/background.svg);
+  background-image: url(../images/background.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -574,6 +574,11 @@ section {
 .newsroom-bg .hero-area .container .newsroom .head-title {
   font-size: 92px !important;
   color: #fff;
+}
+.newsroom-bg .hero-area .container .newsroom .sub-tile {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .hero-area {
@@ -1158,6 +1163,9 @@ section {
     font-size: 32px !important;
     margin-bottom: 0;
   }
+  .newsroom-bg .hero-area .container .newsroom .sub-tile {
+    font-size: 12px;
+  }
 }
 @media (max-width: 991px) {
   #hero-area {
@@ -1657,12 +1665,12 @@ section {
 .news .card .head {
   height: 200px;
   overflow: hidden;
-  border-radius: 10px;
 }
 .news .card .head img {
+  border-radius: 10px;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   -o-object-position: center;
      object-position: center;
 }
@@ -1671,9 +1679,24 @@ section {
   font-size: 14px;
   font-weight: 700;
 }
+.news .card .body .content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
 .news .card .footer a {
   color: #9B0E8E;
   font-weight: 500;
+}
+@media (max-width: 768px) {
+  .news .card .head {
+    height: 200px;
+  }
+  .news .card .head img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 
 .faq {
@@ -2071,9 +2094,8 @@ section {
 }
 .publication .publishers .item {
   border-radius: 8px;
-  padding: 1rem;
   text-align: center;
-  height: 60px;
+  height: 80px;
   overflow: hidden;
   border: 2px solid #eee;
 }
@@ -2082,6 +2104,8 @@ section {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .terms-condition h1 {

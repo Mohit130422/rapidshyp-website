@@ -96,7 +96,7 @@ $(document).ready(function () {
                     $('.sent-message').text(response.message);
                     $('.sent-message').show();
                     $('.php-email-form').trigger('reset'); // Reset the form on success
-                    setTimeout(function() {
+                    setTimeout(function () {
                         window.location.reload(); // Reload the page after 4 seconds
                     }, 8000);
                 } else {
@@ -198,17 +198,12 @@ $(document).ready(function () {
     })
 
     //shipment tracking js
-
-    const savedLookupType = localStorage.getItem('lookupType');
-    if (savedLookupType) {
-        $('input[name="lookupType"][value="' + savedLookupType + '"]').prop('checked', true);
-        toggleInputs(savedLookupType);
-    }
-
-    $('input[name="lookupType"]').change(function() {
+    $('input[name="lookupType"]').change(function () {
         const selectedType = $(this).val();
         localStorage.setItem('lookupType', selectedType);
-        location.reload();
+        toggleInputs(selectedType);
+        $('.tracking-table').addClass('hidden');
+        // location.reload();
     });
 
     function toggleInputs(lookupType) {
@@ -221,9 +216,12 @@ $(document).ready(function () {
         }
     }
 
-    toggleInputs($('input[name="lookupType"]:checked').val());
+    $(document).ready(function () {
+        const initialType = $('input[name="lookupType"]:checked').val();
+        toggleInputs(initialType);
+    });
 
-    $('#mobile_no').on('input', function() {
+    $('#mobile_no').on('input', function () {
         this.value = this.value.replace(/\D/g, '');
         if (this.value.length > 10) {
             this.value = this.value.slice(0, 10);
@@ -231,7 +229,7 @@ $(document).ready(function () {
     });
 
 
-    $('#lookupForm').submit(function(e) {
+    $('#lookupForm').submit(function (e) {
         e.preventDefault();
         let lookupType = $('input[name="lookupType"]:checked').val();
         let formData = {};
@@ -261,63 +259,86 @@ $(document).ready(function () {
             type: 'POST',
             data: formData,
             dataType: 'json',
-            success: function(response) {
+            success: function (response) {
                 if (response.success) {
                     let data = response.records;
                     let shipment_data = response.records[0].shipment_details;
                     let tableRows = '';
                     $('#order-date').html(data[0].creation_date.split(' ')[0]);
                     $('#order-id').html(data[0].seller_order_id);
-                    shipment_data.forEach(function(item) {
-                        item.product_details.forEach(function(product){
-                            let order_status = item.current_tracking_status_desc.replaceAll('_', ' ');
-                            if(item.current_tracking_status_desc == "Delivered" || item.current_tracking_status_desc == "RTO Delivered"){
-                                var color = 'delivered';
-                            }else if (item.current_tracking_status_desc == "OUT_FOR_DELIVERY"){
-                                var color = 'label';
-                            }else if (item.current_tracking_status_desc == "Undelivered" || item.current_tracking_status_desc == "CANCELLED"){
-                                var color = 'cancel';
-                            }else{
-                                var color = 'intransit'
-                            }
-                            $('.tracking-table').css('display','block');
-                        tableRows += `
+                    shipment_data.forEach(function (item) {
+                        let product_details = item.product_details;
+                        let order_status = item.current_tracking_status_desc.replaceAll('_', ' ');
+                        let color;
+                        if (order_status == "Delivered" || order_status == "RTO Delivered") {
+                            color = 'delivered';
+                        } else if (order_status == "OUT_FOR_DELIVERY" || order_status == "RTO Out for Delivery") {
+                            color = 'label';
+                        } else if (order_status == "Undelivered" || order_status == "CANCELLED") {
+                            color = 'cancel';
+                        } else {
+                            color = 'intransit';
+                        }
+                        $('.tracking-table').removeClass('hidden');
+                        let additionalInfo;
+                        let eddColumn = `<td class="align-middle">-----</td>`; // EDD column content
+                        if (item.current_tracking_status_desc !== "Undelivered" && item.current_tracking_status_desc !== "RTO In Transit" && item.current_tracking_status_desc !== "RTO Out for Delivery" && item.current_tracking_status_desc !== "RTO Delivered") {
+                            eddColumn = `<td class="align-middle">${item.current_courier_edd.split(' ')[0]}</td>`;
+                        }
+                        if (product_details.length > 1) {
+                            // Get the additional product names for the tooltip
+                            let additionalProducts = product_details.slice(1).map(product => product.product_name).join(', ');
+                            additionalInfo = ` (+${product_details.length - 1} more products)`;
+                            tableRows += `
                             <tr>
-                                <td class="align-middle" width="30%">${product.product_name} <img src="assets/images/icon/info.svg"
+                                <td class="align-middle" width="30%">${product_details[0].product_name} <img class="d-none" src="assets/images/icon/info.svg"
                                                     alt="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                    title="SKU:${product.product_sku}"></td>
+                                                    title="More Products: ${additionalProducts}"> <p>${additionalInfo}</p></td>
                                 <td class="align-middle">${item.courier_name}</td>
-                                <td class="align-middle">${item.current_courier_edd.split(' ')[0]}</td>
-                                <td class="align-middle" width="20%"><span class="${color}">${item.current_tracking_status_desc}</span></td>
-                                 <td class="headcol align-middle"><button class="solid-action-btn" onClick=trackBy('${item.awb}')>Track <i class="fas fa-arrow-up"></i></button></td>
+                                 ${eddColumn}
+                                <td class="align-middle" width="20%"><span class="${color}">${order_status}</span></td>
+                                <td class="headcol align-middle"><button class="solid-action-btn" onClick=trackBy('${item.awb}')>Track <i class="fas fa-arrow-up"></i></button></td>
                             </tr>`;
-                        })
+                        } else {
+                            additionalInfo = `SKU: ${product_details[0].product_sku}`;
+                            tableRows += `
+                            <tr>
+                                <td class="align-middle" width="30%">${product_details[0].product_name} <img src="assets/images/icon/info.svg"
+                                                    alt="" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                    title="${additionalInfo}"></td>
+                                <td class="align-middle">${item.courier_name}</td>
+                                 ${eddColumn}
+                                <td class="align-middle" width="20%"><span class="${color}">${order_status}</span></td>
+                                <td class="headcol align-middle"><button class="solid-action-btn" onClick=trackBy('${item.awb}')>Track <i class="fas fa-arrow-up"></i></button></td>
+                            </tr>`;
+                        }
                     });
                     $('#trackingTable tbody').html(tableRows);
                     $('#trackingTable').removeClass('hidden');
-                    $('#responseMessage').html('');              
-
-                   
+                    $('#responseMessage').html('');
                 } else {
-                    
+
                     $('#responseMessage').html('Shipment Not found....!');
-                    setTimeout(function() {
+                    setTimeout(function () {
                         $('#responseMessage').hide();
                     }, 3000); //hide error message
                     $('#trackingTable').addClass('hidden');
                 }
-                $('#lookupForm').trigger('reset');
+                $('#order_id').val("");
+                $('#mobile_no').val("");
+                $('#awb_no').val("");
                 $('.ship-loading').hide();
             },
-            error: function() {
+            error: function () {
                 $('#responseMessage').html('An error occurred. Please try again.');
             }
         });
+
     });
 });
-function trackBy(awbNo){
+function trackBy(awbNo) {
     if (awbNo) {
-        window.open('https://app.rapidshyp.com/t/' + awbNo,'_blank');
+        window.open('https://app.rapidshyp.com/t/' + awbNo, '_blank');
     } else {
         $('#responseMessage').html('AWB number is not available.');
     }
