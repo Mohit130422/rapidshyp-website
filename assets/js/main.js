@@ -264,15 +264,24 @@ $(document).ready(function () {
                     let data = response.records;
                     let shipment_data = response.records[0].shipment_details;
                     let tableRows = '';
+                    let tableHead = `
+                        <tr>
+                            <th class="br-1" scope="col" width="30%">Product Name</th>
+                            <th scope="col">Courier</th>
+                            <th scope="col" class="edd-column">EDD</th>
+                            <th scope="col" width="20%">Status</th>
+                            <th class="br-2 headcol" scope="col">Action</th>
+                        </tr>`;
                     $('#order-date').html(data[0].creation_date.split(' ')[0]);
                     $('#order-id').html(data[0].seller_order_id);
                     shipment_data.forEach(function (item) {
                         let product_details = item.product_details;
-                        let order_status = item.current_tracking_status_desc.replaceAll('_', ' ');
+                        let order_status = item.current_tracking_status_desc;
+                        // let order_status = item.current_tracking_status_desc.replaceAll('_', ' ');
                         let color;
                         if (order_status == "Delivered" || order_status == "RTO Delivered") {
                             color = 'delivered';
-                        } else if (order_status == "OUT_FOR_DELIVERY" || order_status == "RTO Out for Delivery") {
+                        } else if (order_status == "Out for Delivery" || order_status == "RTO Out for Delivery") {
                             color = 'label';
                         } else if (order_status == "Undelivered" || order_status == "CANCELLED") {
                             color = 'cancel';
@@ -281,9 +290,9 @@ $(document).ready(function () {
                         }
                         $('.tracking-table').removeClass('hidden');
                         let additionalInfo;
-                        let eddColumn = `<td class="align-middle">-----</td>`; // EDD column content
-                        if (item.current_tracking_status_desc !== "Undelivered" && item.current_tracking_status_desc !== "RTO In Transit" && item.current_tracking_status_desc !== "RTO Out for Delivery" && item.current_tracking_status_desc !== "RTO Delivered") {
-                            eddColumn = `<td class="align-middle">${item.current_courier_edd.split(' ')[0]}</td>`;
+                        // let eddColumn = ''; // EDD column content
+                        if (order_status !== "Undelivered" || order_status !== "RTO In Transit" || order_status !== "RTO Out for Delivery" || order_status !== "RTO Delivered") {
+                            eddColumn = `<td class="align-middle edd-column">${item.current_courier_edd.split(' ')[0]}</td>`;
                         }
                         if (product_details.length > 1) {
                             // Get the additional product names for the tooltip
@@ -313,9 +322,15 @@ $(document).ready(function () {
                             </tr>`;
                         }
                     });
+                    $('#trackingTable thead').html(tableHead);
                     $('#trackingTable tbody').html(tableRows);
                     $('#trackingTable').removeClass('hidden');
                     $('#responseMessage').html('');
+
+                     // Hide the EDD column if necessary
+                     if (shipment_data.some(item => item.current_tracking_status_desc === "Undelivered" || item.current_tracking_status_desc === "RTO In Transit" || item.current_tracking_status_desc === "RTO Out for Delivery" || item.current_tracking_status_desc === "RTO Delivered")) {
+                        $('.edd-column').hide();
+                    }
                 } else {
 
                     $('#responseMessage').html('Shipment Not found....!');

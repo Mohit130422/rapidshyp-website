@@ -89,13 +89,7 @@ include 'header-section.php';?>
                             <div class="table-responsive">
                                 <table class="table" id="trackingTable">
                                     <thead>
-                                        <tr>
-                                            <th class="br-1" scope="col"  width="30%">Product Name</th>
-                                            <th scope="col">Courier</th>
-                                            <th scope="col">EDD</th>
-                                            <th scope="col" width="20%">Status</th>
-                                            <th class="br-2 headcol" scope="col">Action</th>
-                                        </tr>
+                                        
                                     </thead>
                                     <tbody>
 
