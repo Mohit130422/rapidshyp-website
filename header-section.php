@@ -18,7 +18,7 @@
     <link rel="shortcut icon" href="/assets/images/icon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/assets/favicon.png" sizes="32x32" />
     <link rel="icon" href="/assets/favicon-192.png" sizes="192x192" />
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <script src="https://kit.fontawesome.com/566b8c8b50.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
     <link rel="stylesheet" href="node_modules/owl.theme.default.min.css">
