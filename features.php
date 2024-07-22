@@ -86,7 +86,7 @@
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <strong>29,000+ serviceable PIN codes</strong>
+                                                <strong>26,000+ serviceable PIN codes</strong>
                                                 <p>A broader serviceable area means broader profits. <br>Reach more
                                                     destinations with our wide-ranging coverage and deliver efficiently
                                                     and effectively</p>
@@ -336,6 +336,7 @@
 
 
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/utm.js"></script>
 </body>
 
 </html>
