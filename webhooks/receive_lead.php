@@ -1,3 +1,4 @@
+
 <?php
 
 header("Access-Control-Allow-Origin: https://staging.rapidshyp.in");
@@ -70,12 +71,14 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
         $utm_medium="";
         $utm_campaign="";
         $utm_content="";
+        $utm_term="";
         $first_utm_source="";
         $first_utm_medium="";
         $first_utm_campaign="";
         $first_utm_content="";
+        $first_utm_term="";
         $referrer="";
-        $latestreferrer="";
+        $initial_referrer="";
         $lastvisitedpage="";
         
         if(isset($_COOKIE['latest_utm']))
@@ -85,8 +88,7 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
             $utm_medium=(isset($utm['utm_medium'])?$utm['utm_medium']:"");
             $utm_campaign=(isset($utm['utm_campaign'])?$utm['utm_campaign']:"");
             $utm_content=(isset($utm['utm_content'])?$utm['utm_content']:"");
-            $referrer=(isset($utm['referrer'])?$utm['referrer']:"");
-
+            $utm_term=(isset($utm['utm_term'])?$utm['utm_term']:"");
             
             
         }
@@ -97,12 +99,16 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
             $first_utm_medium=(isset($futm['utm_medium'])?$futm['utm_medium']:"");
             $first_utm_campaign=(isset($futm['utm_campaign'])?$futm['utm_campaign']:"");
             $first_utm_content=(isset($futm['utm_content'])?$futm['utm_content']:"");
-            $latestreferrer=(isset($futm['latest_referrer'])?$futm['latest_referrer']:"");
-
+            $first_utm_term=(isset($futm['utm_term'])?$futm['utm_term']:"");
             
             
         }
 
+        if(isset($_COOKIE['referrer']))
+            $referrer=(isset($_COOKIE['referrer'])?$_COOKIE['referrer']:"");
+        
+        if(isset($_COOKIE['initial_referrer']))
+            $initial_referrer=(isset($_COOKIE['initial_referrer'])?$_COOKIE['initial_referrer']:"");
 
         if(isset($_COOKIE['last_visited_page']))
             $lastvisitedpage=(isset($_COOKIE['last_visited_page'])?$_COOKIE['last_visited_page']:"");
@@ -116,16 +122,19 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
                 'Lead Source' => 'Website',
                 'utmsource' => $utm_source,
                 'utmmedium' => $utm_medium,
-                'utmcampaign' => $utm_campaign,
-                'utmcontent' => $utm_content,
+                'utmcampaign' => $utm_campaign, 
+                'utmcontent' => $utm_content, 
+                'utmterm' => $utm_term, 
                 'firstutmsource' => $first_utm_source,
                  'firstutmmedium' => $first_utm_medium,
                  'firstutmcampaign' => $first_utm_campaign,
                  'firstutmcontent' => $first_utm_content,
-                 'referrer' => $referrer,
-                 'initialreferrer' => $latestreferrer,
+                 'firstutmterm' => $first_utm_term,
+                 'initialreferrer' => $referrer,
+                 'referrer' => $initial_referrer,
                  'lastvisitedpage' => $lastvisitedpage,
-                'Company Name' => (isset($payload['company'])?$payload['company']:"")
+                'Company Name' => (isset($payload['company'])?$payload['company']:""),
+                'Shipment Volume Form' => (isset($payload['count'])?$payload['count']:"")
             ],
             'actions' => [
                 [

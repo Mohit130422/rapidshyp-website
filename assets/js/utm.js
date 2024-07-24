@@ -8,17 +8,17 @@ function getUrlParams() {
     while (m = regex.exec(queryString)) {
         params[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
     }
-    console.log('Extracted URL parameters:', params); // Debugging log
 
     return params;
 }
+
 
 // Function to set a cookie
 function setCookie(name, value, days) {
     const d = new Date();
     d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
     const expires = "expires=" + d.toUTCString();
-    document.cookie = name + "=" + value + ";" + expires + ";path=/" + ";domain=.rapidshyp.com";
+    document.cookie = `${name}=${value};${expires};path=/;domain=.rapidshyp.com`;
 }
 
 // Function to get a cookie
@@ -31,16 +31,6 @@ function getCookie(name) {
         if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
     }
     return null;
-}
-
-// Function to append UTM parameters to a URL
-function appendUTMParameters(url, params) {
-    const newUrl = new URL(url, window.location.origin);
-    for (let [key, value] of Object.entries(params)) {
-        newUrl.searchParams.set(key, value);
-    }
-    console.log('Appending UTM parameters:', newUrl.toString()); // Debugging log
-    return newUrl.toString();
 }
 
 // Function to store UTM parameters in cookies
@@ -73,41 +63,30 @@ function storeUtmParams() {
     });
     setCookie('latest_utm', JSON.stringify(latestUtm), 30); // Store for 30 days
 
-    // Retrieve existing referrer data from cookies
-    let existingReferrer = getCookie('initial_referrer');
-    let existingInitialReferrer = getCookie('referrer');
-
-    // If referrer doesn't exist, set it with current referrer
-    if (!existingReferrer) {
-        setCookie('initial_referrer', document.referrer, 365); // Store for 1 year
-        setCookie('referrer', document.referrer, 365); // Store for 1 year
-    } else {
-        // If referrer exists and initial_referrer doesn't exist or is different, update initial_referrer
-        if (!existingInitialReferrer || existingInitialReferrer !== document.referrer) {
-            setCookie('referrer', document.referrer, 365); // Store for 1 year
-        }
-    }
-
-    // Store last visited page URL
-    setCookie('last_visited_page', window.location.href, 30); // Store for 30 days
-
-     // Append UTM parameters to all internal links
-    if (Object.keys(params).length > 0) {
-        const links = document.querySelectorAll('a[href]');
-        links.forEach(link => {
-            const href = link.getAttribute('href');
-            if (href.startsWith('/') || href.startsWith(window.location.origin)) {
-                link.setAttribute('href', appendUTMParameters(href, params));
-            }
-        });
-    }
-
-    // Log the UTM data for debugging
-    console.log('First UTM:', existingFirstUtm ? JSON.parse(existingFirstUtm) : firstUtm);
-    console.log('Latest UTM:', latestUtm);
-    console.log('Referrer:', existingReferrer || document.referrer);
-    console.log('Initial Referrer:', document.referrer);
-    console.log('Last Visited Page:', window.location.href);
+     // Retrieve existing referrer data from cookies
+     let existingInitialReferrer = getCookie('initial_referrer');
+     let existingReferrer= getCookie('referrer');
+ 
+     // If referrer doesn't exist, set it with current referrer
+     if (!existingInitialReferrer) {
+         setCookie('initial_referrer', document.referrer, 365); // Store for 1 year
+         setCookie('referrer', document.referrer, 365); // Store for 1 year
+     } else {
+         // If initial_referrer exists and referrer doesn't exist or is different, update initial_referrer
+         if (!existingReferrer || existingReferrer !== document.referrer) {
+             setCookie('referrer', document.referrer, 365); // Store for 1 year
+         }
+     }
+ 
+     // Store last visited page URL
+     setCookie('last_visited_page', window.location.href, 30); // Store for 30 days
+ 
+     // Log the UTM data for debugging
+     console.log('First UTM:', existingFirstUtm ? JSON.parse(existingFirstUtm) : firstUtm);
+     console.log('Latest UTM:', latestUtm);
+     console.log('Referrer:', existingReferrer || document.referrer);
+     console.log('Initial Referrer:', document.referrer);
+     console.log('Last Visited Page:', window.location.href);
 }
 
 // Store UTM params when the page loads

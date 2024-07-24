@@ -1,5 +1,4 @@
 <?php include 'header-section.php';?>
-
 <meta property="og:title" content="Privacy Policy - RapidShyp" />
 <meta name="title" content="Privacy Policy - RapidShyp" />
 <link rel="canonical" href="https://www.rapidshyp.com/privacy" />
