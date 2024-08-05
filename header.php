@@ -6,7 +6,7 @@
     </div> -->
     <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img src="assets/images/Logo.svg" alt="Logo"></a>
+                <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
                 <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -25,11 +25,14 @@
                             <a class="nav-link" href="features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <p class="nav-link" id="resources">Resources <img src="assets/images/icon/arrow-down.svg" alt=""></p>
+                            <p class="nav-link" id="resources">Resources <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
                             <div class="hover-menu" id="sub-menu">
                                 <ul>
                                     <li>
-                                    <a class="nav-link" href="https://www.rapidshyp.com/blog/">Blog</a>
+                                        <a class="nav-link" href="https://www.rapidshyp.com/blog/">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="shipping-rate-calculator">Shipping Rate Calculator</a>
                                     </li>
                                     <li>
                                         <a class="nav-link mt-0" href="#faqs">FAQs</a>                   
@@ -46,7 +49,7 @@
                     </ul>
                     <div class="navbar-nav d-flex">
                         <li class="nav-item"><a class="nav-link mt-0" href="shipment-tracking">Track Order</a> </li>
-                        <li class="nav-item btn"><button class="solid-action-btn openWaitlistModal">Book a Demo  <i
+                        <li class="nav-item btn"><button class="solid-action-btn openWaitlistModal">Get Started  <i
                                     class="fas fa-chevron-right"></i></button></li>
                         </li>
                     </div>

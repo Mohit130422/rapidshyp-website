@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="brand mb-4">
-                        <a href="/"><img src="assets/images/Logo.svg" alt=""></a>
+                        <a href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt=""></a>
                     </div>
                     <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
                         shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and
@@ -17,7 +17,7 @@
                         <a href="https://www.facebook.com/rapidshyp" target="_blank"><i
                                 class="fab fa-facebook"></i></a>
                         <a href="https://twitter.com/rapidshyp" target="_blank"><img
-                                src="assets/images/icon/x-twitter.svg" alt=""></a>
+                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-6">
@@ -51,6 +51,7 @@
                                 <!-- <a href="https://app.rapidshyp.com" class="link" rel="nofollow">Sign In</a> -->
                                 <!-- <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> -->
                                 <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
+                                <a href="newsroom" class="link">Newsroom</a>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-8 col-lg-8 m-margin-20">
@@ -71,7 +72,7 @@
                 </div>
             </div>
         </div>
-        <img src="assets/images/footer-img.png" alt="">
+        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/footer-img.png" alt="">
     </footer>
 
     <div class="adlinks">
@@ -90,7 +91,7 @@
     <div class="blur-overlay" id="joinWaitlistModal">
         <div class="dialog-box">
             <div class="head">
-                <h5>Book a Demo</h5>
+                <h5>Get Started</h5>
                 <div class="close">
                     <i class="fas fa-times"></i>
                 </div>

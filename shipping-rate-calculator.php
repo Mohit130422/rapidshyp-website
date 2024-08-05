@@ -4,10 +4,10 @@ $rand=mt_rand(11111111,99999999);;
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
 
-<meta property="og:title" content="RapidShyp Rate Calculator - eCommerce Shipping Solution and Courier Aggregator" />
-<meta name="title" content="Calculate Your Rate - RapidShyp" />
-<link rel="canonical" href="https://www.rapidshyp.com/rate-calculator" />
-<title>RapidShyp Rate Calculator - eCommerce Shipping Solution and Courier Aggregator</title>
+<meta property="og:title" content="Shipping Rates Calculator - Calculate Courier Charges - RapidShyp" />
+<meta name="title" content="Shipping Rates Calculator - Calculate Courier Charges - RapidShyp" />
+<link rel="canonical" href="https://www.rapidshyp.com/shipping-rate-calculator" />
+<title>Shipping Rates Calculator - Calculate Courier Charges - RapidShyp</title>
 
 </head>
 
@@ -18,20 +18,23 @@ include 'header-section.php';?>
         <div id="hero-area" class="hero-area rateCal">
             <div class="floating-elements">
                 <ul class="background">
-                    <li><img src="assets/images/icon/local_shipping.svg" alt=""></li>
-                    <li><img src="assets/images/icon/yellow-circle.png" alt=""></li>
-                    <li><img src="assets/images/icon/box.svg" alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/local_shipping.svg"
+                            alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/yellow-circle.png"
+                            alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/box.svg" alt="">
+                    </li>
                 </ul>
             </div>
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 text-center">
                         <div class="contents tracking">
-                            <h2 class="head-title feature-title"><mark>Click and Calculate</mark><br> Shipping Rates
+                            <h2 class="head-title feature-title"><mark>Calculate</mark> Shipping <br>Rates Instantly
                             </h2>
                             <p class="description">Get real insights into shipping costs within a few seconds </p>
                         </div>
-                        <a href="#rateCal" class="btn solid-action-btn">Calculate Now</a>
+                        <a href="javascript:void(0);" class="btn solid-action-btn scrollDown">Calculate Now</a>
                     </div>
                 </div>
             </div>
@@ -40,21 +43,25 @@ include 'header-section.php';?>
 
     <section class="rateCalculator" id="rateCal">
         <div class="container">
-            <h3 class="heading">Rate Calculator</h3>
+            <h3 class="heading">Shipping Rate Calculator</h3>
             <div class="row">
                 <div class="col-12 mb-5">
-                    <form class="shipment-form">
+                    <form class="shipment-form" id="calForm">
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="form-group">
                                     <label for="pickup-pincode">Pick-up Area Pincode</label>
-                                    <input type="text" id="pickup-pincode" placeholder="Enter 6 Digit Pincode">
+                                    <input type="text" id="pickup-pincode" name="pickup-pincode"
+                                        placeholder="Enter 6 Digit Pincode" maxlength="6" required>
+                                    <small>Error Message</small>
                                 </div>
                             </div>
                             <div class="col-md-5 col-sm-12">
                                 <div class="form-group">
                                     <label for="delivery-pincode">Delivery Area Pincode</label>
-                                    <input type="text" id="delivery-pincode" placeholder="Enter 6 Digit Pincode">
+                                    <input type="text" id="delivery-pincode" name="delivery-pincode"
+                                        placeholder="Enter 6 Digit Pincode" maxlength="6" required>
+                                    <small>Error Message</small>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +70,8 @@ include 'header-section.php';?>
                                 <div class="form-group">
                                     <label for="weight">Actual Weight</label>
                                     <div class="input-group">
-                                        <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                            id="weight" placeholder="0.75">
+                                        <input type="text" class="form-control" aria-describedby="basic-addon2"
+                                            id="weight" name="weight" placeholder="0.5" required>
                                         <span class="input-group-text" id="basic-addon2">KG</span>
                                     </div>
                                 </div>
@@ -75,17 +82,17 @@ include 'header-section.php';?>
                                     <div class="d-flex">
                                         <div class="input-group margin-r">
                                             <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                                id="dimension-l" placeholder="50">
+                                                id="dimension-l" name="dimension-l" placeholder="50" required>
                                             <span class="input-group-text" id="basic-addon2">CM</span>
                                         </div>
                                         <div class="input-group margin-r">
                                             <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                                id="dimension-w" placeholder="50">
+                                                id="dimension-w" name="dimension-w" placeholder="50" required>
                                             <span class="input-group-text" id="basic-addon2">CM</span>
                                         </div>
                                         <div class="input-group">
                                             <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                                id="dimension-h" placeholder="50">
+                                                id="dimension-h" name="dimension-h" placeholder="50" required>
                                             <span class="input-group-text" id="basic-addon2">CM</span>
                                         </div>
                                     </div>
@@ -95,10 +102,10 @@ include 'header-section.php';?>
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="form-group">
-                                    <label for="weight">Shipment Value</label>
+                                    <label for="shipValue">Shipment Value</label>
                                     <div class="input-group">
                                         <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                            id="weight" placeholder="1500">
+                                            id="shipValue" name="shipValue" placeholder="1500">
                                         <span class="input-group-text" id="basic-addon2">₹</span>
                                     </div>
                                 </div>
@@ -110,7 +117,7 @@ include 'header-section.php';?>
                                         <label for="prepaid" class="radio pricing">
                                             <div class="selection d-flex align-items-center">
                                                 <input type="radio" class="radio-input" id="prepaid" name="payment-type"
-                                                    value="prepaid">
+                                                    value="prepaid" required checked>
                                                 <div class="radio-outline"></div>
                                                 Prepaid
                                             </div>
@@ -118,7 +125,7 @@ include 'header-section.php';?>
                                         <label for="cod" class="radio pricing">
                                             <div class="selection d-flex align-items-center">
                                                 <input type="radio" class="radio-input" id="cod" name="payment-type"
-                                                    value="prepaid">
+                                                    value="cod" required>
                                                 <div class="radio-outline"></div>
                                                 Cash On Delivery
                                             </div>
@@ -127,15 +134,18 @@ include 'header-section.php';?>
                                 </div>
                             </div>
                         </div>
-                        <button type="button" class="solid-action-btn calculate-btn">Calculate Now</button>
+                        <!-- <input type="submit" class="solid-action-btn calculate-btn">Calculate Now</input> -->
+                        <input type="submit" class="solid-action-btn calculate-btn" value="Calculate Now">
                         <button type="reset" class="reset-btn">Reset</button>
                         <div class="illustration">
-                            <img src="assets/images/calculator.png" alt="Illustration">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/calculator.png"
+                                alt="Illustration">
                         </div>
                     </form>
                 </div>
+                <div class="rateLoader">Loading</div>
                 <div class="col-12 mb-5">
-                    <div class="rateTable">
+                    <div class="rateTable" id="rateResult">
                         <div class="head">
                             <div class="btn-group" role="group" aria-label="Radio toggle buttons">
                                 <input type="radio" class="btn-check" name="options" id="all" autocomplete="off"
@@ -148,10 +158,7 @@ include 'header-section.php';?>
                                 <input type="radio" class="btn-check" name="options" id="surface" autocomplete="off">
                                 <label class="btn btn-outline-primary" for="surface">Surface</label>
                             </div>
-                            <button class="getRates">Get Full Rates</button>
-
                         </div>
-
                         <div class="table-responsive mt-4">
                             <table class="table">
                                 <thead>
@@ -159,69 +166,24 @@ include 'header-section.php';?>
                                         <th>Courier Partner</th>
                                         <th>Mode</th>
                                         <th>Chargeable Weight</th>
-                                        <th>Rate</th>
-                                        <th>EDD</th>
+                                        <th>
+                                            Shipping Rates
+                                            <button type="button" data-bs-toggle="tooltip" data-bs-html="true"
+                                                title="Pricing is subjective to change as per the applicable plan."><i
+                                                    class="fas fa-info-circle"></i></button>
+                                        </th>
+                                        <th>EDD <button type="button" data-bs-toggle="tooltip" data-bs-html="true"
+                                                title="Estimated Delivery Date"><i
+                                                    class="fas fa-info-circle"></i></button></th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>DTDC Surface</td>
-                                        <td><img src="assets/images/icon/local_shipping.svg" alt=""></td>
-                                        <td>0.5</td>
-                                        <td>₹28.32</td>
-                                        <td>2 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Delhivery Air</td>
-                                        <td><img src="assets/images/icon/flightsmode.png" alt=""></td>
-                                        <td>0.5</td>
-                                        <td>₹36.45</td>
-                                        <td>2 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Shadowfax Surface</td>
-                                        <td><img src="assets/images/icon/local_shipping.svg" alt=""></td>
-                                        <td>0.5</td>
-                                        <td>₹37.05</td>
-                                        <td>2 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ekart Surface</td>
-                                        <td><img src="assets/images/icon/local_shipping.svg" alt=""></td>
-                                        <td>0.5</td>
-                                        <td>₹53.10</td>
-                                        <td>3 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>DTDC Surface</td>
-                                        <td><img src="assets/images/icon/local_shipping.svg" alt=""></td>
-                                        <td>0.5</td>
-                                        <td>₹28.32</td>
-                                        <td>2 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Delhivery Air</td>
-                                        <td><img src="assets/images/icon/flightsmode.png" alt=""></td>
-                                        <td>0.5</td>
-                                        <td>₹36.45</td>
-                                        <td>2 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Shadowfax Surface</td>
-                                        <td><img src="assets/images/icon/local_shipping.svg" alt=""></td>
-                                        <td>0.5</td>
-                                        <td>₹37.05</td>
-                                        <td>2 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ekart Surface</td>
-                                        <td><img src="assets/images/icon/local_shipping.svg" alt=""></td>
-                                        <td>0.5</td>
-                                        <td>₹53.10</td>
-                                        <td>3 Days</td>
-                                    </tr>
+                                <tbody id="rateTableBody">
+                                    <!-- Data will be populated here -->
                                 </tbody>
                             </table>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center pt-4">
+                            <button class="solid-action-btn getRates openWaitlistModal">Get Full Rates</button>
                         </div>
                     </div>
                 </div>
@@ -244,7 +206,8 @@ include 'header-section.php';?>
                         shipping rate calculator to determine accurate costs and keep your margins intact!</p>
                 </div>
                 <div class="col-12">
-                    <img src="assets/images/calvariable.png" alt="rate Variable">
+                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/calvariable.png"
+                        alt="rate Variable">
                 </div>
             </div>
         </div>
@@ -259,25 +222,33 @@ include 'header-section.php';?>
                         best couriers</p>
                 </div>
                 <div class="partners">
-                    <img class="img-desk" src="assets/images/ship-option/ship-opt.png" alt="">
+                    <img class="img-desk"
+                        src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt.png"
+                        alt="">
                     <ul class="floating-partner">
                         <li class="shipping-option">
-                            <img src="assets/images/ship-option/ship-opt1.png" alt="Delhivery">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt1.png"
+                                alt="Delhivery">
                         </li>
                         <li class="shipping-option">
-                            <img src="assets/images/ship-option/ship-opt2.png" alt="Ecom Express">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt2.png"
+                                alt="Ecom Express">
                         </li>
                         <li class="shipping-option">
-                            <img src="assets/images/ship-option/ship-opt3.png" alt="XpressBees">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt3.png"
+                                alt="XpressBees">
                         </li>
                         <li class="shipping-option">
-                            <img src="assets/images/ship-option/ship-opt4.png" alt="STC">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt4.png"
+                                alt="STC">
                         </li>
                         <li class="shipping-option">
-                            <img src="assets/images/ship-option/ship-opt5.png" alt="XpressBees">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt5.png"
+                                alt="XpressBees">
                         </li>
                         <li class="shipping-option">
-                            <img src="assets/images/ship-option/ship-opt6.png" alt="STC">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt6.png"
+                                alt="STC">
                         </li>
                     </ul>
                 </div>
@@ -297,7 +268,8 @@ include 'header-section.php';?>
                             <div class="steps">
                                 <span class="label">Step 01</span>
                                 <div class="img">
-                                    <img src="assets/images/ship-option/local_shipping.svg" alt="">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/local_shipping.svg"
+                                        alt="">
                                 </div>
                                 <p>Pick-up Area Pincode</p>
                                 <small>Ex: 110030</small>
@@ -307,7 +279,8 @@ include 'header-section.php';?>
                             <div class="steps">
                                 <span class="label">Step 02</span>
                                 <div class="img yellow">
-                                    <img src="assets/images/ship-option/scale.svg" alt="">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/scale.svg"
+                                        alt="">
                                 </div>
                                 <p>Weight (Kg)</p>
                                 <small>Ex: 50.00 KG</small>
@@ -317,7 +290,8 @@ include 'header-section.php';?>
                             <div class="steps">
                                 <span class="label">Step 03</span>
                                 <div class="img">
-                                    <img src="assets/images/ship-option/box.svg" alt="">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/box.svg"
+                                        alt="">
                                 </div>
                                 <p>Dimensions (Cm)</p>
                                 <small>Ex: 20 X 30 X 20 CM</small>
@@ -344,7 +318,8 @@ include 'header-section.php';?>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="assets/images/ship-option/rateCal_model.png" alt="">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/rateCal_model.png"
+                            alt="">
                     </div>
                 </div>
             </div>
@@ -370,7 +345,8 @@ include 'header-section.php';?>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">A shipping rate calculator is a free tool that helps you estimate the cost of shipping a package based on some variables.</div>
+                                <div class="accordion-body">A shipping rate calculator is a free tool that helps you
+                                    estimate the cost of shipping a package based on some variables.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -383,7 +359,8 @@ include 'header-section.php';?>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">You will need the package's weight, dimensions, payment mode, origin pincode, and destination pincode.</div>
+                                <div class="accordion-body">You will need the package's weight, dimensions, payment
+                                    mode, origin pincode, and destination pincode.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -409,7 +386,9 @@ include 'header-section.php';?>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Estimates are based on current carrier rates and are generally accurate, but actual costs may vary slightly as per your chosen shipping plan.</div>
+                                <div class="accordion-body">Estimates are based on current carrier rates and are
+                                    generally accurate, but actual costs may vary slightly as per your chosen shipping
+                                    plan.</div>
                             </div>
                         </div>
                     </div>

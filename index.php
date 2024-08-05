@@ -85,17 +85,17 @@
         <div id="hero-area" class="hero-area">
             <div class="floating-elements">
                 <ul class="background">
-                    <li>Expedited Shipping<img src="assets/images/icon/truck.svg" alt=""></li>
-                    <li><img src="assets/images/icon/pink-circle.png" alt=""></li>
-                    <li><img src="assets/images/icon/package.svg" alt=""></li>
-                    <li><img src="assets/images/icon/yellow-circle.png" alt=""></li>
-                    <li>Quick Support <img src="assets/images/icon/support.svg" alt=""></li>
+                    <li>Expedited Shipping<img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/truck.svg" alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/pink-circle.png" alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/package.svg" alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/yellow-circle.png" alt=""></li>
+                    <li>Quick Support <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/support.svg" alt=""></li>
                 </ul>
             </div>
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 text-center">
-                        <!-- <span class="announce"><img src="assets/images/icon/flash.svg" alt="">Streamline Your Online Shipping Process Like A Pro</span> -->
+                        <!-- <span class="announce"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/flash.svg" alt="">Streamline Your Online Shipping Process Like A Pro</span> -->
                         <div class="contents">
                             <h2 class="head-title">Start Delivering <br>Your Parcels Like A Pro</h2>
                             <p class="description">Transform eCommerce shipping with a tech-enabled solution <br>to
@@ -104,7 +104,7 @@
                         <div class="join-us mb-2">
                             <form action="#" id="submit-button">
                                 <input type="text" placeholder="Type Your Email Here" id="useremail" required>
-                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Book a Demo</span><img src="assets/images/icon/send.svg" alt=""></button>
+                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Get Started</span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/send.svg" alt=""></button>
                             </form>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                                     <div class="owl-carousel owl-theme" id="product-carousel">
                                         <div class="item">
                                             <div class="img">
-                                                <img src="assets/images/Order-management.png" alt="">
+                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Order-management.png" alt="">
                                             </div>
                                             <h5 class="head">Order Management System</h5>
                                             <p class="body">Manage your orders across multiple marketplaces and sales
@@ -195,7 +195,7 @@
                                         </div>
                                         <div class="item">
                                             <div class="img">
-                                                <img src="assets/images/Courier-recommended.png" alt="">
+                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Courier-recommended.png" alt="">
                                             </div>
                                             <h5 class="head">Courier Recommendation Engine</h5>
                                             <p class="body">Elevate your shipping game with cutting-edge AI-backed
@@ -207,7 +207,7 @@
                                         </div>
                                         <div class="item">
                                             <div class="img">
-                                                <img src="assets/images/Xperience-Suite.png" alt="">
+                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Xperience-Suite.png" alt="">
                                             </div>
                                             <h5 class="head">Xperience Suite</h5>
                                             <p class="body">Customize your tracking page with promotional banners, logo;
@@ -220,7 +220,7 @@
                                         </div>
                                         <div class="item">
                                             <div class="img">
-                                                <img src="assets/images/NDR-Management.png" alt="">
+                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/NDR-Management.png" alt="">
                                             </div>
                                             <h5 class="head">NDR Management</h5>
                                             <p class="body">Tackle non-delivery concerns head-on with our comprehensive
@@ -235,25 +235,25 @@
                                 <div class="col-lg-8 col-xl-8">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active" data-bs-interval="4000">
-                                            <img src="assets/images/Order-management.png"
+                                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Order-management.png"
                                                 class="dashboard-image d-block m-auto" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="4000">
-                                            <img src="assets/images/Courier-recommended.png"
+                                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Courier-recommended.png"
                                                 class="dashboard-image d-block m-auto" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="4000">
-                                            <img src="assets/images/Xperience-Suite.png"
+                                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Xperience-Suite.png"
                                                 class="dashboard-image d-block m-auto" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="4000">
-                                            <img src="assets/images/NDR-Management.png"
+                                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/NDR-Management.png"
                                                 class="dashboard-image d-block m-auto" alt="...">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="join-btn mb-4">
-                                    <button class="solid-action-btn openWaitlistModal">Book a Demo</button>
+                                    <button class="solid-action-btn openWaitlistModal">Get Started</button>
                                 </div>
                             </div>
                         </div>
@@ -275,7 +275,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="assets/images/icon/icon01.svg" alt="">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon01.svg" alt="">
                                 </span>
                                 <p class="title">Dedicated Shipping Advisors</p>
                                 <small>Streamline your shipping strategies and swiftly resolve any shipping-related
@@ -285,7 +285,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk yellow">
-                                    <img src="assets/images/icon/icon02.svg" alt="">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon02.svg" alt="">
                                 </span>
                                 <p class="title">RapidCOD</p>
                                 <small>Maintain a regular cash flow with a 2-day COD remittance and scale your
@@ -295,7 +295,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="assets/images/icon/icon03.svg" alt="">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon03.svg" alt="">
                                 </span>
                                 <p class="title">Multi-Carrier Integration</p>
                                 <small>Access diverse carriers, ensure maximum efficiency with an AI-backed
@@ -305,7 +305,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk yellow">
-                                    <img src="assets/images/icon/icon04.svg" alt="">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon04.svg" alt="">
                                 </span>
                                 <p class="title">Reduced RTO</p>
                                 <small>Say goodbye to costly RTOs. Save significantly with reduced RTO losses by up to
@@ -315,7 +315,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="assets/images/icon/icon05.svg" alt="">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon05.svg" alt="">
                                 </span>
                                 <p class="title">Shipment Security Cover</p>
                                 <small>Get ensured shipment coverage against loss and damages during transit</small>
@@ -324,7 +324,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk yellow">
-                                    <img src="assets/images/icon/icon06.svg" alt="">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon06.svg" alt="">
                                 </span>
                                 <p class="title">Economical Prices</p>
                                 <small>Delight your customers with top-notch services and easy costs on your
@@ -359,20 +359,20 @@
                             <li><i class="far fa-check-circle"></i>Automate manifest and label generation </li>
                             <li><i class="far fa-check-circle"></i>Apply courier rules for bulk shipping</li>
                         </ul>
-                        <a href="#" class="openWaitlistModal" onclick="return false;">Book a Demo <i
+                        <a href="#" class="openWaitlistModal" onclick="return false;">Get Started <i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                     <div>
-                        <img src="assets/images/label-dash.webp" alt="">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/label-dash.webp" alt="">
                     </div>
                 </div>
             </div>
             <div class="row mt-2 align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                     <div>
-                        <img src="assets/images/couriers.png" alt="">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/couriers.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 pl-5 text-start">
@@ -385,7 +385,7 @@
                             <li><i class="far fa-check-circle"></i>Auto-sync order in one place</li>
                             <li><i class="far fa-check-circle"></i>View a compiled buyer data</li>
                         </ul>
-                        <a href="#" class="openWaitlistModal" onclick="return false;">Book a Demo <i
+                        <a href="#" class="openWaitlistModal" onclick="return false;">Get Started <i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -402,13 +402,13 @@
                             <li><i class="far fa-check-circle"></i>View shipping metrics and performance</li>
                             <li><i class="far fa-check-circle"></i>Monitor shipping spends</li>
                         </ul>
-                        <a href="#" class="openWaitlistModal" onclick="return false;">Book a Demo <i
+                        <a href="#" class="openWaitlistModal" onclick="return false;">Get Started <i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                     <div>
-                        <img src="assets/images/shipping.png" alt="">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shipping.png" alt="">
                     </div>
                 </div>
             </div>
@@ -429,7 +429,7 @@
                 <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post1.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post1.png" alt="">
                         </div>
                         <div class="body">
                             <div class="d-flex justify-content-between align-items-center">
@@ -447,7 +447,7 @@
                 <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post2.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post2.png" alt="">
                         </div>
                         <div class="body">
                             <div class="d-flex justify-content-between align-items-center">
@@ -465,7 +465,7 @@
                 <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post3.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post3.png" alt="">
                         </div>
                         <div class="body">
                             <div class="d-flex justify-content-between align-items-center">
@@ -483,7 +483,7 @@
                 <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post4.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post4.png" alt="">
                         </div>
                         <div class="body">
                             <div class="d-flex justify-content-between align-items-center">
@@ -501,7 +501,7 @@
                 <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post1.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post1.png" alt="">
                         </div>
                         <div class="body">
                             <div class="d-flex justify-content-between align-items-center">
@@ -519,7 +519,7 @@
                 <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post2.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post2.png" alt="">
                         </div>
                         <div class="body">
                             <div class="d-flex justify-content-between align-items-center">
@@ -537,7 +537,7 @@
                 <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post3.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post3.png" alt="">
                         </div>
                         <div class="body">
                             <div class="d-flex justify-content-between align-items-center">
@@ -555,7 +555,7 @@
                 <div class="col-lg-3 col-md-4 col-6 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post4.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post4.png" alt="">
                         </div>
                         <div class="body">
                             <div class="d-flex justify-content-between align-items-center">
@@ -753,15 +753,15 @@
                             <form action="#" class="d-flex" id="explore-form">
                                 <input type="text" name="" id="explore-email" placeholder="Type Your Email Here"
                                     required>
-                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Book a Demo</span> <img src="assets/images/icon/forward_to_inbox.svg" alt=""></button>
+                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Get Started</span> <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/forward_to_inbox.svg" alt=""></button>
                             </form>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="assets/images/explore.png" alt="">
-                        <span class="note-img"><img src="assets/images/icon/notepad.png" alt=""></span>
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/explore.png" alt="">
+                        <span class="note-img"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/notepad.png" alt=""></span>
                     </div>
                 </div>
             </div>

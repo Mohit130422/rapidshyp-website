@@ -33,6 +33,13 @@ function getCookie(name) {
     return null;
 }
 
+// Function to check if a referrer is external
+function isExternalReferrer(referrer) {
+    const domain = '.rapidshyp.com';
+    const referrerHost = new URL(referrer).hostname;
+    return !referrerHost.endsWith(domain);
+}
+
 // Function to store UTM parameters in cookies
 function storeUtmParams() {
     const params = getUrlParams();
@@ -55,31 +62,42 @@ function storeUtmParams() {
         setCookie('first_utm', JSON.stringify(firstUtm), 30); // Store for 30 days
     }
 
-    // Always set/update latest_utm with current params
-    utmParams.forEach(param => {
-        if (params[param]) {
-            latestUtm[param] = params[param];
-        }
-    });
-    setCookie('latest_utm', JSON.stringify(latestUtm), 30); // Store for 30 days
+     // Update latest_utm only if there are new UTM parameters
+     let latestUtmUpdated = false;
+     utmParams.forEach(param => {
+         if (params[param]) {
+             latestUtm[param] = params[param];
+             latestUtmUpdated = true;
+         }
+     });
+ 
+     if (latestUtmUpdated || !existingLatestUtm) {
+         setCookie('latest_utm', JSON.stringify(latestUtm), 30); // Store for 30 days
+         sessionStorage.setItem('latest_utm', JSON.stringify(latestUtm)); // Store in session storage
+     } else if (existingLatestUtm) {
+         latestUtm = JSON.parse(existingLatestUtm);
+     }
 
      // Retrieve existing referrer data from cookies
-     let existingInitialReferrer = getCookie('initial_referrer');
-     let existingReferrer= getCookie('referrer');
- 
-     // If referrer doesn't exist, set it with current referrer
-     if (!existingInitialReferrer) {
-         setCookie('initial_referrer', document.referrer, 365); // Store for 1 year
-         setCookie('referrer', document.referrer, 365); // Store for 1 year
-     } else {
-         // If initial_referrer exists and referrer doesn't exist or is different, update initial_referrer
-         if (!existingReferrer || existingReferrer !== document.referrer) {
-             setCookie('referrer', document.referrer, 365); // Store for 1 year
-         }
-     }
+    let existingInitialReferrer = getCookie('initial_referrer');
+    let existingReferrer = getCookie('referrer');
+
+    // Check if the referrer is external and update cookies accordingly
+    if (isExternalReferrer(document.referrer)) {
+        // If initial_referrer doesn't exist, set it with current referrerk
+        if (!existingInitialReferrer) {
+            setCookie('initial_referrer', document.referrer, 30);
+            setCookie('referrer', document.referrer, 30);
+        } else {
+            // If referrer exists and is different, update referrer
+            if (!existingReferrer || existingReferrer !== document.referrer) {
+                setCookie('referrer', document.referrer, 30);
+            }
+        }
+    }
  
      // Store last visited page URL
-     setCookie('last_visited_page', window.location.href, 30); // Store for 30 days
+     setCookie('last_visited_page', window.location.href, 1);
  
      // Log the UTM data for debugging
      console.log('First UTM:', existingFirstUtm ? JSON.parse(existingFirstUtm) : firstUtm);

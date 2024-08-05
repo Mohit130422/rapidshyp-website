@@ -17,7 +17,7 @@
                 <p class="mb-3"><strong>Last Updated:</strong>15th March 2024</p>
             </div>
             <div class="mb-4">
-                <object class="pdf" data="assets/images/terms-of-services.pdf#toolbar=0"
+                <object class="pdf" data="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/terms-of-services.pdf#toolbar=0"
                     width="800" height="800" controlsList="nodownload" type="application/pdf">
                 </object>
             </div>

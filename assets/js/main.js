@@ -64,6 +64,11 @@ $(document).ready(function () {
         $("#email").val(email);
         return false;
     });
+    $(".scrollDown").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#rateCal").offset().top
+        }, 100);
+    });
     $("#explore-form").submit(function (e) {
         var exploreEmail = $("#explore-email").val();
         // console.log(email);
@@ -98,7 +103,7 @@ $(document).ready(function () {
                     $('.php-email-form').trigger('reset'); // Reset the form on success
                     setTimeout(function () {
                         window.location.reload(); // Reload the page after 4 seconds
-                    }, 8000);
+                    }, 5000);
                 } else {
                     $('.error-message').text(response.message);
                     $('.error-message').show();
@@ -300,7 +305,7 @@ $(document).ready(function () {
                             additionalInfo = ` (+${product_details.length - 1} more products)`;
                             tableRows += `
                             <tr>
-                                <td class="align-middle" width="30%">${product_details[0].product_name} <img class="d-none" src="assets/images/icon/info.svg"
+                                <td class="align-middle" width="30%">${product_details[0].product_name} <img class="d-none" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/info.svg"
                                                     alt="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                     title="More Products: ${additionalProducts}"> <p>${additionalInfo}</p></td>
                                 <td class="align-middle">${item.courier_name}</td>
@@ -312,7 +317,7 @@ $(document).ready(function () {
                             additionalInfo = `SKU: ${product_details[0].product_sku}`;
                             tableRows += `
                             <tr>
-                                <td class="align-middle" width="30%">${product_details[0].product_name} <img src="assets/images/icon/info.svg"
+                                <td class="align-middle" width="30%">${product_details[0].product_name} <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/info.svg"
                                                     alt="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                     title="${additionalInfo}"></td>
                                 <td class="align-middle">${item.courier_name}</td>
@@ -327,8 +332,8 @@ $(document).ready(function () {
                     $('#trackingTable').removeClass('hidden');
                     $('#responseMessage').html('');
 
-                     // Hide the EDD column if necessary
-                     if (shipment_data.some(item => item.current_tracking_status_desc === "Undelivered" || item.current_tracking_status_desc === "RTO In Transit" || item.current_tracking_status_desc === "RTO Out for Delivery" || item.current_tracking_status_desc === "RTO Delivered")) {
+                    // Hide the EDD column if necessary
+                    if (shipment_data.some(item => item.current_tracking_status_desc === "Undelivered" || item.current_tracking_status_desc === "RTO In Transit" || item.current_tracking_status_desc === "RTO Out for Delivery" || item.current_tracking_status_desc === "RTO Delivered")) {
                         $('.edd-column').hide();
                     }
                 } else {
@@ -358,3 +363,107 @@ function trackBy(awbNo) {
         $('#responseMessage').html('AWB number is not available.');
     }
 }
+
+$('input[name="options"]').change(function() {
+    var filter = $(this).attr('id');
+    $('.rate-row').each(function() {
+        var mode = $(this).data('mode');
+        if (filter === 'all' || filter === mode) {
+            $(this).show();
+        } else {
+            $(this).hide();
+        }
+    });
+});
+
+const calForm = document.getElementById('calForm');
+const pickupPin = document.getElementById('pickup-pincode');
+const deliverPin = document.getElementById('delivery-pincode');
+
+// Check input length
+function checkLength(input, min, max) {
+    if (input.value.length < min) {
+        showError(input, `${getFieldName(input)} must be at least ${min} characters`);
+        return false;
+    } else if (input.value.length > max) {
+        showError(input, `${getFieldName(input)} must be less than ${max} characters`);
+        return false;
+    } else {
+        showSuccess(input);
+        return true;
+    }
+}
+
+// Show input error messages
+function showError(input, message) {
+    const formControl = input.parentElement;
+    formControl.className = 'form-group error';
+    const small = formControl.querySelector('small');
+    small.innerText = message;
+}
+
+// Show success color
+function showSuccess(input) {
+    const formControl = input.parentElement;
+    formControl.className = 'form-group success';
+}
+
+// Get field name
+function getFieldName(input) {
+    return input.id.charAt(0).toUpperCase() + input.id.slice(1);
+}
+
+// Add keyup event listeners to check length on input
+pickupPin.addEventListener('keyup', () => checkLength(pickupPin, 6, 6));
+deliverPin.addEventListener('keyup', () => checkLength(deliverPin, 6, 6));
+
+calForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const isPickupPinValid = checkLength(pickupPin, 6, 6);
+    const isDeliverPinValid = checkLength(deliverPin, 6, 6);
+
+    if (isPickupPinValid && isDeliverPinValid) {
+        // Show loader
+        const loader = document.getElementsByClassName('rateLoader')[0];
+        const resultDiv = document.getElementById('rateResult');
+        loader.style.display = 'block';
+
+        // Hide loader after 2 seconds and show JSON data
+        setTimeout(() => {
+            loader.style.display = 'none';
+            resultDiv.style.display = 'block';
+            function fetchRates(filter) {
+                $.ajax({
+                    url: 'rates.php',
+                    method: 'GET',
+                    dataType: 'json',
+                    success: function(data) {
+                        var rows = '';
+                        data.forEach(function(row) {
+                            if (filter === 'all' || row.mode === filter) {
+                                rows += '<tr class="rate-row" data-mode="' + row.mode + '">'
+                                      + '<td>' + row.courier + '</td>'
+                                      + '<td>' + row.icon + '</td>'
+                                      + '<td>' + row.weight + '</td>'
+                                      + '<td>' + row.rate + '</td>'
+                                      + '<td>' + row.edd + '</td>'
+                                      + '</tr>';
+                            }
+                        });
+                        $('#rateTableBody').html(rows);
+                    }
+                });
+            }
+        
+            $('input[name="options"]').change(function() {
+                var filter = $(this).attr('id');
+                fetchRates(filter);
+            });
+        
+            // Initial fetch with all data
+            fetchRates('all');
+            event.target.reset();
+        }, 2000);
+    }
+});

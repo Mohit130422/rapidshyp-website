@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta property="og:image" content="https://www.rapidshyp.com/assets/images/couriers.png">
+    <meta property="og:image" content="https://www.rapidshyp.com/https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/couriers.png">
     <meta property="og:description"
         content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
     <!-- Tracking and Analytics -->
@@ -15,9 +15,9 @@
     <meta name="description"
         content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="shortcut icon" href="/assets/images/icon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/assets/favicon.png" sizes="32x32" />
-    <link rel="icon" href="/assets/favicon-192.png" sizes="192x192" />
+    <link rel="shortcut icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon.png" sizes="32x32" />
+    <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png" sizes="192x192" />
     <script src="https://kit.fontawesome.com/566b8c8b50.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
@@ -67,7 +67,7 @@
         "@type": "Organization",
         "name": "RapidShyp",
         "url": "https://www.rapidshyp.com/",
-        "logo": "https://www.rapidshyp.com/assets/images/Logo.svg",
+        "logo": "https://www.rapidshyp.com/https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg",
         "alternateName": "RapidShyp",
         "sameAs": [
             "https://www.instagram.com/rapidshyp/",

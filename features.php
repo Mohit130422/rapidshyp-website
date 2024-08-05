@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 text-center">
-                        <!-- <span class="announce"><img src="assets/images/icon/flash.svg" alt="">Streamline Your Online Shipping Process Like A Pro</span> -->
+                        <!-- <span class="announce"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/flash.svg" alt="">Streamline Your Online Shipping Process Like A Pro</span> -->
                         <div class="contents">
                             <h2 class="head-title feature-title"><mark>Exceptional</mark> Features <br>Designed for
                                 India's Growing <br> eCommerce Brands</h2>
@@ -51,7 +51,7 @@
                                         <div class="card">
                                             <div class="head">
                                                 <div class="icon">
-                                                    <img src="assets/images/icon/feature1.svg" alt="">
+                                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/feature1.svg" alt="">
                                                 </div>
                                             </div>
                                             <div class="body">
@@ -66,7 +66,7 @@
                                         <div class="card even">
                                             <div class="head">
                                                 <div class="icon">
-                                                    <img src="assets/images/icon/f-package.svg" alt="">
+                                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/f-package.svg" alt="">
                                                 </div>
                                             </div>
                                             <div class="body">
@@ -82,7 +82,7 @@
                                         <div class="card">
                                             <div class="head">
                                                 <div class="icon">
-                                                    <img src="assets/images/icon/distance.svg" alt="">
+                                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/distance.svg" alt="">
                                                 </div>
                                             </div>
                                             <div class="body">
@@ -97,7 +97,7 @@
                                         <div class="card even">
                                             <div class="head">
                                                 <div class="icon">
-                                                    <img src="assets/images/icon/universal_currency_alt.svg" alt="">
+                                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/universal_currency_alt.svg" alt="">
                                                 </div>
                                             </div>
                                             <div class="body">
@@ -136,14 +136,14 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                         <div>
-                            <img src="assets/images/feature1.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature1.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                         <div>
-                            <img src="assets/images/feature2.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature2.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 text-start">
@@ -169,14 +169,14 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                         <div>
-                            <img src="assets/images/feature3.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature3.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3" >
                         <div>
-                            <img src="assets/images/feature4.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature4.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 text-start">
@@ -203,14 +203,14 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                         <div>
-                            <img src="assets/images/feature5.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature5.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3" >
                         <div>
-                            <img src="assets/images/feature6.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature6.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 text-start">
@@ -245,7 +245,7 @@
                     <div class="owl-carousel owl-theme" id="feature-carousel" >
                         <div class="item">
                             <div class="icon">
-                                <img src="assets/images/icon/clear-visible.svg" alt="">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/clear-visible.svg" alt="">
                             </div>
                             <div class="card">
                                 <div class="body">
@@ -259,7 +259,7 @@
                         </div>
                         <div class="item">
                             <div class="icon">
-                                <img src="assets/images/icon/campaign.svg" alt="">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/campaign.svg" alt="">
                             </div>
                             <div class="card">
                                 <div class="body">
@@ -273,7 +273,7 @@
                         </div>
                         <div class="item">
                             <div class="icon">
-                                <img src="assets/images/icon/call-plus.svg" alt="">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/call-plus.svg" alt="">
                             </div>
                             <div class="card">
                                 <div class="body">
@@ -312,7 +312,7 @@
                             <p>Get a bird’s eye view of your shipment. Improve tracking and transparency with pick-up and delivery information</p>
                         </div>
                         <div class="img">
-                            <img src="assets/images/manifest.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/manifest.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -323,7 +323,7 @@
                             <p>Generate custom invoices instantly streamline billing with professional invoices Send them anytime, anywhere on the go</p>
                         </div>
                         <div class="img">
-                            <img src="assets/images/invoice.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/invoice.png" alt="">
                         </div>
                     </div>
                 </div>

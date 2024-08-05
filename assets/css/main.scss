@@ -142,6 +142,10 @@ i{
     color: $primary-color;
 }
 
+#rateResult{
+    display: none;
+}
+
 @keyframes floating {
     0% { 
         transform: translate(0,  0px); 
@@ -444,6 +448,7 @@ header{
                         top: 40px;
                         border-radius: 5px;
                         box-shadow: 0px 2px 10px 4px #00000026;
+                        width: max-content;
                         ul{
                             padding: 0;
                         }
@@ -548,7 +553,7 @@ section{
 }
 
 .hero-area-bg{
-    background-image: url(../images/background.png);
+    background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/background.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -563,7 +568,7 @@ section{
         right: 0;
         width: 270px;
         height: 675px;
-        background-image: url(../images/vector2.png);
+        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/vector2.png);
         background-repeat: no-repeat;
         animation: fadeUp 3s ease-in-out;
     }
@@ -584,7 +589,7 @@ section{
 }
 
 .newsroom-bg{
-    background-image: url(../images/newsroom.png);
+    background-image: url(../images/newsroom.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -598,10 +603,10 @@ section{
                 margin: 0;
                 .head-title{
                     font-size: 92px !important;
-                    color: $light-color;
+                    color: $text-dark;
                 }
                 .sub-tile{
-                    color: $light-color;    
+                    color: $text-dark;   
                     font-size: 20px;
                     font-weight: 600;
                 }
@@ -611,7 +616,7 @@ section{
 }
 
 .hero-area {
-    min-height: 92vh;
+    min-height: 80vh;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -2338,6 +2343,10 @@ section{
                     box-shadow: none;
                 }
             }
+            small{
+                color: red;
+                display: none;
+            }
             .input-group{
                 flex-wrap: nowrap;
                 span{
@@ -2391,9 +2400,17 @@ section{
             .payment-options label {
                 margin: 0 10px 0 10px;
             }
-        }    
+        }  
+        .error {
+            input[type="text"]{
+                border-color: red;
+            }
+            small{
+                display: block;
+            }
+        }  
         .solid-action-btn, .reset-btn {
-            background-color: #4a154b;
+            background-color: $primary-color;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -2402,7 +2419,7 @@ section{
             cursor: pointer;
         }
         .reset-btn {
-            background-color: #ccc;
+            background-color: #878787;
             margin-left: 10px;
         }
         .illustration {
@@ -2423,6 +2440,23 @@ section{
             } 
         }
     } 
+    .rateLoader{
+        display: none;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 24px;
+        &::before{
+            content: "";
+            display: inline-block;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            margin: 0 10px -6px 0;
+            border: 3px solid #18d26e;
+            border-top-color: #eee;
+            animation: loading 1s linear infinite;
+        }
+    }
     .rateTable{
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         background-color: #F7F7F7;
@@ -2450,13 +2484,30 @@ section{
                 border-radius: 32px;
                 box-shadow: none;
             }
-            .getRates{
-                background-color: unset;
-                border: none;
-            }
+        }
+        .getRates{
+            margin: 0;
+            padding: 10px 20px;
+            border-radius: 10px;
         }
         .table-responsive{
-            max-height: 260px;
+            max-height: 335px;
+                &::-webkit-scrollbar {
+                    width: 5px;
+                }
+                /* Track */
+                &::-webkit-scrollbar-track {
+                  background: #f1f1f1; 
+                }
+                /* Handle */
+                &::-webkit-scrollbar-thumb {
+                  background: #888; 
+                  border-radius: 5px;
+                }
+                /* Handle on hover */
+                &::-webkit-scrollbar-thumb:hover {
+                  background: #555; 
+                }
             table{
                 border-radius: 15px;
                 overflow: hidden;
@@ -2464,12 +2515,21 @@ section{
                 th,td{
                     vertical-align: middle;
                     padding: 8px 16px;
-                    img{
-                        width: 30px;
+                    i{
+                        font-size: 18px;
                     }
                 }
                 th{
                     color: #5A5A5A;
+                    button{
+                        background-color: $light-color;
+                        border: none;
+                        padding: 0;
+                        i{
+                            color: #5A5A5A;
+                            font-size: 12px;
+                        }
+                    }
                 }
             }
         }

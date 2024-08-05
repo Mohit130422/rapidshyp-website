@@ -19,9 +19,9 @@ include 'header-section.php';?>
             <div class="floating-elements">
                 <ul class="background">
                     <li></li>
-                    <li><img src="assets/images/icon/pink-circle.png" alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/pink-circle.png" alt=""></li>
                     <li></li>
-                    <li><img src="assets/images/icon/yellow-circle.png" alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/yellow-circle.png" alt=""></li>
                     <li></li>
                 </ul>
             </div>
@@ -112,7 +112,7 @@ include 'header-section.php';?>
                         <div class="dot-line"></div>
                         <div class="status">
                             <div class="status-img">
-                                <img src="assets/images/icon/o-received.svg" alt="">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/o-received.svg" alt="">
                             </div>
                             <div class="circle"></div>
                             <div class="info">
@@ -122,7 +122,7 @@ include 'header-section.php';?>
                         </div>
                         <div class="status">
                             <div class="status-img">
-                                <img src="assets/images/icon/o-picked.svg" alt="">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/o-picked.svg" alt="">
                             </div>
                             <div class="circle"></div>
                             <div class="info">
@@ -132,7 +132,7 @@ include 'header-section.php';?>
                         </div>
                         <div class="status">
                             <div class="status-img">
-                                <img src="assets/images/icon/o-transit.svg" alt="">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/o-transit.svg" alt="">
                             </div>
                             <div class="circle"></div>
                             <div class="info">
@@ -142,7 +142,7 @@ include 'header-section.php';?>
                         </div>
                         <div class="status">
                             <div class="status-img">
-                                <img src="assets/images/icon/out-for-delivery.svg" alt="">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/out-for-delivery.svg" alt="">
                             </div>
                             <div class="circle"></div>
                             <div class="info">
@@ -153,7 +153,7 @@ include 'header-section.php';?>
                         </div>
                         <div class="status">
                             <div class="status-img">
-                                <img src="assets/images/icon/delivered.svg" alt="">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/delivered.svg" alt="">
                             </div>
                             <div class="circle"></div>
                             <div class="info">
@@ -178,7 +178,7 @@ include 'header-section.php';?>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="assets/images/delivery-partners.png" alt="">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/delivery-partners.png" alt="">
                     </div>
                 </div>
             </div>
@@ -196,7 +196,7 @@ include 'header-section.php';?>
                 <div class="col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post1.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post1.png" alt="">
                         </div>
                         <div class="body">
                             <h5>Lorem ipsum dolor sit amet, consectetuer adipiscing.</h5>
@@ -207,7 +207,7 @@ include 'header-section.php';?>
                     </div>
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post1.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post1.png" alt="">
                         </div>
                         <div class="body">
                             <h5>Lorem ipsum dolor sit amet, consectetuer adipiscing.</h5>
@@ -218,7 +218,7 @@ include 'header-section.php';?>
                     </div>
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="assets/images/post1.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post1.png" alt="">
                         </div>
                         <div class="body">
                             <h5>Lorem ipsum dolor sit amet, consectetuer adipiscing.</h5>
@@ -321,7 +321,7 @@ include 'header-section.php';?>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="assets/images/track-experience.png" alt="">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/track-experience.png" alt="">
                     </div>
                 </div>
             </div>
