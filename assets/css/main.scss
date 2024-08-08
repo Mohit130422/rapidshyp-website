@@ -1260,6 +1260,7 @@ section{
         }
     }
 }
+
 @media (max-width: 992px) {
     .hero-area-bg {
         background-image: none;
@@ -2878,6 +2879,167 @@ section{
         }
     }
 }
+
+.volCalculator{
+    .container{
+        border: 2px solid #ECECED;
+        border-radius: 20px;
+        padding: 2rem;
+        background-color: $light-color;
+        position: relative;
+        .heading{
+            font-weight: 600;
+            margin: 0 0 20px;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+        .form-group{
+            input{
+                padding: .75rem;
+                border-radius: 10px;
+                &:focus{
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+            .feilds{
+                margin-right: 16px;
+                .input-group{
+                    span{
+                        border-radius: 10px;
+                        border: 1px solid #00000033;
+                    }
+                }
+                .error-message{
+                    display: none;
+                }
+            }            
+            .deleteBtn{
+                background: none;
+                border: none;
+                color: $primary-color;
+            }
+            .input-error {
+                border: 1px solid red;
+            }
+            
+            .error-message {
+                color: red;
+                font-size: 12px;
+                margin-top: 5px;
+            }
+        }
+        .solid-action-btn {
+            background-color: $primary-color;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-left: 0;
+            cursor: pointer;
+        }
+        .add-btn{
+            background: none;
+            border: none;
+            color: $primary-color;
+            margin-left: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            i{
+                margin-right: 8px;
+            }
+        }
+        .volumeResult{
+            display: none;
+            padding: 2rem;
+            border-radius: 10px;
+            background-color: $bg-shade1;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .content{
+                display: flex;
+                align-items: center;
+                .result{
+                    padding: 0 2rem;
+                    small{
+                        font-weight: 600;
+                        button{
+                            background: none;
+                            border: none;
+                        }
+                    }
+                }
+                .border-r{
+                    border-right: 2px solid #0000001A;
+                }
+            }
+        }
+    }
+    @media(max-width:576px){
+        .container{
+            .form-group{
+                .d-flex{
+                    flex-wrap: wrap;
+                    .feilds{
+                        width: 100%;
+                        margin: 16px 0;
+                    }
+                }
+            }
+            .solid-action-btn{
+                width: 100%;
+            }
+            .volumeResult{
+                padding: 1rem;
+                .result h3{
+                    font-size: 25px;
+                    margin-top: 20px !important;
+                }
+            }
+        }
+    }
+}
+
+.wht-is-volumetric{
+    h5{
+        font-weight: 800 !important;
+        margin: 50px 0!important;
+    }
+}
+
+.how-to-calculate{
+    .container{
+        background-color: $bg-shade1;
+        border-radius: 16px;
+        position: relative;
+        .white-border{
+            height: 2px;
+            background-color: $light-color;
+            margin: 2rem 0;
+        }
+        h6{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+        .strip{
+            width: fit-content;
+            background-color: $primary-color;
+            color: $label-color;
+            padding: 8px 16px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    }
+}
+
+// .best-partners{
+//     img{
+//         width: 60%;
+//     }
+// }
 
 .publication{
     position: relative;

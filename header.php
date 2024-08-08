@@ -35,6 +35,9 @@
                                         <a class="nav-link" href="shipping-rate-calculator">Shipping Rate Calculator</a>
                                     </li>
                                     <li>
+                                        <a class="nav-link" href="volumetric-weight-calculator">Volumetric Weight Calculator</a>
+                                    </li>
+                                    <li>
                                         <a class="nav-link mt-0" href="#faqs">FAQs</a>                   
                                     </li>
                                 </ul>
