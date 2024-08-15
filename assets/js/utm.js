@@ -96,8 +96,8 @@ function storeUtmParams() {
         }
     }
  
-     // Store last visited page URL
-     setCookie('last_visited_page', window.location.href, 1);
+     // Store last visited page URL in session storage
+     setCookie('last_visited_page', window.location.href);
  
      // Log the UTM data for debugging
      console.log('First UTM:', existingFirstUtm ? JSON.parse(existingFirstUtm) : firstUtm);

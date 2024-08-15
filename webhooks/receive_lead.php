@@ -130,11 +130,12 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
                  'firstutmcampaign' => $first_utm_campaign,
                  'firstutmcontent' => $first_utm_content,
                  'firstutmterm' => $first_utm_term,
-                 'initialreferrer' => $referrer,
-                 'referrer' => $initial_referrer,
+                 'referrer' => $referrer,
+                 'initialreferrer' => $initial_referrer,
                  'lastvisitedpage' => $lastvisitedpage,
                 'Company Name' => (isset($payload['company'])?$payload['company']:""),
-                'Shipment Volume Form' => (isset($payload['count'])?$payload['count']:"")
+                'Shipment Volume Form' => (isset($payload['count'])?$payload['count']:""),
+                'Website' => (isset($payload['website'])?$payload['website']:"")
             ],
             'actions' => [
                 [

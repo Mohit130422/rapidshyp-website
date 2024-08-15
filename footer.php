@@ -81,9 +81,9 @@
                 <div class="col text-center">
                     &copy; Copyright 2024 <strong><span>RapidShyp</span></strong> | <a href="privacy">Privacy
                         Policy</a>
-                     | <a href="tnc">Terms & Conditions</a> <!--| <a href="shipping-return-policy">Refund and
+                     | <a href="tnc">Terms & Conditions</a> | <a href="shipping-return-policy">Refund and
                         Cancellation
-                        Policy</a> -->
+                        Policy</a>
                 </div>
             </div>
         </div>
@@ -172,5 +172,27 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="blur-overlay" id="thankyou">
+        <div class="dialog-box thankyou-box">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12 text-center mb-4">
+                        <div class="img">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/thankyou.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Thank you for showing interest in RapidShyp. </h3>
+                            <p>Someone from our team will reach out to you soon!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center mb-4">
+                        <a href="/" class="solid-action-btn">Continue to RapidShyp</a>
+                    </div>
+                    <p class="mssg">For any queries and assistance, please reach out to us at <a href="mailto:support@rapidshyp.com">support@rapidshyp.com</a></p>
+                </div>
+            </div>
+            
         </div>
     </div>

@@ -279,8 +279,7 @@
                                 <div class="body">
                                     <strong>Reduce <br> WISMO Calls</strong>
                                     <p>Answer your customer’s questions and avoid continuous disruptions.
-                                        Give buyers access to the info they need promptly and reduce the amount of "When
-                                        do I get my order?" queries</p>
+                                        Give buyers access to the info they need promptly and reduce the amount of "Where is my order?" queries</p>
                                     <!-- <a href="#">Know More</a> -->
                                 </div>
                             </div>

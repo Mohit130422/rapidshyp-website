@@ -101,21 +101,20 @@ $(document).ready(function () {
                     $('.sent-message').text(response.message);
                     $('.sent-message').show();
                     $('.php-email-form').trigger('reset'); // Reset the form on success
-                    setTimeout(function () {
-                        window.location.reload(); // Reload the page after 4 seconds
-                    }, 5000);
                 } else {
                     $('.error-message').text(response.message);
                     $('.error-message').show();
                 }
                 $('.loading').hide();
                 gtag_report_conversion(window.location);
+                $('#thankyou').css('display','flex');
             },
             error: function (xhr, status, error) {
                 $('.error-message').text('There was an error sending your message. Please try again later.').show();
                 $('.loading').hide();
             }
         });
+        return false;
     });
     $('#product-carousel').owlCarousel({
         loop: true,
