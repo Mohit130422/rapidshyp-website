@@ -3,7 +3,7 @@ session_start();
 $rand=mt_rand(11111111,99999999);;
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
-
+<meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-rate-og.jpg">
 <meta property="og:title" content="Shipping Rates Calculator - Calculate Courier Charges - RapidShyp" />
 <meta name="title" content="Shipping Rates Calculator - Calculate Courier Charges - RapidShyp" />
 <link rel="canonical" href="https://www.rapidshyp.com/shipping-rate-calculator" />
@@ -32,7 +32,7 @@ include 'header-section.php';?>
                         <div class="contents tracking">
                             <h2 class="head-title feature-title"><mark>Calculate</mark> Shipping <br>Rates Instantly
                             </h2>
-                            <p class="description">Get real insights into shipping costs within a few seconds </p>
+                            <p class="description">Get real insights into shipping costs within a few seconds</p>
                         </div>
                         <a href="javascript:void(0);" class="btn solid-action-btn scrollDown">Calculate Now</a>
                     </div>
@@ -168,13 +168,9 @@ include 'header-section.php';?>
                                         <th>Chargeable Weight</th>
                                         <th>
                                             Shipping Rates
-                                            <button type="button" data-bs-toggle="tooltip" data-bs-html="true"
-                                                title="Pricing is subjective to change as per the applicable plan."><i
-                                                    class="fas fa-info-circle"></i></button>
+                                            <button type="button"><i class="fas fa-info-circle"></i><span class="tooltips">Pricing is subjective to change as per the applicable plan.</span></button>
                                         </th>
-                                        <th>EDD <button type="button" data-bs-toggle="tooltip" data-bs-html="true"
-                                                title="Estimated Delivery Date"><i
-                                                    class="fas fa-info-circle"></i></button></th>
+                                        <th>EDD <button type="button"><i class="fas fa-info-circle"></i><span class="tooltips">Estimated Delivery Date</span></button></th>
                                     </tr>
                                 </thead>
                                 <tbody id="rateTableBody">
@@ -381,7 +377,7 @@ include 'header-section.php';?>
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false"
                                     aria-controls="flush-collapseFour">
-                                    Q4. How accurate are the shipping rate estimates?
+                                    How accurate are the shipping rate estimates?
                                 </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"

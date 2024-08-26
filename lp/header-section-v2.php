@@ -21,12 +21,12 @@
     <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png"
         sizes="192x192" />
     <script src="https://kit.fontawesome.com/566b8c8b50.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="node_modules/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
-    <link rel="stylesheet" href="node_modules/owl.theme.default.min.css">
-    <script src="node_modules/jquery.min.js"></script>
-    <script src="node_modules/owl.carousel.min.js"></script>
-    <script src="node_modules/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.carousel.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.theme.default.min.css">
+    <script src="../node_modules/jquery.min.js"></script>
+    <script src="../node_modules/owl.carousel.min.js"></script>
+    <script src="../node_modules/bootstrap.bundle.min.js"></script>
     <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -44,64 +44,8 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.2.5">
+    <link rel="stylesheet" href="../assets/css/main.css?v=0.2.5">
 
-    <!-- Start of Tawk.to Script -->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-        (function() {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/65bcdfd98d261e1b5f5b4aa3/1hlkskr5v';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
-
-    <!-- organization schema start -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "RapidShyp",
-        "url": "https://www.rapidshyp.com/",
-        "logo": "https://www.rapidshyp.com/https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg",
-        "alternateName": "RapidShyp",
-        "sameAs": [
-            "https://www.instagram.com/rapidshyp/",
-            "https://www.linkedin.com/company/rapidshyp",
-            "https://twitter.com/rapidshyp"
-        ],
-        "contactPoint": [{
-                "@type": "ContactPoint",
-                "telephone": "7669007700",
-                "contactType": "technical support",
-                "email": "support@rapidshyp.com",
-                "contactOption": "HearingImpairedSupported",
-                "areaServed": "IN",
-                "availableLanguage": [
-                    "en",
-                    "hi"
-                ]
-            },
-            {
-                "@type": "ContactPoint",
-                "telephone": "7669007700",
-                "contactType": "sales",
-                "email": "connect@rapidshyp.com",
-                "contactOption": "HearingImpairedSupported",
-                "areaServed": "IN",
-                "availableLanguage": [
-                    "en",
-                    "hi"
-                ]
-            }
-        ]
-    }
     </script>
     <!-- organization schema end -->
     <!-- Google tag (gtag.js) -->

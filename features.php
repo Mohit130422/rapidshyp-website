@@ -1,5 +1,5 @@
 <?php include 'header-section.php';?>
-
+<meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature-og.png">
 <meta property="og:title" content="RapidShyp Features - eCommerce Shipping Solution and Courier Aggregator" />
 <meta name="title" content="RapidShyp Features - eCommerce Shipping Solution and Courier Aggregator" />
 <link rel="canonical" href="https://www.rapidshyp.com/features" />

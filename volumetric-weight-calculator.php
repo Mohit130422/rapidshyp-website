@@ -3,7 +3,7 @@ session_start();
 $rand=mt_rand(11111111,99999999);;
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
-
+<meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/vol-weight-og.jpg">
 <meta property="og:title" content="Volumetric Weight Calculator- Calculate Volumetric Charges - RapidShyp" />
 <meta name="title" content="Volumetric Weight Calculator - Calculate Volumetric Charges - RapidShyp" />
 <link rel="canonical" href="https://www.rapidshyp.com/volumetric-weight-calculator" />
@@ -101,7 +101,7 @@ include 'header-section.php';?>
                             <h3 class="heading actual-weight">0.0 <span>KG</span></h3>
                         </div>
                         <div class="result">
-                            <small>Chargeable Weight <button type="button" class="btn" class="tool-tip" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" title="Chargeable weight is the freight weight generally used by courier companies to charge for shipping orders.  It is deduced as the higher of volumetric or actual weight."><i class="fas fa-info-circle"></i></button></small>
+                            <small>Chargeable Weight <button class="butn"><i class="fas fa-info-circle"></i> <span class="tooltip">Chargeable weight is the freight weight generally used by courier companies to charge for shipping orders.  It is deduced as the higher of volumetric or actual weight.</span></button></small>
                             <h3 class="heading chargeable-weight">0.0 <span>KG</span></h3>
                         </div>
                     </div>
