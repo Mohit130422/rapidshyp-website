@@ -111,10 +111,11 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="explore-features" id="product">
-            <div class="container">
-                <div class="row">
+    <section class="explore-features" id="product">
+        <div class="container">
+            <div class="row">
                     <div class="col-12">
                         <div id="carouselExampleIndicators" class="carousel slide carousel-fade"
                             data-bs-ride="carousel">
@@ -258,7 +259,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
