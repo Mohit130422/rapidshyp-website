@@ -48,8 +48,6 @@
                         <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
                             <p>Resources</p>
                             <div class="links">
-                                <!-- <a href="https://app.rapidshyp.com" class="link" rel="nofollow">Sign In</a> -->
-                                <!-- <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> -->
                                 <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
                                 <a href="newsroom" class="link">Newsroom</a>
                             </div>
@@ -61,8 +59,8 @@
                                         class="fas fa-envelope"></i> Support: support@rapidshyp.com</a>
                                 <a href="mailto:connect@rapidshyp.com" class="link" target="_blank"><i
                                         class="fas fa-envelope"></i> Sales: connect@rapidshyp.com</a>
-                                <a href="tel:7669007700" class="link" target="_blank"><i class="fas fa-phone-alt"></i>
-                                    7669007700</a>
+                                <!-- <a href="tel:7669007700" class="link" target="_blank"><i class="fas fa-phone-alt"></i>
+                                    7669007700</a> -->
                                 <a href="https://maps.app.goo.gl/TMc7FNnFvwGYSVVLA" target="_blank" class="link"><i
                                         class="fas fa-map-marker-alt"></i> RapidShyp Head Office <br> 6th Floor, Unitech
                                     Trade Centre <br>Sushant Lok Phase-1, Sector 43 <br>Gurgaon, Haryana -122002</a>
