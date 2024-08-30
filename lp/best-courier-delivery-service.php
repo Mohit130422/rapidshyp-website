@@ -8,7 +8,7 @@ include 'header-section-v2.php';?>
 <meta property="og:title" content="eCommerce-shipping-solution- RapidShyp" />
 <meta name="title" content="eCommerce-shipping-solution- RapidShyp" />
 <link rel="canonical" href="https://www.rapidshyp.com/eCommerce-shipping-solution" />
-<title>eCommerce-shipping-solution-RapidShyp</title>
+<title>Courier Delivery Service | Shipping Solution in India - RapidShyp</title>
 
 </head>
 
