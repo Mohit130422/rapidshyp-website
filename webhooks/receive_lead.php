@@ -80,6 +80,7 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
         $referrer="";
         $initial_referrer="";
         $lastvisitedpage="";
+        $landingpage="";
         
         if(isset($_COOKIE['latest_utm']))
         {
@@ -113,6 +114,9 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
         if(isset($_COOKIE['last_visited_page']))
             $lastvisitedpage=(isset($_COOKIE['last_visited_page'])?$_COOKIE['last_visited_page']:"");
 
+        if(isset($_COOKIE['landing_page']))
+            $landingpage=(isset($_COOKIE['landing_page'])?$_COOKIE['landing_page']:"");
+
         // The data you want to send via POST
         $data = [
             'fields' => [
@@ -133,6 +137,7 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
                  'referrer' => $referrer,
                  'initialreferrer' => $initial_referrer,
                  'lastvisitedpage' => $lastvisitedpage,
+                 'landingpage' => $landingpage,
                 'Company Name' => (isset($payload['company'])?$payload['company']:""),
                 'Shipment Volume Form' => (isset($payload['count'])?$payload['count']:""),
                 'Website' => (isset($payload['website'])?$payload['website']:"")

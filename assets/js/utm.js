@@ -33,6 +33,25 @@ function getCookie(name) {
     return null;
 }
 
+// Function to replace hyphens with underscores in a URL
+function replaceHyphens(url) {
+    return url.replace(/-/g, '_');
+}
+
+// Function to store landing page URL in a cookie
+function storeLandingPage() {
+    const landingPageUrl = replaceHyphens(window.location.href);
+    if (!getCookie('landing_page')) {
+        setCookie('landing_page', landingPageUrl, 30); // Store landing page URL for 30 days
+    }
+}
+
+// Function to store last visited page URL in a cookie
+function storeLastVisitedPage() {
+    const lastVisitedPageUrl = replaceHyphens(window.location.href);
+    setCookie('last_visited_page', lastVisitedPageUrl, 30); // Store last visited page URL for 30 days
+}
+
 // Function to check if a referrer is external
 function isExternalReferrer(referrer) {
     const domain = '.rapidshyp.com';
@@ -95,17 +114,18 @@ function storeUtmParams() {
             }
         }
     }
- 
-     // Store last visited page URL in session storage
-     setCookie('last_visited_page', window.location.href);
- 
-     // Log the UTM data for debugging
-     console.log('First UTM:', existingFirstUtm ? JSON.parse(existingFirstUtm) : firstUtm);
-     console.log('Latest UTM:', latestUtm);
-     console.log('Referrer:', existingReferrer || document.referrer);
-     console.log('Initial Referrer:', document.referrer);
-     console.log('Last Visited Page:', window.location.href);
+
+    //  // Log the UTM data for debugging
+    //  console.log('First UTM:', existingFirstUtm ? JSON.parse(existingFirstUtm) : firstUtm);
+    //  console.log('Latest UTM:', latestUtm);
+    //  console.log('Referrer:', existingReferrer || document.referrer);
+    //  console.log('Initial Referrer:', document.referrer);
+    //  console.log('Last Visited Page:', window.location.href);
 }
 
-// Store UTM params when the page loads
-window.onload = storeUtmParams;
+// Store UTM params, landing page, and last visited page when the page loads
+window.onload = function() {
+    storeLandingPage();         // Store landing page URL
+    storeLastVisitedPage();     // Store last visited page URL
+    storeUtmParams();           // Store UTM parameters if available
+};
