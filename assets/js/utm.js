@@ -35,12 +35,21 @@ function getCookie(name) {
 
 // Function to replace hyphens with underscores in a URL
 function replaceHyphens(url) {
-    return url.replace(/-/g, '_');
+    let newUrl = '';
+    for (let i = 0; i < url.length; i++) {
+        if (url[i] === '-') {
+            newUrl += '_';
+        } else {
+            newUrl += url[i];
+        }
+    }
+    return newUrl;
 }
 
 // Function to store landing page URL in a cookie
 function storeLandingPage() {
     const landingPageUrl = replaceHyphens(window.location.href);
+    console.log(landingPageUrl)
     if (!getCookie('landing_page')) {
         setCookie('landing_page', landingPageUrl, 30); // Store landing page URL for 30 days
     }
@@ -49,7 +58,7 @@ function storeLandingPage() {
 // Function to store last visited page URL in a cookie
 function storeLastVisitedPage() {
     const lastVisitedPageUrl = replaceHyphens(window.location.href);
-    setCookie('last_visited_page', lastVisitedPageUrl, 30); // Store last visited page URL for 30 days
+    setCookie('last_visited_page', lastVisitedPageUrl);
 }
 
 // Function to check if a referrer is external
@@ -114,7 +123,8 @@ function storeUtmParams() {
             }
         }
     }
-
+ 
+ 
     //  // Log the UTM data for debugging
     //  console.log('First UTM:', existingFirstUtm ? JSON.parse(existingFirstUtm) : firstUtm);
     //  console.log('Latest UTM:', latestUtm);
