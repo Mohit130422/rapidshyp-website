@@ -44,7 +44,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.2.5">
+    <link rel="stylesheet" href="assets/css/main.css?v=0.3.0">
 
     <!-- Start of Tawk.to Script -->
     <script type="text/javascript">

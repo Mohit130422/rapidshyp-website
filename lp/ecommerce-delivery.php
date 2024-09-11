@@ -209,6 +209,14 @@ include 'header-section-v2.php';?>
                                 <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt9.png"
                                     alt="Ecom Express">
                             </div>
+                            <div class="imgDesk">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt10.png"
+                                    alt="Ecom Express">
+                            </div>
+                            <div class="imgDesk">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt11.png"
+                                    alt="Ecom Express">
+                            </div>
                         </div>
                     </div>
                 </div>

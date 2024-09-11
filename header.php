@@ -1,9 +1,9 @@
 <header class="header">
-    <!-- <div class="topHeader">
+    <div class="topHeader">
         <p id="countdown"></p>
-        <p><strong>Our beta version is now LIVE!</strong> Explore the ultimate shipping solution for effortless business growth</p>
-        <span class="openWaitlistModal">Explore Now <i class="fas fa-chevron-right"></i></span>
-    </div> -->
+        <p><strong>Get 10% Cashback* Up to &#8377; 1000</strong>  On Your First Recharge. Use Code: <strong>WELCOME10. </strong>T&C Apply</p>
+        <span class="openWaitlistModal">Get Started <i class="fas fa-chevron-right"></i></span>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>

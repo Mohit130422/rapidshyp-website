@@ -367,6 +367,7 @@ mark {
 
 .topHeader {
   background: linear-gradient(92.72deg, #F3DDFF -1.79%, #FFEEBB 107.62%);
+  padding: 10px 0;
   font-size: 14px;
   display: flex;
   justify-content: center;
@@ -378,7 +379,7 @@ mark {
 }
 .topHeader span {
   background: #fff 0% 0% no-repeat padding-box;
-  border-radius: 12px;
+  border-radius: 15px;
   color: #3E1A51;
   padding: 4px 12px;
   font-weight: 500;
