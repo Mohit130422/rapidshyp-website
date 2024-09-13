@@ -1155,23 +1155,6 @@ section {
 .hero-area .container .contents .feature-title {
   line-height: 1.4;
 }
-.hero-area .container .join-us input {
-  padding: 1rem;
-  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.13);
-  border-radius: 45px;
-  border: none;
-  font-size: 12px;
-  width: 400px;
-}
-.hero-area .container .join-us input::-moz-placeholder {
-  color: #C5C5C5;
-}
-.hero-area .container .join-us input::placeholder {
-  color: #C5C5C5;
-}
-.hero-area .container .join-us input:focus-visible {
-  outline-color: #cdcdcd;
-}
 .hero-area .container .join-us button {
   font-size: 16px;
   padding: 1rem 2rem;
@@ -1735,24 +1718,10 @@ section {
   .hero-area-bg .container .contents .head-title {
     font-size: 31px;
   }
-  .hero-area-bg .container .join-us {
-    position: relative;
-  }
-  .hero-area-bg .container .join-us input {
-    width: 100%;
-  }
   .hero-area-bg .container .join-us .solid-action-btn {
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    bottom: 4px;
-    padding: 0.25rem 1rem 0.25rem 1.5rem;
-  }
-  .hero-area-bg .container .join-us .solid-action-btn span {
-    display: none;
-  }
-  .hero-area-bg .container .join-us .solid-action-btn img {
-    display: block;
+    padding: 0.75rem 2rem;
+    font-size: 14px;
+    margin-left: 0;
   }
   .newsroom-bg .hero-area {
     min-height: 25vh !important;

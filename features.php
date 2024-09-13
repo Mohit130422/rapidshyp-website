@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <strong>10 + Trusted Courier Partners</strong>
+                                                <strong>15 + Trusted Courier Partners</strong>
                                                 <p>Choose from an extensive network of couriers, including Ecom Express,
                                                     Delhivery, Xpressbees, DTDC, and more. Get access to the best
                                                     shipping rates and services for your brand</p>
@@ -70,7 +70,7 @@
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <strong>Reliable Shipping Starting at Just Rs 25</strong>
+                                                <strong>Reliable Shipping Starting at Just &#8377; 25</strong>
                                                 <p>Let's be real: Shipping costs cut into buyers’ pockets. Partner with
                                                     RapidShyp to reduce the costs buyers pay to get their hands on your
                                                     products. Grab top-notch logistics solutions beginning at Rs 25 per

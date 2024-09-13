@@ -127,16 +127,32 @@
                                     <div class="col-sm-12 col-md-6">
                                         <div class="mb-3">
                                             <label for="email" class="form-label">Email address</label>
-                                            <input type="email" class="form-control" name="email" id="email"
-                                                aria-describedby="emailHelp" placeholder="Enter Email" required>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping"><i
+                                                        class="far fa-envelope"></i></span>
+                                                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter Email" required>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
                                         <div class="mb-3">
                                             <label for="phone" class="form-label">Mobile Number</label>
-                                            <input type="number" class="form-control" name="phone" id="phone"
-                                                placeholder="Mobile Number"
-                                                onKeyPress="if(this.value.length==10) return false;" required>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping"><i
+                                                        class="fas fa-phone"></i></span>
+                                                <input type="number" class="form-control" name="phone" id="phone" placeholder="Mobile Number" onKeyPress="if(this.value.length==10) return false;" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="mb-4">
+                                            <label for="phone" class="form-label">Website Link</label>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping"><i
+                                                        class="fas fa-globe"></i></span>
+                                                <input type="url" class="form-control" name="website" id="website"
+                                                    placeholder="Enter Website Url (optional)">
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-12">

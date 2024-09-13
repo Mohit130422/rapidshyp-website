@@ -103,8 +103,7 @@
                         </div>
                         <div class="join-us mb-2">
                             <form action="#" id="submit-button">
-                                <input type="text" placeholder="Type Your Email Here" id="useremail" required>
-                                <button type="submit" class="solid-action-btn" id="openWaitlistForm"><span>Get Started</span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/send.svg" alt=""></button>
+                                <button type="submit" class="solid-action-btn openWaitlistModal"><span>Get Started</span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/send.svg" alt=""></button>
                             </form>
                         </div>
                     </div>

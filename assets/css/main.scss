@@ -1193,20 +1193,6 @@ section{
         }
         
         .join-us{
-              input{
-                  padding: 1rem;
-                  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.13);
-                  border-radius: 45px;
-                  border: none;
-                  font-size: 12px;
-                  width: 400px;
-                  &::placeholder{
-                    color: #C5C5C5;
-                  }
-                  &:focus-visible{
-                    outline-color: #cdcdcd;
-                  }
-              }
               button{
                   font-size: 16px;
                   padding: 1rem 2rem;
@@ -1845,22 +1831,10 @@ section{
                 }
             }
             .join-us{
-                position: relative;
-                input{
-                    width: 100%;
-                }
                 .solid-action-btn{
-                    position: absolute;
-                    top: 4px;
-                    right: 4px;
-                    bottom: 4px;
-                    padding: 0.25rem 1rem 0.25rem 1.5rem;
-                    span{
-                        display: none;
-                    }
-                    img{
-                        display: block;
-                    }
+                    padding: .75rem 2rem;
+                    font-size: 14px;
+                    margin-left: 0;
                 }
             }
         }
