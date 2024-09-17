@@ -62,7 +62,7 @@
                                 <!-- <a href="tel:7669007700" class="link" target="_blank"><i class="fas fa-phone-alt"></i>
                                     7669007700</a> -->
                                 <a href="https://maps.app.goo.gl/TMc7FNnFvwGYSVVLA" target="_blank" class="link"><i
-                                        class="fas fa-map-marker-alt"></i> RapidShyp Head Office <br> 6th Floor, Unitech
+                                        class="fas fa-map-marker-alt"></i> RapidShyp Head Office <br> 3rd Floor, Unitech
                                     Trade Centre <br>Sushant Lok Phase-1, Sector 43 <br>Gurgaon, Haryana -122002</a>
                             </div>
                         </div>

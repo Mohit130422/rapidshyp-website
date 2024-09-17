@@ -13,6 +13,10 @@ include 'header-section-v2.php';?>
 </head>
 
 <body>
+    <div class="topHeader">
+        <p id="countdown"></p>
+        <p><strong>Get 10% Cashback* Up to &#8377; 1000</strong>  On Your First Recharge. Use Code: <strong>WELCOME10. </strong>T&C Apply</p>
+    </div>
     <section class="signup-section" id="signup">
         <div class="container-fluid">
             <div class="head">
