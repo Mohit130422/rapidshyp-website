@@ -1121,6 +1121,151 @@ section {
   font-weight: 600;
 }
 
+.shopify-hero {
+  background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shopify-hero .shopify-hero-area {
+  height: 100vh;
+}
+.shopify-hero .shopify-hero-area .floating-elements .background {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.shopify-hero .shopify-hero-area .floating-elements .background li {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.shopify-hero .shopify-hero-area .floating-elements .background li img {
+  width: 80%;
+}
+.shopify-hero .shopify-hero-area .floating-elements .background li:first-child {
+  top: 30vh;
+  left: 10vw;
+  background-color: transparent;
+  padding: 0;
+  animation: none;
+}
+.shopify-hero .shopify-hero-area .floating-elements .background li:first-child img {
+  width: 80%;
+  margin: 0;
+}
+.shopify-hero .shopify-hero-area .floating-elements .background li:nth-child(2) {
+  top: 30vh;
+  left: 85vw;
+  animation: none;
+}
+.shopify-hero .shopify-hero-area .floating-elements .background li:nth-child(3) {
+  top: 50vh;
+  left: 15vw;
+  animation: none;
+}
+.shopify-hero .shopify-hero-area .floating-elements .background li:nth-child(4) {
+  top: 50vh;
+  left: 80vw;
+  animation: none;
+}
+@media (max-width: 576px) {
+  .shopify-hero .shopify-hero-area .floating-elements {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .shopify-hero .shopify-hero-area .floating-elements .background li:first-child {
+    top: 2vh;
+    left: 2vw;
+  }
+  .shopify-hero .shopify-hero-area .floating-elements .background li:nth-child(2) {
+    top: 35vh;
+    left: 85vw;
+  }
+  .shopify-hero .shopify-hero-area .floating-elements .background li:nth-child(3) {
+    top: 30vh;
+    left: 3vw;
+  }
+  .shopify-hero .shopify-hero-area .floating-elements .background li:nth-child(3) img {
+    width: 30px;
+  }
+  .shopify-hero .shopify-hero-area .floating-elements .background li:nth-child(4) {
+    top: 50vh;
+    left: 76vw;
+  }
+}
+.shopify-hero .shopify-hero-area .contents {
+  text-align: center;
+  margin-bottom: 50px !important;
+}
+.shopify-hero .shopify-hero-area .contents .heading, .shopify-hero .shopify-hero-area .contents .sub-title {
+  color: #fff !important;
+  font-size: 80px;
+}
+.shopify-hero .shopify-hero-area .contents .heading strong, .shopify-hero .shopify-hero-area .contents .sub-title strong {
+  background: linear-gradient(90deg, #16C063 0%, #04D1FB 45.54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.shopify-hero .shopify-hero-area .contents .sub-title {
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+.shopify-hero .shopify-hero-area .contents .descrip {
+  font-size: 22px;
+  color: #fff;
+}
+.shopify-hero .shopify-hero-area .join-us {
+  text-align: center;
+}
+.shopify-hero .shopify-hero-area .join-us .solid-action-btn {
+  background-color: #fff;
+  color: #000000;
+  padding: 1rem 3rem;
+}
+.shopify-hero .shopify-hero-area .join-us .solid-action-btn:hover {
+  background: linear-gradient(90deg, #16C063 0%, #04D1FB 45.54%);
+  color: #fff;
+}
+.shopify-hero .shopify-hero-area .join-us .outline-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.shopify-hero .shopify-hero-area .join-us .outline-btn:hover {
+  background: none;
+}
+@media (max-width: 576px) {
+  .shopify-hero .shopify-hero-area .container {
+    height: inherit !important;
+  }
+  .shopify-hero .shopify-hero-area .contents .heading {
+    font-size: 40px;
+  }
+  .shopify-hero .shopify-hero-area .contents .sub-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .shopify-hero .shopify-hero-area .contents .descrip {
+    font-size: 16px;
+  }
+  .shopify-hero .shopify-hero-area .join-us {
+    display: flex;
+    justify-content: center;
+  }
+  .shopify-hero .shopify-hero-area .join-us .solid-action-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 14px;
+  }
+}
+
 .hero-area {
   min-height: 80vh;
   position: relative;
@@ -2870,6 +3015,11 @@ section {
   transition: opacity 0.3s;
   box-shadow: 0 0px 24px rgba(0, 0, 0, 0.0745098039);
 }
+@media (max-width: 1024px) {
+  .rateCalculator .shipment-form .illustration {
+    display: none;
+  }
+}
 @media (max-width: 576px) {
   .rateCalculator::before {
     display: none;
@@ -2879,9 +3029,6 @@ section {
   }
   .rateCalculator .shipment-form .form-group .payment-options .radio {
     font-size: 14px;
-  }
-  .rateCalculator .shipment-form .illustration {
-    display: none;
   }
   .rateCalculator .rateTable .head {
     justify-content: right;
@@ -3447,6 +3594,67 @@ section {
      object-fit: contain;
   -o-object-position: center;
      object-position: center;
+}
+
+.why-shopify .heading {
+  margin: 16px 0 60px;
+}
+.why-shopify .benefits {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.why-shopify .benefits .content {
+  position: absolute;
+  top: 0;
+  padding: 1.5rem;
+}
+.why-shopify .benefits .content h5 {
+  font-weight: 800;
+}
+.why-shopify .benefits .left {
+  right: 0;
+}
+.why-shopify .benefits .bottom {
+  top: unset;
+  bottom: 0;
+}
+
+.how-sync-order {
+  background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 50px 0 50px;
+}
+.how-sync-order .solid-action-btn {
+  position: unset !important;
+  background-color: #fff;
+  color: #000000;
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  margin: 40px 0 0;
+}
+.how-sync-order .solid-action-btn:hover {
+  background: linear-gradient(90deg, #16C063 0%, #04D1FB 45.54%);
+  color: #fff;
+}
+@media (max-width: 576px) {
+  .how-sync-order .solid-action-btn {
+    margin: 20px 0 0;
+    padding: 0.75rem 1.5rem;
+    font-size: 14px;
+  }
+}
+
+.shopify-faq, .best-ship-service {
+  padding: 50px 0 50px;
+  background-color: #fff;
+}
+.shopify-faq .heading, .best-ship-service .heading {
+  text-wrap: balance;
 }
 
 .terms-condition h1 {

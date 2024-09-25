@@ -47,6 +47,7 @@ include 'header-section.php';?>
             <div class="row">
                 <div class="col-12 mb-5">
                     <form class="shipment-form" id="calForm">
+                        <input type="hidden" name="csrf" id="csrf" value="<?=$rand?>">
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="form-group">
@@ -68,10 +69,10 @@ include 'header-section.php';?>
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="form-group">
-                                    <label for="weight">Actual Weight</label>
+                                    <label for="weight">Actual Weight (KG)</label>
                                     <div class="input-group">
                                         <input type="text" class="form-control" aria-describedby="basic-addon2"
-                                            id="weight" name="weight" placeholder="0.5" required>
+                                            id="weight" name="weight" required>
                                         <span class="input-group-text" id="basic-addon2">KG</span>
                                     </div>
                                 </div>
@@ -82,17 +83,17 @@ include 'header-section.php';?>
                                     <div class="d-flex">
                                         <div class="input-group margin-r">
                                             <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                                id="dimension-l" name="dimension-l" placeholder="50" required>
+                                                id="dimension-l" name="dimension-l" required>
                                             <span class="input-group-text" id="basic-addon2">CM</span>
                                         </div>
                                         <div class="input-group margin-r">
                                             <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                                id="dimension-w" name="dimension-w" placeholder="50" required>
+                                                id="dimension-w" name="dimension-w" required>
                                             <span class="input-group-text" id="basic-addon2">CM</span>
                                         </div>
                                         <div class="input-group">
                                             <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                                id="dimension-h" name="dimension-h" placeholder="50" required>
+                                                id="dimension-h" name="dimension-h" required>
                                             <span class="input-group-text" id="basic-addon2">CM</span>
                                         </div>
                                     </div>
@@ -105,7 +106,7 @@ include 'header-section.php';?>
                                     <label for="shipValue">Shipment Value</label>
                                     <div class="input-group">
                                         <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                            id="shipValue" name="shipValue" placeholder="1500">
+                                            id="shipValue" name="shipValue">
                                         <span class="input-group-text" id="basic-addon2">₹</span>
                                     </div>
                                 </div>
@@ -143,6 +144,7 @@ include 'header-section.php';?>
                         </div>
                     </form>
                 </div>
+                <div id="errorMessage" style="color: red; text-align:center; display:none;"></div>
                 <div class="rateLoader">Loading</div>
                 <div class="col-12 mb-5">
                     <div class="rateTable" id="rateResult">
@@ -165,7 +167,7 @@ include 'header-section.php';?>
                                     <tr>
                                         <th>Courier Partner</th>
                                         <th>Mode</th>
-                                        <th>Chargeable Weight</th>
+                                        <th>Chargeable Weight (KG)</th>
                                         <th>
                                             Shipping Rates
                                             <button type="button"><i class="fas fa-info-circle"></i><span class="tooltips">Pricing is subjective to change as per the applicable plan.</span></button>
@@ -213,7 +215,7 @@ include 'header-section.php';?>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-sm-12 text-center">
-                    <h3 class="heading">Team Up with Top Couriers at <br>Tip-Top Rates</h3>
+                    <h3 class="heading">Partner with Top Couriers at <br>Best Rates</h3>
                     <p class="sub-heading">Plan rapidly and pay economical rates for the best-in-class services of the
                         best couriers</p>
                 </div>
@@ -304,7 +306,6 @@ include 'header-section.php';?>
             <div class="row align-items-center col-reverse">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h3 class="heading mb-0">Get Control Over Your <br> Shipping Costs</h3>
-                    <p class="sub-heading">Stay informed about your shipments seamlessly </p>
                     <ul class="p-0">
                         <li><i class="far fa-check-circle"></i>10+ courier partners</li>
                         <li><i class="far fa-check-circle"></i>Economical rates</li>
@@ -397,6 +398,7 @@ include 'header-section.php';?>
 
 
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/utm.js"></script>
 </body>
 
 </html>

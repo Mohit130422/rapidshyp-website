@@ -1,9 +1,9 @@
 <?php include 'header-section.php';?>
 
     <link rel="canonical" href="https:/www.rapidshyp.com" />
-    <meta property="og:title" content="eCommerce Shipping Solution in India -RapidShyp" />
-    <meta name="title" content="eCommerce Shipping Solution in India -RapidShyp" />
-    <title>eCommerce Shipping Solution in India -RapidShyp</title>
+    <meta property="og:title" content="eCommerce Shipping Solution | Courier Aggregator in India — RapidShyp" />
+    <meta name="title" content="eCommerce Shipping Solution | Courier Aggregator in India — RapidShyp" />
+    <title>eCommerce Shipping Solution | Courier Aggregator in India — RapidShyp</title>
     <!-- FAqs schema start -->
     <script type="application/ld+json">
     {

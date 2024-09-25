@@ -20,7 +20,7 @@
         sizes="32x32" />
     <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png"
         sizes="192x192" />
-    <script src="https://kit.fontawesome.com/566b8c8b50.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2fbb4ed8a1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
     <link rel="stylesheet" href="node_modules/owl.theme.default.min.css">

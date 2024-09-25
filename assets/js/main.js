@@ -375,99 +375,137 @@ $('input[name="options"]').change(function () {
     });
 });
 
-document.addEventListener('DOMContentLoaded', ()=>{
-    const calForm = document.getElementById('calForm');
-    const pickupPin = document.getElementById('pickup-pincode');
-    const deliverPin = document.getElementById('delivery-pincode');
-    
-    // Check input length
-    function checkLength(input, min, max) {
-        if (input.value.length < min) {
-            showError(input, `${getFieldName(input)} must be at least ${min} characters`);
+$(document).ready(function () {
+    const $pickupPin = $('#pickup-pincode');
+    const $deliverPin = $('#delivery-pincode');
+    const $rateLoader = $('.rateLoader');
+    const $rateResult = $('#rateResult');
+    const $rateTableBody = $('#rateTableBody');
+    const $errorMessage = $('#errorMessage'); // For displaying error messages
+
+    // Check input length using jQuery
+    function checkLength($input, min, max) {
+        const valueLength = $input.val().length;
+        if (valueLength < min) {
+            showError($input, `${getFieldName($input)} must be at least ${min} characters`);
             return false;
-        } else if (input.value.length > max) {
-            showError(input, `${getFieldName(input)} must be less than ${max} characters`);
+        } else if (valueLength > max) {
+            showError($input, `${getFieldName($input)} must be less than ${max} characters`);
             return false;
         } else {
-            showSuccess(input);
+            showSuccess($input);
             return true;
         }
     }
-    
+
     // Show input error messages
-    function showError(input, message) {
-        const formControl = input.parentElement;
-        formControl.className = 'form-group error';
-        const small = formControl.querySelector('small');
-        small.innerText = message;
+    function showError($input, message) {
+        const $formControl = $input.parent();
+        $formControl.addClass('error').removeClass('success');
+        $formControl.find('small').text(message);
     }
-    
+
     // Show success color
-    function showSuccess(input) {
-        const formControl = input.parentElement;
-        formControl.className = 'form-group success';
+    function showSuccess($input) {
+        const $formControl = $input.parent();
+        $formControl.addClass('success').removeClass('error');
     }
-    
+
     // Get field name
-    function getFieldName(input) {
-        return input.id.charAt(0).toUpperCase() + input.id.slice(1);
+    function getFieldName($input) {
+        return $input.attr('id').charAt(0).toUpperCase() + $input.attr('id').slice(1);
     }
-    
-    // Add keyup event listeners to check length on input
-    pickupPin.addEventListener('keyup', () => checkLength(pickupPin, 6, 6));
-    deliverPin.addEventListener('keyup', () => checkLength(deliverPin, 6, 6));
-    
-    calForm.addEventListener('submit', function (event) {
+
+    // Validate pin codes when typing (key up event)
+    $pickupPin.on('keyup', function () {
+        checkLength($pickupPin, 6, 6);
+    });
+
+    $deliverPin.on('keyup', function () {
+        checkLength($deliverPin, 6, 6);
+    });
+
+    // Handle form submission with jQuery
+    $('#calForm').on('submit', function (event) {
         event.preventDefault();
-    
-        const isPickupPinValid = checkLength(pickupPin, 6, 6);
-        const isDeliverPinValid = checkLength(deliverPin, 6, 6);
-    
+
+        const isPickupPinValid = checkLength($pickupPin, 6, 6);
+        const isDeliverPinValid = checkLength($deliverPin, 6, 6);
+
         if (isPickupPinValid && isDeliverPinValid) {
-            // Show loader
-            const loader = document.getElementsByClassName('rateLoader')[0];
-            const resultDiv = document.getElementById('rateResult');
-            loader.style.display = 'block';
-    
-            // Hide loader after 2 seconds and show JSON data
-            setTimeout(() => {
-                loader.style.display = 'none';
-                resultDiv.style.display = 'block';
-                function fetchRates(filter) {
-                    $.ajax({
-                        url: 'rates.php',
-                        method: 'GET',
-                        dataType: 'json',
-                        success: function (data) {
-                            var rows = '';
-                            data.forEach(function (row) {
-                                if (filter === 'all' || row.mode === filter) {
-                                    rows += '<tr class="rate-row" data-mode="' + row.mode + '">'
-                                        + '<td>' + row.courier + '</td>'
-                                        + '<td>' + row.icon + '</td>'
-                                        + '<td>' + row.weight + '</td>'
-                                        + '<td>' + row.rate + '</td>'
-                                        + '<td>' + row.edd + '</td>'
-                                        + '</tr>';
-                                }
-                            });
-                            $('#rateTableBody').html(rows);
-                        }
-                    });
+            const formData = new FormData(this);
+
+            // Hide previous error messages
+            $errorMessage.hide();
+
+             // Reset rate result table and hide it before starting the new request
+             $rateTableBody.empty();
+             $rateResult.hide();
+
+            // Show the loader
+            $rateLoader.show();
+
+            // Fetch rates via AJAX
+            $.ajax({
+                url: 'rates.php',
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                dataType: 'json',
+                success: function (data) {
+                    // Hide loader
+                    $rateLoader.hide();
+
+                    if (data.result === 'error') {
+                        // Display the error message from the server
+                        $errorMessage.text(data.message).show();
+                    } else if (Array.isArray(data)) {
+                        $rateResult.show();
+                        let rows = '';
+
+                        data.forEach(function (row) {
+                            rows += `<tr class="rate-row" data-mode="${row.mode}">
+                                        <td>${row.courier}</td>
+                                        <td>${row.icon}</td>
+                                        <td>${row.weight}</td>
+                                        <td>${row.rate}</td>
+                                        <td>${row.edd}</td>
+                                    </tr>`;
+                        });
+
+                        // Append the rows to the table
+                        $rateTableBody.html(rows);
+
+                    } else {
+                        $errorMessage.text('An unexpected error occurred. Please try again.').show();
+                    }
+                },
+                error: function (xhr) {
+                    $rateLoader.hide();
+
+                    let message = 'Failed to fetch rates. Please try again later.';
+                    if (xhr.responseJSON && xhr.responseJSON.message) {
+                        message = xhr.responseJSON.message;
+                    }
+
+                    // Display a general error message or server-provided message
+                    $errorMessage.text(message).show();
                 }
-    
-                $('input[name="options"]').change(function () {
-                    var filter = $(this).attr('id');
-                    fetchRates(filter);
-                });
-    
-                // Initial fetch with all data
-                fetchRates('all');
-                event.target.reset();
-            }, 2000);
+            });
         }
     });
-})
+      // Handle reset button click
+    $('#calForm').on('reset', function () {
+        // Hide rate result table when reset is clicked
+        $rateResult.hide();
+        // Hide error message if any
+        $errorMessage.hide();
+        // Remove error or success classes from form inputs
+        $('input').parent().removeClass('error success');
+    });
+});
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const calculateBtn = document.getElementById('calculateBtn');

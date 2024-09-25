@@ -1159,6 +1159,159 @@ section{
     }
 }
 
+.shopify-hero{
+    background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .shopify-hero-area{
+        height: 100vh;
+        .floating-elements{
+            .background{
+                position: absolute;
+                width: 100%;
+                height: 100vh;
+                top: 0;
+                left: 0;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                li{
+                    position: absolute;
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 80%;
+                    }
+                    &:first-child{
+                        top: 30vh;
+                        left: 10vw;
+                        background-color: transparent;
+                        padding: 0;
+                        animation: none;
+                        img{
+                            width: 80%;
+                            margin: 0;
+                        }
+                    }
+                    &:nth-child(2){
+                        top: 30vh;
+                        left: 85vw;
+                        animation: none;
+                    }
+                    &:nth-child(3){
+                        top: 50vh;
+                        left: 15vw;
+                        animation: none;
+                    }
+                    &:nth-child(4){
+                        top: 50vh;
+                        left: 80vw;
+                        animation: none;
+                    }
+                }
+            }
+            @media(max-width:576px){
+                display: none;
+            }
+            @media(max-width:992px){
+                .background{
+                    li{
+                        &:first-child{
+                            top: 2vh;
+                            left: 2vw;
+                        }
+                        &:nth-child(2){
+                            top: 35vh;
+                            left: 85vw;
+                        }
+                        &:nth-child(3){
+                            top: 30vh;
+                            left: 3vw;
+                            img{
+                                width: 30px;
+                            }
+                        }
+                        &:nth-child(4){
+                            top: 50vh;
+                            left: 76vw;
+                        }
+                    }
+                }
+            }
+        }
+        .contents{
+            text-align: center;
+            margin-bottom: 50px !important;
+            .heading, .sub-title{
+                color: $light-color !important;
+                font-size: 80px;
+                strong{
+                    background: linear-gradient(90deg, #16C063 0%, #04D1FB 45.54%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            .sub-title{
+                font-size: 34px;
+                margin-bottom: 50px;
+            }
+            .descrip{
+                font-size: 22px;
+                color: $light-color;
+            }
+        }
+        .join-us{
+            text-align: center;
+            .solid-action-btn{
+                background-color: $light-color;
+                color: $text-dark;
+                padding: 1rem 3rem;
+                &:hover{
+                    background: linear-gradient(90deg, #16C063 0%, #04D1FB 45.54%);
+                    color: $light-color;
+                }
+            }
+            .outline-btn{
+                background-color: transparent;
+                color: $light-color;
+                border: 1px solid $light-color;
+                &:hover{
+                    background: none;
+                }
+            }
+        }
+    }
+    @media(max-width:576px){
+        .shopify-hero-area{
+            .container{
+                height: inherit !important;
+            }
+            .contents{
+                .heading{
+                    font-size: 40px;
+                }
+                .sub-title{
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+                .descrip{
+                    font-size: 16px;
+                }
+            }
+            .join-us{
+                display: flex;
+                justify-content: center;
+                .solid-action-btn{
+                    padding: .75rem 1.5rem;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
 .hero-area {
     min-height: 80vh;
     position: relative;
@@ -3078,6 +3231,13 @@ section{
             }
         }
     }
+    @media(max-width:1024px){
+        .shipment-form{
+            .illustration{
+                display: none;
+            }
+        }
+    }
     @media(max-width:576px){
         &::before{
             display: none;
@@ -3092,9 +3252,6 @@ section{
                         font-size: 14px;
                     }
                 }
-            }
-            .illustration{
-                display: none;
             }
         }
         .rateTable{
@@ -3682,6 +3839,69 @@ section{
             }
         }
 
+    }
+}
+
+.why-shopify{
+    .heading{
+        margin: 16px 0 60px;
+    }
+    .benefits{
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+        .content{
+            position: absolute;
+            top: 0;
+            padding: 1.5rem;
+            h5{
+                font-weight: 800;
+            }
+        }
+        .left{
+            right: 0;
+        }
+        .bottom{
+            top: unset;
+            bottom: 0;
+        }
+    }
+}
+
+.how-sync-order{
+    background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 50px 0 50px;
+    .solid-action-btn{
+        position: unset !important;
+        background-color: $light-color;
+        color: $text-dark;
+        padding: 1rem 3rem;
+        border-radius: 30px;
+        margin: 40px 0 0;
+        &:hover{
+            background: linear-gradient(90deg, #16C063 0%, #04D1FB 45.54%);
+            color: $light-color;
+        }
+    }
+    @media(max-width: 576px){
+        .solid-action-btn{
+            margin: 20px 0 0;
+            padding: .75rem 1.5rem;
+            font-size: 14px;
+        }
+    }
+}
+
+.shopify-faq,.best-ship-service{
+    padding: 50px 0 50px;
+    background-color: $light-color;
+    .heading{
+        text-wrap: balance;
     }
 }
 
