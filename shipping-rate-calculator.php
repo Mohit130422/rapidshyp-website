@@ -46,103 +46,112 @@ include 'header-section.php';?>
             <h3 class="heading">Shipping Rate Calculator</h3>
             <div class="row">
                 <div class="col-12 mb-5">
-                    <form class="shipment-form" id="calForm">
-                        <input type="hidden" name="csrf" id="csrf" value="<?=$rand?>">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-12">
-                                <div class="form-group">
-                                    <label for="pickup-pincode">Pick-up Area Pincode</label>
-                                    <input type="text" id="pickup-pincode" name="pickup-pincode"
-                                        placeholder="Enter 6 Digit Pincode" maxlength="6" required>
-                                    <small>Error Message</small>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-sm-12">
-                                <div class="form-group">
-                                    <label for="delivery-pincode">Delivery Area Pincode</label>
-                                    <input type="text" id="delivery-pincode" name="delivery-pincode"
-                                        placeholder="Enter 6 Digit Pincode" maxlength="6" required>
-                                    <small>Error Message</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-12">
-                                <div class="form-group">
-                                    <label for="weight">Actual Weight (KG)</label>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" aria-describedby="basic-addon2"
-                                            id="weight" name="weight" required>
-                                        <span class="input-group-text" id="basic-addon2">KG</span>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8 col-sm-12">
+                            <form class="shipment-form" id="calForm">
+                                <input type="hidden" name="csrf" id="csrf" value="<?=$rand?>">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="pickup-pincode">Pick-up Area Pincode</label>
+                                            <input type="text" id="pickup-pincode" name="pickup-pincode"
+                                                placeholder="Enter 6 Digit Pincode" maxlength="6" required>
+                                            <small>Error Message</small>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-sm-12">
-                                <div class="form-group">
-                                    <label for="dimension">Dimension (LWH)</label>
-                                    <div class="d-flex">
-                                        <div class="input-group margin-r">
-                                            <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                                id="dimension-l" name="dimension-l" required>
-                                            <span class="input-group-text" id="basic-addon2">CM</span>
-                                        </div>
-                                        <div class="input-group margin-r">
-                                            <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                                id="dimension-w" name="dimension-w" required>
-                                            <span class="input-group-text" id="basic-addon2">CM</span>
-                                        </div>
-                                        <div class="input-group">
-                                            <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                                id="dimension-h" name="dimension-h" required>
-                                            <span class="input-group-text" id="basic-addon2">CM</span>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="delivery-pincode">Delivery Area Pincode</label>
+                                            <input type="text" id="delivery-pincode" name="delivery-pincode"
+                                                placeholder="Enter 6 Digit Pincode" maxlength="6" required>
+                                            <small>Error Message</small>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-12">
-                                <div class="form-group">
-                                    <label for="shipValue">Shipment Value</label>
-                                    <div class="input-group">
-                                        <input type="number" class="form-control" aria-describedby="basic-addon2"
-                                            id="shipValue" name="shipValue">
-                                        <span class="input-group-text" id="basic-addon2">₹</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-sm-12">
-                                <div class="form-group">
-                                    <label for="payment-type">Payment Type</label>
-                                    <div class="payment-options">
-                                        <label for="prepaid" class="radio pricing">
-                                            <div class="selection d-flex align-items-center">
-                                                <input type="radio" class="radio-input" id="prepaid" name="payment-type"
-                                                    value="prepaid" required checked>
-                                                <div class="radio-outline"></div>
-                                                Prepaid
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="weight">Actual Weight (KG)</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" aria-describedby="basic-addon2"
+                                                    id="weight" name="weight" required>
+                                                <span class="input-group-text" id="basic-addon2">KG</span>
                                             </div>
-                                        </label>
-                                        <label for="cod" class="radio pricing">
-                                            <div class="selection d-flex align-items-center">
-                                                <input type="radio" class="radio-input" id="cod" name="payment-type"
-                                                    value="cod" required>
-                                                <div class="radio-outline"></div>
-                                                Cash On Delivery
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="dimension">Dimension (LWH)</label>
+                                            <div class="d-flex">
+                                                <div class="input-group margin-r">
+                                                    <input type="number" class="form-control"
+                                                        aria-describedby="basic-addon2" id="dimension-l"
+                                                        name="dimension-l" required>
+                                                    <span class="input-group-text" id="basic-addon2">CM</span>
+                                                </div>
+                                                <div class="input-group margin-r">
+                                                    <input type="number" class="form-control"
+                                                        aria-describedby="basic-addon2" id="dimension-w"
+                                                        name="dimension-w" required>
+                                                    <span class="input-group-text" id="basic-addon2">CM</span>
+                                                </div>
+                                                <div class="input-group">
+                                                    <input type="number" class="form-control"
+                                                        aria-describedby="basic-addon2" id="dimension-h"
+                                                        name="dimension-h" required>
+                                                    <span class="input-group-text" id="basic-addon2">CM</span>
+                                                </div>
                                             </div>
-                                        </label>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="shipValue">Shipment Value</label>
+                                            <div class="input-group">
+                                                <input type="number" class="form-control"
+                                                    aria-describedby="basic-addon2" id="shipValue" name="shipValue">
+                                                <span class="input-group-text" id="basic-addon2">₹</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="payment-type">Payment Type</label>
+                                            <div class="payment-options">
+                                                <label for="prepaid" class="radio pricing">
+                                                    <div class="selection d-flex align-items-center">
+                                                        <input type="radio" class="radio-input" id="prepaid"
+                                                            name="payment-type" value="prepaid" required checked>
+                                                        <div class="radio-outline"></div>
+                                                        Prepaid
+                                                    </div>
+                                                </label>
+                                                <label for="cod" class="radio pricing">
+                                                    <div class="selection d-flex align-items-center">
+                                                        <input type="radio" class="radio-input" id="cod"
+                                                            name="payment-type" value="cod" required>
+                                                        <div class="radio-outline"></div>
+                                                        Cash On Delivery
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <input type="submit" class="solid-action-btn calculate-btn">Calculate Now</input> -->
+                                <input type="submit" class="solid-action-btn calculate-btn" value="Calculate Now">
+                                <button type="reset" class="reset-btn">Reset</button>
+                            </form>
+                        </div>
+                        <div class="col-md-12 col-lg-4 col-sm-12 p-0">
+                            <div class="illustration">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/calculator.png"
+                                    alt="Illustration">
                             </div>
                         </div>
-                        <!-- <input type="submit" class="solid-action-btn calculate-btn">Calculate Now</input> -->
-                        <input type="submit" class="solid-action-btn calculate-btn" value="Calculate Now">
-                        <button type="reset" class="reset-btn">Reset</button>
-                        <div class="illustration">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/calculator.png"
-                                alt="Illustration">
-                        </div>
-                    </form>
+                    </div>
                 </div>
                 <div id="errorMessage" style="color: red; text-align:center; display:none;"></div>
                 <div class="rateLoader">Loading</div>
@@ -170,9 +179,12 @@ include 'header-section.php';?>
                                         <th>Chargeable Weight (KG)</th>
                                         <th>
                                             Shipping Rates
-                                            <button type="button"><i class="fas fa-info-circle"></i><span class="tooltips">Pricing is subjective to change as per the applicable plan.</span></button>
+                                            <button type="button"><i class="fas fa-info-circle"></i><span
+                                                    class="tooltips">Pricing is subjective to change as per the
+                                                    applicable plan.</span></button>
                                         </th>
-                                        <th>EDD <button type="button"><i class="fas fa-info-circle"></i><span class="tooltips">Estimated Delivery Date</span></button></th>
+                                        <th>EDD <button type="button"><i class="fas fa-info-circle"></i><span
+                                                    class="tooltips">Estimated Delivery Date</span></button></th>
                                     </tr>
                                 </thead>
                                 <tbody id="rateTableBody">
@@ -307,7 +319,7 @@ include 'header-section.php';?>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h3 class="heading mb-0">Get Control Over Your <br> Shipping Costs</h3>
                     <ul class="p-0">
-                        <li><i class="far fa-check-circle"></i>10+ courier partners</li>
+                        <li><i class="far fa-check-circle"></i>15+ courier partners</li>
                         <li><i class="far fa-check-circle"></i>Economical rates</li>
                         <li><i class="far fa-check-circle"></i>26,000+ pin codes</li>
                     </ul>

@@ -441,9 +441,9 @@ $(document).ready(function () {
              // Reset rate result table and hide it before starting the new request
              $rateTableBody.empty();
              $rateResult.hide();
-
-            // Show the loader
-            $rateLoader.show();
+ 
+             // Show the loader
+             $rateLoader.show();
 
             // Fetch rates via AJAX
             $.ajax({
@@ -458,8 +458,17 @@ $(document).ready(function () {
                     $rateLoader.hide();
 
                     if (data.result === 'error') {
-                        // Display the error message from the server
-                        $errorMessage.text(data.message).show();
+                         // If pincode(s) are not serviceable, check which one is invalid and show error near that input
+                         if (data.message.includes('Pincode(s) not serviceable')) {
+                            if (data.invalid_pincode === 'pickup') {
+                                showError($pickupPin, 'Pickup pincode not serviceable');
+                            } else if (data.invalid_pincode === 'delivery') {
+                                showError($deliverPin, 'Delivery pincode not serviceable');
+                            }
+                        } else {
+                            // Display any other server error
+                            $errorMessage.text(data.message).show();
+                        }
                     } else if (Array.isArray(data)) {
                         $rateResult.show();
                         let rows = '';
@@ -477,12 +486,14 @@ $(document).ready(function () {
                         // Append the rows to the table
                         $rateTableBody.html(rows);
 
+                        // Reset the form
+                        // $('#calForm')[0].reset();
                     } else {
                         $errorMessage.text('An unexpected error occurred. Please try again.').show();
                     }
                 },
                 error: function (xhr) {
-                    $rateLoader.hide();
+                    // $rateLoader.hide();
 
                     let message = 'Failed to fetch rates. Please try again later.';
                     if (xhr.responseJSON && xhr.responseJSON.message) {
@@ -495,8 +506,8 @@ $(document).ready(function () {
             });
         }
     });
-      // Handle reset button click
-    $('#calForm').on('reset', function () {
+     // Handle reset button click
+     $('#calForm').on('reset', function () {
         // Hide rate result table when reset is clicked
         $rateResult.hide();
         // Hide error message if any

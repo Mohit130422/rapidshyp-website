@@ -57,15 +57,31 @@ else if($chargeable_wt>=10)
 	$add_weight=CEIL($chargeable_wt-10);
 }
 
+$query=mysqli_query($con,"select * from rs_postcode where pincode IN ('{$pickup_pincode}')");
+if (mysqli_num_rows($query) != 1) {
+    $data['result'] = "error";
+    $data['message'] = "Pincode(s) not serviceable";
+    $data['invalid_pincode'] = "pickup";  // Mark the invalid pincode
+    echo json_encode($data);
+    die();
+} 
 
+$query=mysqli_query($con,"select * from rs_postcode where pincode IN ('{$delivery_pincode}')");
+if (mysqli_num_rows($query) != 1) {
+    $data['result'] = "error";
+    $data['message'] = "Pincode(s) not serviceable";
+    $data['invalid_pincode'] = "delivery";  // Mark the invalid pincode
+    echo json_encode($data);
+    die();
+}
 
 //get Zone
-$query=mysqli_query($con,"select * from rs_postcode where pincode IN ('{$pickup_pincode}','{$delivery_pincode}')");
-if (mysqli_num_rows($query) != 2) {
-    http_response_code(400);
-    echo json_encode(['result' => 'error', 'message' => 'Pincode(s) not serviceable']);
-    exit;
-}
+// $query=mysqli_query($con,"select * from rs_postcode where pincode IN ('{$pickup_pincode}','{$delivery_pincode}')");
+// if (mysqli_num_rows($query) != 2) {
+//     http_response_code(400);
+//     echo json_encode(['result' => 'error', 'message' => 'Pincode(s) not serviceable']);
+//     exit;
+// }
 
 $postcode = [];
 while($data=mysqli_fetch_array($query))
