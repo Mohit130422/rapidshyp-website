@@ -295,8 +295,9 @@ $(document).ready(function () {
                         $('.tracking-table').removeClass('hidden');
                         let additionalInfo;
                         // let eddColumn = ''; // EDD column content
+                        let eddValue = item.current_courier_edd && item.current_courier_edd.trim() ? item.current_courier_edd.split(' ')[0] : 'N/A';
                         if (order_status !== "Undelivered" || order_status !== "RTO In Transit" || order_status !== "RTO Out for Delivery" || order_status !== "RTO Delivered") {
-                            eddColumn = `<td class="align-middle edd-column">${item.current_courier_edd.split(' ')[0]}</td>`;
+                            eddColumn = `<td class="align-middle edd-column">${eddValue}</td>`;
                         }
                         if (product_details.length > 1) {
                             // Get the additional product names for the tooltip
@@ -332,7 +333,7 @@ $(document).ready(function () {
                     $('#responseMessage').html('');
 
                     // Hide the EDD column if necessary
-                    if (shipment_data.some(item => item.current_tracking_status_desc === "Undelivered" || item.current_tracking_status_desc === "RTO In Transit" || item.current_tracking_status_desc === "RTO Out for Delivery" || item.current_tracking_status_desc === "RTO Delivered")) {
+                    if (shipment_data.some(item => item.current_tracking_status_desc === "Undelivered" || item.current_tracking_status_desc === "RTO In Transit" || item.current_tracking_status_desc === "RTO Out for Delivery" || item.current_tracking_status_desc === "RTO Delivered" || item.current_tracking_status_desc === "Delivered")) {
                         $('.edd-column').hide();
                     }
                 } else {
