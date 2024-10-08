@@ -18,7 +18,14 @@ function setCookie(name, value, days) {
     const d = new Date();
     d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
     const expires = "expires=" + d.toUTCString();
-    document.cookie = `${name}=${value};${expires};path=/;domain=.rapidshyp.com`;
+    document.cookie = `${name}=${value};${expires};path=/;domain=.rapidshyp.com;SameSite=Lax`; // Generalize domain for subdomains
+}
+
+// Function to check if a referrer is external
+function isExternalReferrer(referrer) {
+    const domain = '.rapidshyp.com'; // Adjust domain to include subdomains
+    const referrerHost = new URL(referrer).hostname;
+    return !referrerHost.endsWith(domain);
 }
 
 // Function to get a cookie
