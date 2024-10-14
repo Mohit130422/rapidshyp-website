@@ -400,7 +400,7 @@ mark {
 @media (max-width: 991px) {
   .topHeader {
     padding: 8px 16px;
-    font-size: 12px;
+    font-size: 11px;
     display: grid;
     grid-template-columns: auto 105px;
     flex-wrap: nowrap;
@@ -3619,7 +3619,7 @@ section {
 }
 
 .how-sync-order {
-  background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-bg.png);
+  background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/auto-sync-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3647,12 +3647,24 @@ section {
   }
 }
 
-.shopify-faq, .best-ship-service {
-  padding: 50px 0 50px;
+.best-ship-service {
+  padding: 80px 0 80px;
   background-color: #fff;
 }
-.shopify-faq .heading, .best-ship-service .heading {
+.best-ship-service .heading {
   text-wrap: balance;
+}
+.best-ship-service .solid-action-btn {
+  margin: 0;
+  padding: 1rem 3rem;
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  .best-ship-service .solid-action-btn {
+    margin: 20px 0 0;
+    padding: 0.75rem 1.5rem;
+    font-size: 14px;
+  }
 }
 
 .terms-condition h1 {
@@ -3677,6 +3689,7 @@ footer .brand img {
   width: 200px;
 }
 footer .mb-4 {
+  font-size: 14px;
   color: #36485C;
   font-weight: 500;
 }
@@ -3716,6 +3729,11 @@ footer .links .link i {
 }
 footer img {
   width: 100%;
+}
+@media (max-width: 1400px) {
+  footer .links .link {
+    font-size: 12px;
+  }
 }
 
 .adlinks {

@@ -1,5 +1,5 @@
 <footer id="contact">
-        <div class="container">
+    <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="brand mb-4">
@@ -69,11 +69,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/footer-img.png" alt="">
-    </footer>
+    </div>
+    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/footer-img.png" alt="">
+</footer>
 
-    <div class="adlinks">
+<div class="adlinks">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
@@ -85,8 +85,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="blur-overlay" id="joinWaitlistModal">
+</div>
+<div class="blur-overlay" id="joinWaitlistModal">
         <div class="dialog-box">
             <div class="head">
                 <h5>Get Started</h5>
@@ -187,8 +187,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="blur-overlay" id="thankyou">
+</div>
+<div class="blur-overlay" id="thankyou">
         <div class="dialog-box thankyou-box">
             <div class="container">
                 <div class="row mb-4">
@@ -209,4 +209,4 @@
             </div>
             
         </div>
-    </div>
+</div>

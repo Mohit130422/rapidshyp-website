@@ -581,7 +581,7 @@
   <script src="assets/vendor/php-email-form/form-submit.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?=WEB_URL?>assets/js/main.js"></script>
 
 </body>
 

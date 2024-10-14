@@ -12,6 +12,8 @@ RewriteCond %{HTTP_HOST} ^rapidshyp\.in$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.rapidshyp\.in$
 RewriteRule ^/?$ "https\:\/\/www\.rapidshyp\.com\/" [R=301,L]
 
+
+
 # Disable directory listing
 Options -Indexes
 RewriteCond %{HTTP_HOST} ^rapidshyp\.com$ [OR]
@@ -30,13 +32,6 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
-
-RewriteEngine On
-RewriteRule ^(.*)\.html$ $1.php [L]
-
-RewriteEngine On
-RewriteRule ^shipping-rates-from-([a-zA-Z]+)-to-([a-zA-Z]+)/?$ shipping.php?from=$1&to=$2 [L]
-
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php81” package as the default “PHP” programming language.

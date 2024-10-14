@@ -519,7 +519,7 @@ $(document).ready(function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
     const calculateBtn = document.getElementById('calculateBtn');
     const actualWeightEl = document.querySelector('.actual-weight');
     const chargeableWeightEl = document.querySelector('.chargeable-weight');
@@ -547,7 +547,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    const calculateWeight = () => {
+    function calculateWeight () {
         let totalVolume = 0;
         let valid = true;
 

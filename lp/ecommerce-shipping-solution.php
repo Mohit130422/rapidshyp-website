@@ -658,7 +658,7 @@ include 'header-section-v2.php';?>
         </div>
     </div>
 
-    <script src="../assets/js/main.js"></script>
+    <script src="../<?=WEB_URL?>assets/js/main.js"></script>
     <script>
     $(".get-start").click(function() {
         $('html, body').animate({

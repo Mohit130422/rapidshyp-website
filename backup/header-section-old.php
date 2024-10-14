@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php 
+$domain = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https://' : 'http://';
+$domain .= $_SERVER['HTTP_HOST']. '/';
+define('WEB_URL', $domain.'rapidshyp-website/')
+?>
 <head>
     <meta charset="UTF-8">
-    <!-- <base href="https://www.rapidshyp.com"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta property="og:description"
         content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
@@ -22,13 +25,12 @@
     <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png"
         sizes="192x192" />
     <script src="https://kit.fontawesome.com/2fbb4ed8a1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="node_modules/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
-    <link rel="stylesheet" href="node_modules/owl.theme.default.min.css">
-    <script src="node_modules/jquery.min.js"></script>
-    <script src="node_modules/owl.carousel.min.js"></script>
-    <script src="node_modules/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/utm.js"></script>
+    <link rel="stylesheet" href="<?=WEB_URL?>node_modules/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=WEB_URL?>node_modules/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?=WEB_URL?>node_modules/owl.theme.default.min.css">
+    <script src="<?=WEB_URL?>node_modules/jquery.min.js"></script>
+    <script src="<?=WEB_URL?>node_modules/owl.carousel.min.js"></script>
+    <script src="<?=WEB_URL?>node_modules/bootstrap.bundle.min.js"></script>
     <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -46,22 +48,22 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.3.2">
+    <link rel="stylesheet" href="<?=WEB_URL?>assets/css/main.css?v=0.3.1">
 
     <!-- Start of Tawk.to Script -->
-    <!-- <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
-    (function() {
-        var s1 = document.createElement("script"),
-            s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/65bcdfd98d261e1b5f5b4aa3/1hlkskr5v';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
-    </script> -->
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/65bcdfd98d261e1b5f5b4aa3/1hlkskr5v';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
     <!--End of Tawk.to Script-->
 
     <!-- organization schema start -->
@@ -109,20 +111,20 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11397568129"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
+        function gtag() {
         dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        }
+        gtag('js', new Date());
 
-    gtag('config', 'AW-11397568129');
+        gtag('config', 'AW-11397568129');
     </script>
 
 
     <!-- start Event snippet for Submit lead form conversion page-->
     <script>
-    function gtag_report_conversion(url) {
+        function gtag_report_conversion(url) {
         console.log("convert");
         var callback = function() {
             if (typeof(url) !== 'undefined') {
@@ -138,6 +140,6 @@
         }, 3000); // 3000 milliseconds = 3 seconds
 
         return false;
-    }
+        }
     </script>
     <!-- End Event snippet for Submit lead form conversion page-->

@@ -1,21 +1,21 @@
 <header class="header">
     <div class="topHeader">
         <p id="countdown"></p>
-        <p><strong>Get 10% Cashback* Up to &#8377; 1000</strong>  On Your First Recharge. Use Code: <strong>WELCOME10. </strong>T&C Apply</p>
+        <p>This Dussehra, don’t burn your hard-earned money. <strong>Get flat 50% cashback* up to &#8377; 1000</strong>  on your first recharge. Use code: <strong>FESTIVE50.</strong>*T&C apply</p>
         <span class="openWaitlistModal">Get Started <i class="fas fa-chevron-right"></i></span>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
-                <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
+            <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     <div id="navbar-close" class="hidden">
                         <i class="fas fa-times"></i>
                     </div>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="/#product">Product</a>
@@ -56,7 +56,7 @@
                                     class="fas fa-chevron-right"></i></button></li>
                         </li>
                     </div>
-                </div>
             </div>
+        </div>
     </nav>
 </header>

@@ -4,10 +4,10 @@ $rand=mt_rand(11111111,99999999);;
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
 <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/tracking-og-img.png">
-<meta property="og:title" content="RapidShyp Tracking - eCommerce Shipping Solution and Courier Aggregator" />
-<meta name="title" content="Track your Order - RapidShyp" />
+<meta property="og:title" content="RapidShyp Package/Order Tracking - Track Your Orders & Shipments" />
+<meta name="title" content="RapidShyp Package/Order Tracking - Track Your Orders & Shipments" />
 <link rel="canonical" href="https://www.rapidshyp.com/shipment-tracking" />
-<title>RapidShyp Tracking - eCommerce Shipping Solution and Courier Aggregator</title>
+<title>RapidShyp Package/Order Tracking - Track Your Orders & Shipments</title>
 
 </head>
 
