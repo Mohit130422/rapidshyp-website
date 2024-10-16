@@ -15,7 +15,7 @@ include 'header-section-v2.php';?>
 <body>
     <div class="topHeader">
         <p id="countdown"></p>
-        <p><strong>Get 10% Cashback* Up to &#8377; 1000</strong>  On Your First Recharge. Use Code: <strong>WELCOME10. </strong>T&C Apply</p>
+        <p>This festive season, don't burn your hard-earned money. <strong>Get flat 50% cashback* up to &#8377; 1000</strong>  on your first recharge. Use code: <strong>FESTIVE50.</strong>*T&C apply</p>
     </div>
     <section class="signup-section" id="signup">
         <div class="container-fluid">
