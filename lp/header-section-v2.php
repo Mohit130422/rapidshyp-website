@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta property="og:description"
         content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
@@ -27,6 +29,7 @@
     <script src="../node_modules/jquery.min.js"></script>
     <script src="../node_modules/owl.carousel.min.js"></script>
     <script src="../node_modules/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/utm.js"></script>
     <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
