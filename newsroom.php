@@ -50,7 +50,7 @@
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_04.png" alt="">
                         </div>
-                        <div class="item">
+                        <!-- <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_05.png" alt="">
                         </div>
                         <div class="item">
@@ -58,12 +58,15 @@
                         </div>
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_07.png" alt="">
-                        </div>
+                        </div> -->
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_08.png" alt="">
                         </div>
-                        <div class="item">
+                        <!-- <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_09.png" alt="">
+                        </div> -->
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_10.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -83,13 +86,61 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/TICE_Banner.jpg" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">05th October 2024</span>
+                            </div>
+                            <a href="https://www.tice.news/tice-trending/how-is-om-logistics-reimagining-d2c-shipping-with-rapidshyp-7281635" target="_blank"><p class="content">How is Om Logistics Reimagining D2C Shipping with RapidShyp?</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://www.tice.news/tice-trending/how-is-om-logistics-reimagining-d2c-shipping-with-rapidshyp-7281635" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/YourStory_Banner .jpg" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">26th September 2024</span>
+                            </div>
+                            <a href="https://yourstory.com/2024/09/startups-new-tech-improve-logistics-fulfilment-during-festive-season" target="_blank"><p class="content">How Startups Are Leveraging New Tech to Improve Logistics and Fulfilment During the Peak Festive Season</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://yourstory.com/2024/09/startups-new-tech-improve-logistics-fulfilment-during-festive-season" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/APN_NEWS_Banner.jpg" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">29th August 2024</span>
+                            </div>
+                            <a href="https://www.apnnews.com/top-4-brands-making-daily-business-operations-smoother-in-india/" target="_blank"><p class="content">Top 4 Brands Making Daily Business Operations Smoother in India</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://www.apnnews.com/top-4-brands-making-daily-business-operations-smoother-in-india/" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_CXO_Today.png" alt="">
                         </div>
                         <div class="body">
                             <div>
                                 <span class="time">27th June 2024</span>
                             </div>
-                            <p class="content">World MSMEs Day: Celebrating Key Drivers of eCommerce</p>
+                            <a href="https://cxotoday.com/specials/world-msme-day-fueling-the-future/" target="_blank"><p class="content">World MSMEs Day: Celebrating Key Drivers of eCommerce</p></a>
                         </div>
                         <div class="footer">
                             <a href="https://cxotoday.com/specials/world-msme-day-fueling-the-future/" target="_blank">Know More</a>
@@ -105,7 +156,7 @@
                             <div>
                                 <span class="time">17th June 2024</span>
                             </div>
-                            <p class="content">Budget 2024: Logistics Industry Hopes for Consistent Growth, Infra Boost, Tax Reforms</p>
+                            <a href="https://www.financialexpress.com/budget/budget-2024-expectations-logistics-industry-hope-for-consistency-in-growth-policy-continued-infra-push-tax-reforms-financial-incentives-3527356/" target="_blank"><p class="content">Budget 2024: Logistics Industry Hopes for Consistent Growth, Infra Boost, Tax Reforms</p></a>
                         </div>
                         <div class="footer">
                             <a href="https://www.financialexpress.com/budget/budget-2024-expectations-logistics-industry-hope-for-consistency-in-growth-policy-continued-infra-push-tax-reforms-financial-incentives-3527356/" target="_blank">Know More</a>
@@ -121,7 +172,7 @@
                             <div>
                                 <span class="time">21st May 2024</span>
                             </div>
-                            <p class="content">Om Logistics Expands into D2C Shipping with RapidShyp</p>
+                            <a href="https://www.logisticsinsider.in/om-logistics-expands-into-d2c-shipping-with-rapidshyp/" target="_blank"><p class="content">Om Logistics Expands into D2C Shipping with RapidShyp</p></a>
                         </div>
                         <div class="footer">
                             <a href="https://www.logisticsinsider.in/om-logistics-expands-into-d2c-shipping-with-rapidshyp/" target="_blank">Know More</a>
@@ -137,7 +188,7 @@
                             <div>
                                 <span class="time">20th May 2024</span>
                             </div>
-                            <p class="content">Leveraging decades-long expertise, Om Logistics Launches RapidShyp</p>
+                            <a href="https://yourstory.com/2024/05/startup-news-and-updates-daily-roundup-may-20-2024" target="_blank"><p class="content">Leveraging decades-long expertise, Om Logistics Launches RapidShyp</p></a>
                         </div>
                         <div class="footer">
                             <a href="https://yourstory.com/2024/05/startup-news-and-updates-daily-roundup-may-20-2024" target="_blank">Know More</a>
