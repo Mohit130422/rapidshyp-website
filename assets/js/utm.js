@@ -56,7 +56,6 @@ function replaceHyphens(url) {
 // Function to store landing page URL in a cookie
 function storeLandingPage() {
     const landingPageUrl = replaceHyphens(window.location.href);
-    console.log(landingPageUrl)
     if (!getCookie('landing_page')) {
         setCookie('landing_page', landingPageUrl, 30); // Store landing page URL for 30 days
     }
@@ -78,7 +77,7 @@ function isExternalReferrer(referrer) {
 // Function to store UTM parameters in cookies
 function storeUtmParams() {
     const params = getUrlParams();
-    const utmParams = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+    const utmParams = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'device'];
 
     const firstUtm = {};
     const latestUtm = {};

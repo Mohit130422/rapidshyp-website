@@ -3,8 +3,6 @@ session_start();
 $rand=mt_rand(11111111,99999999);;
 $_SESSION['csrf']=$rand;
 include 'header-section-v2.php';?>
-<meta name="robots" content="noindex">
-<meta name="googlebot" content="noindex">
 <meta property="og:title" content="eCommerce-shipping-solution- RapidShyp" />
 <meta name="title" content="eCommerce-shipping-solution- RapidShyp" />
 <link rel="canonical" href="https://www.rapidshyp.com/eCommerce-shipping-solution" />
@@ -658,7 +656,7 @@ include 'header-section-v2.php';?>
         </div>
     </div>
 
-    <script src="../<?=WEB_URL?>assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
     <script>
     $(".get-start").click(function() {
         $('html, body').animate({

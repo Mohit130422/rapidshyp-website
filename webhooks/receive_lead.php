@@ -72,11 +72,13 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
         $utm_campaign="";
         $utm_content="";
         $utm_term="";
+        $latest_device="";
         $first_utm_source="";
         $first_utm_medium="";
         $first_utm_campaign="";
         $first_utm_content="";
         $first_utm_term="";
+        $first_device="";
         $referrer="";
         $initial_referrer="";
         $lastvisitedpage="";
@@ -90,6 +92,7 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
             $utm_campaign=(isset($utm['utm_campaign'])?$utm['utm_campaign']:"");
             $utm_content=(isset($utm['utm_content'])?$utm['utm_content']:"");
             $utm_term=(isset($utm['utm_term'])?$utm['utm_term']:"");
+            $latest_device=(isset($utm['device'])?$utm['device']:"");
             
             
         }
@@ -101,7 +104,7 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
             $first_utm_campaign=(isset($futm['utm_campaign'])?$futm['utm_campaign']:"");
             $first_utm_content=(isset($futm['utm_content'])?$futm['utm_content']:"");
             $first_utm_term=(isset($futm['utm_term'])?$futm['utm_term']:"");
-            
+            $first_device=(isset($futm['device'])?$futm['device']:"");
             
         }
 
@@ -129,11 +132,13 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
                 'utmcampaign' => $utm_campaign, 
                 'utmcontent' => $utm_content, 
                 'utmterm' => $utm_term, 
+                'latestdevice' => $latest_device, 
                 'firstutmsource' => $first_utm_source,
                  'firstutmmedium' => $first_utm_medium,
                  'firstutmcampaign' => $first_utm_campaign,
                  'firstutmcontent' => $first_utm_content,
                  'firstutmterm' => $first_utm_term,
+                 'firstdevice' => $first_device,
                  'referrer' => $referrer,
                  'initialreferrer' => $initial_referrer,
                  'lastvisitedpage' => $lastvisitedpage,

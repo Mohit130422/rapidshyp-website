@@ -5,10 +5,10 @@ $_SESSION['csrf']=$rand;
 include 'header-section-v2.php';?>
 <meta name="robots" content="noindex">
 <meta name="googlebot" content="noindex">
-<meta property="og:title" content="Courier Delivery Service | Shipping Solution in India - RapidShyp" />
-<meta name="title" content="Courier Delivery Service | Shipping Solution in India - RapidShyp" />
-<link rel="canonical" href="https://www.rapidshyp.com/lp/best-courier-delivery-service" />
-<title>Courier Delivery Service | Shipping Solution in India - RapidShyp</title>
+<meta property="og:title" content="eCommerce-delivery- RapidShyp" />
+<meta name="title" content="eCommerce-delivery- RapidShyp" />
+<link rel="canonical" href="https://www.rapidshyp.com/eCommerce-delivery" />
+<title>eCommerce Delivery Partner | Courier Aggregator in India - RapidShyp</title>
 
 </head>
 
@@ -26,8 +26,8 @@ include 'header-section-v2.php';?>
             <div class="row">
                 <div class="col-lg-6 col-md-5 col-sm-12 content">
                     <div class="body">
-                        <h1 class="heading">Streamline Your Business With <br> the Best Courier Delivery Service</h1>
-                        <p class="sub-heading">Your Trusted eCommerce courier Partner </p>
+                        <h1 class="heading">Streamline Your <br> eCommerce Delivery</h1>
+                        <p>Your Trusted eCommerce Delivery Partner </p>
                         <ul class="usp-points">
                             <li><i class="fas fa-check-circle"></i> Courier Recommendation Engine</li>
                             <li><i class="fas fa-check-circle"></i> Xperience Suite </li>
@@ -44,7 +44,7 @@ include 'header-section-v2.php';?>
                     <div class="form-container">
                         <div class="head">
                             <h3>Get started with a free account</h3>
-                            <p class="mb-3">Discover the best courier company for your eCommerce business</p>
+                            <p class="mb-3">Get the best last mile delivery service for your eCommerce business</p>
                         </div>
                         <div class="body">
                             <?php $date=time();?>
@@ -232,7 +232,7 @@ include 'header-section-v2.php';?>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                    <h3 class="heading">Hook. Rehook. Hold. </h3>
+                    <h2 class="heading">Hook. Rehook. Hold. </h2>
                     <p class="sub-heading">Enhance brand recall with a branded tracking page Highlight your brand logo,
                         banners, offers, and more</p>
                 </div>
@@ -286,9 +286,9 @@ include 'header-section-v2.php';?>
 
     <section class="hook-rehook embrace-the-growth">
         <div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row align-items-center justify-content-center">
                 <div class="col-lg-8 col-md-12 col-sm-12 text-center">
-                    <h3 class="heading">Embrace The Growth Beyond RTOs With The Best Courier Services</h3>
+                    <h3 class="heading">Move Forward Without RTOs</h3>
                     <p class="sub-heading">Who likes return orders? Climb growth trajectory with slashed RTO rates</p>
                 </div>
             </div>
@@ -352,9 +352,9 @@ include 'header-section-v2.php';?>
                 </div>
             </div>
             <div class="row justify-content-center mt-5 align-items-center">
-                <div class="col-lg-8 col-md-12 col-sm-12 text-center">
-                    <h3 class="heading">Why Choose RapidShyp's eCommerce Courier Services?</h3>
-                    <p class="sub-heading">Incredible Features For Effortless Last Mile Courier Services</p>
+                <div class="col-lg-7 col-md-12 col-sm-12 text-center">
+                    <h3 class="heading">Why Choose RapidShyp As Your eCommerce Delivery Partner?</h3>
+                    <p class="sub-heading">Incredible Features of the Best eCommerce Delivery Services in India</p>
                 </div>
             </div>
             <div class="row mt-5 align-items-center justify-content-center">
@@ -658,7 +658,7 @@ include 'header-section-v2.php';?>
         </div>
     </div>
 
-    <script src="../assets/js/main.js"></script>
+    <script src="../<?=WEB_URL?>assets/js/main.js"></script>
     <script>
     $(".get-start").click(function() {
         $('html, body').animate({

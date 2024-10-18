@@ -5,9 +5,9 @@ $_SESSION['csrf']=$rand;
 include 'header-section-v2.php';?>
 <meta name="robots" content="noindex">
 <meta name="googlebot" content="noindex">
-<meta property="og:title" content="eCommerce-delivery- RapidShyp" />
-<meta name="title" content="eCommerce-delivery- RapidShyp" />
-<link rel="canonical" href="https://www.rapidshyp.com/eCommerce-delivery" />
+<meta property="og:title" content="eCommerce Delivery Partner | Courier Aggregator in India - RapidShyp" />
+<meta name="title" content="eCommerce Delivery Partner | Courier Aggregator in India - RapidShyp" />
+<link rel="canonical" href="https://www.rapidshyp.com/lp/ecommerce-delivery" />
 <title>eCommerce Delivery Partner | Courier Aggregator in India - RapidShyp</title>
 
 </head>
@@ -30,7 +30,7 @@ include 'header-section-v2.php';?>
                         <p>Your Trusted eCommerce Delivery Partner </p>
                         <ul class="usp-points">
                             <li><i class="fas fa-check-circle"></i> Courier Recommendation Engine</li>
-                            <li><i class="fas fa-check-circle"></i> Xperience Suite </li>
+                            <li><i class="fas fa-check-circle"></i> Xperience Suite</li>
                             <li><i class="fas fa-check-circle"></i> Automated NDR Workflows</li>
                             <li><i class="fas fa-check-circle"></i> RTO Reduction Upto 40%</li>
                         </ul>
@@ -658,7 +658,7 @@ include 'header-section-v2.php';?>
         </div>
     </div>
 
-    <script src="../<?=WEB_URL?>assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
     <script>
     $(".get-start").click(function() {
         $('html, body').animate({

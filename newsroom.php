@@ -36,7 +36,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h4 class="heading">Featured in Top Publications</h4>
+                    <h4 class="heading">Featured in Top Publications</h4>
                     <div class="owl-carousel owl-theme publishers" id="publishers">
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_01.png" alt="">
@@ -49,6 +49,21 @@
                         </div>
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_04.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_05.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_06.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_07.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_08.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_09.png" alt="">
                         </div>
                     </div>
                 </div>
