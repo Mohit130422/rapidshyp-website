@@ -21,7 +21,7 @@ include 'header-section-v2.php';?>
                 <a class="navbar-brand" href="/"><img
                         src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
             </div>
-            <div class="row">
+            <div class="row col-reverse">
                 <div class="col-lg-6 col-md-5 col-sm-12 content">
                     <div class="body">
                         <h1 class="heading">Streamline Your Business With<br> eCommerce Shipping Solution</h1>
