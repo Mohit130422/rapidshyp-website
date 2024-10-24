@@ -43,12 +43,12 @@
                                 </ul>
                             </div>
                         </li>
-                        <!--<li class="nav-item">
-                            
-                        </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
+                            <a class="nav-link" href="diwali-2024">Diwali 2024</a>
                         </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li> -->
                     </ul>
                     <div class="navbar-nav d-flex">
                         <li class="nav-item"><a class="nav-link mt-0" href="shipment-tracking">Track Order</a> </li>

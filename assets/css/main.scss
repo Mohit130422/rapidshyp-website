@@ -37,6 +37,14 @@ html, body{
     background-color: $bg-shade1 !important;
     border-radius: 25px;
 }
+.diwali-bg{
+    background-color: #230635;
+    color: $light-color;
+}
+.bg-white{
+    background-color: $light-color;
+    color: $text-dark;
+}
 
 *{
     transition: 0.2s;
@@ -373,6 +381,107 @@ mark{
             }
         }
     }
+    .diwalioffer{
+        border-radius: 24px;
+        width: 750px;
+        position: relative;
+        border: 8px solid #04040473;
+        background: linear-gradient(260.14deg, #F6D9FF -19.28%, #FFEAAB 136.79%);
+        .lamps{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            li{
+                list-style: none;
+                &:first-child{
+                    position: absolute;
+                    top: 0;
+                    left: 10%;
+                }
+                &:nth-child(2){
+                    position: absolute;
+                    top: 0;
+                    right: 10%;
+                }
+            }
+        }
+        .head{
+            text-align: right;
+            display: block;
+        }
+        .content{
+            color: $primary-color;
+            margin: 4rem 0 0rem;
+            .text-center{
+                img{
+                    width: 20px;
+                    margin-right: 8px;
+                }
+                .fw-bolder{
+                    font-weight: 900 !important;
+                }
+            }
+        }
+        .footer{
+            .code{
+                background-image: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/offer-border.svg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 180px;
+                text-align: center;
+                p{
+                    font-weight: 800;
+                    color: $text-dark;
+                    padding-top: 25px;
+                }
+                mark{
+                    padding: 0;
+                    background: linear-gradient(120deg, #9E44CE 10%, #f9c427 90%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    border-radius: 0;
+                    font-size: 30px;
+                    font-weight: 800;
+                }
+                i{
+                    color: $primary-color;
+                    font-size: 18px;
+                }
+                small {
+                    display: none;
+                    color: green;
+                    i{
+                        color: green;
+                    }
+                }
+            }
+        }
+        @media(max-width: 576px){
+            .lamps{
+                display: none;
+            }
+            .content{
+                margin: 1rem 0;
+            }
+            .footer{
+                .code{
+                    height: 150px;
+                    p{
+                        padding-top: 35px;
+                    }
+                    mark{
+                        font-size: 20px;
+                    }
+                    small{
+                        margin-top: 25px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .topHeader{
@@ -608,11 +717,358 @@ section{
         left: 0px;
         width: 270px;
         height: 675px;
-        background-image: url(../images/vector1.png);
+        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/vector1.png);
         background-repeat: no-repeat;
         animation: fadeUp 3s ease-in-out;
     }
     
+}
+
+.diwali-lp-hero{
+    position: relative;
+    display: block;
+    height: 100vh;
+    .imgs{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
+        img{
+            display: block;
+            height: initial;
+            width: 100%;
+            object-fit: cover;
+            object-position: bottom center;
+        }
+    }
+    .hero-area{
+        align-items: center;
+        .floating-elements{
+            .background{
+                li{
+                    &:first-child{
+                        top: 8vh;
+                        left: 9vw;
+                        padding: 0;
+                        border-radius: 0;
+                        box-shadow: none;
+                        background-color: unset;
+                        z-index: 2;
+                        animation: floating 3s ease-in-out infinite;
+                        img{
+                            width: unset;
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .container{
+            .contents{
+                margin: 2rem 0 3rem;
+                img{
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+        .join-us{
+            button{
+                border: 1px solid #FFFFFF;
+                padding: .5rem 1.5rem !important;
+                i{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+.ready-to-light-up{
+    padding: 0 0 16px;
+    background-image: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ready-to-light-up.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    img{
+        width: 100%;
+    }
+    .container{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        .row{
+            margin-bottom: 4rem;
+        }
+        .heading{
+            mark{
+                padding: 0;
+                background: linear-gradient(120deg, #9E44CE 40%, #c59403 60%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        .sub-heading{
+            color: $light-color;
+        }
+        button{
+            border: 1px solid #FFFFFF;
+            padding: .5rem 1.5rem !important;
+            width: max-content;
+            img{
+                width: 30px;
+                margin-right: 10px;
+            }
+        }
+        .b-right{
+            border-image: linear-gradient(to right, #000000 0%, #f9c427 100%) 1;
+            border-radius: 5px; /* this doesn't work */
+            border-width: 0 1px 0 0;
+            border-style: solid;
+            padding: 5px;
+            border-radius: 25px;
+        }
+    }
+    .diya-container {
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+        .diya {
+            width: 100%;
+            height: auto;
+        }
+        .flame {
+            position: absolute;
+            left: 50%;
+            bottom: 20%;
+            transform: translateX(-50%);
+            display: none; /* Initially hidden */
+            /* Smooth transition */
+        }
+        .visible {
+            display: block; /* Fully visible when class 'visible' is added */
+            animation: fadeIn 0.8s ease-in-out; 
+        }
+    }
+    .imgs{
+        position: relative;
+        display: block;        
+        
+    }
+    @media(max-width: 992px){
+        padding: 70px 0 50px;
+        background-image: none;
+        height: unset;
+        .diya-container{
+            width: 250px;
+            top: 300px;
+            bottom: unset;
+        }
+    }
+}
+
+.opportunity-is-brighter{
+    margin-top: 70px;
+    background-image: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/opportunity-is-bigger.png');
+    .row{
+        margin-bottom: 2rem !important;
+    }
+    .container{
+        justify-content: start;
+        padding-top: 100px;
+        .content{
+            padding: 0 16px;
+        }
+    }
+    @media(max-width: 992px){
+        background-image: none;
+        .container{
+            .content{
+                margin-bottom: 2rem;
+            }
+            .b-right{
+                border-width: 0;
+            }
+        }
+    }
+    @media(max-width: 1440px){
+        .container{
+            padding-top: 80px;
+            .content{
+                margin-bottom: 2rem;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.how-to-make-business-shine{
+    mark{
+        padding: 0;
+        background: linear-gradient(120deg, #9E44CE 10%, #f9c427 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .heading{
+        font-size: 40px;
+    }
+    .sub-heading{
+        color: $light-color !important;
+    }
+    .info{
+        h6{
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+        }
+        p{
+            margin-bottom: 0;
+        }
+        .bullets{
+            display: flex;
+            align-items: start;
+            line-height: 2;
+            margin-bottom: 3rem;
+            img{
+                width: 45px;
+                margin-right: 16px;
+            }
+        }
+        .solid-action-btn{
+            border-radius: 10px;
+            padding: 12px 25px;
+            border: 1px solid $bg-shade1;
+            i{
+                color: $label-color;
+            }
+        }
+    }
+}
+
+.suggested-reads{
+    // background-image: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/reads-bg.png');
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    height: auto;
+    mark{
+        padding: 0;
+        background: linear-gradient(120deg, #9E44CE 10%, #f9c427 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .mb-5{
+        display: flex;
+        justify-content: center;
+    }
+    .sub-heading{
+        color: $light-color;
+    }
+    .card{
+        .head{
+            height: 200px;
+            overflow: hidden;
+            border-radius: 15px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: bottom center;
+            }
+        }
+        .body{
+            .content{
+                color: $light-color !important;
+                margin-bottom: 16px;
+                font-size: 19px !important;
+            }
+        }
+        .footer{
+            a{
+                color: $label-color !important;
+            }
+        }
+    }
+}
+
+.lets-ace-this-festive{
+    padding: 0px 0 70px;
+    .d-block{
+        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/lets-ace-festive.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    mark{
+        padding: 0;
+        background: linear-gradient(120deg, #9E44CE 10%, #f9c427 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .heading{
+        color: $text-dark;
+        margin: 16px 0 32px 0;
+        font-size: 38px;
+    }
+    .start-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        form{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            input{
+                padding: 0.75rem 1rem;
+                border-radius: 25px;
+                font-size: 14px;
+                border: none;
+                margin-right: 16px;
+                width: 50%;
+                box-shadow: 0px 18px 25.9px 0px #00000017;
+                &::placeholder{
+                    color: #C5C5C5;
+                    font-size: 12px;
+                }
+            }
+            .solid-action-btn{
+                padding: 0.75rem 2rem;
+                background: linear-gradient(89.64deg, #9E44CE -17.1%, #F7C531 121.05%);
+                color: $light-color;
+                margin: 0 0 0 !important;
+                font-size: 14px;
+            }
+        }
+    }
+    @media(max-width: 576px){
+        .d-block{
+            background-image: none;
+        }
+        .heading{
+            color: $light-color;
+        }
+        .start-btn{
+            form{
+                padding: 0 16px;
+                flex-direction: column;
+                input{
+                    width: 100%;
+                    margin: 0 0 20px 0;
+                }
+            }
+        }
+    }
+
 }
 
 .signup-section{

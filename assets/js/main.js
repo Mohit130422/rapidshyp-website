@@ -56,6 +56,7 @@ $(document).ready(function () {
     })
     $(".close").click(function () {
         $('#joinWaitlistModal').hide()
+        $('#diwaliOffer').hide()
     })
     $("#submit-button").submit(function (e) {
         var email = $("#useremail").val();
