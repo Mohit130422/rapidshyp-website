@@ -150,6 +150,39 @@ i {
   display: none;
 }
 
+.diwalifloater {
+  position: fixed;
+  z-index: 20;
+  bottom: 5%;
+  right: -50%;
+  transition: 0.3s ease-in-out;
+}
+.diwalifloater .head {
+  display: none;
+}
+.diwalifloater:hover .head {
+  text-align: right;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  transition: opacity 0.3s ease-in-out;
+}
+.diwalifloater:hover .head i {
+  color: #fff;
+}
+.diwalifloater .body {
+  width: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 18px 25.9px 0px rgba(0, 0, 0, 0.0901960784);
+}
+.diwalifloater .body img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
