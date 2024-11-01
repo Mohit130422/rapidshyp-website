@@ -321,7 +321,7 @@ include 'header-section.php';?>
                     <ul class="p-0">
                         <li><i class="far fa-check-circle"></i>15+ courier partners</li>
                         <li><i class="far fa-check-circle"></i>Economical rates</li>
-                        <li><i class="far fa-check-circle"></i>26,000+ pin codes</li>
+                        <li><i class="far fa-check-circle"></i>29,000+ pin codes</li>
                     </ul>
                     <button type="submit" class="solid-action-btn openWaitlistModal">Calculate Now</button>
                 </div>

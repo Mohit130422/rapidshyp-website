@@ -141,7 +141,7 @@
                                 <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/benefit06.png"
                                     alt="shopify benefits">
                                 <div class="content bottom">
-                                    <h5>26000+</h5>
+                                    <h5>29000+</h5>
                                     <p>PIN code Coverage</p>
                                 </div>
                             </div>

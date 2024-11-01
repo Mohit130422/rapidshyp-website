@@ -132,7 +132,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 text-center mb-4">
-                    <h3 class="heading">Opportunity Is <mark>Brighter</mark> Than Ever</h3>
+                    <h3 class="heading">Opportunities Are <mark>Brighter</mark> Than Ever</h3>
                     <p class="sub-heading">The Indian eCommerce market is glowing with possibilities</p>
                 </div>
             </div>

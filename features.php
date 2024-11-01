@@ -86,7 +86,7 @@
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <strong>26,000+ serviceable PIN codes</strong>
+                                                <strong>29,000+ serviceable PIN codes</strong>
                                                 <p>A broader serviceable area means broader profits. <br>Reach more
                                                     destinations with our wide-ranging coverage and deliver efficiently
                                                     and effectively</p>
