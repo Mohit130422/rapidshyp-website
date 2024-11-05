@@ -33,6 +33,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
+ErrorDocument 404 /404.php
+
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php81” package as the default “PHP” programming language.
 <IfModule mime_module>

@@ -151,39 +151,6 @@ i{
     display: none;
 }
 
-.diwalifloater{
-    position: fixed;
-    z-index: 20;
-    bottom: 5%;
-    right: -50%;
-    transition: 0.3s ease-in-out;
-    .head{
-        display: none;
-    }
-    &:hover{
-        .head{
-            text-align: right;
-            display: inline-block;
-            position: absolute;
-            right: 10px;
-            top: 5px;
-            transition: opacity 0.3s ease-in-out;
-            i{
-                color: $light-color;
-            }
-        }
-    }
-    .body{
-        width: 320px;
-        border-radius: 15px;
-        overflow: hidden;
-        box-shadow: 0px 18px 25.9px 0px #00000017;
-        img{
-            width: 100%;
-            object-fit: contain;
-        }
-    }
-}
 
 @keyframes floating {
     0% { 

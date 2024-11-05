@@ -80,15 +80,6 @@
 </head>
 
 <body>
-    <div class="diwalifloater" id="diwalifloater">
-        <div class="head" id="close">
-            <i class="fas fa-times"></i>
-        </div>
-        <div class="body">
-            <a href="diwali-2024"><img
-                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali-floater.jpg" alt=""></a>
-        </div>
-    </div>
     <?php include 'header.php';?>
 
     <section class="hero-area-bg">
@@ -807,17 +798,6 @@
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/utm.js"></script>
-    <script>
-    $(document).ready(function() {
-        setTimeout(function() {
-            $("#diwalifloater").css('right', '3%');
-        }, 1000); // 5000 to load it after 5 seconds from page load
-        $("#close").click(function () {
-            $('#diwalifloater').hide()
-        })
-
-    });
-    </script>
 </body>
 
 </html>

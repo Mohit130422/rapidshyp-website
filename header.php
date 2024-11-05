@@ -1,7 +1,7 @@
 <header class="header">
     <div class="topHeader">
         <p id="countdown"></p>
-        <p>This festive season, don't burn your hard-earned money. <strong>Get flat 50% cashback* up to &#8377; 1000</strong>  on your first recharge. Use code: <strong>FESTIVE50.</strong>*T&C apply</p>
+        <p><strong>Get 10% Cashback* Up to &#8377; 1000</strong>  On Your First Recharge. Use Code: <strong>WELCOME10. </strong>T&C Apply</p>
         <span class="openWaitlistModal">Get Started <i class="fas fa-chevron-right"></i></span>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">
