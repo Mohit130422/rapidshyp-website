@@ -1,7 +1,7 @@
 <header class="header">
     <div class="topHeader">
         <p id="countdown"></p>
-        <p><strong>Get 10% Cashback* Up to &#8377; 1000</strong>  On Your First Recharge. Use Code: <strong>WELCOME10. </strong>T&C Apply</p>
+        <p><strong>Get 50% Cashback* Up to &#8377; 1000</strong>  On Your First Recharge. Use Code: <strong>WELCOME50. </strong>T&C Apply</p>
         <span class="openWaitlistModal">Get Started <i class="fas fa-chevron-right"></i></span>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -25,30 +25,21 @@
                             <a class="nav-link" href="features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <p class="nav-link" id="resources">Resources <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
+                            <p class="nav-link" id="resources">Shipping Tools <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
                             <div class="hover-menu" id="sub-menu">
                                 <ul>
-                                    <li>
-                                        <a class="nav-link" href="https://www.rapidshyp.com/blog/">Blog</a>
-                                    </li>
                                     <li>
                                         <a class="nav-link" href="shipping-rate-calculator">Shipping Rate Calculator</a>
                                     </li>
                                     <li>
                                         <a class="nav-link" href="volumetric-weight-calculator">Volumetric Weight Calculator</a>
                                     </li>
-                                    <li>
-                                        <a class="nav-link mt-0" href="#faqs">FAQs</a>                   
-                                    </li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="diwali-2024">Diwali 2024</a>
+                            <a class="nav-link" href="https://www.rapidshyp.com/blog/">Blog</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
-                        </li> -->
                     </ul>
                     <div class="navbar-nav d-flex">
                         <li class="nav-item"><a class="nav-link mt-0" href="shipment-tracking">Track Order</a> </li>

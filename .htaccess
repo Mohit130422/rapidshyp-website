@@ -35,6 +35,9 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 
 ErrorDocument 404 /404.php
 
+RewriteEngine On
+RewriteRule ^shipping-rates-from-([a-zA-Z]+)-to-([a-zA-Z]+)/?$ shipping.php?from=$1&to=$2 [L]
+
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php81” package as the default “PHP” programming language.
 <IfModule mime_module>
