@@ -111,7 +111,7 @@ include 'header-section.php';?>
                                             <label for="shipValue">Shipment Value</label>
                                             <div class="input-group">
                                                 <input type="number" class="form-control"
-                                                    aria-describedby="basic-addon2" id="shipValue" name="shipValue">
+                                                    aria-describedby="basic-addon2" id="shipValue" name="shipValue" required>
                                                 <span class="input-group-text" id="basic-addon2">₹</span>
                                             </div>
                                         </div>

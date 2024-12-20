@@ -1,9 +1,9 @@
 <?php include 'header-section.php';?>
 
 <link rel="canonical" href="https:/www.rapidshyp.com" />
-<meta property="og:title" content="eCommerce Shipping Solution | Courier Aggregator in India — RapidShyp" />
-<meta name="title" content="eCommerce Shipping Solution | Courier Aggregator in India — RapidShyp" />
-<title>eCommerce Shipping Solution | Courier Aggregator in India — RapidShyp</title>
+<meta property="og:title" content="eCommerce Shipping & Courier Aggregator in India - RapidShyp" />
+<meta name="title" content="eCommerce Shipping & Courier Aggregator in India - RapidShyp" />
+<title>eCommerce Shipping & Courier Aggregator in India - RapidShyp</title>
 <!-- FAqs schema start -->
 <script type="application/ld+json">
 {
@@ -105,7 +105,7 @@
                     <div class="col-12 text-center">
                         <!-- <span class="announce"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/flash.svg" alt="">Streamline Your Online Shipping Process Like A Pro</span> -->
                         <div class="contents">
-                            <h2 class="head-title">Start Delivering <br>Your Parcels Like A Pro</h2>
+                            <h2 class="head-title">Making eCommerce <br>Shipping Simple</h2>
                             <p class="description">Transform eCommerce shipping with a tech-enabled solution <br>to
                                 streamline order fulfillment, integrate everything, save time and cost</p>
                         </div>
@@ -795,6 +795,78 @@
     </section>
 
     <?php include 'footer.php';?>
+    <div class="blur-overlay" id="ny-offer">
+        <div class="dialog-box ny-offer">
+            <div class="head">
+                <div class="close" onclick="closeModal()">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12" >
+                        <img class="side-img" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/ny-offer-img.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12" >
+                        <div class="content">
+                            <h2 class="head-title">Hit Your Targets This New Year</h2>
+                            <p class="description">Ship smarter, aim better</p>
+                            <div class="offer">
+                                <img class="side-img" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/offer-strip.png" alt="">
+                            </div>
+                            <p class="description">#NayaSaalNayiShuruat</p>
+                            <button class="solid-action-btn mb-3" onclick="window.open('https://www.rapidshyp.com/new-year-2025');">Make the Switch</button>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+
+    <script>
+        // Check if the modal has been closed before
+        if (!sessionStorage.getItem('modalClosed')) {
+          document.addEventListener('mousemove', throttle((event) => {
+            if (event.clientY < 10 && !sessionStorage.getItem('modalClosed')) {
+              showModal();
+            }
+          }, 1000));
+        }
+
+        function showModal() {
+            const modal = document.getElementById('ny-offer');
+            if (modal.style.display !== 'flex') {
+                modal.style.display = 'flex';
+            }
+        }
+
+        function closeModal() {
+          const modal = document.getElementById('ny-offer');
+          modal.style.display = 'none';
+          // Set a flag in localStorage to indicate the modal was closed
+          sessionStorage.setItem('modalClosed', 'true');
+        }
+        // Utility: Throttle function to limit execution
+        function throttle(func, limit) {
+          let lastFunc;
+          let lastRan;
+          return function (...args) {
+            const context = this;
+            if (!lastRan) {
+              func.apply(context, args);
+              lastRan = Date.now();
+            } else {
+              clearTimeout(lastFunc);
+              lastFunc = setTimeout(function () {
+                if ((Date.now() - lastRan) >= limit) {
+                  func.apply(context, args);
+                  lastRan = Date.now();
+                }
+              }, limit - (Date.now() - lastRan));
+            }
+          };
+        }
+    </script>
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/utm.js"></script>

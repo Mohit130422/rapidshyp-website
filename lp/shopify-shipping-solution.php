@@ -9,11 +9,7 @@
 
 <body>
     <header class="header">
-        <div class="topHeader">
-            <p id="countdown"></p>
-            <p>This festive season, don't burn your hard-earned money. <strong>Get flat 50% cashback* up to &#8377;
-                    1000</strong> on your first recharge. Use code: <strong>FESTIVE50.</strong>*T&C apply</p>
-        </div>
+        <?php include 'top-strip.php'; ?>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>

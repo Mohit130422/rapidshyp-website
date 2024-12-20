@@ -11,10 +11,7 @@ include 'header-section-v2.php';?>
 </head>
 
 <body>
-    <div class="topHeader">
-        <p id="countdown"></p>
-        <p>This festive season, don't burn your hard-earned money. <strong>Get flat 50% cashback* up to &#8377; 1000</strong>  on your first recharge. Use code: <strong>FESTIVE50.</strong>*T&C apply</p>
-    </div>
+    <?php include 'top-strip.php';?>
     <section class="signup-section" id="signup">
         <div class="container-fluid">
             <div class="head">
