@@ -119,6 +119,15 @@ i{
     font-size: 14px;
 }
 
+.disabled{
+    background-color: #3e1a519e !important;
+    cursor: no-drop !important;
+    &:hover{
+        box-shadow: none !important;
+        transform: none !important;
+    }
+}
+
 .heading{
     font-size: 42px;
     font-weight: 800;
@@ -2201,6 +2210,29 @@ section{
                 border: 1px solid $light-color;
                 &:hover{
                     background: none;
+                }
+            }
+        }
+    }
+    @media (max-width: 1366px) {
+        .shopify-hero-area{
+            
+            .contents{
+                .heading{
+                    font-size: 50px;
+                    margin-bottom: 2rem;
+                }
+                .descrip{
+                    font-size: 25px;
+                }
+            }
+            .join-us{
+                .solid-action-btn{
+                    padding: 1rem 2rem;
+                    font-size: 16px;
+                }
+                .outline-btn{
+                    padding: .75rem 2rem;
                 }
             }
         }

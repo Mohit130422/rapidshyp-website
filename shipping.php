@@ -4,10 +4,11 @@ $fromCity = isset($_GET['from']) ? ucfirst($_GET['from']) : 'delhi';  // Default
 $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Default 'to' city is Delhi
 ?>
 <!-- <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature-og.png"> -->
-<meta property="og:title" content="Shipping Rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?>" />
-<meta name="title" content="Shipping Rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?>" />
+<meta property="og:title" content="Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp" />
+<meta name="title" content="Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp" />
+<meta name="description" content="Looking for the shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?>? Use our shipping rate calculator to get courier charges instantly.">
 <link rel="canonical" href="https://www.rapidshyp.com/Shipping Rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?>" />
-<title>Shipping Rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?></title>
+<title>Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp</title>
 
 </head>
 
@@ -138,7 +139,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
                                     </div>
                                 </div>
                                 <!-- <input type="submit" class="solid-action-btn calculate-btn">Calculate Now</input> -->
-                                <input type="submit" class="solid-action-btn calculate-btn" value="Calculate Now">
+                                <input type="submit" class="solid-action-btn calculate-btn disabled" value="Calculate Now" disabled>
                                 <button type="reset" class="reset-btn">Reset</button>
                             </form>
                         </div>
@@ -344,6 +345,16 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
     <script src="assets/js/main.js"></script>
     <script src="assets/js/ship-rates.js"></script>
     <script src="assets/js/utm.js"></script>
+    <!-- <script>
+        $(document).ready(function() {
+     $(':input[type="submit"]').prop('disabled', true);
+     $('input[type="text"]').keyup(function() {
+        if($(this).val() != '') {
+           $(':input[type="submit"]').prop('disabled', false);
+        }
+     });
+ });
+    </script> -->
 </body>
 
 </html>

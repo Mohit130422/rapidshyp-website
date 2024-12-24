@@ -26,11 +26,10 @@
             </div>
             <div class="container justify-content-center">
                 <div class="row  align-items-center">
-                    <div class="col-12">
+                    <div class="col-lg-12">
                         <div class="contents newsroom">
-                            <h2 class="heading"> Grow Your <br> <strong>Shopify</strong> Store </h2>
-                            <p class="sub-title">With Our Efficient Shipping Solution</p>
-                            <p class="descrip">Reach thousands of buyers across the nation with just a few clicks</p>
+                            <h1 class="heading"> Simplified Shipping Solution <br> for <strong>Shopify</strong></h1>
+                            <p class="descrip">Deliver to thousands of buyers across the nation through multiple couriers</p>
                         </div>
                         <div class="join-us">
                             <a class="solid-action-btn" href="https://apps.shopify.com/rapidshyp" target="_blank">Install Shopify App</a>
