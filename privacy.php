@@ -6,62 +6,83 @@
 <title>Privacy Policy - RapidShyp</title>
 </head>
 <body>
-    <?php include 'headerv2.php';?>
+    <?php include 'header.php';?>
     <section class="terms-condition">
         <div class="container">
             <div class="mb-4">
                 <h1>Privacy Policy for RapidShyp</h1>
-                <p><strong>Last Updated:</strong>29th March 2024</p>
+                <p><strong>Last Updated:</strong>21 November 2024</p>
             </div>
             <div class="mb-4">
                 <p>Open Source Business Solutions Private Limited (<b>“We”</b> or <b>“Our”</b> or <b>“Us”</b> or
                     <b>“Company”</b> or <b>“OSBS”</b>) is a company duly incorporated under the provisions of the
-                    <i>(Indian)</i> Companies Act, 1956, which provides various technology related services/platforms
-                    under the brand name <b>‘RapidShyp’.</b>
+                    <i>(Indian)</i> Companies Act, 2013, which provides various technology related services/platforms under the brand name <b>‘RapidShyp’.</b>
                 </p>
             </div>
             <div class="mb-4">
-                <p>Please read this privacy policy carefully while accessing or using the website/mobile application of
-                    RapidShyp or any other platform/tool developed by OSBS or availing of any Services provided by the
-                    Company. You agree to be bound by the terms described herein. By indicating Your acceptance of this
-                    privacy policy on our application/website, You hereby consent to the collection, processing, usage,
-                    transfer of your personal information (including sensitive personal information) in accordance with
-                    this privacy policy.</p>
+                <p>Please read this privacy policy carefully while accessing or using the website/mobile application of RapidShyp or any other platform/tool developed by OSBS or availing of any Services provided by the Company. You agree to be bound by the terms described herein. By indicating Your acceptance of this privacy policy on our application/website, You hereby consent to the collection, processing, usage, transfer of your personal information (including sensitive personal information) in accordance with this privacy policy.</p>
             </div>
 
             <div class="mb-4">
                 <h2>Introduction</h2>
                 <p class="mb-4">This privacy policy (<b>“Privacy Policy”</b>) applies to the use or access of the domain
                     name/website <a href="https://www.rapidshyp.com/" target="_blank"
-                        style="text-decoration:underline; font-weight:700;">www.rapidshyp.com</a>, RapidShyp’s mobile
-                    application and any of the platform/tool developed by OSBS from time to time. The Privacy Policy
-                    constitutes an integral part of the agreements / terms and conditions of use between OSBS and its
-                    merchants and users/customers. The website, mobile application and platforms/tools (both online and
-                    offline) developed by RapidShyp are individually referred to as the <b>“Platform”.</b></p>
-                <p class="mb-4">The Platform(s) inter-alia facilitates more comfortable form of e-commerce in relation
-                    to various technology related services including but not limited to logistics management
-                    services/solutions, checkout services, early COD services and other services that the Company may
-                    provide to its Users from time to time whether online or offline (“<b>Services</b>”).</p>
-                <p class="mb-4">The Services would be made available to such persons who have agreed to become user of
-                    the Platform (referred to as <b>“You”</b> or <b>“Your”</b> or <b>“Yourself”</b> or <b>“User”</b>,
-                    which term shall also include
-                    persons who are accessing the Platform merely as visitors or who undertakes any of the Service) in
-                    accordance with the Platform’s terms of use as may be formulated by OSBS and uploaded on its website
-                    from time to time <b>(“Terms of Use”)</b>.</p>
+                        style="text-decoration:underline; font-weight:700;">www.rapidshyp.com</a>, RapidShyp's mobile
+                    application and any of the platform/tool developed by OSBS from time to time. The Privacy Policy constitutes an integral part of the agreements / terms and conditions of use between OSBS and its merchants and users/customers. The website, mobile application and platforms/tools (both online and offline) developed by RapidShyp are individually referred to as the <b>“Platform”.</b></p>
+                <p class="mb-4">The Platform(s) inter-alia facilitates more comfortable form of e-commerce in relation to various technology related services including but not limited to logistics management services/solutions, checkout services, early COD services and other services that the Company may provide to its Users from time to time whether online or offline  (“<b>Services</b>”).</p>
+                <p class="mb-4">The Services would be made available to such persons who have agreed to become user of the Platform (referred to as <b>“You”</b> or <b>“Your”</b> or <b>“Yourself”</b> or <b>“User”</b>, which term shall also include persons who are accessing the Platform merely as visitors or who undertakes any of the Service) in accordance with the Platform's terms of use as may be formulated by OSBS and uploaded on its website from time to time  <b>(“Terms of Use”)</b>.</p>
+            </div>
+            <div class="mb-4">
+                <h2>Definitions:</h2>
+                <p class="mb-3">For the purposes of this Privacy Policy:</p>
+                <ul>
+                    <li><b>"Account"</b> means a unique account created for You to access our Service or parts of our Service.</li>
+                    <li><b>"Business"</b> refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in India.</li>
+                    <li><b>"Company"</b> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to RapidShyp the Company is the Data Controller.</li>
+                    <li><b>"Country"</b> refers to India</li>
+                    <li><b>"Consumer"</b>, means a natural person who is a Indian resident. A resident, as defined in the law, includes :(1) every individual who is in India for other than a temporary or transitory purpose, and (2) every individual who is domiciled in India who is outside India for a temporary or transitory purpose.</li>
+                    <li><b>"Cookies"</b> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</li>
+                    <li><b>"Data Controller”</b> refers to RapidShyp as the legal person which alone or jointly with others determines the purposes and means of the processing of Personal Data.</li>
+                    <li><b>"Device"</b> means any device that can access the Service such as a computer, a cell phone or a digital tablet.</li>
+                    <li><b>"Personal Information”</b> means any information that relates to the User, which, either directly or indirectly, is capable of identifying the person concerned.</li>
+                    <li><b>"Sensitive Personal Data or Information”</b> means personal information of a User relating to password; financial information such as bank account or credit card or debit card or other payment instrument details; physical, physiological and mental health condition; sexual orientation; medical records and history; biometric information; any detail relating to the above as provided to or received by the Company for processing or storage. However, any data/information that is freely available or accessible in public domain or furnished under the Right to Information Act, 2005 or any other law shall not qualify as Sensitive Personal Data or Information or Personal Information.</li>
+                    <li><b>"Service"</b> refers to the Website and Mobile Application.</li>
+                    <li><b>"Service Provider"</b> means any natural or legal person who processes the data on behalf of the RapidShyp. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.</li>
+                    <li><b>"Usage Data"</b> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</li>
+                    <li><b>"Website"</b> refers to RapidShyp, accessible from www.rapidshyp.com</li>
+                    <li><b>"You"</b> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
+                </ul>
             </div>
             <div class="mb-4">
                 <h2>Purpose:</h2>
-                <p class="mb-3">This Privacy Policy has been designed and developed to help You to understand the
-                    following:</p>
-                <ol type="a">
-                    <li>The type of Personal Information (including Sensitive Personal Data or Information) that we
-                        collect from the Users;</li>
-                    <li>The purpose of collection, means and modes of usage of such Personal Information by the Company;
-                    </li>
-                    <li>How and to whom the Company will disclose such information;</li>
-                    <li>How the Company will protect the Personal Information including Sensitive Personal Data or
-                        Information that is collected from the Users; and</li>
-                    <li>How Users may access and/or modify their Personal Information.</li>
+                <p class="mb-3">We respect your privacy and assure you that any information provided by you to RapidShyp is protected and will be dealt with according to this Policy and the applicable laws. To avail the services offered on application(s) (hereinafter singly referred as the "Platform" and collectively referred as “Platforms”), you may have to provide certain information to us. This Policy provides the procedure followed by RapidShyp to gather, uses, store, discloses and manages users' personal data. RapidShyp only collects personal data for the purpose of verifying user accounts, maintaining the accounts of the users, completing transactions of the users, for analyzing user behaviors and other related requirements.</p>
+            </div>
+            <div class="mb-4">
+                <h2>Types of Personal Information collected by the Company:</h2>
+                <p class="mb-3">While using our Services, we may collect the following categories of Personal Information from the Users:</p>
+                <ol type="a" class="mb-3">
+                    <li>Name;</li>
+                    <li>User ID;</li>
+                    <li>Email Address;</li>
+                    <li>Address (including country and ZIP/postal code);</li>
+                    <li>Gender;</li>
+                    <li>Date of birth</li>
+                    <li>Phone Number;</li>
+                    <li>Password chosen by the user;</li>
+                    <li>Geographical location through the IP address of the Users;</li>
+                    <li>Financial account information like bank account details, GST certificate, PAN Card, etc. and transactional information in relation to transactions where the Company is involved;</li>
+                    <li>Any of the aforesaid information pertaining to the customer/buyer of the User; and</li>
+                    <li>All other personally identifiable information/details as the User may share from time to time (including personally identifiable information/details of the customer/buyer of the User).</li>
+                </ol>
+                <p class="mb-3">hereinafter collectively referred to as <b>as “User Information”.</b></p>
+                <p class="mb-3">In order to avail the Services, the Users may also be required to upload/share certain documents (for instance, Aadhaar, PAN Card, GST certificate, etc.), on the Platform and/or e-mail the same to the Company. Accordingly, the term <b>as “User Information”</b> shall also include any such documents uploaded or otherwise provided by the Users. We may also keep records of telephone calls received and made for making inquiries, orders, or other purposes necessary for the administration of Services.</p>
+            </div>
+            <div class="mb-4">
+                <h2>Automatic Data Collection:</h2>
+                <p class="mb-3">We may also receive and/or hold information about the User’s browsing history including the Uniform Resource Locator (URL) of the site that the User visited prior to visiting the Platform as well as the Internet Protocol (IP) address of each User's computer (or the proxy server a User used to access the World Wide Web), User's computer operating system and type of web browser the User is using as well as the name of User's Internet Service Provider (ISP). The Platform may use temporary cookies to store certain data (that is not Sensitive Personal Data or Information) that is used by Us for the technical administration of the Platform, research and development, and for User administration. In addition to the above:</p>
+                <ol type="a" class="mb-3">
+                    <li>We do not knowingly collect Personal Information from children; and</li>
+                    <li>We may in future include other optional requests for information from the User including through User surveys in order to help Us customize the Platform to deliver personalized information to the User and for other purposes as mentioned herein. Such information may also be collected in the course of surveys/contests conducted by Us. Any such additional Personal Information will also be processed in accordance with this Privacy Policy.</li>
                 </ol>
             </div>
             <div class="mb-4">
@@ -126,14 +147,10 @@
             </div>
             <div class="mb-4">
                 <h2>Purposes for which the Company may use the Information:</h2>
-                <p>We will retain User Information only to the extent it is necessary to provide one or more Services.
-                    By providing your information, You consent to the collection, sharing, disclosure and usage of the
-                    information in accordance with this Privacy Policy. The information, which we collect may be
-                    utilized for various business and/or regulatory purposes including but not limited for the following
-                    purposes:</p>
+                <p>We will retain User Information only to the extent it is necessary to provide one or more Services. By providing your information, You consent to the collection, sharing, disclosure and usage of the information in accordance with this Privacy Policy. The information, which we collect may be utilized for various business and/or regulatory purposes including but not limited for the following purposes:</p>
                 <ol class="mb-3" type="a">
                     <li>Registration of the User on the Platform;</li>
-                    <li>Processing the User’s orders/requests and provision of various Services;</li>
+                    <li>Processing the User's orders/requests and provision of various Services;</li>
                     <li>Sending timely/periodical updates to the User and its customers;</li>
                     <li>Completing transactions with Users effectively and billing for the products/Services provided;
                     </li>
@@ -159,19 +176,21 @@
                 </ol>
             </div>
             <div class="mb-4">
-                <h2>Disclosure and Transfer of User’s Personal Information:</h2>
-                <p class="mb-3">We may need to disclose/transfer User’s Personal Information to certain third-party
+                <h2>Disclosure and Transfer of User's Personal Information:</h2>
+                <p class="mb-3">We may need to disclose/transfer User's Personal Information to certain third-party
                     service providers in order to provide Users with the Services they have opted for.</p>
-                <p class="mb-3">We may need to disclose / transfer User’s Personal Information to Governmental and
+                <p class="mb-3">We may need to disclose / transfer User's Personal Information to Governmental and
                     judicial institutions/authorities, to the extent required:</p>
                 <ol class="mb-3" type="a">
                     <li>Under the laws, rules, and regulations and/or under orders of any relevant judicial or
                         quasi-judicial authority;</li>
                     <li>To protect and defend the rights or property of the Company;</li>
                     <li>To fight fraud and credit risk;</li>
+                    <li>d.	Prevent or investigate possible wrongdoing in connection with the Service</li>
                     <li>To enforce the Company's Terms of Use (to which this Privacy Policy is also a part); or</li>
                     <li>When the Company, in its sole discretion, deems it necessary in order to protect its rights or
                         the rights of others.</li>
+                    <li>If involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</li>
                 </ol>
                 <p class="mb-3">The Company may also make all User Information accessible to its employees and data
                     processors/third party vendors only on a need-to-know basis and for the purposes set out in this
@@ -207,7 +226,7 @@
                     platform which are operated by third parties and are not controlled by, or affiliated to, or
                     associated with the Company, unless expressly specified on the Platform.</p>
                 <p class="mb-3">If You access any such Third-Party Links, we request You to review the concerned
-                    website’s privacy policy. We shall not be responsible for the policies or practices of such third
+                    website's privacy policy. We shall not be responsible for the policies or practices of such third
                     parties.</p>
             </div>
             <div class="mb-4">
@@ -231,23 +250,16 @@
             </div>
             <div class="mb-4">
                 <h2>User's rights in relation to their personal information collected by the Company:</h2>
-                <p class="mb-3">All the information provided to the Company by a User, including Sensitive Personal Data
-                    or Information, is voluntary. User has the right to withdraw his/her/its consent at any time, in
-                    accordance with the terms of this Privacy Policy and the Terms of Use, but please note that
-                    withdrawal of consent will not be retrospective.</p>
+                <p class="mb-3">All the information provided to the Company by a User, including Sensitive Personal Data or Information, is voluntary. The user has the right to withdraw his/her/its consent at any time, in accordance with the terms of this Privacy Policy and the Terms of Use, but please note that withdrawal of consent will not be retrospective.</p>
                 <p class="mb-3">Users can access, modify, correct and delete the Personal Information provided by them
                     which has been voluntarily given by the User and collected by the Company in accordance with this
                     Privacy Policy and Terms of Use. However, if the User updates his/her information, the Company may
                     keep a copy of the information which User originally provided to the Company in its archives for
                     User documented herein. In case the User seeks to update or correct, his/her Personal Information,
                     the User may exercise these rights by emailing the Company at <a href="mailto:support@rapidshyp.com"
-                        style="text-decoration:underline; font-weight:700;">support@rapidshyp.com</a> and communicate
-                    the change(s) for
-                    updating the Company’s records.</p>
-                <p class="mb-3">You hereby acknowledge that the Company is not responsible for any information sent via
-                    the internet that has been intercepted beyond Our control after having adopted reasonable security
-                    practices and procedures, and You hereby release Us from any and all claims arising out of or
-                    related to the use of intercepted information in any unauthorized manner.</p>
+                        style="text-decoration:underline; font-weight:700;">Grievance@rapidshyp.com</a> and communicate
+                    the change(s) for updating the Company's records.</p>
+                <p class="mb-3">You hereby acknowledge that the Company is not responsible for any information sent via the internet that has been intercepted beyond Our control after having adopted reasonable security practices and procedures, and You hereby release Us from any and all claims arising out of or related to the use of intercepted information in any unauthorized manner.</p>
                 <p class="mb-3">In case the User does not provide his/her information or consent for usage of Personal
                     Information or subsequently withdraws his/her consent for usage of the Personal Information so
                     collected, the Company reserves the right to discontinue, in part or full, the Services/associated
@@ -296,17 +308,25 @@
                     constitute your acceptance of the amended/updated Privacy Policy.</p>
             </div>
             <div class="mb-4">
+                <h2>Limitation of Liability:</h2>
+                <p class="mb-3">RapidShyp confirms that this Privacy Policy is only a description of its operation regarding user information. This Policy is not intended to and does not create any legal rights in your favour or in the favour of any other person. RapidShyp reserves the right to change this Policy at any time without giving you prior notice. The liability of RapidShyp shall be limited to removal of Sensitive Personal Data from the system of the Platform and removal of personally identifiable elements of the Other Personal Information.</p>
+            </div>
+            <div class="mb-4">
+                <h2>Governing Laws:</h2>
+                <p class="mb-3">This Privacy Policy is governed by and construed in accordance with the laws of India, including the Information Technology Act, 2000, and its applicable rules such as the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011. In the event of any conflict between this Policy and applicable local laws, the provisions of the local laws shall prevail to the extent of the conflict.</p>
+            </div>
+            <div class="mb-4">
                 <h2>Complaints and Grievance Redressal:</h2>
                 <p class="mb-3">Any complaints, abuse or concerns with regards to content or comment or breach of these
                     terms/Privacy Policy may be informed to the designated Grievance Officer as mentioned below in
                     writing or through email:</p>
-                <p>Mr. Pradeep Paliwal (Chief Technology Officer)</p>
+                <p>Mr. Charu Datta Patil</p>
                 <p>Open Source Business Solutions Pvt Ltd,</p>
-                <p>6th Floor, Unitech Trade Centre, Sector 43, </p>
+                <p>3rd Floor, Unitech Trade Centre, Sector 43, </p>
                 <p>Sushant Lok Phase 1,</p>
                 <p>Gurugram, Haryana-122002</p>
                 <a href="mailto:grievanceofficer@rapidshyp.com"
-                    style="text-decoration:underline; font-weight:700;">grievanceofficer@rapidshyp.com</a>
+                    style="text-decoration:underline; font-weight:700;">grievance@rapidshyp.com</a>
             </div>
         </div>
     </section>
