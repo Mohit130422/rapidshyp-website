@@ -3975,6 +3975,45 @@ section{
     }
 }
 
+.get-shipping-rates{
+    .solid-action-btn{
+        display: block;
+        text-align: center;
+        width: 100%;
+        border-radius: 8px;
+        padding: 1rem .5rem;
+        color: $text-dark;
+        background-color: $light-color;
+        font-weight: 500;
+        border: 1px solid $label-color;
+        margin-bottom: 30px;
+        font-size: 15px;
+        i{
+            margin-left: 10px;
+            transform: rotate(45deg);
+        }
+        &:hover{
+            background-color: $primary-color;
+            color: $light-color;
+            i{
+                color: $label-color;
+            }
+        }
+    }
+}
+
+.get-best-courier{
+    background-color: $primary-color ;
+    .heading,.sub-heading,p{
+        color: $light-color;
+    }
+    .solid-action-btn{
+        color: $primary-color;
+        margin-left: 0;
+        background-color: $label-color;
+    }
+}
+
 .learn-order-tracking{
     .heading{
         text-align: start;

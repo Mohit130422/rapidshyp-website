@@ -1,7 +1,32 @@
 <?php 
 include 'header-section.php';
+// $con = new mysqli("localhost", "analytics_ratecard", "Ha[PT]VtXyXb", "analytics_ratecard");
+
+// // Check connection
+// if ($con->connect_error) {
+//     http_response_code(500);
+//     echo json_encode(['result' => 'error', 'message' => 'Database connection failed']);
+//     exit;
+// }
+
 $fromCity = isset($_GET['from']) ? ucfirst($_GET['from']) : 'delhi';  // Default 'from' city is Mumbai
 $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Default 'to' city is Delhi
+
+// $fromPincode="";
+// $toPincode="";
+
+// $query=mysqli_query($con,"SELECT city_name, pincode FROM rs_postcode WHERE city_name LIKE '%{$fromCity}%' OR city_name LIKE '%{$toCity}%' GROUP BY city_name, pincode ORDER BY city_name, pincode LIMIT 2");
+// while($data=mysqli_fetch_array($query))
+// {
+//     if (stripos($data['city_name'], $fromCity) !== false) 
+//         $fromPincode=$data['pincode'];
+//     else if (stripos($data['city_name'], $toCity) !== false) 
+//         $toPincode=$data['pincode'];
+// }
+
+// if(empty($fromPincode) || empty($toPincode))
+// header("HTTP/1.0 404 Not Found");
+
 ?>
 <!-- <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature-og.png"> -->
 <meta property="og:title" content="Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp" />
@@ -52,7 +77,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group">
                                             <label for="pickup-pincode">Pick-up Area Pincode</label>
-                                            <input type="text" id="pickup-pincode" name="pickup-pincode" value="110001"
+                                            <input type="text" id="pickup-pincode" name="pickup-pincode" value="<?=(empty($fromPincode)?"110001":$fromPincode)?>"
                                              maxlength="6" required>
                                             <small>Error Message</small>
                                         </div>
@@ -60,7 +85,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group">
                                             <label for="delivery-pincode">Delivery Area Pincode</label>
-                                            <input type="text" id="delivery-pincode" name="delivery-pincode" value="400001"
+                                            <input type="text" id="delivery-pincode" name="delivery-pincode" value="<?=(empty($toPincode)?"400001":$toPincode)?>"
                                                 maxlength="6" required>
                                             <small>Error Message</small>
                                         </div>
@@ -321,7 +346,46 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
         </div>
     </section>
 
-    <section class="ready-to-explore track-experience ">
+    <section class="ready-to-explore track-experience get-shipping-rates">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col text-center">
+                    <p class="heading">Get Shipping Rates Across India</p>
+                </div>
+            </div>
+            <div class="row align-items-center col-reverse">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/shipping-rates-from-delhi-to-mumbai" class="solid-action-btn" >Shipping rates from <b>Delhi</b> to <b>Mumbai</b> <i class="fas fa-arrow-up"></i></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/shipping-rates-from-bangalore-to-delhi" class="solid-action-btn" >Shipping rates from <b>Bangalore </b> to <b>Delhi</b> <i class="fas fa-arrow-up"></i></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/shipping-rates-from-chennai-to-surat" class="solid-action-btn" >Shipping rates from <b>Chennai</b> to <b>Surat</b> <i class="fas fa-arrow-up"></i></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/shipping-rates-from-kolkata-to-hyderabad" class="solid-action-btn" >Shipping rates from <b>Kolkata</b> to <b>Hyderabad</b> <i class="fas fa-arrow-up"></i></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/shipping-rates-from-mumbai-to-pune" class="solid-action-btn" >Shipping rates from <b>Mumbai</b> to <b>Pune</b> <i class="fas fa-arrow-up"></i></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/shipping-rates-from-surat-to-hyderabad" class="solid-action-btn" >Shipping rates from <b>Surat</b> to <b>Hyderabad</b> <i class="fas fa-arrow-up"></i></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/shipping-rates-from-pune-to-bangalore" class="solid-action-btn" >Shipping rates from <b>Pune</b> to <b>Bangalore</b> <i class="fas fa-arrow-up"></i></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/shipping-rates-from-kolkata-to-delhi" class="solid-action-btn" >Shipping rates from <b>Kolkata</b> to <b>Delhi</b> <i class="fas fa-arrow-up"></i></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/shipping-rates-from-pune-to-delhi" class="solid-action-btn" >Shipping rates from <b>Pune</b> to <b>Delhi</b> <i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ready-to-explore track-experience get-best-courier">
         <div class="container">
             <div class="row align-items-center col-reverse">
                 <div class="col-lg-6 col-md-6 col-sm-12">
@@ -343,18 +407,8 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
 
 
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/ship-rates.js"></script>
+    <script src="assets/js/ship-rates.js?1500"></script>
     <script src="assets/js/utm.js"></script>
-    <!-- <script>
-        $(document).ready(function() {
-     $(':input[type="submit"]').prop('disabled', true);
-     $('input[type="text"]').keyup(function() {
-        if($(this).val() != '') {
-           $(':input[type="submit"]').prop('disabled', false);
-        }
-     });
- });
-    </script> -->
 </body>
 
 </html>

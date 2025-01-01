@@ -3,10 +3,15 @@ $(document).ready(function () {
     const $rateResult = $('#rateResult');
     const $rateTableBody = $('#rateTableBody');
     const $errorMessage = $('#errorMessage');
+    // let inputField = document.getElementById("pickup-pincode");
+    // let inputField2 = document.getElementById("delivery-pincode");
+    // let value1 = inputField.value;
+    // let value2 = inputField2.value;
+    // console.log("Pickup value: " + value1);
+    // console.log("Delivery value: " + value2);
 
     function fetchRates() {
         const formData = new FormData($('#shiprateForm')[0]);
-        console.log(formData);
         $rateLoader.show();
         $rateResult.hide();
         $rateTableBody.empty();
@@ -42,6 +47,10 @@ $(document).ready(function () {
             }
         });
     }
-
-    fetchRates();
+    window.onload = function(){
+        fetchRates();
+     // document.forms['shiprateForm'].submit();
+    }
+    // setTimeout(function() { fetchRates(); }, 1000);
+    
 });

@@ -76,12 +76,13 @@ if (mysqli_num_rows($query) != 1) {
 }
 
 //get Zone
-// $query=mysqli_query($con,"select * from rs_postcode where pincode IN ('{$pickup_pincode}','{$delivery_pincode}')");
-// if (mysqli_num_rows($query) != 2) {
-//     http_response_code(400);
-//     echo json_encode(['result' => 'error', 'message' => 'Pincode(s) not serviceable']);
-//     exit;
-// }
+$query=mysqli_query($con,"select * from rs_postcode where pincode IN ('{$pickup_pincode}','{$delivery_pincode}')");
+
+if (mysqli_num_rows($query) != 2 && $pickup_pincode!=$delivery_pincode) {
+     http_response_code(400);
+     echo json_encode(['result' => 'error', 'message' => 'Pincode(s) not serviceable']);
+     exit;
+}
 
 $postcode = [];
 while($data=mysqli_fetch_array($query))
@@ -90,8 +91,7 @@ while($data=mysqli_fetch_array($query))
     $postcode[$data['pincode']]['state']=$data['state'];
     $postcode[$data['pincode']]['region']=$data['region'];
     $postcode[$data['pincode']]['local']=$data['local'];
-    $postcode[$data['metro']]['region']=$data['metro'];
-    
+     $postcode[$data['pincode']]['metro']=$data['metro'];
 }
 $zone="";
 
@@ -122,7 +122,7 @@ $fwd='zone'.$zone;
 $add='add'.$zone;
 
 //fetch rates
-$query=mysqli_query($con,"select parent_code,mode,$fwd,$add, cod, codper from ratecard where min_weight='{$min_weight}' AND rate_type='Normal' ");
+$query=mysqli_query($con,"select parent_code,mode,$fwd,$add, cod, codper from ratecard where min_weight='{$min_weight}' AND published_on_website=1 AND rate_type='Normal' ");
 if (mysqli_num_rows($query) == 0) {
     http_response_code(400);
     echo json_encode(['result' => 'error', 'message' => 'Serviceable courier(s) not found']);
@@ -145,7 +145,7 @@ while($data=mysqli_fetch_array($query))
 	$result[$i]['fr_prepaid']=$result[$i]['fwd']+$add_weight*$result[$i]['add'];
 	$result[$i]['fr_cod']=max($result[$i]['cod'],($order_value*$result[$i]['codper'])/100);
 	$freight=($mode=="prepaid"?	$result[$i]['fr_prepaid']:	$result[$i]['fr_prepaid']+$result[$i]['fr_cod']);
-	$result[$i]['total_freight']='₹'.number_format((float)($freight*1.2), 2, '.', '');
+	$result[$i]['total_freight']='₹'.number_format((float)($freight*1.25), 2, '.', '');
 
 }
 

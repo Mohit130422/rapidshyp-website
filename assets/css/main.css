@@ -3673,6 +3673,43 @@ section {
   }
 }
 
+.get-shipping-rates .solid-action-btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  border-radius: 8px;
+  padding: 1rem 0.5rem;
+  color: #000000;
+  background-color: #fff;
+  font-weight: 500;
+  border: 1px solid #FBBC05;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.get-shipping-rates .solid-action-btn i {
+  margin-left: 10px;
+  transform: rotate(45deg);
+}
+.get-shipping-rates .solid-action-btn:hover {
+  background-color: #3E1A51;
+  color: #fff;
+}
+.get-shipping-rates .solid-action-btn:hover i {
+  color: #FBBC05;
+}
+
+.get-best-courier {
+  background-color: #3E1A51;
+}
+.get-best-courier .heading, .get-best-courier .sub-heading, .get-best-courier p {
+  color: #fff;
+}
+.get-best-courier .solid-action-btn {
+  color: #3E1A51;
+  margin-left: 0;
+  background-color: #FBBC05;
+}
+
 .learn-order-tracking .heading {
   text-align: start;
 }

@@ -5,6 +5,7 @@ $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
 <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-rate-og.jpg">
 <meta property="og:title" content="Shipping Rates Calculator - Calculate Courier Charges - RapidShyp" />
+<meta property="og:description" content="Calculate estimate courier costs for your business parcels. Get shipping charges per Kg for all professional couriers of your choice using our shipping rate calculator" />
 <meta name="title" content="Shipping Rates Calculator - Calculate Courier Charges - RapidShyp" />
 <link rel="canonical" href="https://www.rapidshyp.com/shipping-rate-calculator" />
 <title>Shipping Rates Calculator - Calculate Courier Charges - RapidShyp</title>
