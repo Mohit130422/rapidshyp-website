@@ -50,7 +50,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
                             <p class="description">Looking to calculate courier charges from <span class="f-capitalize"><?php echo htmlspecialchars($fromCity); ?></span> to <span class="f-capitalize"><?php echo htmlspecialchars($toCity); ?></span>? Find the lowest <br> shipping rates for your orders and get reliable courier services with just a few clicks.</p>
                         </div>
                         <div class="join-us mb-2">
-                            <button type="submit" class="solid-action-btn scrollDown">Calculate Now</button>
+                            <button type="submit" class="solid-action-btn showrates">Show Rates</button>
                         </div>
                     </div>
                 </div>

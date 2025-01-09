@@ -52,5 +52,10 @@ $(document).ready(function () {
      // document.forms['shiprateForm'].submit();
     }
     // setTimeout(function() { fetchRates(); }, 1000);
+    $(".showrates").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#rateResult").offset().top
+        }, 100);
+    });
     
 });
