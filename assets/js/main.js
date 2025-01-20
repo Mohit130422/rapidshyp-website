@@ -83,6 +83,13 @@ $(document).ready(function () {
         var formData = $(this).serializeArray();
         var data = {};
         formData.forEach(function (item) {
+            if(item.name === 'website'){
+                let websiteValue = item.value.trim();
+                if(!websiteValue.startsWith('https://')){
+                    websiteValue = 'https://'+websiteValue
+                }
+                item.value = websiteValue;
+            }
             data[item.name] = item.value;
         });
 

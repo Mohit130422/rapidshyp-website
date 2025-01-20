@@ -22,7 +22,8 @@
     <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png"
         sizes="192x192" />
     <!-- <script src="https://kit.fontawesome.com/0ac1a092d2.js" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="node_modules/fontawesome/css/all.min.css"></link>
+    <link rel="stylesheet" href="node_modules/fontawesome/css/all.min.css">
+    </link>
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
     <link rel="stylesheet" href="node_modules/owl.theme.default.min.css">
@@ -31,20 +32,20 @@
     <script src="node_modules/bootstrap.bundle.min.js"></script>
     <script src="assets/js/utm.js"></script>
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
     <link rel="stylesheet" href="assets/css/main.css?v=0.3.2">
@@ -67,78 +68,133 @@
 
     <!-- organization schema start -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "RapidShyp",
-        "url": "https://www.rapidshyp.com/",
-        "logo": "https://www.rapidshyp.com/https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg",
-        "alternateName": "RapidShyp",
-        "sameAs": [
-            "https://www.instagram.com/rapidshyp/",
-            "https://www.linkedin.com/company/rapidshyp",
-            "https://twitter.com/rapidshyp"
-        ],
-        "contactPoint": [{
-                "@type": "ContactPoint",
-                "telephone": "7669007700",
-                "contactType": "technical support",
-                "email": "support@rapidshyp.com",
-                "contactOption": "HearingImpairedSupported",
-                "areaServed": "IN",
-                "availableLanguage": [
-                    "en",
-                    "hi"
-                ]
-            },
-            {
-                "@type": "ContactPoint",
-                "telephone": "7669007700",
-                "contactType": "sales",
-                "email": "connect@rapidshyp.com",
-                "contactOption": "HearingImpairedSupported",
-                "areaServed": "IN",
-                "availableLanguage": [
-                    "en",
-                    "hi"
-                ]
-            }
-        ]
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "RapidShyp",
+            "url": "https://www.rapidshyp.com/",
+            "logo": "https://www.rapidshyp.com/https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg",
+            "alternateName": "RapidShyp",
+            "sameAs": [
+                "https://www.instagram.com/rapidshyp/",
+                "https://www.linkedin.com/company/rapidshyp",
+                "https://twitter.com/rapidshyp"
+            ],
+            "contactPoint": [{
+                    "@type": "ContactPoint",
+                    "telephone": "7669007700",
+                    "contactType": "technical support",
+                    "email": "support@rapidshyp.com",
+                    "contactOption": "HearingImpairedSupported",
+                    "areaServed": "IN",
+                    "availableLanguage": [
+                        "en",
+                        "hi"
+                    ]
+                },
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "7669007700",
+                    "contactType": "sales",
+                    "email": "connect@rapidshyp.com",
+                    "contactOption": "HearingImpairedSupported",
+                    "areaServed": "IN",
+                    "availableLanguage": [
+                        "en",
+                        "hi"
+                    ]
+                }
+            ]
+        }
     </script>
     <!-- organization schema end -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11397568129"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-    gtag('config', 'AW-11397568129');
+        gtag('config', 'AW-11397568129');
     </script>
 
 
     <!-- start Event snippet for Submit lead form conversion page-->
     <script>
-    function gtag_report_conversion(url) {
-        console.log("convert");
-        var callback = function() {
-            if (typeof(url) !== 'undefined') {
-                window.location = url;
-            }
-        };
+        function gtag_report_conversion(url) {
+            console.log("convert");
+            var callback = function() {
+                if (typeof(url) !== 'undefined') {
+                    window.location = url;
+                }
+            };
 
-        setTimeout(function() {
-            gtag('event', 'conversion', {
-                'send_to': 'AW-11397568129/7eDPCLiRyLAZEIGt5Loq',
-                'event_callback': callback
-            });
-        }, 3000); // 3000 milliseconds = 3 seconds
+            setTimeout(function() {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-11397568129/7eDPCLiRyLAZEIGt5Loq',
+                    'event_callback': callback
+                });
+            }, 3000); // 3000 milliseconds = 3 seconds
 
-        return false;
-    }
+            return false;
+        }
     </script>
     <!-- End Event snippet for Submit lead form conversion page-->
+
+    <!-- start Event One Signal installation code for push notifications-->
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script>
+      window.OneSignalDeferred = window.OneSignalDeferred || [];
+      OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.init({
+          appId: "4e9b76da-89fd-415b-a728-e5b867bb889d",
+          safari_web_id: "web.onesignal.auto.1afe2633-50cf-455e-8f3e-a50d8cbe1d12",
+          notifyButton: {
+            enable: true,
+          },
+          promptOptions: {
+                slidedown: {
+                    prompts: [
+                        {
+                            type: "smsAndEmail",
+                            autoPrompt: true,
+                            text: {
+                                emailLabel: "Insert Email Address",
+                                smsLabel: "Insert Phone Number",
+                                acceptButton: "Submit",
+                                cancelButton: "No Thanks",
+                                actionMessage: "Receive the latest news, updates and offers as they happen.",
+                                updateMessage: "Update your push notification subscription preferences.",
+                                confirmMessage: "Thank You!",
+                                positiveUpdateButton: "Save Preferences",
+                                negativeUpdateButton: "Cancel",
+                            },
+                            delay: {
+                                pageViews: 1,
+                                timeDelay: 20
+                            },
+                        },
+                        {
+                            type: "category",
+                            autoPrompt: true,
+                            text: {
+                                actionMessage: "We'd like to show you notifications for the latest news and updates.",
+                                acceptButton: "Allow",
+                                cancelButton: "Cancel",
+                            },
+                            delay: {
+                                pageViews: 3,
+                                timeDelay: 20
+                            },
+                        },
+                        
+                    ]
+                }
+            }
+        });
+      });
+    </script>
+    <!-- End Event One Signal installation code for push notifications-->

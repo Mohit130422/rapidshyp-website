@@ -146,12 +146,12 @@
                                     </div>
                                     <div class="col-sm-12 col-md-12">
                                         <div class="mb-4">
-                                            <label for="phone" class="form-label">Website Link</label>
+                                            <label for="website" class="form-label">Website Link</label>
                                             <div class="input-group flex-nowrap">
                                                 <span class="input-group-text" id="addon-wrapping"><i
                                                         class="fas fa-globe"></i></span>
-                                                <input type="url" class="form-control" name="website" id="website"
-                                                    placeholder="Enter Website Url (optional)">
+                                                <input type="text" class="form-control" name="website" id="website"
+                                                placeholder="https://example.com" required>
                                             </div>
                                         </div>
                                     </div>
