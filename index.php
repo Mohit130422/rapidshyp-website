@@ -2,7 +2,9 @@
 
 <link rel="canonical" href="https:/www.rapidshyp.com" />
 <meta property="og:title" content="eCommerce Shipping & Courier Aggregator in India - RapidShyp" />
+<meta property="og:description" content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
 <meta name="title" content="eCommerce Shipping & Courier Aggregator in India - RapidShyp" />
+<meta name="description" content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
 <title>eCommerce Shipping & Courier Aggregator in India - RapidShyp</title>
 <!-- FAqs schema start -->
 <script type="application/ld+json">

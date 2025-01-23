@@ -5,15 +5,11 @@
     <meta charset="UTF-8">
     <!-- <base href="https://www.rapidshyp.com"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta property="og:description"
-        content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
     <!-- Tracking and Analytics -->
     <meta name="google-site-verification" content="ziG_d23YoEToCxxi0a1or4i7ITVf1hjtCCO7qg3vldQ" />
     <meta name="msvalidate.01" content="0EEEAB0A6F290CF1DFC746D92732C29B" />
     <meta name="facebook-domain-verification" content="g2yq7dt5v0crk4gyidro1pc39uq2h0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description"
-        content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon.ico"
         type="image/x-icon">

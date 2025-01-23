@@ -25,6 +25,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
                             <p>Product</p>
                             <div class="links">
+                                <a href="order-verification" class="link">Order Verification <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</a>
                                 <span class="link">Order Management System</span>
                                 <span class="link">SmartSelect</span>
                                 <span class="link">Xperience Suite</span>
@@ -74,18 +75,19 @@
 </footer>
 
 <div class="adlinks">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    &copy; Copyright 2024 <strong><span>RapidShyp</span></strong> | <a href="privacy">Privacy
-                        Policy</a>
-                     | <a href="tnc">Terms & Conditions</a> | <a href="shipping-return-policy">Refund and
-                        Cancellation
-                        Policy</a>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                &copy; Copyright 2025 <strong><span>RapidShyp</span></strong> | <a href="privacy">Privacy
+                    Policy</a>
+                 | <a href="tnc">Terms & Conditions</a> | <a href="shipping-return-policy">Refund and
+                    Cancellation
+                    Policy</a>
             </div>
         </div>
+    </div>
 </div>
+
 <div class="blur-overlay" id="joinWaitlistModal">
         <div class="dialog-box">
             <div class="head">
