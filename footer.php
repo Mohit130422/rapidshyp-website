@@ -25,8 +25,8 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
                             <p>Product</p>
                             <div class="links">
-                                <a href="order-verification" class="link">Order Verification <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</a>
-                                <span class="link">Order Management System</span>
+                                <a href="order-verification" class="link">Order Verification <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</sup></a>
+                                <a href="order-management-system" class="link">Order Management System</a>
                                 <span class="link">SmartSelect</span>
                                 <span class="link">Xperience Suite</span>
                                 <span class="link">NDR Management</span>

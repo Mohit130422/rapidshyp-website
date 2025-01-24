@@ -172,6 +172,15 @@ i{
     color: $check-color;
 }
 
+/* Add styles for iframe and container */
+#auth-container {
+    iframe {
+        border: none;
+        width: 100%;
+        height: 620px;
+    }
+}
+
 
 @keyframes floating {
     0% { 
