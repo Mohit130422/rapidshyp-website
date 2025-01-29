@@ -174,10 +174,11 @@ i{
 
 /* Add styles for iframe and container */
 #auth-container {
+    height: 700px;
     iframe {
         border: none;
         width: 100%;
-        height: 620px;
+        height: 100%;
     }
 }
 
