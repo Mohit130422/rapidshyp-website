@@ -392,7 +392,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
                     <h3 class="heading mb-0">Get the Best Courier <br> Service from <span class="f-capitalize"><?php echo htmlspecialchars($fromCity); ?></span> <br>to <span class="f-capitalize"><?php echo htmlspecialchars($toCity); ?></span></h3>
                     <p class="sub-heading">Provide a premium customer experience at the most affordable shipping rates, starting at just ₹25/500gm.</p>
                     <p> <b>No platform fee, no hidden charges.</b></p>
-                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');" style="border-radius: 12px;">Sign Up For Free</button>
+                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');" style="border-radius: 12px;">Sign-up for Free</button>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">

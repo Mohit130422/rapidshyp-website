@@ -285,7 +285,7 @@ include 'header-section-v2.php';?>
                                         alt="">
                                 </span>
                                 <p class="title">Economical Shipping Rates</p>
-                                <small>Start economical shipping at ₹25/500gms</small>
+                                <small>Start economical shipping at ₹21/500gms</small>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
@@ -345,7 +345,7 @@ include 'header-section-v2.php';?>
                                     alt="">
                             </span>
                             <p class="title">Economical Shipping Rates</p>
-                            <small>Start economical shipping at ₹25/500gms</small>
+                            <small>Start economical shipping at ₹21/500gms</small>
                         </div>
                         <div class="grip info">
                             <span class="imgdesk yellow">
@@ -557,7 +557,7 @@ include 'header-section-v2.php';?>
     </div>
 
     <script src="../assets/js/main.js"></script>
-    <script src="https://qa.rapidshyp.com/js/campaign.js"></script>
+    <script src="https://uat.rapidshyp.com/js/campaign.js"></script>
     <script>
         $(".get-start").click(function() {
         $('html, body').animate({
@@ -634,7 +634,7 @@ include 'header-section-v2.php';?>
             document.getElementById('courier').style.display = 'none';
         });
         window.onload = function () {
-            loadIframe("https://qa.rapidshyp.com");
+            loadIframe("https://uat.rapidshyp.com");
         }
     </script>
 </body>

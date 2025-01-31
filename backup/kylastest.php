@@ -23,6 +23,10 @@ $kylasapi_data = array(
       "primary" => true
     )),
 );
+
+if($shippmentCount=='Setting up new Business'){
+  $shipmentCountCode =2194805;
+}
  
 //Lead Source can be mapped in below path, uncomment below line if needed to pass, don't pass null value, source only accepts integer value (get this from Kylas dashboard through source picklist).
 // $kylasapi_data['source'] = (int)$sourceId;

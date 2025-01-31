@@ -384,7 +384,7 @@ include 'header-section-v2.php';?>
                                         alt="">
                                 </span>
                                 <p class="title">Economical Shipping Rates</p>
-                                <small>Start economical shipping at ₹25/500gms</small>
+                                <small>Start economical shipping at ₹21/500gms</small>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
@@ -444,7 +444,7 @@ include 'header-section-v2.php';?>
                                     alt="">
                             </span>
                             <p class="title">Economical Shipping Rates</p>
-                            <small>Start economical shipping at ₹25/500gms</small>
+                            <small>Start economical shipping at ₹21/500gms</small>
                         </div>
                         <div class="grip info">
                             <span class="imgdesk yellow">

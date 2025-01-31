@@ -2192,6 +2192,11 @@ section {
 .hero-area .container .contents {
   margin: 8rem 0 3rem 0;
 }
+.hero-area .container .contents .ndd-mark {
+  background: linear-gradient(120deg, #FFC127 10%, #FFEAAB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .hero-area .container .contents .head-title {
   font-weight: 800;
   font-size: 62px;
@@ -4716,6 +4721,14 @@ section {
   background: rgb(182, 88, 232);
   background: linear-gradient(90deg, rgb(182, 88, 232) 0%, rgb(255, 193, 39) 100%);
 }
+.lp-hero-ov mark {
+  padding: 0;
+  background: linear-gradient(120deg, #9E44CE 10%, #f9c427 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 0;
+  font-weight: 700;
+}
 .lp-hero-ov .hero-area {
   min-height: auto;
 }
@@ -4854,6 +4867,56 @@ section {
   }
 }
 
+.put-your-needs .features-section, .ship-package-area .features-section {
+  background: #3E1A51;
+  padding: 40px 40px 0 40px;
+}
+.put-your-needs .features-section .features-list .feature-item::before, .ship-package-area .features-section .features-list .feature-item::before {
+  background-color: #fff;
+  color: #3E1A51;
+}
+.put-your-needs .area-available, .ship-package-area .area-available {
+  background: #ffeed0;
+  color: #000000;
+  padding: 40px;
+  display: block;
+  border-radius: 18px;
+}
+.put-your-needs .area-available .heading, .ship-package-area .area-available .heading {
+  margin: 0 0 20px 0;
+}
+.put-your-needs .area-available .area-list, .ship-package-area .area-available .area-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.put-your-needs .area-available .area-list .area-item, .ship-package-area .area-available .area-list .area-item {
+  background-color: #fff;
+  padding: 10px 16px;
+  margin: 0 16px 16px 0;
+  border-radius: 8px;
+}
+@media (max-width: 576px) {
+  .put-your-needs .features-section, .ship-package-area .features-section {
+    flex-direction: column-reverse;
+    padding: 40px 30px 0 30px;
+  }
+  .put-your-needs .area-available, .ship-package-area .area-available {
+    padding: 20px;
+  }
+  .put-your-needs .area-available .area-list, .ship-package-area .area-available .area-list {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .put-your-needs .area-available .area-list .area-item, .ship-package-area .area-available .area-list .area-item {
+    min-width: 160px;
+  }
+}
+
+.ship-package-area .features-section {
+  background: linear-gradient(135deg, #3E1A51, #BA50FF);
+}
+
 .experience-it-first-hand {
   padding: 70px 0;
 }
@@ -4986,6 +5049,30 @@ section {
 @media (max-width: 576px) {
   .is-rto-eating-profit {
     text-align: center;
+  }
+}
+
+.get-couriers {
+  background: rgb(182, 88, 232);
+  background: linear-gradient(90deg, rgb(182, 88, 232) 0%, rgb(255, 193, 39) 100%);
+  color: #fff;
+}
+.get-couriers .container {
+  padding: 0;
+}
+.get-couriers .container .sub-heading {
+  color: #fff;
+}
+.get-couriers .container .solid-action-btn {
+  background-color: #fff;
+  color: #000000;
+  padding: 0.5rem 1.5rem;
+  margin: 20px 0 0;
+  font-weight: 700;
+}
+@media (max-width: 576px) {
+  .get-couriers .container .imgdesk {
+    padding-top: 40px;
   }
 }
 

@@ -27,7 +27,7 @@
                             <div class="links">
                                 <a href="order-verification" class="link">Order Verification <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</sup></a>
                                 <a href="order-management-system" class="link">Order Management System</a>
-                                <span class="link">SmartSelect</span>
+                                <a href="ai-courier-recommendations" class="link">SmartSelect</a>
                                 <span class="link">Xperience Suite</span>
                                 <span class="link">NDR Management</span>
                             </div>

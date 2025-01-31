@@ -66,7 +66,7 @@
                 <div class="col-lg-5 col-md-6 col-sm-12 text-start">
                     <div class="info">
                         <h5><mark>Address</mark> Confirmation</h5>
-                        <p>Confirm pin codes, house numbers, and other critical details to minimise errors</p>
+                        <p>Confirm pin codes, phone numbers, and other critical details to minimise errors</p>
                         <button class="solid-action-btn openWaitlistModal">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
@@ -207,12 +207,12 @@
     </section>
 
     <section class="is-rto-eating-profit">
-        <div class="container">
+        <div class="container p-0">
             <div class="row col-reverse">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h3 class="heading">Is RTO Eating Your <br>Profits Too?</h3>
                     <p class="sub-heading mb-4">Strategise your post-purchase experience for <br>maximum performance.</p>
-                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');">Sign Up For Free</button>
+                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');">Sign up for Free</button>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
@@ -340,7 +340,7 @@
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">By verifying order details in advance, it prevents errors and filters out fraudulent or unqualified orders, ensuring only valid orders are dispatched.</div>
+                                <div class="accordion-body">By verifying order details such as addresses and contact numbers in advance, it prevents errors and filters out fraudulent or unqualified orders, ensuring only valid orders are dispatched.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
