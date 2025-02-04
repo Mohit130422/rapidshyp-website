@@ -149,7 +149,7 @@
                                 <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/benefit05.png"
                                     alt="shopify benefits">
                                 <div class="content">
-                                    <h5>INR 25/500gm*</h5>
+                                    <h5>INR 2/500gm*</h5>
                                     <p>Starting Rates</p>
                                 </div>
                             </div>

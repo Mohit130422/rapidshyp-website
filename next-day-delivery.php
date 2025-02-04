@@ -157,22 +157,11 @@
                     <div class="area-available">
                         <h3 class="heading">Available in:</h3>
                         <div class="area-list">
-                        <div class="area-item">Ambernath</div>
-                            <div class="area-item">Kalyan</div>
-                            <div class="area-item">Mumbai</div>
-                            <div class="area-item">Navi Mumbai</div>
-                            <div class="area-item">Thane</div>
-                            <div class="area-item">Vasai</div>
-                            <div class="area-item">Bangalore</div>
-                            <div class="area-item">Anekal</div>
-                            <div class="area-item">Nelamangala</div>
-                            <div class="area-item">Devanahalli</div>
-                            <div class="area-item">Doddaballapura</div>
-                            <div class="area-item">Hyderabad</div>
-                            <div class="area-item">Secunderabad</div>
-                            <div class="area-item">K.V. Rangareddy</div>
                             <div class="area-item">Kolkata</div>
                             <div class="area-item">Delhi NCR</div>
+                            <div class="area-item">Mumbai</div>
+                            <div class="area-item">Bangalore</div>
+                            <div class="area-item">Hyderabad</div>
                             <div class="area-item">Lucknow</div>
                         </div>
                     </div>
@@ -335,7 +324,7 @@
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Next-day delivery starts at ₹21 per 500g.</div>
+                                <div class="accordion-body">Next-day delivery starts at ₹17.25 per 500g.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
