@@ -56,14 +56,34 @@
 	  	<priority>0.9</priority>
 	</url>
 	<url>
+		<loc>https://www.rapidshyp.com/order-verification</loc>
+		<lastmod>2025-02-06T11:11:22+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://www.rapidshyp.com/order-management-system</loc>
+		<lastmod>2025-02-06T11:11:22+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://www.rapidshyp.com/ai-courier-recommendations</loc>
+		<lastmod>2025-02-06T11:11:22+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://www.rapidshyp.com/next-day-delivery</loc>
+		<lastmod>2025-02-06T11:11:22+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://www.rapidshyp.com/courier-integrations/india-post</loc>
+		<lastmod>2025-02-06T11:11:22+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
 	  	<loc>https://www.rapidshyp.com/shipping-rates-from-delhi-to-mumbai</loc>
 	  	<lastmod>2024-12-23T18:08:44+00:00</lastmod>
 	  	<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Delhi-to-Delhi</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Delhi-to-Mumbai</loc>
@@ -117,11 +137,6 @@
 	</url>
 	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Mumbai-to-Delhi</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Mumbai-to-Mumbai</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
@@ -181,11 +196,6 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Bangalore-to-Bangalore</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Bangalore-to-Hyderabad</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
@@ -237,11 +247,6 @@
 	</url>
 	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Hyderabad-to-Bangalore</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Hyderabad-to-Hyderabad</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
@@ -301,11 +306,6 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Chennai-to-Chennai</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Chennai-to-Surat</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
@@ -357,11 +357,6 @@
 	</url>
 	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Surat-to-Chennai</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Surat-to-Surat</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
@@ -421,11 +416,6 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Pune-to-Pune</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Pune-to-Chandigarh</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
@@ -477,11 +467,6 @@
 	</url>
 	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Chandigarh-to-Pune</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Chandigarh-to-Chandigarh</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
@@ -541,11 +526,6 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Agra-to-Agra</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Agra-to-Lucknow</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
@@ -601,11 +581,6 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Lucknow-to-Lucknow</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Lucknow-to-Kolkata</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
@@ -657,11 +632,6 @@
 	</url>
 	<url>
 		<loc>https://www.rapidshyp.com/shipping-rates-from-Kolkata-to-Lucknow</loc>
-		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://www.rapidshyp.com/shipping-rates-from-Kolkata-to-Kolkata</loc>
 		<lastmod>2025-01-06T07:23:30+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>

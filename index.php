@@ -286,6 +286,42 @@
                     <p class="sub-heading">Enhance customer experience with features that help your brand stay ahead of
                         the competition</p>
                     <div class="row mt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                            <div class="info">
+                                <span class="imgdesk">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/om-icon.png"
+                                        alt="">
+                                </span>
+                                <p class="title">Order Management</p>
+                                <small>Auto-synchronise your orders across channels and ship them effortlessly</small>
+                                <a href="order-management-system"class="learnmore">Learn More <i
+                                class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                            <div class="info">
+                                <span class="imgdesk">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/ndd-icon.png"
+                                        alt="">
+                                </span>
+                                <p class="title">Next-day Deliveries</p>
+                                <small>Boost your conversions and uplift your delivery experience</small>
+                                <a href="next-day-delivery"class="learnmore">Learn More <i
+                                class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                            <div class="info">
+                                <span class="imgdesk">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/ov-icon.png"
+                                        alt="">
+                                </span>
+                                <p class="title">Order Verification</p>
+                                <small>Verify orders and address before shipping to optimise your delivery rate</small>
+                                <a href="order-verification"class="learnmore">Learn More <i
+                                class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
@@ -299,7 +335,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
-                                <span class="imgdesk yellow">
+                                <span class="imgdesk">
                                     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon02.svg"
                                         alt="">
                                 </span>
@@ -321,7 +357,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
-                                <span class="imgdesk yellow">
+                                <span class="imgdesk">
                                     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon04.svg"
                                         alt="">
                                 </span>
@@ -342,7 +378,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
-                                <span class="imgdesk yellow">
+                                <span class="imgdesk">
                                     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon06.svg"
                                         alt="">
                                 </span>

@@ -12,7 +12,8 @@ RewriteCond %{HTTP_HOST} ^rapidshyp\.in$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.rapidshyp\.in$
 RewriteRule ^/?$ "https\:\/\/www\.rapidshyp\.com\/" [R=301,L]
 
-
+RewriteRule ^channel-integrations/shopify/?$ shopify.php [L]
+RewriteRule ^courier-integrations/india-post/?$ india-post.php [L]
 
 # Disable directory listing
 Options -Indexes
