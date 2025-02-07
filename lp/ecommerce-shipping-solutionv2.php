@@ -557,7 +557,7 @@ include 'header-section-v2.php';?>
     </div>
 
     <script src="../assets/js/main.js"></script>
-    <script src="https://uat.rapidshyp.com/js/campaign.js"></script>
+    <script src="https://app.rapidshyp.com/js/campaign.js"></script>
     <script>
         $(".get-start").click(function() {
         $('html, body').animate({
@@ -634,7 +634,7 @@ include 'header-section-v2.php';?>
             document.getElementById('courier').style.display = 'none';
         });
         window.onload = function () {
-            loadIframe("https://uat.rapidshyp.com");
+            loadIframe("https://app.rapidshyp.com");
         }
     </script>
 </body>

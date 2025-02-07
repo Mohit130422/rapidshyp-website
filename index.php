@@ -724,8 +724,7 @@
                             <div id="flush-collapseFive" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">RapidShyp's Shipping Automation platform offers features
-                                    such as AI-enabled carrier selection, bulk shipping discounts, and route
-                                    optimization. These functionalities collectively help businesses reduce operational
+                                such as courier prioritisation, bulk shipping actions, and automated workflows. These functionalities collectively help businesses reduce operational
                                     overheads and avail the best shipping rates.</div>
                             </div>
                         </div>
