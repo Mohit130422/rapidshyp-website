@@ -286,14 +286,14 @@
                     <p class="sub-heading">Enhance customer experience with features that help your brand stay ahead of
                         the competition</p>
                     <div class="row mt-5">
-                    <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/om-icon.png"
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/order-management.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Order Management</p>
-                                <small>Auto-synchronise your orders across channels and ship them effortlessly</small>
+                                <small>Auto-synchronise orders across multiple channels and ship them effortlessly</small>
                                 <a href="order-management-system"class="learnmore">Learn More <i
                                 class="fas fa-arrow-right"></i></a>
                             </div>
@@ -301,11 +301,11 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/ndd-icon.png"
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/next-day-delivery.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Next-day Deliveries</p>
-                                <small>Boost your conversions and uplift your delivery experience</small>
+                                <small>Convert more website visitors into customers and level up your delivery experience</small>
                                 <a href="next-day-delivery"class="learnmore">Learn More <i
                                 class="fas fa-arrow-right"></i></a>
                             </div>
@@ -313,11 +313,11 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/ov-icon.png"
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/order-verification.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Order Verification</p>
-                                <small>Verify orders and address before shipping to optimise your delivery rate</small>
+                                <small>Verify orders and addresses before shipping to optimise your delivery rate</small>
                                 <a href="order-verification"class="learnmore">Learn More <i
                                 class="fas fa-arrow-right"></i></a>
                             </div>
@@ -325,7 +325,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon01.svg"
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/ship-advisor.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Dedicated Shipping Advisors</p>
@@ -336,50 +336,49 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon02.svg"
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/rapid-cod.svg"
                                         alt="">
                                 </span>
                                 <p class="title">RapidCOD</p>
-                                <small>Maintain a regular cash flow with a 2-day COD remittance and scale your
-                                    operations</small>
+                                <small>Maintain regular cash flow with 2-day COD remittance and scale your
+                                    operations faster</small>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon03.svg"
-                                        alt="">
-                                </span>
-                                <p class="title">Multi-Carrier Integration</p>
-                                <small>Access diverse carriers, ensure maximum efficiency with an AI-backed
-                                    recommendation.</small>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-                            <div class="info">
-                                <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon04.svg"
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/reduce-rto.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Reduced RTO</p>
                                 <small>Say goodbye to costly RTOs. Save significantly with reduced RTO losses by up to
-                                    40%</small>
+                                    45%</small>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden-column">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon05.svg"
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/channel-integration.svg"
+                                        alt="">
+                                </span>
+                                <p class="title">Multi-courier Integration</p>
+                                <small>Access diverse carriers and ensure maximum efficiency with AI-backed recommendations</small>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden-column">
+                            <div class="info">
+                                <span class="imgdesk">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/shipment-security.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Shipment Security Cover</p>
                                 <small>Get ensured shipment coverage against loss and damages during transit</small>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden-column">
                             <div class="info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/icon06.svg"
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/eco-price.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Economical Prices</p>
@@ -387,6 +386,9 @@
                                     pockets.</small>
                             </div>
                         </div>
+                    </div>
+                    <div class="view-more-container">
+                        <button id="viewMoreBtn">View More</button>
                     </div>
                 </div>
             </div>
@@ -832,79 +834,21 @@
     </section>
 
     <?php include 'footer.php';?>
-    <div class="blur-overlay" id="ny-offer">
-        <div class="dialog-box ny-offer">
-            <div class="head">
-                <div class="close" onclick="closeModal()">
-                    <i class="fas fa-times"></i>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12" >
-                        <img class="side-img" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/ny-offer-img.png" alt="">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12" >
-                        <div class="content">
-                            <h2 class="head-title">Hit Your Targets This New Year</h2>
-                            <p class="description">Ship smarter, aim better</p>
-                            <div class="offer">
-                                <img class="side-img" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/offer-strip.png" alt="">
-                            </div>
-                            <p class="description">#NayaSaalNayiShuruat</p>
-                            <button class="solid-action-btn mb-3" onclick="window.open('https://www.rapidshyp.com/new-year-2025');">Make the Switch</button>
-                        </div>
-                    </div>
-                </div>
-            </div>           
-        </div>
-    </div>
 
     <script>
-        // Check if the modal has been closed before
-        if (!sessionStorage.getItem('modalClosed')) {
-          document.addEventListener('mousemove', throttle((event) => {
-            if (event.clientY < 10 && !sessionStorage.getItem('modalClosed')) {
-              showModal();
-            }
-          }, 1000));
-        }
+        document.getElementById('viewMoreBtn').addEventListener('click', function() {
+            const hiddenColumns = document.querySelectorAll('.hidden-column');
+            const isHidden = hiddenColumns[0].style.display === 'none' || hiddenColumns[0].style.display === '';
 
-        function showModal() {
-            const modal = document.getElementById('ny-offer');
-            if (modal.style.display !== 'flex') {
-                modal.style.display = 'flex';
-            }
-        }
+            // Toggle visibility of hidden columns
+            hiddenColumns.forEach(column => {
+                column.style.display = isHidden ? 'block' : 'none';
+            });
 
-        function closeModal() {
-          const modal = document.getElementById('ny-offer');
-          modal.style.display = 'none';
-          // Set a flag in localStorage to indicate the modal was closed
-          sessionStorage.setItem('modalClosed', 'true');
-        }
-        // Utility: Throttle function to limit execution
-        function throttle(func, limit) {
-          let lastFunc;
-          let lastRan;
-          return function (...args) {
-            const context = this;
-            if (!lastRan) {
-              func.apply(context, args);
-              lastRan = Date.now();
-            } else {
-              clearTimeout(lastFunc);
-              lastFunc = setTimeout(function () {
-                if ((Date.now() - lastRan) >= limit) {
-                  func.apply(context, args);
-                  lastRan = Date.now();
-                }
-              }, limit - (Date.now() - lastRan));
-            }
-          };
-        }
+            // Toggle button text
+            this.textContent = isHidden ? 'View Less' : 'View More';
+        });
     </script>
-
     <script src="assets/js/main.js"></script>
     <script src="assets/js/utm.js"></script>
 </body>

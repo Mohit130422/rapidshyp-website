@@ -3053,6 +3053,22 @@ section {
   }
 }
 
+.what-makes-better .hidden-column, .what-makes-better2 .hidden-column {
+  display: none;
+}
+.what-makes-better .view-more-container, .what-makes-better2 .view-more-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.what-makes-better .view-more-container button, .what-makes-better2 .view-more-container button {
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #eee;
+  color: #3E1A51;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 12px;
+}
 .what-makes-better .info, .what-makes-better2 .info {
   padding: 0 55px;
 }

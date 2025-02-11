@@ -88,7 +88,7 @@ function storeLastVisitedPage() {
 // Function to store UTM parameters in cookies
 function storeUtmParams() {
     const params = getUrlParams();
-    const utmParams = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "device"];
+    const utmParams = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "matchtype", "device"];
 
     const firstUtm = {};
     let latestUtm = {};

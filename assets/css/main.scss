@@ -3299,6 +3299,22 @@ section{
  }
 
 .what-makes-better,.what-makes-better2{
+    .hidden-column {
+        display: none;
+    }
+    .view-more-container {
+        text-align: center;
+        margin-top: 20px;
+        button{
+            font-weight: 700;
+            font-size: 16px;
+            background-color: $light-grey;
+            color: $primary-color;
+            border-radius: 20px;
+            border: none;
+            padding: 8px 12px;
+        }
+    }
     .info{
         padding: 0 55px;
         .imgdesk{
