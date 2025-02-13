@@ -174,7 +174,7 @@ i {
 
 /* Add styles for iframe and container */
 #auth-container {
-  height: 700px;
+  height: 600px;
 }
 #auth-container iframe {
   border: none;
@@ -5198,6 +5198,147 @@ section {
   .trust-in-delivery .background {
     display: none;
   }
+}
+
+.rsChannels {
+  background-color: #F7F7F7;
+  padding: 50px 0 70px;
+}
+.rsChannels .card {
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  border: none;
+  box-shadow: 0px 8px 0px #96bf48;
+  min-height: 500px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.rsChannels .card .head {
+  padding-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px dotted #c7c7c7;
+}
+.rsChannels .card .head img {
+  width: 150px;
+  margin: auto;
+}
+.rsChannels .card .body {
+  padding: 20px 0;
+}
+.rsChannels .card .body p {
+  margin-bottom: 20px;
+}
+.rsChannels .card .body .badge {
+  font-size: 16px;
+  background-color: #FFF5D9;
+}
+.rsChannels .card .body ul {
+  padding-left: 0;
+}
+.rsChannels .card .body ul .feature-item {
+  list-style: none;
+}
+.rsChannels .card .body ul .feature-item i {
+  margin-right: 10px;
+  color: #02B151;
+}
+.rsChannels .card .footer {
+  position: absolute;
+  bottom: 5%;
+  display: block;
+  width: 100%;
+  left: 0;
+  padding: 0 16px;
+}
+.rsChannels .card .footer .btn-custom {
+  border: 1px solid #96bf48;
+  color: #96bf48;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+.rsChannels .card .footer .btn-custom:hover {
+  background-color: #96bf48;
+  color: #fff;
+}
+.rsChannels .unicom {
+  box-shadow: 0px 8px 0px #4787ED;
+}
+.rsChannels .unicom .footer .btn-custom {
+  border: 1px solid #4787ED;
+  color: #4787ED;
+}
+.rsChannels .unicom .footer .btn-custom:hover {
+  background-color: #4787ED;
+  color: #fff;
+}
+.rsChannels .woocommerce {
+  box-shadow: 0px 8px 0px #7F54B3;
+}
+.rsChannels .woocommerce .footer .btn-custom {
+  border: 1px solid #7F54B3;
+  color: #7F54B3;
+}
+.rsChannels .woocommerce .footer .btn-custom:hover {
+  background-color: #7F54B3;
+  color: #fff;
+}
+.rsChannels .easycom {
+  box-shadow: 0px 8px 0px #219C4A;
+}
+.rsChannels .easycom .footer .btn-custom {
+  border: 1px solid #219C4A;
+  color: #219C4A;
+}
+.rsChannels .easycom .footer .btn-custom:hover {
+  background-color: #219C4A;
+  color: #fff;
+}
+.rsChannels .vinculum {
+  box-shadow: 0px 8px 0px #464D81;
+}
+.rsChannels .vinculum .footer .btn-custom {
+  border: 1px solid #464D81;
+  color: #464D81;
+}
+.rsChannels .vinculum .footer .btn-custom:hover {
+  background-color: #464D81;
+  color: #fff;
+}
+.rsChannels .magento {
+  box-shadow: 0px 8px 0px #F26424;
+}
+.rsChannels .magento .footer .btn-custom {
+  border: 1px solid #F26424;
+  color: #F26424;
+}
+.rsChannels .magento .footer .btn-custom:hover {
+  background-color: #F26424;
+  color: #fff;
+}
+.rsChannels .amazon {
+  box-shadow: 0px 8px 0px #06A7E2;
+}
+.rsChannels .amazon .footer .btn-custom {
+  border: 1px solid #06A7E2;
+  color: #06A7E2;
+}
+.rsChannels .amazon .footer .btn-custom:hover {
+  background-color: #06A7E2;
+  color: #fff;
+}
+.rsChannels .clickpost {
+  box-shadow: 0px 8px 0px #007AFF;
+}
+.rsChannels .clickpost .footer .btn-custom {
+  border: 1px solid #007AFF;
+  color: #007AFF;
+}
+.rsChannels .clickpost .footer .btn-custom:hover {
+  background-color: #007AFF;
+  color: #fff;
 }
 
 footer {

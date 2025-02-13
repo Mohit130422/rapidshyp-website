@@ -90,7 +90,7 @@
                                     alt="shopify benefits">
                                 <div class="content">
                                     <h5>Free</h5>
-                                    <p>NDR Calling</p>
+                                    <p>Post-NDR Communication</p>
                                 </div>
                             </div>
                         </div>

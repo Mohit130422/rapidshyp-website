@@ -13,6 +13,15 @@ $bg-shade3:  #F8EBFF;
 $tooltip-color: $light-color;
 $tooltip-bg: $text-dark;
 $check-color: #02B151;
+$shopify-color: #96bf48;
+$unicommerce-color: #4787ED;
+$woocommerce-color: #7F54B3;
+$easycom-color: #219C4A;
+$vinculum-color: #464D81;
+$magento-color: #F26424;
+$amazon-color: #06A7E2;
+$clickpost-color: #007AFF;
+
 
 html{
     scroll-behavior: smooth;
@@ -174,7 +183,7 @@ i{
 
 /* Add styles for iframe and container */
 #auth-container {
-    height: 700px;
+    height: 600px;
     iframe {
         border: none;
         width: 100%;
@@ -5563,6 +5572,164 @@ section{
             display: none;
         }
     }
+}
+
+.rsChannels{
+    background-color: #F7F7F7;
+    padding: 50px 0 70px;
+    .card {
+        position: relative;
+        border-radius: 10px;
+        padding: 20px;
+        border: none;
+        box-shadow: 0px 8px 0px $shopify-color;
+        min-height: 500px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        .head{
+            padding-bottom: 20px;
+            text-align: center;
+            border-bottom: 1px dotted #c7c7c7;
+            img{
+                width: 150px;
+                margin: auto;
+            }
+        }
+        .body{
+            padding: 20px 0 ;
+            p{
+                margin-bottom: 20px;
+            }
+            .badge{
+                font-size: 16px;
+                background-color: $label-bg;
+            }
+            ul{
+                padding-left: 0;
+                .feature-item{
+                    list-style: none;
+                    i{
+                        margin-right: 10px;
+                        color: $check-color;
+                    }
+                }
+            }
+            
+        }
+        .footer{
+            position: absolute;
+            bottom: 5%;
+            display: block;
+            width: 100%;
+            left: 0;
+            padding: 0 16px;
+            .btn-custom {
+                border: 1px solid $shopify-color;
+                color: $shopify-color;
+                border-radius: 8px;
+                padding: 10px 20px;
+                text-decoration: none;
+                display: block;
+                &:hover {
+                    background-color: $shopify-color;
+                    color: $light-color;
+                }
+            }
+            
+        }
+    }
+    .unicom{
+        box-shadow: 0px 8px 0px $unicommerce-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $unicommerce-color;
+                color: $unicommerce-color;
+                &:hover {
+                    background-color: $unicommerce-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .woocommerce{
+        box-shadow: 0px 8px 0px $woocommerce-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $woocommerce-color;
+                color: $woocommerce-color;
+                &:hover {
+                    background-color: $woocommerce-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .easycom{
+        box-shadow: 0px 8px 0px $easycom-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $easycom-color;
+                color: $easycom-color;
+                &:hover {
+                    background-color: $easycom-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .vinculum{
+        box-shadow: 0px 8px 0px $vinculum-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $vinculum-color;
+                color: $vinculum-color;
+                &:hover {
+                    background-color: $vinculum-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .magento{   
+        box-shadow: 0px 8px 0px $magento-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $magento-color;
+                color: $magento-color;
+                &:hover {
+                    background-color: $magento-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .amazon{
+        box-shadow: 0px 8px 0px $amazon-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $amazon-color;
+                color: $amazon-color;
+                &:hover {
+                    background-color: $amazon-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .clickpost{
+        box-shadow: 0px 8px 0px $clickpost-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $clickpost-color;
+                color: $clickpost-color;
+                &:hover {
+                    background-color: $clickpost-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+
 }
 
 footer{
