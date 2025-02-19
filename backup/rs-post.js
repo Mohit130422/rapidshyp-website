@@ -11,3 +11,13 @@ function announceJob () {
     }
 }
 
+//for https adding in the url
+
+if(item.name === 'website'){
+    let websiteValue = item.value.trim();
+    if(!websiteValue.startsWith('https://')){
+        websiteValue = 'https://'+websiteValue
+    }
+    item.value = websiteValue;
+}
+
