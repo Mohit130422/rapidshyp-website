@@ -5401,6 +5401,117 @@ section {
   }
 }
 
+.delhivery {
+  background: linear-gradient(45deg, #ED4136 50%, #BB4EAF 100%);
+  border-radius: 0 0 24px 24px;
+  overflow: hidden;
+}
+.delhivery mark {
+  padding: 0;
+  background: #ED4136;
+  background: linear-gradient(45deg, #ED4136 0%, #B658E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 0;
+}
+
+.deliveryCal .col-12 {
+  position: relative;
+  background: linear-gradient(45deg, #FFD4D1 0%, #EBCDFF 100%);
+  border-radius: 16px;
+  box-shadow: unset;
+}
+.deliveryCal .col-12 .tag {
+  position: absolute;
+  background: linear-gradient(45deg, #ED4136 0%, #B658E8 100%);
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  left: 5%;
+  padding: 8px;
+  border-radius: 0 0 8px 8px;
+  margin: 0;
+}
+.deliveryCal .col-12 .heading {
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+.deliveryCal .col-12 p {
+  font-weight: 600;
+}
+.deliveryCal .col-12 .shipment-form .form-group input {
+  padding: 6px 0 6px 12px;
+  font-size: 14px;
+}
+.deliveryCal .col-12 .shipment-form .solid-action-btn {
+  background: linear-gradient(45deg, #ED4136 0%, #B658E8 100%);
+  color: #fff;
+  width: 100%;
+}
+.deliveryCal .col-12 .shipment-form .reset-btn {
+  width: 100%;
+  background-color: none;
+}
+.deliveryCal .rateTable .getRates {
+  background: linear-gradient(45deg, #ED4136 0%, #B658E8 100%);
+  color: #fff;
+}
+@media (max-width: 576px) {
+  .deliveryCal .col-12 .heading {
+    font-size: 28px;
+    margin: 40px 0 20px;
+  }
+  .deliveryCal .col-12 .shipment-form {
+    padding: 16px;
+  }
+}
+
+.why-delhivery mark {
+  padding: 0;
+  background: #ED4136;
+  background: linear-gradient(45deg, #ED4136 0%, #B658E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 0;
+}
+.why-delhivery .solid-action-btn {
+  background: linear-gradient(45deg, #ED4136 0%, #B658E8 100%);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+
+.delhivery-couriers {
+  background: none;
+}
+.delhivery-couriers .container {
+  background: linear-gradient(45deg, #FFD4D1 0%, #EBCDFF 100%);
+  border-radius: 16px;
+}
+.delhivery-couriers .container .heading {
+  color: #000000;
+}
+.delhivery-couriers .container img {
+  width: 70%;
+}
+.delhivery-couriers .deliver-sucess {
+  background: linear-gradient(45deg, #ED4136 0%, #B658E8 100%);
+}
+.delhivery-couriers .deliver-sucess .heading, .delhivery-couriers .deliver-sucess .sub-heading {
+  color: #fff;
+}
+.delhivery-couriers .deliver-sucess .solid-action-btn {
+  background: #fff;
+  color: #000000;
+}
+@media (max-width: 576px) {
+  .delhivery-couriers .container {
+    padding: 1rem;
+  }
+  .delhivery-couriers .container img {
+    width: 100%;
+  }
+}
+
 footer {
   padding: 70px 0 0px;
   overflow: hidden;
