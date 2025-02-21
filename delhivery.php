@@ -1,7 +1,7 @@
 <?php include 'header-section.php';?>
 
 <meta property="og:title" content="Delhivery Courier Service for eCommerce- RapidShyp"/>
-<meta property="og:description" content="Ship with Delhivery anywhere at the best courier charges. Get real-time order tracking, insightful dashboard and much more.ns" />
+<meta property="og:description" content="Ship with Delhivery anywhere at the best courier charges. Get real-time order tracking, insightful dashboard and much more." />
 <meta name="title" content="Delhivery Courier Service for eCommerce- RapidShyp"/>
 <meta name="description" content="Ship with Delhivery anywhere at the best courier charges. Get real-time order tracking, insightful dashboard and much more."/>
 <link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/delhivery"/>
