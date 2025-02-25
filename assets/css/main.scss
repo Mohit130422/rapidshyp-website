@@ -25,6 +25,7 @@ $clickpost-color: #007AFF;
 html{
     scroll-behavior: smooth;
 }
+
 html, body{
     margin: 0;
     padding: 0;
@@ -32,46 +33,58 @@ html, body{
     font-family: 'Manrope', sans-serif;
     position: relative;
 }
+
 .overflow-hidden{
     overflow: hidden !important;
 }
+
 .yellow{
     background-color: $bg-shade2 !important;
     border-radius: 25px;
 }
+
 .pink{
     background-color: $bg-shade1 !important;
     border-radius: 25px;
 }
+
 .diwali-bg{
     background-color: #230635;
     color: $light-color;
 }
+
 .bg-white{
     background-color: $light-color;
     color: $text-dark;
 }
+
 *{
     transition: 0.2s;
 }
+
 a{
     text-decoration: none;
     color: #000;
 }
+
 p{
     margin-bottom: 0;
 }
+
 i{
     cursor: pointer;
 }
+
 .m-margin-20{
     @media(max-width:992px){
         margin-bottom: 20px;
     }
 }
+
 .hidden{
     display: none;
 }
+
 .solid-action-btn{
     background-color: $primary-color;
     color: #ffffff;
@@ -87,9 +100,11 @@ i{
         transform: translateY(-2px);
     }
 }
+
 .bg-none{
     background: none !important;
 }
+
 .label{
     background-color: $label-bg;
     color: $label-color;
@@ -97,6 +112,7 @@ i{
     border-radius: 25px;
     font-size: 14px;
 }
+
 .intransit{
     background-color: $bg-shade1;
     color: $primary-color;
@@ -104,6 +120,7 @@ i{
     border-radius: 25px;
     font-size: 14px;
 }
+
 .cancel{
     background-color: #FDE7F3;
     color: #F03D3D;
@@ -111,6 +128,7 @@ i{
     border-radius: 25px;
     font-size: 14px;
 }
+
 .delivered{
     background-color: #E3FFEE;
     color: #0ED065;
@@ -118,9 +136,11 @@ i{
     border-radius: 25px;
     font-size: 14px;
 }
+
 .new{
     animation: fadeIn infinite ease-in-out;
 }
+
 .disabled{
     background-color: #3e1a519e !important;
     cursor: no-drop !important;
@@ -129,6 +149,7 @@ i{
         transform: none !important;
     }
 }
+
 .heading{
     font-size: 42px;
     font-weight: 800;
@@ -1339,12 +1360,12 @@ section{
     .card{
         .head{
             height: 200px;
-            overflow: hidden;
+            // overflow: hidden;
             border-radius: 15px;
             img{
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
                 object-position: bottom center;
             }
         }
@@ -5667,15 +5688,57 @@ section{
             }
         }
     }
-    @media(max-width: 991px){
+    .content-mob{
+        display: none;
+    }
+    @media(max-width: 576px){
         .content{
+            display: none;
+        }
+        .content-mob{
+            display: block;
+            background: linear-gradient(45deg, #B0FFD3 0%,  #EBCDFF 100%);
+            padding: 16px 32px;
+            border-radius: 24px;
             .d-flex{
-                flex-direction: column;
+                margin-bottom: 30px;
                 text-align: center;
+                .solid-action-btn{
+                    display: none;
+                }
             }
             .steps{
-                flex-wrap: nowrap;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
                 overflow-x: scroll;
+                margin-bottom: 30px;
+                .step{
+                    position: relative;
+                    background: linear-gradient(180deg, #ffffff 0%, #ffffff00 100%);
+                    border: 1px solid #ffffff;
+                    border-radius: 16px;
+                    padding: 25px;
+                    margin: 16px;
+                    font-size: 16px;
+                    color: $text-dark;
+                    min-height: 150px;
+                    min-width: 200px;
+                    .step-number{
+                        position: absolute;
+                        top: -16px;
+                        left: -4px;
+                        background-color: #ffffffa6;
+                        padding: 8px 10px;
+                        border-radius: 12px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .solid-action-btn{
+                background-color: $light-color;
+                color: $text-dark;
             }
         }
     }
@@ -5683,12 +5746,23 @@ section{
 
 .shopify-promo{
     .experience-form{
+        background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 5px, transparent 5px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 5px, transparent 5px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 5px, transparent 5px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 5px, transparent 5px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 6px) no-repeat,
+            linear-gradient(90deg, #0ed065 0%, #d28dff 100%);
+        border-radius: 8px;
+        padding: 7px;
+        box-sizing: border-box;
         &::before{
-            background: linear-gradient(to right, #00A657 0%, #B658E8 100%);
-            -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-            mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+            position: relative;
+            background: none;
+            -webkit-mask: unset;
+            mask: unset;
             -webkit-mask-composite: xor;
-            mask-composite: exclude;
+            mask-composite: unset;
         }
         .form-input{
             background: linear-gradient(45deg, #B0FFD3 0%,  #EBCDFF 100%);
@@ -5720,16 +5794,14 @@ section{
         border: 1px solid #ffffff;
         position: relative;
         overflow: hidden;
-        margin-bottom: 20px;
-        height: 200px;
+        height: 220px;
         border-radius: 16px;
         .image-container{
             position: absolute;
             bottom: 0;
             right: 0;
             display: flex;
-            justify-content: end;
-            padding: 12px;
+            justify-content: center;
             img{
                 width: 70%;
             }

@@ -5732,6 +5732,115 @@ section{
 
 }
 
+.deliveryCal{
+    .col-12{
+        position: relative;
+        background: linear-gradient(45deg, #FFD4D1 0%,  #EBCDFF 100%);
+        border-radius: 16px;
+        box-shadow: unset;
+        .tag{
+            position: absolute;
+            background: linear-gradient(45deg, #ED4136 0%,  #B658E8 100%);;
+            font-size: 18px;
+            font-weight: 600;
+            color: $light-color;
+            left: 5%;
+            padding: 8px;
+            border-radius: 0 0 8px 8px;
+            margin: 0;
+        }
+        .heading{
+            font-size: 38px;
+            margin-bottom: 16px;
+        }
+        p{
+            font-weight: 600;
+        }
+        .shipment-form{
+            .form-group{
+                input{
+                    padding: 6px 0 6px 12px;
+                    font-size: 14px;
+                }
+            }
+            .solid-action-btn{
+                background: linear-gradient(45deg, #ED4136 0%,  #B658E8 100%);
+                color: $light-color;
+                width: 100%;
+            }
+            .reset-btn{
+                width: 100%;
+                background-color: none;
+            }
+        }
+    }
+    .rateTable{
+        .getRates{
+            background: linear-gradient(45deg, #ED4136 0%,  #B658E8 100%);
+            color: $light-color;
+        }
+    }
+    @media(max-width:576px){
+        .col-12{
+            .heading{
+                font-size: 28px;
+                margin: 40px 0 20px;
+            }
+            .shipment-form{
+                padding: 16px;
+            }
+        }
+    }
+}
+
+.why-delhivery{
+    mark{
+        padding: 0;
+        background: #ED4136;
+        background: linear-gradient(45deg, #ED4136 0%, #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .solid-action-btn{
+        background: linear-gradient(45deg, #ED4136 0%,  #B658E8 100%);
+        color: $light-color;
+        padding: .5rem 1.5rem;
+    }
+}
+
+.delhivery-couriers{
+    background: none;
+    .container{
+        background: linear-gradient(45deg, #FFD4D1 0%,  #EBCDFF 100%);
+        border-radius: 16px;
+        .heading{
+            color: $text-dark;
+        }
+        img{
+            width: 70%;
+        }
+    }
+    .deliver-sucess{
+        background: linear-gradient(45deg, #ED4136 0%,  #B658E8 100%);
+        .heading, .sub-heading{
+            color: $light-color;
+        }
+        .solid-action-btn{
+            background: $light-color;
+            color: $text-dark;
+        }
+    }
+    @media(max-width: 576px){
+        .container{
+            padding: 1rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
 footer{
     padding: 70px 0 0px;
     overflow: hidden;

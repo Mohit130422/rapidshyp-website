@@ -82,6 +82,7 @@
                         <div class="col-md-12 col-lg-7 col-sm-12">
                             <form class="shipment-form" id="calForm">
                                 <input type="hidden" name="csrf" id="csrf" value="<?=$rand?>">
+                                <input type="hidden" id="courier" name="courier" value="DLV"> 
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group">
@@ -136,9 +137,9 @@
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group">
-                                            <label for="shipValue">Shipment Value</label>
+                                            <label for="shipValue">Shipment Value (₹)</label>
                                             <div class="input-group">
-                                                <input type="number" class="form-control" placeholder="Enter Shipment Value"
+                                                <input type="text" class="form-control" placeholder="Enter Shipment Value"
                                                     aria-describedby="basic-addon2" id="shipValue" name="shipValue" required>
                                             </div>
                                         </div>
@@ -160,7 +161,7 @@
                                                         <input type="radio" class="radio-input" id="cod"
                                                             name="payment-type" value="cod" required>
                                                         <div class="radio-outline"></div>
-                                                        Cash On Delivery
+                                                        COD
                                                     </div>
                                                 </label>
                                             </div>

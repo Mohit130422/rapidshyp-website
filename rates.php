@@ -20,6 +20,10 @@ if(!isset($_POST['csrf']) || $_POST['csrf']!=$_SESSION['csrf'])
 
 $pickup_pincode = $_POST['pickup-pincode'];
 $delivery_pincode = $_POST['delivery-pincode'];
+if(isset($_POST['courier']))
+    $courierquery=" AND parent_code='".$_POST['courier']."'";
+else
+    $courierquery="";
 $dead_weight = $_POST['weight'];
 $length = $_POST['dimension-l'];
 $breadth = $_POST['dimension-w'];
@@ -122,7 +126,7 @@ $fwd='zone'.$zone;
 $add='add'.$zone;
 
 //fetch rates
-$query=mysqli_query($con,"select parent_code,mode,$fwd,$add, cod, codper from ratecard where min_weight='{$min_weight}' AND published_on_website=1 AND rate_type='Normal' ");
+$query=mysqli_query($con,"select parent_code,mode,$fwd,$add, cod, codper from ratecard where min_weight='{$min_weight}' AND published_on_website=1 AND rate_type='Normal' {$courierquery} ");
 if (mysqli_num_rows($query) == 0) {
     http_response_code(400);
     echo json_encode(['result' => 'error', 'message' => 'Serviceable courier(s) not found']);

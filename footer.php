@@ -25,16 +25,17 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
                             <p>Product</p>
                             <div class="links">
-                                <a href="order-verification" class="link">Order Verification <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</sup></a>
                                 <a href="order-management-system" class="link">Order Management System</a>
                                 <a href="ai-courier-recommendations" class="link">SmartSelect</a>
-                                <a href="next-day-delivery" class="link">Next Day Delivery</a>
+                                <span class="link">Xperience Suite</span>
                                 <span class="link">NDR Management</span>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
                             <p>Features</p>
                             <div class="links">
+                                <a href="order-verification" class="link">Order Verification <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</a>
+                                <a href="next-day-delivery" class="link">Next Day Delivery</a>
                                 <span class="link">Dedicated Shipping Advisors</span>
                                 <span class="link">RapidCOD</span>
                                 <span class="link">Multi-Carrier Access</span>
@@ -49,6 +50,8 @@
                         <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
                             <p>Resources</p>
                             <div class="links">
+                                <!-- <a href="https://app.rapidshyp.com" class="link" rel="nofollow">Sign In</a> -->
+                                <!-- <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> -->
                                 <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
                                 <a href="newsroom" class="link">Newsroom</a>
                             </div>
@@ -87,7 +90,6 @@
         </div>
     </div>
 </div>
-
 <div class="blur-overlay" id="joinWaitlistModal">
         <div class="dialog-box">
             <div class="head">
@@ -153,7 +155,7 @@
                                                 <span class="input-group-text" id="addon-wrapping"><i
                                                         class="fas fa-globe"></i></span>
                                                 <input type="text" class="form-control" name="website" id="website"
-                                                placeholder="https://example.com" required>
+                                                placeholder="https://example.com">
                                             </div>
                                         </div>
                                     </div>
@@ -190,7 +192,7 @@
             </div>
         </div>
 </div>
-<div class="blur-overlay" id="thankyou">
+<div class="blur-overlay d-none" id="thankyou">
         <div class="dialog-box thankyou-box">
             <div class="container">
                 <div class="row mb-4">

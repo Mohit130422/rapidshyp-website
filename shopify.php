@@ -1,8 +1,9 @@
 <?php include 'header-section.php';?>
-
-<meta property="og:title" content="India's Most Reliable Shopify Shipping Solution - RapidShyp" />
 <meta name="title" content="India's Most Reliable Shopify Shipping Solution - RapidShyp" />
-<link rel="canonical" href="https://www.rapidshyp.com/shopify" />
+<meta name="description" content="Automate logistics for your Shopify store using our next-gen Shopify shipping solution. Experience flexible and scalable eCommerce shipping."/>
+<meta property="og:title" content="India's Most Reliable Shopify Shipping Solution - RapidShyp" />
+<meta property="og:description" content="Automate logistics for your Shopify store using our next-gen Shopify shipping solution. Experience flexible and scalable eCommerce shipping." />
+<link rel="canonical" href="https://www.rapidshyp.com/channel-integrations/shopify" />
 <title>India's Most Reliable Shopify Shipping Solution - RapidShyp</title>
 
 </head>
@@ -91,6 +92,37 @@
                             <img id="step5" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/si-step05.png">
                         </div>
                     </div>
+                    <div class="content-mob">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h3 class="heading">Steps for Shopify Integration</h3>
+                            <button class="solid-action-btn openWaitlistModal">Start Now</button>
+                        </div>
+                        <div class="steps">
+                            <div class="step">
+                                <div class="step-number">01</div>
+                                <div class="step-content">Sign in to your Shopify store and go to <b>Settings</b></div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">02</div>
+                                <div class="step-content">Navigate to <b>Apps and sales channel > Shopify App Store</b></div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">03</div>
+                                <div class="step-content">Search for RapidShyp and click on <b>Install</b></div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">04</div>
+                                <div class="step-content">Provide necessary access and confirm installation</div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">05</div>
+                                <div class="step-content">Find your Shopify Store auto-integrated in your <b>RapidShyp</b> panel</div>
+                            </div>
+                        </div>
+                        <div class="get-started text-center">
+                            <button class="solid-action-btn openWaitlistModal mx-0">Start Now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
     </section>
@@ -102,8 +134,8 @@
                     <h3 class="fw-bolder">Why RapidShyp is a Perfect Shipping App for Shopify</h3>
                     <p>Watch how RapidShyp acts as a reliable partner in streamlining your shipping process at every step</p>
                 </div>
-                <div class="form-input" style="padding: 2rem; width: 550px;">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/itDVt4Z8C5w?si=RMNF_wLzQrxpIHMK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 10px;"></iframe>
+                <div class="form-input" style="padding: 2rem; width: 550px; height: 300px;">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_52R7ZYbXbE?si=ovqK6YTxNfGvmXHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 10px;"></iframe>
                 </div>
             </div>
         </div>
@@ -119,61 +151,61 @@
             <div class="row mt-4">
                 <div class="col-md-8 col-sm-12">
                     <div class="row">
-                        <div class="col-lg-5 col-sm-12">
+                        <div class="col-lg-5 col-sm-12 py-3">
                             <div class="benefits">
-                                <div class="image-container">
+                                <div class="image-container justify-content-end">
                                     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits01.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
-                                    <p>15+ Courier  <br>Partners</p>
+                                    <p>Post NDR <br>Communication</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-sm-12">
+                        <div class="col-lg-7 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
                                     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits02.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
-                                    <p>Order & Address <br>Verification</p>
+                                    <p>Easy Label and Manifest Generation</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-sm-12">
+                        <div class="col-lg-4 col-sm-12 py-3">
                             <div class="benefits">
-                                <div class="image-container">
+                                <div class="image-container py-2">
                                     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits03.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
-                                    <p>Zero Platform   <br>Fee</p>
+                                    <p>Zero Platform Fee</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-12">
+                        <div class="col-lg-4 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
                                     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits04.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
-                                    <p>INR 21/500gm* <br>Starting Rates</p>
+                                    <p>INR 21/500gm* Starting Rates</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-12">
+                        <div class="col-lg-4 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
                                     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits05.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
-                                    <p>2 Days COD <br>Remmitence</p>
+                                    <p>15+ Courier Partners</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 py-3">
                     <div class="benefits h-100">
                         <div class="image-container">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits06.png" alt="shopify benefits">
@@ -192,7 +224,7 @@
             <div class="row mb-5">
                 <div class="col text-center">
                     <p class="heading"><mark>Read More in Our Blog</mark></p>
-                    <p class="sub-heading">Explore our articles related to eCommerce channels</p>
+                    <p class="sub-heading">Explore our articles related to Shopify shipping</p>
                 </div>
             </div>
             <div class="row">

@@ -407,6 +407,7 @@ $(document).ready(function () {
     const $rateResult = $('#rateResult');
     const $rateTableBody = $('#rateTableBody');
     const $errorMessage = $('#errorMessage'); // For displaying error messages
+    const $shipValue = $('#shipValue'); // Shipment value field
 
     // Check input length using jQuery
     function checkLength($input, min, max) {
@@ -422,6 +423,12 @@ $(document).ready(function () {
             return true;
         }
     }
+    $shipValue.on('keypress', function (event) {
+        const charCode = event.which ? event.which : event.keyCode;
+        if (charCode < 48 || charCode > 57) {
+            event.preventDefault();
+        }
+    });
 
     // Show input error messages
     function showError($input, message) {
@@ -542,46 +549,40 @@ $(document).ready(function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const calculateBtn = document.getElementById('calculateBtn');
-    const actualWeightEl = document.querySelector('.actual-weight');
-    const chargeableWeightEl = document.querySelector('.chargeable-weight');
-    const inputWeightEl = document.querySelector('.input-weight'); // Input field for weight
-    const volumeResultEl = document.querySelector('.volumeResult'); // Element for volume result
+$(document).ready(function() {
+    const calculateBtn = $('#calculateBtn');
+    const actualWeightEl = $('.actual-weight');
+    const chargeableWeightEl = $('.chargeable-weight');
+    const inputWeightEl = $('.input-weight');
+    const volumeResultEl = $('.volumeResult');
 
-    // Function to show error
     function showError(input, message) {
-        input.classList.add('input-error');
-        let error = input.parentElement.querySelector('.error-message');
-        if (!error) {
-            error = document.createElement('div');
-            error.className = 'error-message';
-            input.parentElement.appendChild(error);
+        input.addClass('input-error');
+        let error = input.siblings('.error-message');
+        if (!error.length) {
+            error = $('<div class="error-message"></div>');
+            input.parent().append(error);
         }
-        error.textContent = message;
+        error.text(message);
     }
 
-    // Function to show success
     function showSuccess(input) {
-        input.classList.remove('input-error');
-        const error = input.parentElement.querySelector('.error-message');
-        if (error) {
-            input.parentElement.removeChild(error);
-        }
+        input.removeClass('input-error');
+        input.siblings('.error-message').remove();
     }
 
-    function calculateWeight () {
+    function calculateWeight() {
         let totalVolume = 0;
         let valid = true;
 
-        document.querySelectorAll('.parcel').forEach(parcel => {
-            const length = parcel.querySelector('.length');
-            const width = parcel.querySelector('.width');
-            const height = parcel.querySelector('.height');
+        $('.parcel').each(function() {
+            const length = $(this).find('.length');
+            const width = $(this).find('.width');
+            const height = $(this).find('.height');
 
-            const lengthValue = parseFloat(length.value);
-            const widthValue = parseFloat(width.value);
-            const heightValue = parseFloat(height.value);
+            const lengthValue = parseFloat(length.val());
+            const widthValue = parseFloat(width.val());
+            const heightValue = parseFloat(height.val());
 
             if (lengthValue && widthValue && heightValue && lengthValue > 0 && widthValue > 0 && heightValue > 0) {
                 totalVolume += (lengthValue * widthValue * heightValue) / 5000;
@@ -591,35 +592,35 @@ document.addEventListener('DOMContentLoaded', function() {
                 $('.error-message').hide();
             } else {
                 $('.error-message').show();
-                $('.length,.width,.height').addClass('input-error');
+                $('.length, .width, .height').addClass('input-error');
                 valid = false;
             }
         });
 
         if (!valid) {
-            volumeResultEl.style.display = 'none';
+            volumeResultEl.hide();
             return;
         }
 
-        actualWeightEl.textContent = `${totalVolume.toFixed(1)} KG`;
-        
-        const inputWeight = parseFloat(inputWeightEl.value);
+        actualWeightEl.text(`${totalVolume.toFixed(1)} KG`);
+
+        const inputWeight = parseFloat(inputWeightEl.val());
         if (!inputWeight || inputWeight <= 0) {
             showError(inputWeightEl, 'Please enter a valid weight');
-            volumeResultEl.style.display = 'none';
+            volumeResultEl.hide();
             return;
         } else {
             showSuccess(inputWeightEl);
         }
 
-        const actualWeight = parseFloat(actualWeightEl.textContent);
+        const actualWeight = parseFloat(actualWeightEl.text());
         const greaterWeight = Math.max(actualWeight, inputWeight);
 
-        chargeableWeightEl.textContent = `${greaterWeight.toFixed(1)} KG`;
+        chargeableWeightEl.text(`${greaterWeight.toFixed(1)} KG`);
 
-        // Display volume result
-        volumeResultEl.style.display = 'flex';
-    };
+        volumeResultEl.css('display', 'flex');
+    }
 
-    calculateBtn.addEventListener('click', calculateWeight);
+    calculateBtn.on('click', calculateWeight);
 });
+
