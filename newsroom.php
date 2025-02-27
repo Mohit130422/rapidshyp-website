@@ -50,7 +50,7 @@
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_04.png" alt="">
                         </div>
-                        <!-- <div class="item">
+                        <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_05.png" alt="">
                         </div>
                         <div class="item">
@@ -58,15 +58,24 @@
                         </div>
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_07.png" alt="">
-                        </div> -->
+                        </div>
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_08.png" alt="">
                         </div>
-                        <!-- <div class="item">
+                        <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_09.png" alt="">
-                        </div> -->
+                        </div>
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_10.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_11.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_12.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_13.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -86,16 +95,64 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/TICE_Banner.jpg" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/cargo-talk-Banner.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">17th February 2025</span>
+                            </div>
+                            <a href="https://cargotalk.in/enhancing-the-post-purchase-experience-a-game-changer-for-d2c-brands/" target="_blank"><p class="content">Boost Brand Loyalty through a Seamless Post-Purchase Experience</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://cargotalk.in/enhancing-the-post-purchase-experience-a-game-changer-for-d2c-brands/" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/press-trust-Banner.png" alt="">
                         </div>
                         <div class="body">
                             <div>
                                 <span class="time">05th October 2024</span>
                             </div>
-                            <a href="https://www.tice.news/tice-trending/how-is-om-logistics-reimagining-d2c-shipping-with-rapidshyp-7281635" target="_blank"><p class="content">How is Om Logistics Reimagining D2C Shipping with RapidShyp?</p></a>
+                            <a href="https://www.ptinews.com/story/business/RapidShyp-partners-with-India-Post-for-nationwide-last-mile-delivery-services/2267790" target="_blank"><p class="content">RapidShyp Partners with India Post to Expand Last-Mile Delivery Reach</p></a>
                         </div>
                         <div class="footer">
-                            <a href="https://www.tice.news/tice-trending/how-is-om-logistics-reimagining-d2c-shipping-with-rapidshyp-7281635" target="_blank">Know More</a>
+                            <a href="https://www.ptinews.com/story/business/RapidShyp-partners-with-India-Post-for-nationwide-last-mile-delivery-services/2267790" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/et-government-Banner.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">05th February 2025</span>
+                            </div>
+                            <a href="https://government.economictimes.indiatimes.com/news/governance/india-post-partners-with-rapidshyp-for-last-mile-ecommerce-delivery-across-india/117948515?utm_source=latest_news&utm_medium=homepage" target="_blank"><p class="content">India Post and RapidShyp Partner for Nationwide Last-Mile Delivery</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://government.economictimes.indiatimes.com/news/governance/india-post-partners-with-rapidshyp-for-last-mile-ecommerce-delivery-across-india/117948515?utm_source=latest_news&utm_medium=homepage" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/yourstory2-Banner.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">03rd February 2025</span>
+                            </div>
+                            <a href="https://yourstory.com/2025/01/flash-sales-decoding-psychology-impulse-buying" target="_blank"><p class="content">Flash sales and decoding the psychology of impulse buying</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://yourstory.com/2025/01/flash-sales-decoding-psychology-impulse-buying" target="_blank">Know More</a>
                         </div>
                     </div>
                 </div>
