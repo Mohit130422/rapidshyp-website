@@ -5857,6 +5857,58 @@ section{
     }
 }
 
+.unicommerce-bg{
+    background: linear-gradient(45deg, #4787ED 0%,  #B658E8 100%);
+}
+
+.unicommerce-mark{
+    mark{
+        padding: 0;
+        background: #4787ED ;
+        background: linear-gradient(45deg, #4787ED 0%,  #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+}
+
+.unicommerce-card{
+    .container{
+        .image-container {
+            background: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/unicom-bene01.png') center/contain no-repeat;
+        }
+        .card{
+            background: linear-gradient(45deg, #B9D4FF 0%,  #EBCDFF 100%) !important;
+        }
+        .active{
+            background: linear-gradient(45deg, #4787ED 0%,  #B658E8 100%) !important;
+        }
+    }
+}
+
+.unicommerce-secondary-bg{
+    background: linear-gradient(45deg, #B9D4FF 0%,  #EBCDFF 100%) !important;
+    @media(max-width: 576px){
+        .steps{
+            .step{
+                min-height: 200px !important;
+            }
+        }
+    }
+}
+
+.unicommerce-demo{
+    .experience-form{
+        background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 5px, transparent 5px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 5px, transparent 5px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 5px, transparent 5px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 5px, transparent 5px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 6px) no-repeat,
+            linear-gradient(90deg, #4787ED 0%, #d28dff 100%);
+    }
+}
+
 .delhivery{
     background: linear-gradient(45deg, #ED4136 50%, #BB4EAF 100%);
     border-radius: 0 0 24px 24px;

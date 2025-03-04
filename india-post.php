@@ -176,15 +176,15 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <a href="https://www.rapidshyp.com/blog/top-11-last-mile-delivery-companies-in-india/" target="_blank"><img src="https://www.rapidshyp.com/blog/wp-content/uploads/2024/08/Top-10-Last-Mile-Delivery-Companies.png"
+                            <a href="https://www.rapidshyp.com/blog/speed-post-courier-services-by-india-post/" target="_blank"><img src="https://www.rapidshyp.com/blog/wp-content/uploads/2025/02/RS-Blog_48_Feature-Image--1024x536.png"
                                 alt=""></a>
                         </div>
                         <div class="body">
-                            <a href="https://www.rapidshyp.com/blog/top-11-last-mile-delivery-companies-in-india/" target="_blank" class="content">Top 11 Last Mile Delivery Companies in <br> India </a>
-                            <p>The eCommerce landscape in India is rapidly evolving, and the industry is expected to reach US$ 325 Billion by 2030. As online shopping becomes increasingly popular, the focus has shifted towards making the last-mile delivery process as seamless and satisfactory as possible.</p>
+                            <a href="https://www.rapidshyp.com/blog/speed-post-courier-services-by-india-post/" target="_blank" class="content">Speed Post Courier Services By India Post: Everything You Need to Know</a>
+                            <p>India Post has been a trusted name in the postal industry for over 150 years. As one of the largest postal networks in the world, it offers a variety of services, including the much-demanded Speed Post service.</p>
                         </div>
                         <div class="footer">
-                            <a href="https://www.rapidshyp.com/blog/top-11-last-mile-delivery-companies-in-india/"
+                            <a href="https://www.rapidshyp.com/blog/speed-post-courier-services-by-india-post/"
                                 target="_blank">Read Now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>

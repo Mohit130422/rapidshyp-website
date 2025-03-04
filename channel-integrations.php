@@ -57,7 +57,7 @@
                             </ul>
                         </div>
                         <div class="footer">
-                            <a href="https://www.rapidshyp.com/channel-integrations/shopify" class="btn btn-custom">Learn More</a>
+                            <a href="shopify" class="btn btn-custom">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                             </ul>
                         </div>
                         <div class="footer">
-                            <a href="javascript:void(0)" class="btn btn-custom">Learn More</a>
+                            <a href="unicommerce" class="btn btn-custom">Learn More</a>
                         </div>
                     </div>
                 </div>
