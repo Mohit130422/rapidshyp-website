@@ -5952,6 +5952,7 @@ section{
                 input{
                     padding: 6px 0 6px 12px;
                     font-size: 14px;
+                    border: none;
                 }
             }
             .solid-action-btn{
@@ -6030,6 +6031,30 @@ section{
             }
         }
     }
+}
+
+.dtdc-bg{
+    background: linear-gradient(45deg, #0E2C53 50%, #B658E8 100%) !important;
+}
+
+.dtdc-mark{
+    mark{
+        padding: 0;
+        background: #0E2C53;
+        background: linear-gradient(45deg, #0E2C53 0%, #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .content{
+        .heading{
+            font-size: 32px;
+        }
+    }
+}
+
+.dtd-light-bg{  
+    background: #D4DFFF !important;
 }
 
 footer{

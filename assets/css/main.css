@@ -5526,6 +5526,7 @@ section {
 .deliveryCal .col-12 .shipment-form .form-group input {
   padding: 6px 0 6px 12px;
   font-size: 14px;
+  border: none;
 }
 .deliveryCal .col-12 .shipment-form .solid-action-btn {
   background: linear-gradient(45deg, #ED4136 0%, #B658E8 100%);
@@ -5594,6 +5595,26 @@ section {
   .delhivery-couriers .container img {
     width: 100%;
   }
+}
+
+.dtdc-bg {
+  background: linear-gradient(45deg, #0E2C53 50%, #B658E8 100%) !important;
+}
+
+.dtdc-mark mark {
+  padding: 0;
+  background: #0E2C53;
+  background: linear-gradient(45deg, #0E2C53 0%, #B658E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 0;
+}
+.dtdc-mark .content .heading {
+  font-size: 32px;
+}
+
+.dtd-light-bg {
+  background: #D4DFFF !important;
 }
 
 footer {

@@ -13,20 +13,10 @@ include 'header-section-v2.php';?>
 </head>
 
 <body>
-    <header class="header">
-        <?php include 'top-strip.php'; ?>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand m-0" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
-                <div class="navbar-nav d-flex">
-                    <li class="nav-item"><button class="solid-action-btn openWaitlistModal" style="font-size: 14px;">Get Started <i class="fas fa-chevron-right"></i></button></li>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include 'top-strip.php'; ?>
     <section class="signup-section" id="signup">
         <div class="container-fluid">
-            <div class="head d-none">
+            <div class="head">
                 <a class="navbar-brand" href="/"><img
                         src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
             </div>
@@ -47,7 +37,7 @@ include 'header-section-v2.php';?>
                             alt="rs-signup-img">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-7 col-sm-12 signup-form" style="padding-right: 0;">
+                <div class="col-lg-6 col-md-7 col-sm-12 signup-form">
                     <div class="form-container">
                         <div class="head">
                             <h3>Get started with a free account</h3>
@@ -111,12 +101,12 @@ include 'header-section-v2.php';?>
                                     </div>
                                     <div class="col-sm-12 col-md-12">
                                         <div class="mb-4">
-                                            <label for="phone" class="form-label">Website Link</label>
+                                            <label for="website" class="form-label">Website Link</label>
                                             <div class="input-group flex-nowrap">
                                                 <span class="input-group-text" id="addon-wrapping"><i
                                                         class="fas fa-globe"></i></span>
                                                 <input type="text" class="form-control" name="website" id="website"
-                                                    placeholder="Enter Website Url (optional)">
+                                                placeholder="https://example.com">
                                             </div>
                                         </div>
                                     </div>
@@ -383,7 +373,7 @@ include 'header-section-v2.php';?>
                                     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl02.svg"
                                         alt="">
                                 </span>
-                                <p class="title">26,000+ Pin Codes</p>
+                                <p class="title">29,000+ Pin Codes</p>
                                 <small>From the heart of cities to the soul of villages, deliver PAN India</small>
                             </div>
                         </div>
@@ -445,7 +435,7 @@ include 'header-section-v2.php';?>
                                 <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl02.svg"
                                     alt="">
                             </span>
-                            <p class="title">26,000+ Pin Codes</p>
+                            <p class="title">29,000+ Pin Codes</p>
                             <small>From the heart of cities to the soul of villages, deliver PAN India</small>
                         </div>
                         <div class="grip info">
@@ -454,7 +444,7 @@ include 'header-section-v2.php';?>
                                     alt="">
                             </span>
                             <p class="title">Economical Shipping Rates</p>
-                            <small>Start economical shipping at ₹21/500gms</small>
+                            <small>Start economical shipping at ₹25/500gms</small>
                         </div>
                         <div class="grip info">
                             <span class="imgdesk yellow">
@@ -576,6 +566,7 @@ include 'header-section-v2.php';?>
     </div>
 
     <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/utm.js?v=0.0.4"></script>
     <script>
     $(".get-start").click(function() {
         $('html, body').animate({

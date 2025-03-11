@@ -62,7 +62,7 @@ function isExternalReferrer(referrer) {
 }
 
 function storeLandingPage() {
-    const currentUrl = window.location.href;
+    const currentUrl = window.top.location.href;
 
     // First, collect UTM parameters before cleaning the URL
     storeUtmParams();
@@ -75,7 +75,7 @@ function storeLandingPage() {
 }
 
 function storeLastVisitedPage() {
-    const currentUrl = window.location.href;
+    const currentUrl = window.top.location.href;
 
     // First, collect UTM parameters before cleaning the URL
     storeUtmParams();
