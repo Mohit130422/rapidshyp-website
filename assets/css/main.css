@@ -5617,6 +5617,26 @@ section {
   background: #D4DFFF !important;
 }
 
+.bluedart-bg {
+  background: linear-gradient(45deg, #0059A9 50%, #B658E8 100%) !important;
+}
+
+.bluedart-mark mark {
+  padding: 0;
+  background: #0159A9;
+  background: linear-gradient(45deg, #0159A9 0%, #B658E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 0;
+}
+.bluedart-mark .content .heading {
+  font-size: 32px;
+}
+
+.bluedart-light-bg {
+  background: #BBDFFF !important;
+}
+
 footer {
   padding: 70px 0 0px;
   overflow: hidden;
