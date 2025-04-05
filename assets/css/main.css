@@ -5633,8 +5633,28 @@ section {
   font-size: 32px;
 }
 
-.bluedart-light-bg {
+.shadowfax-light-bg {
   background: #BBDFFF !important;
+}
+
+.shadowfax-bg {
+  background: linear-gradient(45deg, #FFB503 50%, #B658E8 100%) !important;
+}
+
+.shadowfax-mark mark {
+  padding: 0;
+  background: #0159A9;
+  background: linear-gradient(45deg, #FFB503 0%, #B658E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 0;
+}
+.shadowfax-mark .content .heading {
+  font-size: 32px;
+}
+
+.shadowfax-light-bg {
+  background: #FFDBDA !important;
 }
 
 footer {
