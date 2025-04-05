@@ -46,11 +46,6 @@
 	  	<priority>0.7</priority>
 	</url>
 	<url>
-	  	<loc>https://www.rapidshyp.com/channel-integrations/shopify</loc>
-	  	<lastmod>2024-12-19T13:08:44+00:00</lastmod>
-	  	<priority>0.9</priority>
-	</url>
-	<url>
 	  	<loc>https://www.rapidshyp.com/new-year-2025</loc>
 	  	<lastmod>2024-12-19T13:08:44+00:00</lastmod>
 	  	<priority>0.9</priority>
@@ -76,9 +71,44 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
+	  	<loc>https://www.rapidshyp.com/channel-integrations</loc>
+	  	<lastmod>2025-02-25T13:14:59+00:00</lastmod>
+	  	<priority>0.9</priority>
+	</url>
+	<url>
+	  	<loc>https://www.rapidshyp.com/channel-integrations/shopify</loc>
+	  	<lastmod>2024-12-19T13:08:44+00:00</lastmod>
+	  	<priority>0.9</priority>
+	</url>
+	<url>
+	  	<loc>https://www.rapidshyp.com/channel-integrations/unicommerce</loc>
+	  	<lastmod>2025-03-04T13:08:44+00:00</lastmod>
+	  	<priority>0.9</priority>
+	</url>
+	<url>
 		<loc>https://www.rapidshyp.com/courier-integrations/india-post</loc>
 		<lastmod>2025-02-06T11:11:22+00:00</lastmod>
 		<priority>0.80</priority>
+	</url>
+	<url>
+	  	<loc>https://www.rapidshyp.com/courier-integrations/delhivery</loc>
+	  	<lastmod>2025-02-25T13:14:59+00:00</lastmod>
+	  	<priority>0.9</priority>
+	</url>
+	<url>
+	  	<loc>https://www.rapidshyp.com/courier-integrations/dtdc</loc>
+	  	<lastmod>2025-03-05T13:14:59+00:00</lastmod>
+	  	<priority>0.9</priority>
+	</url>
+	<url>
+	  	<loc>https://www.rapidshyp.com/courier-integrations/bluedart</loc>
+	  	<lastmod>2025-03-21T13:14:59+00:00</lastmod>
+	  	<priority>0.9</priority>
+	</url>
+	<url>
+	  	<loc>https://www.rapidshyp.com/courier-integrations/shadowfax</loc>
+	  	<lastmod>2025-04-05T13:14:59+00:00</lastmod>
+	  	<priority>0.9</priority>
 	</url>
 	<url>
 	  	<loc>https://www.rapidshyp.com/shipping-rates-from-delhi-to-mumbai</loc>
