@@ -98,15 +98,37 @@ window.onload = function () {
 
     const utmParams = getUTMParams();
     const utmString = Object.keys(utmParams).length ? '?' + new URLSearchParams(utmParams).toString() : '';
-    // const iframeUrl = `https://app.rapidshyp.com`;
-    const iframeUrl = `https://qa.rapidshyp.com`;
+    const iframeUrl = `https://app.rapidshyp.com`;
+    // const iframeUrl = `https://qa.rapidshyp.com`;
 
-    console.log("Generated iframe URL:", iframeUrl);
+    // console.log("Generated iframe URL:", iframeUrl);
     console.log("UTM Parameters Object:", utmParams);
 
     loadIframe(iframeUrl, utmParams);
-};
+    window.addEventListener('message', (event) => {
+        // Optional: Check origin for security
+        // if (event.origin !== 'https://qa.rapidshyp.com') return;
+        
+        if (event.data?.type === 'iframe-click') {
+            const clickedData = event.data.data;
+            console.log('Click inside iframe:', clickedData.token);
+            // console.log('Click inside iframe:', clickedData);
+    
+            const tokenFromClick = clickedData?.token;
+            const signupEmail = clickedData?.email;
+            const signupPhone = clickedData?.phone;
 
-// iframe.contentWindow.document.getElementsById("SignUpButton").click = function () {
-//     console.log("clicked");
-// }
+            if (tokenFromClick) {
+                document.cookie = `signUpToken=${encodeURIComponent(tokenFromClick)}; path=/;domain=.rapidshyp.com; secure; samesite=strict`;
+            }
+    
+            // Assuming 'url' and 'parsing' are defined in your scope
+            if (signupEmail !== 'undefined' && signupPhone !== undefined) {
+                window.location.href = `${iframeUrl}/?email=${signupEmail}&phone=${signupPhone}`;
+                // window.location.href = `${iframeUrl}/session/success?token=${encodeURIComponent(tokenFromClick)}&current_state=MOBILE_VERIFY&agreement_flag=false&sign_up=false`;
+            } else {
+                console.warn('Missing required data — redirect not performed');
+            }
+        }
+    });
+};

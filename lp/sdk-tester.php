@@ -558,8 +558,8 @@ include 'header-section-v2.php'; ?>
 
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/iframe-utm.js"></script>
-    <!--<script src="https://app.rapidshyp.com/js/campaign.js"></script>-->
-    <script src="https://qa.rapidshyp.com/js/campaign.js"></script>
+    <script src="https://app.rapidshyp.com/js/campaign.js"></script>
+    <!-- <script src="https://qa.rapidshyp.com/js/campaign.js"></script> -->
     <script>
         $(".get-start").click(function() {
             $('html, body').animate({
