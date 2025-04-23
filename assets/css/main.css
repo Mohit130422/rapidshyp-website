@@ -119,6 +119,20 @@ i {
   animation: fadeIn infinite ease-in-out;
 }
 
+.b-right {
+  -o-border-image: linear-gradient(to right, #000000 0%, #f9c427 100%) 1;
+     border-image: linear-gradient(to right, #000000 0%, #f9c427 100%) 1;
+  border-width: 0 2px 0 0;
+  border-style: solid;
+  padding: 5px;
+  border-radius: 25px;
+}
+@media (max-width: 992px) {
+  .b-right {
+    display: none;
+  }
+}
+
 .disabled {
   background-color: rgba(62, 26, 81, 0.6196078431) !important;
   cursor: no-drop !important;
@@ -5633,7 +5647,7 @@ section {
   font-size: 32px;
 }
 
-.shadowfax-light-bg {
+.bluedart-light-bg {
   background: #BBDFFF !important;
 }
 
@@ -5655,6 +5669,115 @@ section {
 
 .shadowfax-light-bg {
   background: #FFDBDA !important;
+}
+
+.ecomexp-bg {
+  background: linear-gradient(45deg, #E30175 50%, #B658E8 100%) !important;
+}
+
+.ecomexp-mark mark {
+  padding: 0;
+  background: #0159A9;
+  background: linear-gradient(45deg, #E30175 0%, #B658E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 0;
+}
+.ecomexp-mark .content .heading {
+  font-size: 32px;
+}
+
+.ecomexp-light-bg {
+  background: #F7BEDB !important;
+}
+
+.retail-lp-hero .join-us {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.retail-lp-hero .join-us .search-container {
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  max-width: 500px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.retail-lp-hero .join-us .search-container:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+.retail-lp-hero .join-us .search-container .form-control.search-input {
+  border: none;
+  background: transparent;
+  padding-left: 16px !important;
+  font-size: 1rem;
+  height: 50px;
+}
+.retail-lp-hero .join-us .search-container .form-control.search-input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.retail-lp-hero .join-us .search-container .btn-search {
+  background-color: #FBBC05;
+  color: #000000;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.retail-stores .sub-heading {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 400;
+}
+.retail-stores .card {
+  overflow: hidden;
+  border-radius: 16px;
+  min-height: 400px;
+}
+.retail-stores .card .card-body {
+  padding: 0 16px 0 0;
+}
+.retail-stores .card .card-body .card-subtitle {
+  padding: 20px;
+  font-size: 18px;
+}
+.retail-stores .card .card-body .card-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 16px 20px;
+  background-color: #F8EBFF;
+  border-radius: 0 12px 12px 0;
+}
+.retail-stores .card .card-body .card-text {
+  padding: 16px 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.retail-stores .card .card-footer {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0px 0px 12px 12px;
+}
+.retail-stores .card .card-footer .card-link {
+  text-align: center;
+  padding: 16px 20px;
+  font-size: 18px;
+}
+.retail-stores .card .card-footer .card-link i {
+  margin-left: 5px;
+  rotate: 45deg;
+}
+
+.want-to-ship-yourself {
+  background: #F7C531;
+}
+.want-to-ship-yourself .solid-action-btn {
+  background-color: #fff;
+  color: #000000;
 }
 
 footer {

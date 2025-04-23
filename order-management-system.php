@@ -20,7 +20,7 @@
                         <div class="contents">
                             <h2 class="head-title"> Simplified Order <br> Management System</h2>
                             <p class="sub-title">Sync orders coming from multiple eCommerce sales channels to process and ship them from a single place.</p>
-                            <button type="submit" class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -45,7 +45,7 @@
                     <div class="info">
                         <h5><mark>5+ Order </mark> Channels</h5>
                         <p>Avoid the hassle of switching between multiple eCommerce sales channels</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                     <div class="info">
                         <h5><mark>Automated</mark> Workflows</h5>
                         <p>Auto-sync orders and auto-generate documents to save your time and effort</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                     <div class="info">
                         <h5>Bulk Shipping <mark>Actions</mark></h5>
                         <p>Ship multiple orders within minutes with our intelligent bulk shipping actions</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                     <div class="info">
                         <h5>Centralised <mark>Analytics</mark></h5>
                         <p>Get a single-view dashboard to analyse your performance across all channels</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i class="fas fa-arrow-right"></i></button>
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -206,7 +206,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h3 class="heading">Ready to Manage<br>Orders Like a Pro?</h3>
                     <p class="sub-heading mb-4">Simplify your post-order journey<br> without any platform fee</p>
-                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');">Sign up for Free</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for Free</button>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">

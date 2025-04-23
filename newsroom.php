@@ -16,7 +16,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12">
                         <div class="contents newsroom">
-                            <h2 class="head-title"> Press & Media <br> Coverage</h2>
+                            <h1 class="head-title"> Press & Media <br> Coverage</h1>
                             <p class="sub-tile">Explore Our Journey: Engaging Stories, Significant Milestones, and Latest Updates</p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                         </div>
                         <div class="body">
                             <div>
-                                <span class="time">05th October 2024</span>
+                                <span class="time">05th February 2025</span>
                             </div>
                             <a href="https://www.ptinews.com/story/business/RapidShyp-partners-with-India-Post-for-nationwide-last-mile-delivery-services/2267790" target="_blank"><p class="content">RapidShyp Partners with India Post to Expand Last-Mile Delivery Reach</p></a>
                         </div>
@@ -264,7 +264,7 @@
                     <h3 class="heading mb-0">Experience convenient shipment <br>tracking at your fingertips </h3>
                     <p class="sub-heading">Stay updated on your shipments anytime, anywhere. Use your AWB tracking
                         number for tracing your parcel whereabouts.</p>
-                    <button type="submit" class="solid-action-btn openWaitlistModal">Start Shipping</button>
+                    <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Start Shipping</button>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image">

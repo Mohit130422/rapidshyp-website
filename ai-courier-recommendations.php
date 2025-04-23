@@ -18,10 +18,10 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <button type="submit" class="solid-action-btn openWaitlistModal" style="border-radius: 8px;"><mark>SmartSelect</mark></button>
+                            <button class="solid-action-btn" style="border-radius: 8px;"><mark>SmartSelect</mark></button>
                             <h2 class="head-title mt-4"> AI-assisted <br> Courier Selection</h2>
                             <p class="sub-title">Maximise your delivery performance by selecting recommended couriers for your shipments, based on your preferences.</p>
-                            <button type="submit" class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -46,7 +46,7 @@
                     <div class="info">
                         <h5><mark>Save </mark> Time</h5>
                         <p>Cut down on order-to-ship turnaround times and ship orders faster</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                     <div class="info">
                         <h5><mark>Reduce</mark> Effort</h5>
                         <p>One shipment or one hundred, have your preferred couriers selected by default</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                     <div class="info">
                         <h5><mark>Control </mark>Cost</h5>
                         <p>Prioritise economical couriers to optimise your shipping expenses</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                     <div class="info">
                         <h5><mark>Gain </mark>Speed</h5>
                         <p>Stay ahead of the competition by prioritising the fastest couriers</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i class="fas fa-arrow-right"></i></button>
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -207,7 +207,7 @@
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h3 class="heading">Get 15+ Couriers in a<br>Single Place</h3>
                     <p class="sub-heading mb-4">Take your eCommerce business to more than <br> 29000 pin codes across India</p>
-                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');">Sign up for Free</button>
+                    <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for Free</button>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image">

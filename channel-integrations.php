@@ -4,7 +4,7 @@
 <meta property="og:description" content="Auto-sync and ship orders across 5+ eCommerce channels including marketplaces and storefronts like Shopify, Unicommerce, WooCommerce, and Amazon." />
 <meta name="title" content="Multi Channel eCommerce Integrations for Shipping- RapidShyp" />
 <meta name="description" content="Auto-sync and ship orders across 5+ eCommerce channels including marketplaces and storefronts like Shopify, Unicommerce, WooCommerce, and Amazon."/>
-<link rel="canonical" href="https://www.rapidshyp.com/next-day-delivery" />
+<link rel="canonical" href="https://www.rapidshyp.com/channel-integrations" />
 <title>Multi Channel eCommerce Integrations for Shipping- RapidShyp</title>
 
 </head>
@@ -20,7 +20,7 @@
                         <div class="contents">
                             <h2 class="head-title"> 5+ eCommerce <br> Channels Integrated <br> Effortlessly</h2>
                             <p class="sub-title">Sync, ship, and track orders flowing from everywhere in one place— no more hopping between platforms.</p>
-                            <button type="submit" class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -295,7 +295,7 @@
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h3 class="heading">Simplify Your Shipping<br>Today</h3>
                     <p class="sub-heading mb-4">Keep things simple using our advanced, AI-backed shipping platform and grow your eCommerce business faster</p>
-                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');">Sign up for Free</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for Free</button>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image imgdesk">

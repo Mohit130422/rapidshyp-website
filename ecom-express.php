@@ -1,25 +1,25 @@
 <?php include 'header-section.php';?>
 
-<meta property="og:title" content="Delhivery Courier Service for eCommerce- RapidShyp"/>
-<meta property="og:description" content="Ship with Delhivery anywhere at the best courier charges. Get real-time order tracking, insightful dashboard and much more." />
-<meta name="title" content="Delhivery Courier Service for eCommerce- RapidShyp"/>
-<meta name="description" content="Ship with Delhivery anywhere at the best courier charges. Get real-time order tracking, insightful dashboard and much more."/>
-<link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/delhivery"/>
-<title>Delhivery Courier Service for eCommerce- RapidShyp</title>
+<meta property="og:title" content="Ecom Express Courier Service for eCommerce- RapidShyp"/>
+<meta property="og:description" content="Streamline deliveries with Ecom Express courier-service on our powerful shipping platform. Sync orders automatically and process shipments in bulk." />
+<meta name="title" content="Ecom Express Courier Service for eCommerce- RapidShyp"/>
+<meta name="description" content="Streamline deliveries with Ecom Express courier-service on our powerful shipping platform. Sync orders automatically and process shipments in bulk."/>
+<link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/ecom-express"/>
+<title>Ecom Express Courier Service for eCommerce- RapidShyp</title>
 
 </head>
 
 <body>
     <?php include 'header.php';?>
 
-    <section class="lp-hero-ov delhivery">
+    <section class="lp-hero-ov ecomexp-bg">
         <div id="hero-area" class="hero-area">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h1 class="head-title mt-4">Delhivery Courier Service Across India</h1>
-                            <p class="sub-title">Ship with Delhivery anywhere using our feature-loaded platform — real-time order tracking, insightful dashboard and much more</p>
+                            <h1 class="head-title mt-4">Ecom Express <br> Courier Service for Quick Deliveries</h1>
+                            <p class="sub-title">Ship your online order faster with Ecom Express using our platform  automated order sync, bulk processing and much more</p>
                             <div class="d-block">
                                 <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                             </div>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/delhivery-hero.png" alt="">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/ecomexp-hero-bg.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -35,33 +35,33 @@
         </div>
     </section>
 
-    <section class="reduce-rto trust-in-delivery">
+    <section class="reduce-rto ecomexp-mark">
         <div class="container">
             <div class="row mb-5 justify-content-center">
                 <div class="col-lg-8 col-sm-12 text-center">
-                    <h3 class="heading">Leading Courier Service for eCommerce Shipping</h3>
-                    <p class="sub-heading">With Delhivery’s logistics expertise and nation-wide courier service network, you can deliver orders to any location without any worry</p>
+                    <h3 class="heading">Powerful Logistics Solutions for eCommerce</h3>
+                    <p class="sub-heading">Ecom Express’s courier services are tailored for easier scalability and faster business growth</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content border-right">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/parcels.svg" alt="">
-                        <h3 class="heading">3 Billion+</h3>
-                        <p class="sub-heading">Parcels Shipped</p>
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/shipments.svg" alt="">
+                        <h3 class="heading">2 Billion+</h3>
+                        <p class="sub-heading">Shipments</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
-                    <div class="content border-right">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/pincodes.svg" alt="">
-                        <h3 class="heading">18600+</h3>
-                        <p class="sub-heading">Serviceable Pin Codes</p>
+                    <div class="content">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/delivery-center.svg" alt="">
+                        <h3 class="heading">3420+</h3>
+                        <p class="sub-heading">Delivery Centers </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
-                    <div class="content border-right">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/population.svg" alt="">
-                        <h3 class="heading">99.5%</h3>
+                    <div class="content">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/population.svg" alt="">
+                        <h3 class="heading">97%</h3>
                         <p class="sub-heading">Population Covered</p>
                     </div>
                 </div>
@@ -69,20 +69,20 @@
         </div>
     </section>
 
-    <section class="rateCalculator deliveryCal" id="rateCal">
+    <section class="rateCalculator deliveryCal dtdccal" id="rateCal">
         <div class="container">
             <div class="row">
-                <div class="col-12 mb-0 mb-lg-3">
-                    <span class="tag">Shipping Rate Calculator</span>
+                <div class="col-12 mb-0 mb-lg-3 ecomexp-light-bg">
+                    <span class="tag ecomexp-bg">Shipping Rate Calculator</span>
                     <div class="row align-items-center">
                         <div class="col-md-12 col-lg-5 col-sm-12 p-4">
-                            <h3 class="heading">Estimate Delhivery Courier Charges on the Go</h3>
-                            <p>Calculate Delhivery shipping rates instantly using our quick shipping rate calculator</p>
+                            <h3 class="heading">Calculate Ecom Express Courier Charges Accurately</h3>
+                            <p>Plan your expenses better by estimating Ecom Express courier charges beforehand using our calculator</p>
                         </div>
                         <div class="col-md-12 col-lg-7 col-sm-12">
                             <form class="shipment-form" id="calForm">
                                 <input type="hidden" name="csrf" id="csrf" value="<?=$rand?>">
-                                <input type="hidden" id="courier" name="courier" value="DLV"> 
+                                <input type="hidden" id="courier" name="courier" value="ECOM"> 
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group">
@@ -173,7 +173,7 @@
                                         <button type="reset" class="reset-btn mx-0">Reset</button>
                                     </div>
                                     <div class="col-lg-6 col-7">
-                                        <input type="submit" class="solid-action-btn calculate-btn" value="Calculate Now">
+                                        <input type="submit" class="solid-action-btn calculate-btn ecomexp-bg" value="Calculate Now">
                                     </div>
                                 </div>
                             </form>
@@ -183,7 +183,7 @@
                 <div id="errorMessage" style="color: red; text-align:center; display:none;"></div>
                 <div class="rateLoader">Loading</div>
                 <div class="col-lg-12 mb-0 mb-lg-5">
-                    <div class="rateTable mt-5" id="rateResult">
+                    <div class="rateTable" id="rateResult">
                         <div class="head">
                             <div class="btn-group" role="group" aria-label="Radio toggle buttons">
                                 <input type="radio" class="btn-check" name="options" id="all" autocomplete="off"
@@ -218,7 +218,7 @@
                             </table>
                         </div>
                         <div class="d-flex align-items-center justify-content-center pt-4">
-                            <button class="solid-action-btn getRates" onclick="location.href = 'https://app.rapidshyp.com/';">Get Full Rates</button>
+                            <button class="solid-action-btn getRates ecomexp-bg" onclick="location.href = 'https://app.rapidshyp.com/';">Get Full Rates</button>
                         </div>
                     </div>
                 </div>    
@@ -226,38 +226,38 @@
         </div>
     </section>
 
-    <section class="what-makes-better2 reduce-rto why-delhivery" id="solution">
+    <section class="what-makes-better2 reduce-rto ecomexp-mark" id="solution">
         <div class="container position-relative">
             <div class="row mb-5 justify-content-center">
                 <div class="col-lg-7 col-sm-12 text-center">
-                    <h3 class="heading">Why Ship With <mark>Delhivery</mark> Using RapidShyp</h3>
-                    <p class="sub-heading">Leverage the best of Delhivery’s courier service on our cutting-edge shipping platform, designed to maximise your efficiency and productivity.</p>
+                    <h3 class="heading">Why Ship With <mark>Ecom Express</mark> Using RapidShyp</h3>
+                    <p class="sub-heading">Take out the best of Ecom Express courier service on our intelligent shipping platform, designed for efficient operations.</p>
                 </div>
             </div>
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/why-delhivery01.png"
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/why-ecom01.png"
                             alt="">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 text-start">
                     <div class="info">
-                        <h5><mark>Smooth Order </mark>Processing</h5>
-                        <p>Forward or reverse, process your orders in minutes with auto-updates and bulk actions</p>
+                        <h5>Automatic Synchronisation</h5>
+                        <p>Integrate multiple marketplaces and storefronts to <b>sync your orders automatically</b></p>
                     </div>
                 </div>
             </div>
             <div class="row mt-4 align-items-center col-reverse justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 text-start">
                     <div class="info">
-                        <h5><mark>Order Tracking </mark> Updates</h5>
-                        <p>Push courier status updates of your choice to your customers instantly on WhatsApp</p>
+                        <h5>Bulk Order Processing</h5>
+                        <p><b>Save time and effort</b> with bulk auto-documentation and bulk shipping</p>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/why-delhivery02.png"
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/why-ecom02.png"
                             alt="">
                     </div>
                 </div>
@@ -265,60 +265,60 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/why-delhivery03.png"
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/why-ecom03.png"
                             alt="">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 text-start">
                     <div class="info">
-                        <h5><mark>Performance </mark>Dashboard</h5>
-                        <p>Fuel your business growth with insightful data reported in a user-friendly format</p>
+                        <h5>NDR<br>Communication</h5>
+                        <p><b>Deliver undelivered orders faster</b> through proactive WhatsApp communication</p>
                     </div>
                 </div>
             </div>
             <div class="row mt-4 align-items-center col-reverse justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 text-start">
                     <div class="info">
-                        <h5><mark>Early COD</mark> Remittance</h5>
-                        <p>Receive remittance for your COD orders shipped with Delhivery in just 2 days</p>
+                        <h5>End-to-end  <br>Visibility</h5>
+                        <p><b>Track your shipments </b> at all stages effortlessly in a user-friendly interface</p>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/why-delhivery04.png"
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/why-ecom04.png"
                             alt="">
                     </div>
                 </div>
             </div>
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-12 col-md-6 col-sm-12 p-3 text-center">
-                    <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Start Shipping</button>
+                    <button class="solid-action-btn ecomexp-bg" onclick="location.href = 'https://app.rapidshyp.com/';">Start Shipping</button>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="is-rto-eating-profit delhivery-couriers" style="padding-bottom: 0px; height: auto;">
-        <div class="container">
+        <div class="container ecomexp-light-bg" style="padding-bottom: 0px;">
             <div class="row  align-items-center w-100">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h3 class="heading">15+ Couriers for a PAN<br>India Impact</h3>
-                    <p class="sub-heading mb-4">Grow your presence in every part of the country with Delhivery and other leading couriers available on a single, intuitive eCommerce shipping platform.</p>
+                    <h3 class="heading">Multi-courier Platform with 15+ Options</h3>
+                    <p class="sub-heading mb-4">Tap into new markets with our extensive courier service network.</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/delhivery-partner.png" alt="">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/ecom-partners.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="blogs shipping-suggestion why-delhivery">
+    <section class="blogs shipping-suggestion ecomexp-mark">
         <div class="container">
             <div class="row mb-5">
                 <div class="col text-center">
-                    <p class="heading"><mark>More Related to Delhivery</mark></p>
+                    <p class="heading">More Related to <mark>Ecom Express </mark> Courier Services</p>
                     <p class="sub-heading">Read our blog to stay up to date with the latest insights</p>
                 </div>
             </div>
@@ -374,11 +374,11 @@
     </section>
 
     <section class="is-rto-eating-profit delhivery-couriers" style="padding: 0 0 60px; height: auto;">
-        <div class="container deliver-sucess">
+        <div class="container deliver-sucess ecomexp-bg">
             <div class="row align-items-center col-reverse w-100">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="image text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery/delivery-your-ecommerce.png" alt="">
+                    <div class="image">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/exomexp/ecom-your-ecommerce.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
@@ -390,7 +390,7 @@
         </div>
     </section>
 
-    <section class="faq track-faq why-delhivery">
+    <section class="faq track-faq ecomexp-mark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-sm-12">
@@ -404,12 +404,12 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    How many days does Delhivery take to deliver?
+                                    How many days does Ecom Express take to deliver?
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">While the estimated delivery date depends on various factors like pickup location, delivery destination and shipping mode, RapidShyp ensures a 95%+ SLA adherence.</div>
+                                <div class="accordion-body">Once your shipment is processed on our platform, you can effortlessly choose Ecom Express delivery and arrange a pickup at a time that suits you.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -417,12 +417,12 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    How to track Delhivery courier?
+                                    How to track Ecom Express courier?
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Our platform shows you the status against every shipment clearly and transparently. You can also track your courier <a href="shipment-tracking" style="text-decoration:underline;">here</a></div>
+                                <div class="accordion-body">Our platform offers complete visibility of your Ecom Express shipment, displaying the courier tracking status in a clear and transparent manner. You can also track your courier <a href="shipment-tracking" style="text-decoration:underline;">here</a></div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -430,25 +430,12 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    How much does Delhivery charge for shipping?
+                                    What are Ecom Express's courier charges per kg?
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Delhivery courier charges start at ₹26.45/250g for forward shipments. Use our calculator given above to calculate shipping rates for specific locations and shipment weights.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                    aria-controls="flush-collapseFour">
-                                    Is Delhivery safe?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">While Delhivery is considered India’s one of the most reliable couriers, RapidShyp also allows you to shield your shipments against in-transit risks.</div>
+                                <div class="accordion-body">Ecom Express courier charges begin at ₹26.45/0.5kg for forward shipments. Use the calculator above to obtain precise shipping rates based on your shipment weight and locations.</div>
                             </div>
                         </div>
                     </div>

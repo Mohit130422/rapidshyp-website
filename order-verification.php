@@ -20,7 +20,7 @@
                         <div class="contents">
                             <h2 class="head-title"> Proactive Order <br> Verification Tool</h2>
                             <p class="sub-title">Trigger automated WhatsApp notifications to verify COD orders and addresses, preventing unexpected delivery failures.</p>
-                            <button type="submit" class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -45,7 +45,7 @@
                     <div class="info">
                         <h5><mark>Automated</mark> Validation</h5>
                         <p>Validate orders without having to contact your customers manually</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                     <div class="info">
                         <h5><mark>Address</mark> Confirmation</h5>
                         <p>Confirm pin codes, phone numbers, and other critical details to minimise errors</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                     <div class="info">
                         <h5>Elevated <mark>Performance</mark></h5>
                         <p>Shipping only qualified orders leads to a higher delivery success rate</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                     <div class="info">
                         <h5>Stronger<mark> Retention</mark></h5>
                         <p>Foster loyalty by engaging in a way that feels customer-first</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h3 class="heading">Is RTO Eating Your <br>Profits Too?</h3>
                     <p class="sub-heading mb-4">Strategise your post-purchase experience for <br>maximum performance.</p>
-                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');">Sign up for Free</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for Free</button>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">

@@ -1,32 +1,39 @@
 <?php 
+session_start();
 include 'header-section.php';
-// $con = new mysqli("localhost", "analytics_ratecard", "Ha[PT]VtXyXb", "analytics_ratecard");
+$rand=mt_rand(11111111,99999999);
+$_SESSION['csrf']=$rand;
+$con = new mysqli("localhost", "analytics_ratecard", "Ha[PT]VtXyXb", "analytics_ratecard");
 
-// // Check connection
-// if ($con->connect_error) {
-//     http_response_code(500);
-//     echo json_encode(['result' => 'error', 'message' => 'Database connection failed']);
-//     exit;
-// }
+// Check connection
+if ($con->connect_error) {
+    http_response_code(500);
+    echo json_encode(['result' => 'error', 'message' => 'Database connection failed']);
+    exit;
+}
 
-$fromCity = isset($_GET['from']) ? ucfirst($_GET['from']) : 'delhi';  // Default 'from' city is Mumbai
-$toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Default 'to' city is Delhi
+$fromCity = isset($_GET['from']) ? ucfirst($_GET['from']) : '';  // Default 'from' city is Mumbai
+$toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : '';         // Default 'to' city is Delhi
 
-// $fromPincode="";
-// $toPincode="";
+$fromPincode="";
+$toPincode="";
 
-// $query=mysqli_query($con,"SELECT city_name, pincode FROM rs_postcode WHERE city_name LIKE '%{$fromCity}%' OR city_name LIKE '%{$toCity}%' GROUP BY city_name, pincode ORDER BY city_name, pincode LIMIT 2");
-// while($data=mysqli_fetch_array($query))
-// {
-//     if (stripos($data['city_name'], $fromCity) !== false) 
-//         $fromPincode=$data['pincode'];
-//     else if (stripos($data['city_name'], $toCity) !== false) 
-//         $toPincode=$data['pincode'];
-// }
+$query=mysqli_query($con,"SELECT city_name, pincode FROM citylist where city_name='{$fromCity}' OR city_name='{$toCity}' ");
+while($data=mysqli_fetch_array($query))
+{
+    if (strtoupper($data['city_name'])==strtoupper($fromCity)) 
+        $fromPincode=$data['pincode'];
+    if (strtoupper($data['city_name'])==strtoupper($toCity)) 
+        $toPincode=$data['pincode'];
+}
 
-// if(empty($fromPincode) || empty($toPincode))
-// header("HTTP/1.0 404 Not Found");
-
+if(empty($fromPincode) || empty($toPincode))
+{
+echo "<script>
+        window.location.href = '/404.php'; 
+    </script>";
+    exit;
+}
 ?>
 <!-- <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature-og.png"> -->
 <meta property="og:title" content="Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp" />
@@ -87,6 +94,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
                                             <label for="delivery-pincode">Delivery Area Pincode</label>
                                             <input type="text" id="delivery-pincode" name="delivery-pincode" value="<?=(empty($toPincode)?"400001":$toPincode)?>"
                                                 maxlength="6" required>
+                                            <input type='hidden' name='randomize' value='<?=mt_rand(11111,99999)?>'>
                                             <small>Error Message</small>
                                         </div>
                                     </div>
@@ -214,7 +222,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
                             </table>
                         </div>
                         <div class="d-flex align-items-center justify-content-center pt-4">
-                            <button class="solid-action-btn getRates openWaitlistModal">Get Full Rates</button>
+                            <button class="solid-action-btn getRates" onclick="location.href = 'https://app.rapidshyp.com/';">Get Full Rates</button>
                         </div>
                     </div>
                 </div>
@@ -282,7 +290,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <button type="submit" class="solid-action-btn openWaitlistModal">Get Started</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                 </div>
             </div>
         </div>
@@ -392,7 +400,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
                     <h3 class="heading mb-0">Get the Best Courier <br> Service from <span class="f-capitalize"><?php echo htmlspecialchars($fromCity); ?></span> <br>to <span class="f-capitalize"><?php echo htmlspecialchars($toCity); ?></span></h3>
                     <p class="sub-heading">Provide a premium customer experience at the most affordable shipping rates, starting at just ₹21/500gm.</p>
                     <p> <b>No platform fee, no hidden charges.</b></p>
-                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');" style="border-radius: 12px;">Sign-up for Free</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';" style="border-radius: 12px;">Sign-up for Free</button>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
@@ -407,7 +415,7 @@ $toCity = isset($_GET['to']) ? ucfirst($_GET['to']) : 'mumbai';         // Defau
 
 
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/ship-rates.js?1500"></script>
+    <script src="assets/js/ship-rates.js?103"></script>
     <script src="assets/js/utm.js"></script>
 </body>
 

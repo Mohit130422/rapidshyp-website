@@ -30,8 +30,8 @@ include 'header-section.php';?>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 text-center">
                         <div class="contents tracking">
-                            <h2 class="head-title feature-title">Calculate<mark>Volumetric</mark> <br>Weight In A Jiffy
-                            </h2>
+                            <h1 class="head-title feature-title">Calculate<mark>Volumetric</mark> <br>Weight In A Jiffy
+                            </h1>
                             <p class="description">Get dimensional weight quickly by entering package measurements</p>
                         </div>
                         <a href="javascript:void(0);" class="btn solid-action-btn scrollDown">Calculate Now</a>
@@ -101,11 +101,11 @@ include 'header-section.php';?>
                             <h3 class="heading actual-weight">0.0 <span>KG</span></h3>
                         </div>
                         <div class="result">
-                            <small>Chargeable Weight <button class="butn"><i class="fas fa-info-circle"></i> <span class="tooltip">Chargeable weight is the freight weight generally used by courier companies to charge for shipping orders.  It is deduced as the higher of volumetric or actual weight.</span></button></small>
+                            <small>Chargeable Weight <button class="btn"><i class="fas fa-info-circle"></i> <span class="tooltip">Chargeable weight is the freight weight generally used by courier companies to charge for shipping orders.  It is deduced as the higher of volumetric or actual weight.</span></button></small>
                             <h3 class="heading chargeable-weight">0.0 <span>KG</span></h3>
                         </div>
                     </div>
-                    <button class="solid-action-btn openWaitlistModal"> Start Shipping</button>
+                    <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';"> Start Shipping</button>
                 </div>
             </div>
         </div>
@@ -174,9 +174,9 @@ include 'header-section.php';?>
         <div class="container">
             <div class="row align-items-center col-reverse">
                 <div class="col-lg-9 col-md-6 col-sm-12">
-                    <h3 class="heading mb-0">Let us do the heavy lifting <br> and reduce your weight issues!</h3>
-                    <p class="sub-heading">Stay informed about your shipments seamlessly</p>
-                    <button type="submit" class="solid-action-btn openWaitlistModal">Start Shipping</button>
+                    <h3 class="heading mb-3">Let us do the heavy lifting <br> and reduce your weight issues!</h3>
+                    <!-- <p class="sub-heading">Stay informed about your shipments seamlessly</p> -->
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Start Shipping</button>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="image">

@@ -21,7 +21,7 @@
                             <h1 class="head-title mt-4">Blue Dart Courier Service for eCommerce </h1>
                             <p class="sub-title">Ship with Blue Dart using our technology-backed platform — order verification, automated buyer notifications and much more</p>
                             <div class="d-block">
-                                <button type="submit" class="solid-action-btn openWaitlistModal">Get Started</button>
+                                <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -40,12 +40,12 @@
             <div class="row mb-5 justify-content-center">
                 <div class="col-lg-8 col-sm-12 text-center">
                     <h3 class="heading">Customer-centric Courier Service Across India</h3>
-                    <p class="sub-heading">Leverage bluedart logistics expertise combined with our modern shipping technology to scale your online business faster than ever before.</p>
+                    <p class="sub-heading">Leverage Bluedart logistics expertise combined with our modern shipping technology to scale your online business faster than ever before.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
-                    <div class="content border-right b-right">
+                    <div class="content">
                         <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/dtdc/best-experience.svg" alt="">
                         <h3 class="heading">40+</h3>
                         <p class="sub-heading">Years of Experience</p>
@@ -218,7 +218,7 @@
                             </table>
                         </div>
                         <div class="d-flex align-items-center justify-content-center pt-4">
-                            <button class="solid-action-btn getRates openWaitlistModal dtdc-bg">Get Full Rates</button>
+                            <button class="solid-action-btn getRates bluedart-bg" onclick="location.href = 'https://app.rapidshyp.com/';">Get Full Rates</button>
                         </div>
                     </div>
                 </div>    
@@ -292,7 +292,7 @@
             </div>
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-12 col-md-6 col-sm-12 p-3 text-center">
-                    <button class="solid-action-btn openWaitlistModal bluedart-bg">Start Shipping</button>
+                    <button class="solid-action-btn bluedart-bg" onclick="location.href = 'https://app.rapidshyp.com/';">Start Shipping</button>
                 </div>
             </div>
         </div>

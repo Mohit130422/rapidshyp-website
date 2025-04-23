@@ -20,7 +20,7 @@
                             <h2 class="head-title"> 100% Automated Shopify Shipping Solution</h2>
                             <p class="sub-title">Integrate your Shopify store with a single click and let our platform handle the shipping for you.</p>
                             <button type="submit" class="solid-action-btn" onclick="window.open('https://apps.shopify.com/rapidshyp');">Install Shopify App</button>
-                            <button type="submit" class="solid-action-btn outline-btn" onclick="window.open('https://app.rapidshyp.com/');">Sign up for FREE</button>
+                            <button type="submit" class="solid-action-btn outline-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for FREE</button>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12">
@@ -75,7 +75,7 @@
                     <div class="content">
                         <div class="d-flex align-items-center justify-content-between">
                             <h3 class="heading">Steps for Shopify Integration</h3>
-                            <button class="solid-action-btn openWaitlistModal">Start Now</button>
+                            <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Start Now</button>
                         </div>
                         <div class="steps">
                             <div class="step active" onclick="showStep(1)">Step: 01</div>
@@ -95,7 +95,7 @@
                     <div class="content-mob">
                         <div class="d-flex align-items-center justify-content-between">
                             <h3 class="heading">Steps for Shopify Integration</h3>
-                            <button class="solid-action-btn openWaitlistModal">Start Now</button>
+                            <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Start Now</button>
                         </div>
                         <div class="steps">
                             <div class="step">
@@ -120,7 +120,7 @@
                             </div>
                         </div>
                         <div class="get-started text-center">
-                            <button class="solid-action-btn openWaitlistModal mx-0">Start Now</button>
+                            <button class="solid-action-btn mx-0" onclick="location.href = 'https://app.rapidshyp.com/';">Start Now</button>
                         </div>
                     </div>
                 </div>
@@ -285,7 +285,7 @@
                     <h3 class="heading">Ready to Grow Your Shopify <br>Store 10X?</h3>
                     <p class="sub-heading mb-4">RapidShyp is designed to drive the maximum profits from your shipments, and keep your expenses low.</p>
                     <button type="submit" class="solid-action-btn" onclick="window.open('https://apps.shopify.com/rapidshyp');">Install Shopify App</button>
-                    <button type="submit" class="solid-action-btn outline-btn mx-0" onclick="window.open('https://app.rapidshyp.com/');">Sign up for FREE</button>
+                    <button type="submit" class="solid-action-btn outline-btn mx-0" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for FREE</button>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image imgdesk">

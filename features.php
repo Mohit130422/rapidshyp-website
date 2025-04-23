@@ -17,8 +17,8 @@
                     <div class="col-12 text-center">
                         <!-- <span class="announce"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/flash.svg" alt="">Streamline Your Online Shipping Process Like A Pro</span> -->
                         <div class="contents">
-                            <h2 class="head-title feature-title"><mark>Exceptional</mark> Features <br>Designed for
-                                India's Growing <br> eCommerce Brands</h2>
+                            <h1 class="head-title feature-title"><mark>Exceptional</mark> Features <br>Designed for
+                                India's Growing <br> eCommerce Brands</h1>
                             <p class="description">An eCommerce shipping solution to transform the way you ship. <br>
                                 Built by a company that values customer experience</p>
                         </div>
@@ -70,10 +70,10 @@
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <strong>Reliable Shipping Starting at Just &#8377; 25</strong>
+                                                <strong>Reliable Shipping Starting at Just &#8377;21</strong>
                                                 <p>Let's be real: Shipping costs cut into buyers’ pockets. Partner with
                                                     RapidShyp to reduce the costs buyers pay to get their hands on your
-                                                    products. Grab top-notch logistics solutions beginning at Rs 25 per
+                                                    products. Grab top-notch logistics solutions beginning at Rs 21 per
                                                     500 grams</p>
                                             </div>
                                         </div>
@@ -131,7 +131,7 @@
                             <h5>Streamlined Order Processing </h5>
                             <p class="mb-5">Handle all your forward and return orders seamlessly from a single platform.
                                 Create, process, and dispatch your orders effortlessly within a few clicks</p>
-                            <button class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
@@ -152,7 +152,7 @@
                             <p class="mb-5">Consolidate all your orders in one window,
                                 from Shopify to WooCommerce and beyond!
                             </p> 
-                            <button  class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button  class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
                                 partner for every shipment- single or bulk,
                                 optimized for speed, cost, or your custom needs
                             </p>
-                            <button  class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button  class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
@@ -186,7 +186,7 @@
                                 days. Ensure COD funds faster to fuel
                                 your business and enhance cash flow
                             </p>
-                            <button  class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button  class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                                 added peace of mind. No need to worry
                                 about lost shipments once you’re on board
                             </p>
-                            <button  class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button  class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
@@ -220,7 +220,7 @@
                                 Dive deep into delivery metrics, courier split,
                                 top selling products, NDR reports and more!
                             </p>
-                            <button  class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button  class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                 </div>

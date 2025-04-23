@@ -29,8 +29,8 @@ include 'header-section.php';?>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 text-center">
                         <div class="contents tracking">
-                            <h2 class="head-title feature-title"><mark>Track</mark> Your Order <br> Anytime & Anywhere
-                            </h2>
+                            <h1 class="head-title feature-title"><mark>Track</mark> Your Order <br> Anytime & Anywhere
+                            </h1>
                             <p class="description">Just enter your AWB Number or Order ID and track on the go!</p>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ include 'header-section.php';?>
                     <h3 class="heading mb-0">Experience convenient shipment <br>tracking at your fingertips </h3>
                     <p class="sub-heading">Stay updated on your shipments anytime, anywhere. Use your AWB tracking
                         number for tracing your parcel whereabouts.</p>
-                    <button type="submit" class="solid-action-btn openWaitlistModal">Start Shipping</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Start Shipping</button>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image">
@@ -312,12 +312,12 @@ include 'header-section.php';?>
                     <h3 class="heading mb-0">Get control over all your<br>shipments</h3>
                     <p class="sub-heading">Stay informed about your shipments seamlessly </p>
                     <ul class="p-0">
-                        <li><i class="far fa-check-circle"></i>Track orders from 10+ courier partners effortlessly at
+                        <li><i class="far fa-check-circle"></i>Track orders from 15+ courier partners effortlessly at
                             your comfort</li>
                         <li><i class="far fa-check-circle"></i>Receive real-time updates as your order statuses change
                         </li>
                     </ul>
-                    <button type="submit" class="solid-action-btn openWaitlistModal">Start Shipping</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Start Shipping</button>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image">

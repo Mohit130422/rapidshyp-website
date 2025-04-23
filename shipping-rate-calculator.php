@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$rand=mt_rand(11111111,99999999);;
+$rand=mt_rand(11111111,99999999);
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
 <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-rate-og.jpg">
@@ -31,8 +31,8 @@ include 'header-section.php';?>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 text-center">
                         <div class="contents tracking">
-                            <h2 class="head-title feature-title"><mark>Calculate</mark> Shipping <br>Rates Instantly
-                            </h2>
+                            <h1 class="head-title feature-title"><mark>Calculate</mark> Shipping <br>Rates Instantly
+                            </h1>
                             <p class="description">Get real insights into shipping costs within a few seconds</p>
                         </div>
                         <a href="javascript:void(0);" class="btn solid-action-btn scrollDown">Calculate Now</a>
@@ -111,7 +111,7 @@ include 'header-section.php';?>
                                         <div class="form-group">
                                             <label for="shipValue">Shipment Value</label>
                                             <div class="input-group">
-                                                <input type="number" class="form-control"
+                                                <input type="text" class="form-control"
                                                     aria-describedby="basic-addon2" id="shipValue" name="shipValue" required>
                                                 <span class="input-group-text" id="basic-addon2">₹</span>
                                             </div>
@@ -134,7 +134,7 @@ include 'header-section.php';?>
                                                         <input type="radio" class="radio-input" id="cod"
                                                             name="payment-type" value="cod" required>
                                                         <div class="radio-outline"></div>
-                                                        Cash On Delivery
+                                                        COD
                                                     </div>
                                                 </label>
                                             </div>
@@ -156,7 +156,7 @@ include 'header-section.php';?>
                 </div>
                 <div id="errorMessage" style="color: red; text-align:center; display:none;"></div>
                 <div class="rateLoader">Loading</div>
-                <div class="col-12 mb-5">
+                <div class="col-lg-12 mb-5">
                     <div class="rateTable" id="rateResult">
                         <div class="head">
                             <div class="btn-group" role="group" aria-label="Radio toggle buttons">
@@ -180,12 +180,8 @@ include 'header-section.php';?>
                                         <th>Chargeable Weight (KG)</th>
                                         <th>
                                             Shipping Rates
-                                            <button type="button"><i class="fas fa-info-circle"></i><span
-                                                    class="tooltips">Pricing is subjective to change as per the
-                                                    applicable plan.</span></button>
+                                            <button type="button"><i class="fas fa-info-circle"></i><span class="tooltips">Pricing is subjective to change as per the applicable plan.</span></button>
                                         </th>
-                                        <th>EDD <button type="button"><i class="fas fa-info-circle"></i><span
-                                                    class="tooltips">Estimated Delivery Date</span></button></th>
                                     </tr>
                                 </thead>
                                 <tbody id="rateTableBody">
@@ -194,7 +190,7 @@ include 'header-section.php';?>
                             </table>
                         </div>
                         <div class="d-flex align-items-center justify-content-center pt-4">
-                            <button class="solid-action-btn getRates openWaitlistModal">Get Full Rates</button>
+                            <button class="solid-action-btn getRates" onclick="location.href = 'https://app.rapidshyp.com/';">Get Full Rate Card</button>
                         </div>
                     </div>
                 </div>
@@ -324,7 +320,7 @@ include 'header-section.php';?>
                         <li><i class="far fa-check-circle"></i>Economical rates</li>
                         <li><i class="far fa-check-circle"></i>29,000+ pin codes</li>
                     </ul>
-                    <button type="submit" class="solid-action-btn openWaitlistModal">Calculate Now</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Calculate Now</button>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">

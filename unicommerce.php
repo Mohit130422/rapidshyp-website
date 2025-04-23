@@ -18,7 +18,7 @@
                         <div class="contents">
                             <h2 class="head-title"> Streamline Shipping With Our Unicommerce Integration</h2>
                             <p class="sub-title">Integrate your Unicommerce account seamlessly and simplify your logistics operations like never before.</p>
-                            <button class="solid-action-btn openWaitlistModal">Get Started</button>
+                            <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12">
@@ -73,7 +73,7 @@
                     <div class="content unicommerce-secondary-bg">
                         <div class="d-flex align-items-center justify-content-between">
                             <h3 class="heading">How to Integrate Your Unicommerce Account</h3>
-                            <button class="solid-action-btn openWaitlistModal">Start Now</button>
+                            <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Start Now</button>
                         </div>
                         <div class="steps">
                             <div class="step active" onclick="showStep(1)">Step: 01</div>
@@ -93,7 +93,7 @@
                     <div class="content-mob unicommerce-secondary-bg">
                         <div class="d-flex align-items-center justify-content-between">
                             <h3 class="heading">Steps for Shopify Integration</h3>
-                            <button class="solid-action-btn openWaitlistModal">Start Now</button>
+                            <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Start Now</button>
                         </div>
                         <div class="steps">
                             <div class="step">
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                         <div class="get-started text-center">
-                            <button class="solid-action-btn openWaitlistModal mx-0">Start Now</button>
+                            <button class="solid-action-btn mx-0" onclick="location.href = 'https://app.rapidshyp.com/';">Start Now</button>
                         </div>
                     </div>
                 </div>
@@ -282,7 +282,7 @@
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h3 class="heading">Need All Orders in One <br>Place?</h3>
                     <p class="sub-heading mb-4">RapidShyp allows you to integrate 5+ eCommerce channels including Unicommerce and ship all your orders using a single, easy-to-use platform.</p>
-                    <button type="submit" class="solid-action-btn outline-btn mx-0" onclick="window.open('https://app.rapidshyp.com/');">Sign up for FREE</button>
+                    <button type="submit" class="solid-action-btn outline-btn mx-0" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for FREE</button>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image imgdesk">

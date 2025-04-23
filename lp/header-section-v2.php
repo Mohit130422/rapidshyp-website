@@ -22,14 +22,14 @@
         sizes="32x32" />
     <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png"
         sizes="192x192" />
-    <script src="https://kit.fontawesome.com/250f1f5cf6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/040f76db56.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="../node_modules/owl.carousel.min.css">
     <link rel="stylesheet" href="../node_modules/owl.theme.default.min.css">
     <script src="../node_modules/jquery.min.js"></script>
     <script src="../node_modules/owl.carousel.min.js"></script>
     <script src="../node_modules/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/utm.js?v=0.0.4"></script>
+    <!--<script src="../assets/js/utm.js?v=0.0.4"></script>-->
     <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -47,7 +47,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="../assets/css/main.css?v=0.2.5">
+    <link rel="stylesheet" href="../assets/css/main.css?v=0.2.6">
 
     </script>
     <!-- organization schema end -->

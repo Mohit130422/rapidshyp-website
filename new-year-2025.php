@@ -538,31 +538,47 @@
         </div>
     </div>
 
-    <div class="blur-overlay" id="ny-offer">
-        <div class="dialog-box ny-offer">
-            <div class="head">
+    <div class="blur-overlay" id="diwaliOffer">
+        <div class="dialog-box diwalioffer">
+            <div class="lamps">
+                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/lamp2.svg"
+                        loading="lazy"></li>
+                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/lamp2.svg"
+                        loading="lazy"></li>
+            </div>
+            <div class="head mb-4">
                 <div class="close">
                     <i class="fas fa-times"></i>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12" >
-                        <img class="side-img" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/ny-offer-img.png" alt="">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12" >
-                        <div class="content">
-                            <h2 class="head-title">Hit Your Targets This New Year</h2>
-                            <p class="description">Ship smarter, aim better</p>
-                            <div class="offer">
-                                <img class="side-img" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/offer-strip.png" alt="">
-                            </div>
-                            <p class="description">#NayaSaalNayiShuruat</p>
-                            <button class="solid-action-btn d-block mb-3">Make the Switch</button>
+            <div class="content">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center">
+                            <h5 class="fw-bold mb-3">Perfect Time to Start Something Great!</h5>
+                            <h2 class="fw-bolder mb-3">Get FLAT 50% Cashback</h2>
+                            <p class="fw-bold mb-3">(Up to ₹1000)</p>
+                            <h5 class="fw-bold mb-3"><img
+                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/coin.svg"
+                                    loading="lazy">on Your First Recharge</h5>
                         </div>
                     </div>
                 </div>
-            </div>           
+            </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="code">
+                                <p>Use Code: </p>
+                                <mark id="myInput">FESTIVE50</mark> <i class="fa-regular fa-copy"
+                                    onclick="copyToClipboard()"></i>
+                                <small id="copy-sucess"><i class="fa-regular fa-circle-check"></i> Copied</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

@@ -21,7 +21,7 @@
                             <h2 class="head-title mt-4">Reach <br>Untapped Markets <br> With India Post</h2>
                             <p class="sub-title">Grow your last-mile delivery network into smaller cities and towns, quickly increasing your customer base.</p>
                             <div class="d-block">
-                                <button type="submit" class="solid-action-btn openWaitlistModal">Get Started</button>
+                                <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -45,21 +45,21 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
-                    <div class="content border-right b-right">
+                    <div class="content">
                         <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/certified-icon.svg" alt="">
                         <h3 class="heading">170+</h3>
                         <p class="sub-heading">Years in Service</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
-                    <div class="content border-right b-right">
+                    <div class="content">
                         <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/letter-box-icon.svg" alt="">
                         <h3 class="heading">1.6 Lakh+</h3>
                         <p class="sub-heading">Post Offices</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
-                    <div class="content border-right b-right">
+                    <div class="content">
                         <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-coverage.svg" alt="">
                         <h3 class="heading">89%+</h3>
                         <p class="sub-heading">Rural Coverage</p>
@@ -87,7 +87,7 @@
                     <div class="info">
                         <h5><mark>Minimum </mark>Manual Effort</h5>
                         <p>Automate order synchronisation, document creation, buyer communication and more</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                     <div class="info">
                         <h5><mark>Maximum</mark> Market Reach</h5>
                         <p>Ship to more than 19000 pin codes, including tier 2/3 cities and remote areas</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                     <div class="info">
                         <h5><mark>Higher </mark>Customer Satisfaction</h5>
                         <p>Deliver reliable experiences using features like branded tracking page and next-day delivery</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                     <div class="info">
                         <h5><mark>Lower </mark>Shipping Costs</h5>
                         <p>Save big with India Post’s wallet-friendly options starting at just <b>₹15/500g</b></p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i class="fas fa-arrow-right"></i></button>
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -234,7 +234,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 px-5">
                     <h3 class="heading">Want Faster Growth in Your Business?</h3>
                     <p class="sub-heading mb-4">RapidShyp is designed to make eCommerce shipping simpler, so you can focus on scaling your capabilities.</p>
-                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');">Try Now</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Try Now</button>
                 </div>
             </div>
         </div>

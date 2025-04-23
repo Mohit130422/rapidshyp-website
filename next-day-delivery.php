@@ -22,7 +22,7 @@
                             <p class="sub-title">Race past logistics hurdles to deliver the speed your online customers expect, winning their trust and loyalty.</p>
                             <div class="d-block mb-5"><button class="solid-action-btn" style="border-radius: 8px; background-color: #ffffff20; color: #ffffff; box-shadow: none;">Starts at <mark class="ndd-mark">₹17.25/500gm</mark> only</button></div>
                             <div class="d-block">
-                                <button type="submit" class="solid-action-btn openWaitlistModal">Ship Now</button>
+                                <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Ship Now</button>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                     <div class="info">
                         <h5><mark>Convert </mark> More Visitors</h5>
                         <p>Display next-day delivery options to turn more browsers into buyers</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                     <div class="info">
                         <h5><mark>Increase</mark> Your AOV</h5>
                         <p>Encourage customers to fill their carts knowing their order will arrive quickly</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     <div class="info">
                         <h5><mark>Improve </mark>Inventory Turnover</h5>
                         <p>Get your stock out the door faster, minimising your storage costs</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i
                                 class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                     <div class="info">
                         <h5><mark>Boost </mark>Brand Loyalty</h5>
                         <p>Offering next-day delivery shows you care about customer satisfaction</p>
-                        <button class="solid-action-btn openWaitlistModal">Get Started <i class="fas fa-arrow-right"></i></button>
+                        <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -222,7 +222,7 @@
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h3 class="heading">Accelerate Your <br>Deliveries Now</h3>
                     <p class="sub-heading mb-4">Fast-track your business growth with speedy, <br> scalable shipping.</p>
-                    <button type="submit" class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');">Sign up for Free</button>
+                    <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for Free</button>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image imgdesk">
@@ -245,15 +245,15 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <a href="https://www.rapidshyp.com/blog/proven-ways-to-minimise-shipping-delays/" target="_blank"><img src="https://www.rapidshyp.com/blog/wp-content/uploads/2024/12/RS-Blog_38_Feature-Image-2.png"
+                            <a href="https://www.rapidshyp.com/blog/importance-of-same-day-next-day-delivery/" target="_blank"><img src="https://www.rapidshyp.com/blog/wp-content/uploads/2025/02/RS-Blog_49_Feature-Image-.png"
                                 alt=""></a>
                         </div>
                         <div class="body">
-                            <a href="https://www.rapidshyp.com/blog/proven-ways-to-minimise-shipping-delays/" target="_blank" class="content">13 Proven Ways to Minimise Shipping Delays [2025]</a>
-                            <p>Nobody likes it when their products are delayed. Indeed, as soon as you place an order, wouldn’t you want to get your hands on it as soon as possible?</p>
+                            <a href="https://www.rapidshyp.com/blog/importance-of-same-day-next-day-delivery/" target="_blank" class="content">Importance of Same Day & Next Day Delivery for Your eCommerce Business</a>
+                            <p>Speed is king! Shoppers today expect more than just quality products and competitive prices- they demand lightning-fast delivery. </p>
                         </div>
                         <div class="footer">
-                            <a href="https://www.rapidshyp.com/blog/proven-ways-to-minimise-shipping-delays/"
+                            <a href="https://www.rapidshyp.com/blog/importance-of-same-day-next-day-delivery/"
                                 target="_blank">Read Now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>

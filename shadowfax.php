@@ -21,7 +21,7 @@
                             <h1 class="head-title mt-4">Shadowfax <br>Delivery Services for eCommerce </h1>
                             <p class="sub-title">Deliver with Shadowfax using our customer-centric platform — branded tracking page, WhatsApp communication and much more</p>
                             <div class="d-block">
-                                <button type="submit" class="solid-action-btn openWaitlistModal">Get Started</button>
+                                <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
-                    <div class="content border-right b-right">
+                    <div class="content">
                         <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shadowfax/parcel.svg" alt="">
                         <h3 class="heading">1 Billion+</h3>
                         <p class="sub-heading">Shipments</p>
@@ -76,8 +76,8 @@
                     <span class="tag shadowfax-bg">Shipping Rate Calculator</span>
                     <div class="row align-items-center">
                         <div class="col-md-12 col-lg-5 col-sm-12 p-4">
-                            <h3 class="heading">Calculate Blue Dart Courier Rates in an Instant</h3>
-                            <p>Estimate Blue Dart courier prices in no time using our easy shipping rate calculator</p>
+                            <h3 class="heading">Calculate Shadowfax Courier Charges Accurately</h3>
+                            <p>Estimate Shadowfax courier charges in a snap using our instant shipping rate calculator</p>
                         </div>
                         <div class="col-md-12 col-lg-7 col-sm-12">
                             <form class="shipment-form" id="calForm">
@@ -218,7 +218,7 @@
                             </table>
                         </div>
                         <div class="d-flex align-items-center justify-content-center pt-4">
-                            <button class="solid-action-btn getRates openWaitlistModal shadowfax-bg">Get Full Rates</button>
+                            <button class="solid-action-btn getRates shadowfax-bg" onclick="location.href = 'https://app.rapidshyp.com/';">Get Full Rates</button>
                         </div>
                     </div>
                 </div>    
@@ -292,7 +292,7 @@
             </div>
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-12 col-md-6 col-sm-12 p-3 text-center">
-                    <button class="solid-action-btn openWaitlistModal shadowfax-bg">Start Shipping</button>
+                    <button class="solid-action-btn shadowfax-bg" onclick="location.href = 'https://app.rapidshyp.com/';">Start Shipping</button>
                 </div>
             </div>
         </div>
@@ -384,7 +384,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                     <h3 class="heading">Deliver Your eCommerce Business to Success</h3>
                     <p class="sub-heading mb-4">RapidShyp is built to take complexities out of your logistics, allowing your business to scale freely and speedily.</p>
-                    <button class="solid-action-btn" onclick="window.open('https://app.rapidshyp.com/');">Sign up for Free</button>
+                    <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for Free</button>
                 </div>                
             </div>
         </div>
