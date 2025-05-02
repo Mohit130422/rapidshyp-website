@@ -4,10 +4,12 @@ $rand=mt_rand(11111111,99999999);;
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
 <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/tracking-og-img.png">
-<meta property="og:title" content="RapidShyp Package/Order Tracking - Track Your Orders & Shipments" />
-<meta name="title" content="RapidShyp Package/Order Tracking - Track Your Orders & Shipments" />
+<meta property="og:title" content="Online Package/Order Tracking- All India Courier Service" />
+<meta property="og:description" content="Track your orders across India with RapidShyp’s online courier tracking tool. Get real-time updates and delivery details for all your eCommerce shipments." />
+<meta name="title" content="Online Package/Order Tracking- All India Courier Service" />
+<meta name="description" content="Track your orders across India with RapidShyp’s online courier tracking tool. Get real-time updates and delivery details for all your eCommerce shipments." />
 <link rel="canonical" href="https://www.rapidshyp.com/shipment-tracking" />
-<title>RapidShyp Package/Order Tracking - Track Your Orders & Shipments</title>
+<title>Online Package/Order Tracking- All India Courier Service</title>
 
 </head>
 

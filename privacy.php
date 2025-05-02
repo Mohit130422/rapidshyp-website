@@ -1,7 +1,10 @@
 <?php include 'header-section.php';?>
-<meta property="og:title" content="Privacy Policy - RapidShyp" />
-<meta name="title" content="Privacy Policy - RapidShyp" />
+<meta property="og:title" content="Privacy Policy- Trusted Logistics Aggregator for eCommerce" />
+<meta property="og:description" content="Read how RapidShyp protects your data while providing trusted logistics aggregator services for eCommerce brands across India with full data security." />
+<meta name="title" content="Privacy Policy- Trusted Logistics Aggregator for eCommerce" />
+<meta name="description" content="Read how RapidShyp protects your data while providing trusted logistics aggregator services for eCommerce brands across India with full data security." />
 <link rel="canonical" href="https://www.rapidshyp.com/privacy" />
+<title>Privacy Policy- Trusted Logistics Aggregator for eCommerce</title>
 
 <title>Privacy Policy - RapidShyp</title>
 </head>

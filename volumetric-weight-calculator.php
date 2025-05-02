@@ -4,10 +4,12 @@ $rand=mt_rand(11111111,99999999);;
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
 <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/vol-weight-og.jpg">
-<meta property="og:title" content="Volumetric Weight Calculator- Calculate Volumetric Charges - RapidShyp" />
-<meta name="title" content="Volumetric Weight Calculator - Calculate Volumetric Charges - RapidShyp" />
+<meta property="og:title" content="Volumetric Weight Calculator- Courier Service for Business" />
+<meta property="og:description" content="Calculate volumetric weight accurately with RapidShyp’s business courier tool and avoid overpaying for shipments. Ideal for eCommerce and B2C sellers." />
+<meta name="title" content="Volumetric Weight Calculator- Courier Service for Business" />
+<meta name="description" content="Calculate volumetric weight accurately with RapidShyp’s business courier tool and avoid overpaying for shipments. Ideal for eCommerce and B2C sellers." />
 <link rel="canonical" href="https://www.rapidshyp.com/volumetric-weight-calculator" />
-<title>Volumetric Weight Calculator - Calculate Volumetric Charges - RapidShyp</title>
+<title>Volumetric Weight Calculator- Courier Service for Business</title>
 
 </head>
 

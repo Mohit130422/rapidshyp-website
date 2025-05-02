@@ -6045,6 +6045,10 @@ section{
     }
 }
 
+.dtdc{
+    border-radius: 0 0 24px 24px;
+}
+
 .dtdc-bg{
     background: linear-gradient(45deg, #0E2C53 50%, #B658E8 100%) !important;
 }
@@ -6067,6 +6071,10 @@ section{
 
 .dtd-light-bg{  
     background: #D4DFFF !important;
+}
+
+.bluedart{
+    border-radius: 0 0 24px 24px;
 }
 
 .bluedart-bg{
@@ -6093,6 +6101,10 @@ section{
     background: #BBDFFF !important;
 }
 
+.shadowfax{
+    border-radius: 0 0 24px 24px;
+}
+
 .shadowfax-bg{
     background: linear-gradient(45deg, #FFB503 50%, #B658E8 100%) !important;
 }
@@ -6117,6 +6129,10 @@ section{
     background: #FFDBDA!important;
 }
 
+.ecomexp{
+    border-radius: 0 0 24px 24px;
+}
+
 .ecomexp-bg{
     background: linear-gradient(45deg, #E30175 50%, #B658E8 100%) !important;
 }
@@ -6139,6 +6155,34 @@ section{
 
 .ecomexp-light-bg{  
     background: #F7BEDB!important;
+}
+
+.xpbees{
+    border-radius: 0 0 24px 24px;
+}
+
+.xpbees-bg{
+    background: linear-gradient(45deg, #F58220 50%, #B658E8 100%) !important;
+}
+
+.xpbees-mark{
+    mark{
+        padding: 0;
+        background: #0159A9;
+        background: linear-gradient(45deg, #F58220 0%, #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .content{
+        .heading{
+            font-size: 32px;
+        }
+    }
+}
+
+.xpbees-light-bg{  
+    background: #FFDAB9!important;
 }
 
 .retail-lp-hero{

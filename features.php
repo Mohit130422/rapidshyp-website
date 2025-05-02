@@ -1,9 +1,11 @@
 <?php include 'header-section.php';?>
 <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature-og.png">
-<meta property="og:title" content="RapidShyp Features - eCommerce Shipping Solution and Courier Aggregator" />
-<meta name="title" content="RapidShyp Features - eCommerce Shipping Solution and Courier Aggregator" />
+<meta property="og:title" content="Features- Courier Aggregator Software for eCommerce Shipping" />
+<meta property="og:description" content="Discover next-gen features of our courier aggregator software designed for eCommerce sellers—automate, manage, and scale your shipping operations effortlessly." />
+<meta name="title" content="Features- Courier Aggregator Software for eCommerce Shipping" />
+<meta name="description" content="Discover next-gen features of our courier aggregator software designed for eCommerce sellers—automate, manage, and scale your shipping operations effortlessly." />
 <link rel="canonical" href="https://www.rapidshyp.com/features" />
-<title>RapidShyp Features - eCommerce Shipping Solution and Courier Aggregator</title>
+<title>Features- Courier Aggregator Software for eCommerce Shipping</title>
 
 </head>
 
