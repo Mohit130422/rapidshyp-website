@@ -62,7 +62,9 @@ function isExternalReferrer(referrer) {
 }
 
 function storeLandingPage() {
+    // const currentUrl = window.location.href;
     const currentUrl = window.top.location.href;
+    console.log("landingpage"+currentUrl);
 
     // First, collect UTM parameters before cleaning the URL
     storeUtmParams();
@@ -75,7 +77,9 @@ function storeLandingPage() {
 }
 
 function storeLastVisitedPage() {
+    // const currentUrl = window.location.href;
     const currentUrl = window.top.location.href;
+    console.log("last page"+currentUrl);
 
     // First, collect UTM parameters before cleaning the URL
     storeUtmParams();
@@ -88,7 +92,7 @@ function storeLastVisitedPage() {
 // Function to store UTM parameters in cookies
 function storeUtmParams() {
     const params = getUrlParams();
-    const utmParams = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "matchtype", "device"];
+    const utmParams = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "device"];
 
     const firstUtm = {};
     let latestUtm = {};

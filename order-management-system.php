@@ -18,7 +18,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h2 class="head-title"> Simplified Order <br> Management System</h2>
+                            <h1 class="head-title"> Simplified Order <br> Management System</h2>
                             <p class="sub-title">Sync orders coming from multiple eCommerce sales channels to process and ship them from a single place.</p>
                             <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>

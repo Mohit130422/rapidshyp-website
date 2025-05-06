@@ -13,12 +13,33 @@ RewriteCond %{HTTP_HOST} ^www\.rapidshyp\.in$
 RewriteRule ^/?$ "https\:\/\/www\.rapidshyp\.com\/" [R=301,L]
 
 RewriteRule ^channel-integrations/shopify/?$ shopify.php [L]
+RewriteRule ^channel-integrations/unicommerce/?$ unicommerce.php [L]
 RewriteRule ^courier-integrations/india-post/?$ india-post.php [L]
+RewriteRule ^courier-integrations/delhivery/?$ delhivery.php [L]
+RewriteRule ^courier-integrations/dtdc/?$ dtdc.php [L]
+RewriteRule ^courier-integrations/bluedart/?$ bluedart.php [L]
+RewriteRule ^courier-integrations/shadowfax/?$ shadowfax.php [L]
+RewriteRule ^courier-integrations/ecom-express/?$ ecom-express.php [L]
+RewriteRule ^courier-integrations/xpressbees/?$ xpressbees.php [L]
+RewriteRule ^courier-integrations/ekart/?$ ekart.php [L]
+
+RewriteRule ^shopify$ /channel-integrations/shopify [R=301,L]
+RewriteRule ^unicommerce$ /channel-integrations/unicommerce [R=301,L]
+RewriteRule ^india-post$ /courier-integrations/india-post [R=301,L]
+RewriteRule ^delhivery$ /courier-integrations/delhivery [R=301,L]
+RewriteRule ^dtdc$ /courier-integrations/dtdc [R=301,L]
+RewriteRule ^bluedart$ /courier-integrations/bluedart [R=301,L]
+RewriteRule ^shadowfax$ /courier-integrations/shadowfax [R=301,L]
+RewriteRule ^ecom-express$ /courier-integrations/ecom-express [R=301,L]
+RewriteRule ^xpressbees$ /courier-integrations/xpressbees [R=301,L]
+RewriteRule ^ekart$ /courier-integrations/ekart [R=301,L]
 
 # Disable directory listing
 Options -Indexes
 RewriteCond %{HTTP_HOST} ^rapidshyp\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.rapidshyp\.com$
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
 RewriteRule ^shipping\.html$ "https://www.rapidshyp.com/shipping-return-policy" [R=301,L]
 RewriteRule ^privacy\.html$ "https://www.rapidshyp.com/privacy" [R=301,L]
 RewriteRule ^shipping-return-policy\.html$ "https://www.rapidshyp.com/shipping-return-policy" [R=301,L]
@@ -35,9 +56,11 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
 ErrorDocument 404 /404.php
+ErrorDocument 500 /404.php
 
 RewriteEngine On
 RewriteRule ^shipping-rates-from-([a-zA-Z]+)-to-([a-zA-Z]+)/?$ shipping.php?from=$1&to=$2 [L]
+# RewriteRule ^sitemap.xml sitemap.php [L]
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php81” package as the default “PHP” programming language.

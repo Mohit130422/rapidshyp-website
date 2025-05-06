@@ -19,7 +19,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
                             <button class="solid-action-btn" style="border-radius: 8px;"><mark>SmartSelect</mark></button>
-                            <h2 class="head-title mt-4"> AI-assisted <br> Courier Selection</h2>
+                            <h1 class="head-title mt-4"> AI-assisted <br> Courier Selection</h2>
                             <p class="sub-title">Maximise your delivery performance by selecting recommended couriers for your shipments, based on your preferences.</p>
                             <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>

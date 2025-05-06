@@ -10,7 +10,7 @@ if ($con->connect_error) {
     exit;
 }
 
-$courier_code=['EK'=>'Ekart','ECOM'=>'Ecom Express','XB'=>'Xpressbees','DLV'=>'Delhivery','DTDC'=>'DTDC','AMZ'=>'Amazon','SFX'=>'Shadowfax','BD'=>'Bluedart'];
+$courier_code=['SM'=>'Shree Maruti', 'EK'=>'Ekart','ECOM'=>'Ecom Express','XB'=>'Xpressbees','DLV'=>'Delhivery','DTDC'=>'DTDC','AMZ'=>'Amazon','SFX'=>'Shadowfax','BD'=>'Bluedart'];
 
 
 if(!isset($_POST['csrf']) || $_POST['csrf']!=$_SESSION['csrf'])
@@ -18,10 +18,11 @@ if(!isset($_POST['csrf']) || $_POST['csrf']!=$_SESSION['csrf'])
     header("HTTP/1.0 404 Not Found");
 }
 
-$pickup_pincode = $_POST['pickup-pincode'];
-$delivery_pincode = $_POST['delivery-pincode'];
+$pickup_pincode = filter_input(INPUT_POST, 'pickup-pincode', FILTER_SANITIZE_NUMBER_INT);
+$delivery_pincode = filter_input(INPUT_POST, 'delivery-pincode', FILTER_SANITIZE_NUMBER_INT);
+
 if(isset($_POST['courier']))
-    $courierquery=" AND parent_code='".$_POST['courier']."'";
+    $courierquery=" AND parent_code='".filter_input(INPUT_POST, 'courier', FILTER_SANITIZE_FULL_SPECIAL_CHARS)."'";
 else
     $courierquery="";
 $dead_weight = $_POST['weight'];
@@ -126,7 +127,7 @@ $fwd='zone'.$zone;
 $add='add'.$zone;
 
 //fetch rates
-$query=mysqli_query($con,"select parent_code,mode,$fwd,$add, cod, codper from ratecard where min_weight='{$min_weight}' AND published_on_website=1 AND rate_type='Normal' {$courierquery} ");
+$query=mysqli_query($con,"select parent_code,mode,$fwd,$add, cod, codper from websiteratecard where min_weight='{$min_weight}' {$courierquery} ");
 if (mysqli_num_rows($query) == 0) {
     http_response_code(400);
     echo json_encode(['result' => 'error', 'message' => 'Serviceable courier(s) not found']);
@@ -149,7 +150,7 @@ while($data=mysqli_fetch_array($query))
 	$result[$i]['fr_prepaid']=$result[$i]['fwd']+$add_weight*$result[$i]['add'];
 	$result[$i]['fr_cod']=max($result[$i]['cod'],($order_value*$result[$i]['codper'])/100);
 	$freight=($mode=="prepaid"?	$result[$i]['fr_prepaid']:	$result[$i]['fr_prepaid']+$result[$i]['fr_cod']);
-	$result[$i]['total_freight']='₹'.number_format((float)($freight*1.25), 2, '.', '');
+	$result[$i]['total_freight']='₹'.number_format((float)($freight), 2, '.', '');
 
 }
 

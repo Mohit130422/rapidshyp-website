@@ -18,7 +18,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h2 class="head-title mt-4"> Next-day Delivery <br> Made Easy</h2>
+                            <h1 class="head-title mt-4"> Next-day Delivery <br> Made Easy</h2>
                             <p class="sub-title">Race past logistics hurdles to deliver the speed your online customers expect, winning their trust and loyalty.</p>
                             <div class="d-block mb-5"><button class="solid-action-btn" style="border-radius: 8px; background-color: #ffffff20; color: #ffffff; box-shadow: none;">Starts at <mark class="ndd-mark">₹17.25/500gm</mark> only</button></div>
                             <div class="d-block">

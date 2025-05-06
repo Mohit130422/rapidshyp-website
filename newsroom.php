@@ -1,10 +1,9 @@
 <?php include 'header-section.php';?>
-<meta property="og:title" content="Newsroom- eCommerce Shipping Solution and Courier Aggregator" />
-<meta property="og:description" content="Explore the latest news features, media mentions, and press releases about RapidShyp — a leading courier aggregator and eCommerce shipping solution in India." />
-<meta name="title" content="Newsroom- eCommerce Shipping Solution and Courier Aggregator" />
-<meta name="description" content="Explore the latest news features, media mentions, and press releases about RapidShyp — a leading courier aggregator and eCommerce shipping solution in India." />
+
+<meta property="og:title" content="RapidShyp Newsroom - eCommerce Shipping Solution and Courier Aggregator" />
+<meta name="title" content="Newsroom - RapidShyp" />
 <link rel="canonical" href="https://www.rapidshyp.com/newsroom" />
-<title>Newsroom- eCommerce Shipping Solution and Courier Aggregator</title>
+<title>Newsroom - eCommerce Shipping Solution and Courier Aggregator</title>
 
 </head>
 

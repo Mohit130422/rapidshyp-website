@@ -57,5 +57,4 @@ $(document).ready(function () {
             scrollTop: $("#rateResult").offset().top
         }, 100);
     });
-    
 });

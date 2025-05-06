@@ -17,7 +17,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-7 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h2 class="head-title"> 100% Automated Shopify Shipping Solution</h2>
+                            <h1 class="head-title"> 100% Automated Shopify Shipping Solution</h2>
                             <p class="sub-title">Integrate your Shopify store with a single click and let our platform handle the shipping for you.</p>
                             <button type="submit" class="solid-action-btn" onclick="window.open('https://apps.shopify.com/rapidshyp');">Install Shopify App</button>
                             <button type="submit" class="solid-action-btn outline-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Sign up for FREE</button>

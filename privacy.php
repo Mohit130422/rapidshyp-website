@@ -14,7 +14,7 @@
         <div class="container">
             <div class="mb-4">
                 <h1>Privacy Policy for RapidShyp</h1>
-                <p><strong>Last Updated:</strong>21 November 2024</p>
+                <p><strong>Last Updated:</strong>13 January 2025</p>
             </div>
             <div class="mb-4">
                 <p>Open Source Business Solutions Private Limited (<b>“We”</b> or <b>“Our”</b> or <b>“Us”</b> or
@@ -189,7 +189,7 @@
                         quasi-judicial authority;</li>
                     <li>To protect and defend the rights or property of the Company;</li>
                     <li>To fight fraud and credit risk;</li>
-                    <li>d.	Prevent or investigate possible wrongdoing in connection with the Service</li>
+                    <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
                     <li>To enforce the Company's Terms of Use (to which this Privacy Policy is also a part); or</li>
                     <li>When the Company, in its sole discretion, deems it necessary in order to protect its rights or
                         the rights of others.</li>
@@ -263,6 +263,8 @@
                         style="text-decoration:underline; font-weight:700;">Grievance@rapidshyp.com</a> and communicate
                     the change(s) for updating the Company's records.</p>
                 <p class="mb-3">You hereby acknowledge that the Company is not responsible for any information sent via the internet that has been intercepted beyond Our control after having adopted reasonable security practices and procedures, and You hereby release Us from any and all claims arising out of or related to the use of intercepted information in any unauthorized manner.</p>
+                <p class="mb-3">RapidShyp complies with data protection laws and Amazon's Acceptable Use Policy, ensuring secure API data handling monitoring and role-based access. Data is used solely for its intended purpose, retained only as needed, and securely disposed of per Amazon’s policies. Any unauthorized access is promptly reported, with all usage adhering to Amazon’s guidelines.</p>
+                <p class="mb-3">You hereby acknowledge that the Company is not responsible for any information sent via the internet that has been intercepted beyond Our control after having adopted reasonable security practices and procedures, and You hereby release Us from any and all claims arising out of or related to the use of intercepted information in any unauthorized manner.</p>
                 <p class="mb-3">In case the User does not provide his/her information or consent for usage of Personal
                     Information or subsequently withdraws his/her consent for usage of the Personal Information so
                     collected, the Company reserves the right to discontinue, in part or full, the Services/associated
@@ -322,14 +324,15 @@
                 <h2>Complaints and Grievance Redressal:</h2>
                 <p class="mb-3">Any complaints, abuse or concerns with regards to content or comment or breach of these
                     terms/Privacy Policy may be informed to the designated Grievance Officer as mentioned below in
-                    writing or through email:</p>
+                    writing or through email: <a href="mailto:grievanceofficer@rapidshyp.com"
+                    style="text-decoration:underline; font-weight:700;">grievance@rapidshyp.com</a></p>
                 <p>Mr. Charu Datta Patil</p>
                 <p>Open Source Business Solutions Pvt Ltd,</p>
                 <p>3rd Floor, Unitech Trade Centre, Sector 43, </p>
                 <p>Sushant Lok Phase 1,</p>
                 <p>Gurugram, Haryana-122002</p>
-                <a href="mailto:grievanceofficer@rapidshyp.com"
-                    style="text-decoration:underline; font-weight:700;">grievance@rapidshyp.com</a>
+                <a href="mailto:charudatta.patil@rapidshyp.com"
+                    style="text-decoration:underline; font-weight:700;">charudatta.patil@rapidshyp.com</a>
             </div>
         </div>
     </section>

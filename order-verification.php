@@ -18,7 +18,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h2 class="head-title"> Proactive Order <br> Verification Tool</h2>
+                            <h1 class="head-title"> Proactive Order <br> Verification Tool</h2>
                             <p class="sub-title">Trigger automated WhatsApp notifications to verify COD orders and addresses, preventing unexpected delivery failures.</p>
                             <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
