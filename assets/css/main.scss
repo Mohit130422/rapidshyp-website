@@ -6157,7 +6157,7 @@ section{
     background: #F7BEDB!important;
 }
 
-.xpbees{
+.xpbees,.ekart{
     border-radius: 0 0 24px 24px;
 }
 
@@ -6183,6 +6183,30 @@ section{
 
 .xpbees-light-bg{  
     background: #FFDAB9!important;
+}
+
+.ekart-bg{
+    background: linear-gradient(90deg, #006CB4 50%, #B658E8 100%) !important;
+}
+
+.ekart-mark{
+    mark{
+        padding: 0;
+        background: #006CB4;
+        background: linear-gradient(45deg, #006CB4 0%, #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .content{
+        .heading{
+            font-size: 32px;
+        }
+    }
+}
+
+.ekart-light-bg{  
+    background: #BEE5FF!important;
 }
 
 .retail-lp-hero{
