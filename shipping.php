@@ -39,7 +39,7 @@ echo "<script>
 <meta property="og:title" content="Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp" />
 <meta name="title" content="Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp" />
 <meta name="description" content="Looking for the shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?>? Use our shipping rate calculator to get courier charges instantly.">
-<link rel="canonical" href="https://www.rapidshyp.com/Shipping Rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?>" />
+<link rel="canonical" href="https://www.rapidshyp.com/shipping-rates-from-<?php echo htmlspecialchars($fromCity); ?>-to-<?php echo htmlspecialchars($toCity);?>" />
 <title>Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp</title>
 
 </head>
