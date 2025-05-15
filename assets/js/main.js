@@ -546,11 +546,11 @@ $(document).ready(function () {
     $('.form-container').show();
     $('.track-container').hide();
 
-    $('.nav-link').on('click', function (e) {
+    $('.lp-nav-link').on('click', function (e) {
         e.preventDefault(); // prevent default anchor behavior
 
         // Remove active class from all tabs and add to the clicked one
-        $('.nav-link').removeClass('active');
+        $('.lp-nav-link').removeClass('active');
         $(this).addClass('active');
 
         // Get target tab ID from href attribute

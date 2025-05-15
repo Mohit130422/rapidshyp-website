@@ -38,7 +38,7 @@ include 'header-section-v2.php'; ?>
                 <div class="col-lg-5 col-md-7 col-sm-12 signup-form">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link d-flex active" data-toggle="tab" href="#tabs-1" role="tab" aria-selected="true">
+                            <a class="nav-link lp-nav-link d-flex active" data-toggle="tab" href="#tabs-1" role="tab" aria-selected="true">
                                 <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/seller-icon.png">
                                 <div class="tab_tittle">
                                     <h6>For Sellers </h6>
@@ -47,7 +47,7 @@ include 'header-section-v2.php'; ?>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link d-flex" data-toggle="tab" href="#tabs-2" role="tab" aria-selected="false">
+                            <a class="nav-link lp-nav-link d-flex" data-toggle="tab" href="#tabs-2" role="tab" aria-selected="false">
                                 <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/buyer-icon.png">
                                 <div class="tab_tittle">
                                     <h6>For Buyers</h6>
