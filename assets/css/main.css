@@ -1529,7 +1529,228 @@ section {
   width: 100%;
 }
 .signup-section .signup-form {
-  padding: 0 3rem;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.signup-section .signup-form .nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.signup-section .signup-form .nav li {
+  width: 50%;
+}
+.signup-section .signup-form .nav li .nav-link {
+  padding: 22px;
+  gap: 15px;
+  align-items: center;
+  border: none;
+  text-decoration: none;
+}
+.signup-section .signup-form .nav li .nav-link img {
+  width: 40px;
+  height: 40px;
+}
+.signup-section .signup-form .nav li .nav-link .tab_tittle {
+  line-height: 15px;
+}
+.signup-section .signup-form .nav li .nav-link .tab_tittle h6 {
+  font-weight: 1rem;
+  font-weight: 600;
+  color: #000000;
+}
+.signup-section .signup-form .nav li .nav-link:hover {
+  color: #000000;
+}
+.signup-section .signup-form .nav li .active {
+  background: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom: 3px solid #3E1A51;
+}
+.signup-section .signup-form .form-container, .signup-section .signup-form .track-container {
+  padding: 2rem;
+}
+.signup-section .signup-form .track-container {
+  text-align: center;
+}
+.signup-section .signup-form .track-container .form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-section .signup-form .track-container .form-group .title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.signup-section .signup-form .track-container .form-group .radio {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 16px;
+}
+.signup-section .signup-form .track-container .form-group .radio input[type=radio] {
+  display: none;
+}
+.signup-section .signup-form .track-container .form-group .radio .radio-input:checked + .radio-outline {
+  background-color: #3E1A51;
+}
+.signup-section .signup-form .track-container .form-group .radio .radio-input:checked + .radio-outline::after {
+  transform: scale(1);
+}
+.signup-section .signup-form .track-container .form-group .radio .radio-outline {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.3019607843);
+  border-radius: 50px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  padding: 4px;
+}
+.signup-section .signup-form .track-container .form-group .radio .radio-outline::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #fff;
+  border-radius: 50px;
+  transform: scale(0);
+  transition: 0.15s;
+}
+.signup-section .signup-form .track-container #orderInput label, .signup-section .signup-form .track-container #awbInput label {
+  text-align: left;
+  margin-bottom: 12px;
+  display: block;
+}
+.signup-section .signup-form .track-container #orderInput label span, .signup-section .signup-form .track-container #awbInput label span {
+  color: red;
+}
+.signup-section .signup-form .track-container input {
+  padding: 0.5rem 0.75rem;
+  color: #949494;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+}
+.signup-section .signup-form .track-container input::-moz-placeholder {
+  color: #C5C5C5;
+}
+.signup-section .signup-form .track-container input::placeholder {
+  color: #C5C5C5;
+}
+.signup-section .signup-form .track-container input:focus-visible {
+  outline-color: #cdcdcd;
+}
+.signup-section .signup-form .track-container .solid-action-btn {
+  width: 100%;
+  padding: 0.75rem 0;
+  margin: 0;
+  border-radius: 15px;
+}
+.signup-section .signup-form .track-container .solid-action-btn:hover {
+  color: #fff;
+}
+.signup-section .signup-form .track-container .ship-loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+.signup-section .signup-form .track-container .ship-loading::before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: loading 1s linear infinite;
+}
+.signup-section .signup-form .track-container #responseMessage {
+  color: #ed3c0d;
+  text-align: center;
+  font-weight: 600;
+}
+.signup-section .signup-form .track-container .tracking-table {
+  margin-top: 20px;
+}
+.signup-section .signup-form .track-container .tracking-table .order-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.signup-section .signup-form .track-container .tracking-table .order-info p {
+  font-weight: 500;
+}
+.signup-section .signup-form .track-container .tracking-table .order-info p span {
+  font-weight: 700;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive {
+  background-color: #fff;
+  border: 1px solid #D9D9D9;
+  border-radius: 15px;
+  padding: 16px;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table .br-1 {
+  border-radius: 10px 0 0 10px;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table .br-2 {
+  border-radius: 0 10px 10px 0;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table thead {
+  border-radius: 15px;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table thead th {
+  padding: 8px;
+  background-color: #eee;
+  border: none;
+  font-size: 14px;
+  width: 15%;
+  text-align: left;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td {
+  text-align: left;
+  font-size: 14px;
+  vertical-align: middle;
+  text-transform: capitalize;
+  padding: 8px;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td button {
+  margin: 0;
+  width: 100%;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 14px;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td button i {
+  margin-left: 5px;
+  rotate: 45deg;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td img {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td .delivered, .signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td .cancel, .signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td .intransit, .signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td .label {
+  padding: 6px !important;
+  font-size: 10px !important;
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td .tooltip .tooltip-inner {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.signup-section .signup-form .track-container .tracking-table .table-responsive table tbody td .tooltip .arrow::before {
+  border-color: white;
 }
 .signup-section .signup-form h3 {
   font-weight: 800;
@@ -1539,11 +1760,6 @@ section {
 .signup-section .signup-form p {
   font-weight: 500;
   font-size: 14px;
-}
-.signup-section .signup-form .form-container {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 20px;
 }
 .signup-section .signup-form .body {
   margin: 2rem 0;
@@ -1619,16 +1835,34 @@ section {
 }
 @media (max-width: 991px) {
   .signup-section .signup-form {
+    margin-top: 20px;
     padding: 0;
   }
+  .signup-section .signup-form .nav {
+    display: flex !important;
+  }
+  .signup-section .signup-form .nav li .nav-link {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) and (max-width: 991px) {
+  .signup-section .signup-form .track-container .order-info {
+    display: block !important;
+  }
+  .signup-section .signup-form .track-container table {
+    width: 530px;
+  }
+  .signup-section .signup-form .track-container table th, .signup-section .signup-form .track-container table td {
+    white-space: nowrap;
+  }
+}
+@media (max-width: 991px) {
   .signup-section ul {
     display: block !important;
   }
 }
 @media (max-width: 576px) {
-  .signup-section {
-    padding: 2rem 1rem;
-  }
   .signup-section .content .heading, .signup-section .body .heading {
     font-size: 20px !important;
   }
@@ -1639,7 +1873,7 @@ section {
     display: none;
   }
   .signup-section .signup-form {
-    padding: 2rem 0;
+    padding: 0 0 2rem;
   }
   .signup-section .signup-form h3 {
     font-size: 20px;
