@@ -1,11 +1,11 @@
 <?php include 'header-section.php';?>
 
-<meta property="og:title" content="Order Management System for eCommerce- RapidShyp" />
-<meta property="og:description" content="Use our automated order management system to quickly process orders coming from multiple channels such as Shopify, Amazon, and WooCommerce." />
-<meta name="title" content="Order Management System for eCommerce- RapidShyp" />
-<meta name="description" content="Use our automated order management system to quickly process orders coming from multiple channels such as Shopify, Amazon, and WooCommerce."/>
+<meta property="og:title" content="Order Management System for eCommerce - RapidShyp" />
+<meta property="og:description" content="Simplify your order processing with an intuitive order management system. Track, manage, and fulfill orders seamlessly for a smooth eCommerce experience." />
+<meta name="title" content="Order Management System for eCommerce - RapidShyp" />
+<meta name="description" content="Simplify your order processing with an intuitive order management system. Track, manage, and fulfill orders seamlessly for a smooth eCommerce experience."/>
 <link rel="canonical" href="https://www.rapidshyp.com/order-management-system" />
-<title>Order Management System for eCommerce- RapidShyp</title>
+<title>Order Management System for eCommerce - RapidShyp</title>
 
 </head>
 

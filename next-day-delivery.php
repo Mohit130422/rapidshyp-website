@@ -1,11 +1,11 @@
 <?php include 'header-section.php';?>
 
-<meta property="og:title" content="Next-day Delivery Service for eCommerce in India- RapidShyp" />
-<meta property="og:description" content="Offer next-day delivery using our shipping platform and transform your eCommerce store’s sales potential and customer experience." />
-<meta name="title" content="Next-day Delivery Service for eCommerce in India- RapidShyp" />
-<meta name="description" content="Offer next-day delivery using our shipping platform and transform your eCommerce store’s sales potential and customer experience."/>
+<meta property="og:title" content="Next-day Delivery Service for eCommerce in India - RapidShyp" />
+<meta property="og:description" content="Offer fast next-day delivery to your customers across India. Boost sales and customer satisfaction with reliable, affordable express shipping for eCommerce." />
+<meta name="title" content="Next-day Delivery Service for eCommerce in India - RapidShyp" />
+<meta name="description" content="Offer fast next-day delivery to your customers across India. Boost sales and customer satisfaction with reliable, affordable express shipping for eCommerce."/>
 <link rel="canonical" href="https://www.rapidshyp.com/next-day-delivery" />
-<title>Next-day Delivery Service for eCommerce in India- RapidShyp</title>
+<title>Next-day Delivery Service for eCommerce in India - RapidShyp</title>
 
 </head>
 

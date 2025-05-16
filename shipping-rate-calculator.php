@@ -4,12 +4,12 @@ $rand=mt_rand(11111111,99999999);
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
 <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-rate-og.jpg">
-<meta property="og:title" content="Shipping Rate Calculator- Compare Courier Charges Instantly" />
-<meta property="og:description" content="Use our shipping rate calculator to compare courier charges instantly. Find the most cost-effective option for your eCommerce orders across India today." />
-<meta name="title" content="Shipping Rate Calculator- Compare Courier Charges Instantly" />
-<meta name="description" content="Use our shipping rate calculator to compare courier charges instantly. Find the most cost-effective option for your eCommerce orders across India today." />
+<meta property="og:title" content="Shipping Rates Calculator | Calculate Courier Charges - RapidShyp" />
+<meta property="og:description" content="Calculate estimated courier costs for your parcels. Get shipping charges per Kg for all professional couriers of your choice using our shipping rate calculator" />
+<meta name="title" content="Shipping Rates Calculator | Calculate Courier Charges - RapidShyp" />
+<meta name="description" content="Calculate estimated courier costs for your parcels. Get shipping charges per Kg for all professional couriers of your choice using our shipping rate calculator" />
 <link rel="canonical" href="https://www.rapidshyp.com/shipping-rate-calculator" />
-<title>Shipping Rate Calculator- Compare Courier Charges Instantly</title>
+<title>Shipping Rates Calculator | Calculate Courier Charges - RapidShyp</title>
 
 </head>
 

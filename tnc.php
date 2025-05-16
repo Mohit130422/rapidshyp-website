@@ -1,9 +1,9 @@
 <?php include 'header-section.php';?>
-<meta property="og:title" content="Terms and Conditions- eCommerce Shipping Solutions" />
-<meta property="og:description" content="Review the terms and conditions for using RapidShyp’s trusted eCommerce shipping platform, built to simplify logistics with multiple courier integrations." />
-<meta property="title" content="Terms and Conditions- eCommerce Shipping Solutions" />
-<meta property="description" content="Review the terms and conditions for using RapidShyp’s trusted eCommerce shipping platform, built to simplify logistics with multiple courier integrations." />
-<title>Terms and Conditions- eCommerce Shipping Solutions</title>
+<meta property="og:title" content="Merchant Agreement, Terms and Conditions - RapidShyp" />
+<meta property="og:description" content="Review RapidShyp’s Merchant Agreement and Terms to understand our policies, responsibilities, and the terms of service for using our eCommerce solutions." />
+<meta property="title" content="Merchant Agreement, Terms and Conditions - RapidShyp" />
+<meta property="description" content="Review RapidShyp’s Merchant Agreement and Terms to understand our policies, responsibilities, and the terms of service for using our eCommerce solutions." />
+<title>Merchant Agreement, Terms and Conditions - RapidShyp</title>
 
 <link rel="canonical" href="https://www.rapidshyp.com/tnc" />
 </head>

@@ -1,10 +1,10 @@
 <?php include 'header-section.php';?>
-<meta property="og:title" content="Privacy Policy- Trusted Logistics Aggregator for eCommerce" />
-<meta property="og:description" content="Read how RapidShyp protects your data while providing trusted logistics aggregator services for eCommerce brands across India with full data security." />
-<meta name="title" content="Privacy Policy- Trusted Logistics Aggregator for eCommerce" />
-<meta name="description" content="Read how RapidShyp protects your data while providing trusted logistics aggregator services for eCommerce brands across India with full data security." />
+<meta property="og:title" content="Privacy Policy | Courier Aggregator in India - RapidShyp" />
+<meta property="og:description" content="Learn how RapidShyp protects your data. Read our privacy policy to understand how we collect, use, and safeguard your information while using our platform." />
+<meta name="title" content="Privacy Policy | Courier Aggregator in India - RapidShyp" />
+<meta name="description" content="Learn how RapidShyp protects your data. Read our privacy policy to understand how we collect, use, and safeguard your information while using our platform." />
 <link rel="canonical" href="https://www.rapidshyp.com/privacy" />
-<title>Privacy Policy- Trusted Logistics Aggregator for eCommerce</title>
+<title>Privacy Policy | Courier Aggregator in India - RapidShyp</title>
 
 <title>Privacy Policy - RapidShyp</title>
 </head>

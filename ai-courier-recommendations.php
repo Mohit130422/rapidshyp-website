@@ -1,9 +1,9 @@
 <?php include 'header-section.php';?>
 
 <meta property="og:title" content="AI-backed Courier Recommendations for Shipping- RapidShyp" />
-<meta property="og:description" content="Let SmartSelect recommend the best couriers for your eCommerce shipments. Save time, cut costs, and boost delivery performance." />
+<meta property="og:description" content="Get smart courier suggestions using AI to choose the best shipping partner based on cost, speed, and reliability—boosting delivery performance and savings." />
 <meta name="title" content="AI-backed Courier Recommendations for Shipping- RapidShyp" />
-<meta name="description" content="Let SmartSelect recommend the best couriers for your eCommerce shipments. Save time, cut costs, and boost delivery performance."/>
+<meta name="description" content="Get smart courier suggestions using AI to choose the best shipping partner based on cost, speed, and reliability—boosting delivery performance and savings."/>
 <link rel="canonical" href="https://www.rapidshyp.com/ai-courier-recommendations" />
 <title>AI-backed Courier Recommendations for Shipping- RapidShyp</title>
 

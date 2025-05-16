@@ -1,9 +1,9 @@
 <?php include 'header-section.php';?>
 
 <meta property="og:title" content="COD Order Verification and Address Update on WhatsApp - RapidShyp" />
-<meta property="og:description" content="Tired of calling customers manually for confirmation after every COD order? RapidShyp's order verification tool automates it all, reducing your RTO significantly." />
+<meta property="og:description" content="Verify COD orders and update addresses via WhatsApp to reduce RTOs, improve delivery success, and enhance the shopping experience for your eCommerce customers." />
 <meta name="title" content="COD Order Verification and Address Update on WhatsApp - RapidShyp" />
-<meta name="description" content="Tired of calling customers manually for confirmation after every COD order? RapidShyp's order verification tool automates it all, reducing your RTO significantly."/>
+<meta name="description" content="Verify COD orders and update addresses via WhatsApp to reduce RTOs, improve delivery success, and enhance the shopping experience for your eCommerce customers."/>
 <link rel="canonical" href="https://www.rapidshyp.com/order-verification" />
 <title>COD Order Verification and Address Update on WhatsApp - RapidShyp</title>
 
