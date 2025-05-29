@@ -6,7 +6,7 @@
         <span onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i class="fas fa-chevron-right"></i></span>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
                 <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -34,6 +34,19 @@
                                     </li>
                                     <li>
                                         <a class="nav-link" href="volumetric-weight-calculator">Volumetric Weight Calculator</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <p class="nav-link" id="integrations">Integrations <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
+                            <div class="hover-menu" id="integration-menu">
+                                <ul>
+                                    <li>
+                                        <a class="nav-link" href="channel-integrations">Channel Integrations</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="courier-integrations">Courier Integrations</a>
                                     </li>
                                 </ul>
                             </div>

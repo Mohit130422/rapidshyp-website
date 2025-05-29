@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <base href="https://www.rapidshyp.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Tracking and Analytics -->
     <meta name="msvalidate.01" content="0EEEAB0A6F290CF1DFC746D92732C29B" />
@@ -16,7 +15,7 @@
         sizes="32x32" />
     <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png"
         sizes="192x192" />
-    <!-- <link rel="stylesheet" href="node_modules/fontawesome/css/all.min.css"> -->
+    <link rel="stylesheet" href="node_modules/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
     <link rel="stylesheet" href="node_modules/owl.theme.default.min.css">
@@ -41,7 +40,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.3.14">
+    <link rel="stylesheet" href="assets/css/main.css?v=0.3.15">
 
     <!-- Start of Tawk.to Script -->
     <!-- <script type="text/javascript">
@@ -138,7 +137,7 @@
     <!-- End Event snippet for Submit lead form conversion page-->
     
     <!-- start Event One Signal installation code for push notifications-->
-    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <!-- <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
     <script>
       window.OneSignalDeferred = window.OneSignalDeferred || [];
       OneSignalDeferred.push(async function(OneSignal) {
@@ -147,5 +146,5 @@
           safari_web_id: "web.onesignal.auto.1afe2633-50cf-455e-8f3e-a50d8cbe1d12",
         });
       });
-    </script>
+    </script> -->
     <!-- End Event One Signal installation code for push notifications-->

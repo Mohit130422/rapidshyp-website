@@ -18,7 +18,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h2 class="head-title"> 5+ eCommerce <br> Channels Integrated <br> Effortlessly</h2>
+                            <h1 class="head-title"> 5+ eCommerce <br> Channels Integrated <br> Effortlessly</h1>
                             <p class="sub-title">Sync, ship, and track orders flowing from everywhere in one place— no more hopping between platforms.</p>
                             <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                         </div>
@@ -96,7 +96,7 @@
                             </ul>
                         </div>
                         <div class="footer">
-                            <a href="javascript:void(0)" class="btn btn-custom">Learn More</a>
+                            <a href="woocommerce" class="btn btn-custom">Learn More</a>
                         </div>
                     </div>
                 </div>

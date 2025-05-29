@@ -21,6 +21,17 @@ $vinculum-color: #464D81;
 $magento-color: #F26424;
 $amazon-color: #06A7E2;
 $clickpost-color: #007AFF;
+$bluedart-color: #0075BA;
+$dtdc-color: #0E2C53;
+$shadowfax-color: #DA433E;
+$indiapost-color: #B02925;
+$ecomexp-color: #E10F76;
+$xbees-color: #F58220;
+$ekart-color: #0766AB;
+$pikndel-color: #0F3886;
+$amazon-color: #06A7E2;
+$shrimaruti-color: #EC1C24;
+$velex-color: #EF7B1B;
 
 html{
     scroll-behavior: smooth;
@@ -650,11 +661,8 @@ header{
         top: 0;
         z-index: 10;
         padding: 10px 40px;
-        .container-fluid{
+        .container{
             padding: 0;
-            .navbar-brand{
-                margin: 0 5rem;
-            }
             .navbar-toggler{
                 border: none;
                 .navbar-toggler-icon{
@@ -677,7 +685,7 @@ header{
                     .nav-link{
                         color: $text-dark;
                         font-weight: 500;
-                        padding: 0 1.5rem;
+                        padding: 0 1.25rem;
                         cursor: pointer;
                         &::after{
                             display: none;
@@ -687,8 +695,12 @@ header{
                         }
                     }
                     .hover-menu{
-                        display: none;
+                        opacity: 0;
+                        visibility: hidden;
+                        transform: translateY(10px);
+                        transition: opacity 0.3s ease, transform 0.3s ease;
                         position: absolute;
+                        z-index: 1000;
                         background-color: $light-color;
                         left: 0;
                         right: 0;
@@ -707,8 +719,12 @@ header{
                             &:hover{
                                 background-color: $bg-shade1;
                             }
-                        }
-                        
+                        }                        
+                    }
+                    .show{
+                        opacity: 1;
+                        visibility: visible;
+                        transform: translateY(0);
                     }
                 }
             }
@@ -3854,6 +3870,11 @@ section{
             }
         }
     }
+    @media(max-width: 1268px){
+        .accordion{
+            min-width: 100%;
+        }
+    }
 }
 
 .track-faq{
@@ -4930,6 +4951,7 @@ section{
                             background: none;
                             border: none;
                             position: relative;
+                            padding: 0 .75rem;
                             &:hover{
                                 .tooltip{
                                     visibility: visible;
@@ -5395,25 +5417,30 @@ section{
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        position: relative;
+        background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 5px, transparent 5px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 5px, transparent 5px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 5px, transparent 5px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 5px, transparent 5px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 6px) no-repeat,
+            linear-gradient(90deg, #B658E8 0%, #FFC127 100%);
+        border-radius: 8px;
+        padding: 7px;
+        box-sizing: border-box;
         &::before{
-            content: "";
-            position: absolute;
-            inset: 0;
-            border-radius: 10px; 
-            padding: 2px; 
-            background:linear-gradient(to right, #B658E8 0%, #FFC127 100%); 
-            mask: 
-              linear-gradient(#000 0 0) content-box, 
-              linear-gradient(#000 0 0);
-            mask-composite: exclude;
+            position: relative;
+            background: none;
+            -webkit-mask: unset;
+            mask: unset;
+            -webkit-mask-composite: xor;
+            mask-composite: unset;
         }
-        .content{
+         .content{
             padding: 2rem 4rem;
             h3{
                 font-weight: 700;
             }
-        }        
+        }
         .form-input{
             padding: 2rem 2rem 0;
             background-color: #FFF5D9;
@@ -5445,7 +5472,7 @@ section{
                 text-align: center;
             }
             .form-input{
-                width: 100%;
+                width: 100% !important;
                 margin: 0;
             }
         }
@@ -5638,7 +5665,7 @@ section{
     }
 }
 
-.rsChannels{
+.rsChannels, .rscouriers{
     background-color: #F7F7F7;
     padding: 50px 0 70px;
     .card {
@@ -5794,6 +5821,172 @@ section{
         }
     }
 
+}
+
+.rscouriers{
+    .card{
+        .head{
+            img{
+                width: 180px;
+            }
+        }
+    }
+    .delhivery-card{
+        box-shadow: 0px 8px 0px $text-dark;
+        .footer{
+            .btn-custom{
+                border: 1px solid $text-dark;
+                color: $text-dark;
+                &:hover {
+                    background-color: $text-dark;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .bluedart-card{
+        box-shadow: 0px 8px 0px $bluedart-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $bluedart-color;
+                color: $bluedart-color;
+                &:hover {
+                    background-color: $bluedart-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .dtdc-card{
+        box-shadow: 0px 8px 0px $dtdc-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $dtdc-color;
+                color: $dtdc-color;
+                &:hover {
+                    background-color: $dtdc-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .shadowfax-card{
+        box-shadow: 0px 8px 0px $shadowfax-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $shadowfax-color;
+                color: $shadowfax-color;
+                &:hover {
+                    background-color: $shadowfax-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .indiapost-card{
+        box-shadow: 0px 8px 0px $indiapost-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $indiapost-color;
+                color: $indiapost-color;
+                &:hover {
+                    background-color: $indiapost-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .ecomexp-card{
+        box-shadow: 0px 8px 0px $ecomexp-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $ecomexp-color;
+                color: $ecomexp-color;
+                &:hover {
+                    background-color: $ecomexp-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .xbees-card{
+        box-shadow: 0px 8px 0px $xbees-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $xbees-color;
+                color: $xbees-color;
+                &:hover {
+                    background-color: $xbees-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .ekart-card{
+        box-shadow: 0px 8px 0px $ekart-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $ekart-color;
+                color: $ekart-color;
+                &:hover {
+                    background-color: $ekart-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .pikndel-card{
+        box-shadow: 0px 8px 0px $pikndel-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $pikndel-color;
+                color: $pikndel-color;
+                &:hover {
+                    background-color: $pikndel-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .amazon-card{
+        box-shadow: 0px 8px 0px $amazon-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $amazon-color;
+                color: $amazon-color;
+                &:hover {
+                    background-color: $amazon-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .shrimaruti-card{
+        box-shadow: 0px 8px 0px $shrimaruti-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $shrimaruti-color;
+                color: $shrimaruti-color;
+                &:hover {
+                    background-color: $shrimaruti-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .velex-card{
+        box-shadow: 0px 8px 0px $velex-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $velex-color;
+                color: $velex-color;
+                &:hover {
+                    background-color: $velex-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
 }
 
 .shopify-hero{
@@ -6166,6 +6359,58 @@ section{
     }
 }
 
+.woocommerce-bg{
+    background: linear-gradient(45deg, #873EFF 10%,  #B658E8 100%);
+}
+
+.woocommerce-mark{
+    mark{
+        padding: 0;
+        background: #873EFF ;
+        background: linear-gradient(45deg, #873EFF 0%,  #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+}
+
+.woocommerce-card{
+    .container{
+        .image-container {
+            background: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/woocom-bene01.png') center/contain no-repeat;
+        }
+        .card{
+            background: linear-gradient(45deg, #DAC5FD 0%,  #EBCDFF 100%) !important;
+        }
+        .active{
+            background: linear-gradient(45deg, #873EFF 0%,  #B658E8 100%) !important;
+        }
+    }
+}
+
+.woocommerce-secondary-bg{
+    background: linear-gradient(45deg, #DAC5FD 0%,  #EBCDFF 100%) !important;
+    @media(max-width: 576px){
+        .steps{
+            .step{
+                min-height: 230px !important;
+            }
+        }
+    }
+}
+
+.woocommerce-demo{
+    .experience-form{
+        background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 5px, transparent 5px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 5px, transparent 5px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 5px, transparent 5px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 5px, transparent 5px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 6px) no-repeat,
+            linear-gradient(90deg, #873EFF 0%, #d28dff 100%);
+    }
+}
+
 .delhivery{
     background: linear-gradient(45deg, #ED4136 50%, #BB4EAF 100%);
     border-radius: 0 0 24px 24px;
@@ -6402,7 +6647,7 @@ section{
     background: #F7BEDB!important;
 }
 
-.xpbees,.ekart{
+.xpbees,.ekart,.amazon-ship,.pikndel{
     border-radius: 0 0 24px 24px;
 }
 
@@ -6452,6 +6697,59 @@ section{
 
 .ekart-light-bg{  
     background: #BEE5FF!important;
+}
+
+.amazon-ship-bg{
+    background: linear-gradient(90deg, $amazon-color 50%, #B658E8 100%) !important;
+    .hero-area{
+        .contents{
+            margin: 0 0 3rem;
+        }
+    }
+}
+
+.amazon-ship-mark{
+    mark{
+        padding: 0;
+        background: $amazon-color;
+        background: linear-gradient(45deg, $amazon-color 0%, #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .content{
+        .heading{
+            font-size: 32px;
+        }
+    }
+}
+
+.amazon-ship-light-bg{  
+    background: #CFF2FF!important;
+}
+
+.pikndel-bg{
+    background: linear-gradient(90deg, $pikndel-color 50%, #B658E8 100%) !important;
+}
+
+.pikndel-mark{
+    mark{
+        padding: 0;
+        background: $pikndel-color;
+        background: linear-gradient(45deg, $pikndel-color 0%, #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .content{
+        .heading{
+            font-size: 32px;
+        }
+    }
+}
+
+.pikndel-light-bg{  
+    background: #B3CDFF!important;
 }
 
 .retail-lp-hero{

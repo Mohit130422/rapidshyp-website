@@ -13,28 +13,37 @@ $(window).on("scroll", function () {
 document.addEventListener('DOMContentLoaded', function () {
     const toggleButton = document.getElementById('resources');
     const toggleDiv = document.getElementById('sub-menu');
+    const toggleIntegration = document.getElementById('integrations');
+    const toggleIntegrationDiv = document.getElementById('integration-menu');
 
-    // Function to toggle the div visibility
-    function toggleDivVisibility() {
-        toggleDiv.style.display = toggleDiv.style.display === 'none' ? 'block' : 'none';
+    function showMenu(menu) {
+        menu.classList.add('show');
     }
 
-    // Toggle div visibility on button click
-    toggleButton.addEventListener('click', function (event) {
-        event.stopPropagation(); // Prevents the click event from reaching the document click listener
-        toggleDivVisibility();
-    });
+    function hideMenu(menu) {
+        menu.classList.remove('show');
+    }
 
-    // Hide div when clicked outside of it
-    document.addEventListener('click', function (event) {
-        if (!toggleDiv.contains(event.target) && event.target !== toggleButton) {
-            toggleDiv.style.display = 'none';
-        }
-    });
+    // Handle Resources hover
+    toggleButton.addEventListener('mouseenter', () => showMenu(toggleDiv));
+    toggleButton.addEventListener('mouseleave', () => setTimeout(() => {
+        if (!toggleDiv.matches(':hover')) hideMenu(toggleDiv);
+    }, 100));
+    toggleDiv.addEventListener('mouseenter', () => showMenu(toggleDiv));
+    toggleDiv.addEventListener('mouseleave', () => hideMenu(toggleDiv));
 
-    // Hide div when scrolling
+    // Handle Integrations hover
+    toggleIntegration.addEventListener('mouseenter', () => showMenu(toggleIntegrationDiv));
+    toggleIntegration.addEventListener('mouseleave', () => setTimeout(() => {
+        if (!toggleIntegrationDiv.matches(':hover')) hideMenu(toggleIntegrationDiv);
+    }, 100));
+    toggleIntegrationDiv.addEventListener('mouseenter', () => showMenu(toggleIntegrationDiv));
+    toggleIntegrationDiv.addEventListener('mouseleave', () => hideMenu(toggleIntegrationDiv));
+
+    // Hide both on scroll
     document.addEventListener('scroll', function () {
-        toggleDiv.style.display = 'none';
+        hideMenu(toggleDiv);
+        hideMenu(toggleIntegrationDiv);
     });
 });
 
@@ -567,84 +576,78 @@ $(document).ready(function () {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    const calculateBtn = document.getElementById('calculateBtn');
-    const actualWeightEl = document.querySelector('.actual-weight');
-    const chargeableWeightEl = document.querySelector('.chargeable-weight');
-    const inputWeightEl = document.querySelector('.input-weight'); // Input field for weight
-    const volumeResultEl = document.querySelector('.volumeResult'); // Element for volume result
-
-    // Function to show error
-    function showError(input, message) {
-        input.classList.add('input-error');
-        let error = input.parentElement.querySelector('.error-message');
-        if (!error) {
-            error = document.createElement('div');
-            error.className = 'error-message';
-            input.parentElement.appendChild(error);
-        }
-        error.textContent = message;
+const calculateBtn = document.getElementById('calculateBtn');
+const actualWeightEl = document.querySelector('.actual-weight');
+const chargeableWeightEl = document.querySelector('.chargeable-weight');
+const inputWeightEl = document.querySelector('.input-weight');
+const volumeResultEl = document.querySelector('.volumeResult');
+const showError = (input, message) => {
+    input.classList.add('input-error');
+    let error = input.parentElement.querySelector('.error-message');
+    if (!error) {
+      error = document.createElement('div');
+      error.className = 'error-message';
+      input.parentElement.appendChild(error);
     }
-
-    // Function to show success
-    function showSuccess(input) {
-        input.classList.remove('input-error');
-        const error = input.parentElement.querySelector('.error-message');
-        if (error) {
-            input.parentElement.removeChild(error);
-        }
+    error.textContent = message;
+};
+const showSuccess = (input) => {
+    input.classList.remove('input-error');
+    const error = input.parentElement.querySelector('.error-message');
+    if (error) {
+      input.parentElement.removeChild(error);
     }
+};
+const calculateWeight = () => {
+    let totalVolume = 0;
+    let valid = true;
 
-    function calculateWeight () {
-        let totalVolume = 0;
-        let valid = true;
+    document.querySelectorAll('.parcel').forEach(parcel => {
+      const length = parcel.querySelector('.length');
+      const width = parcel.querySelector('.width');
+      const height = parcel.querySelector('.height');
 
-        document.querySelectorAll('.parcel').forEach(parcel => {
-            const length = parcel.querySelector('.length');
-            const width = parcel.querySelector('.width');
-            const height = parcel.querySelector('.height');
+      const lengthValue = parseFloat(length?.value);
+      const widthValue = parseFloat(width?.value);
+      const heightValue = parseFloat(height?.value);
 
-            const lengthValue = parseFloat(length.value);
-            const widthValue = parseFloat(width.value);
-            const heightValue = parseFloat(height.value);
-
-            if (lengthValue && widthValue && heightValue && lengthValue > 0 && widthValue > 0 && heightValue > 0) {
-                totalVolume += (lengthValue * widthValue * heightValue) / 5000;
-                showSuccess(length);
-                showSuccess(width);
-                showSuccess(height);
-                $('.error-message').hide();
-            } else {
-                $('.error-message').show();
-                $('.length,.width,.height').addClass('input-error');
-                valid = false;
-            }
+      if (lengthValue > 0 && widthValue > 0 && heightValue > 0) {
+        totalVolume += (lengthValue * widthValue * heightValue) / 5000;
+        showSuccess(length);
+        showSuccess(width);
+        showSuccess(height);
+      } else {
+        [length, width, height].forEach(input => {
+          input?.classList.add('input-error');
         });
+        const errorMsg = parcel.querySelector('.error-message') || document.createElement('div');
+        errorMsg.className = 'error-message';
+        errorMsg.textContent = 'Please fill in all dimensions correctly.';
+        if (!parcel.contains(errorMsg)) parcel.appendChild(errorMsg);
+        valid = false;
+      }
+    });
 
-        if (!valid) {
-            volumeResultEl.style.display = 'none';
-            return;
-        }
+    if (!valid) {
+      volumeResultEl.style.display = 'none';
+      return;
+    }
 
-        actualWeightEl.textContent = `${totalVolume.toFixed(1)} KG`;
-        
-        const inputWeight = parseFloat(inputWeightEl.value);
-        if (!inputWeight || inputWeight <= 0) {
-            showError(inputWeightEl, 'Please enter a valid weight');
-            volumeResultEl.style.display = 'none';
-            return;
-        } else {
-            showSuccess(inputWeightEl);
-        }
+    actualWeightEl.textContent = `${totalVolume.toFixed(1)} KG`;
 
-        const actualWeight = parseFloat(actualWeightEl.textContent);
-        const greaterWeight = Math.max(actualWeight, inputWeight);
+    const inputWeight = parseFloat(inputWeightEl?.value);
+    if (!inputWeight || inputWeight <= 0) {
+      showError(inputWeightEl, 'Please enter a valid weight');
+      volumeResultEl.style.display = 'none';
+      return;
+    } else {
+      showSuccess(inputWeightEl);
+    }
 
-        chargeableWeightEl.textContent = `${greaterWeight.toFixed(1)} KG`;
+    const actualWeight = parseFloat(actualWeightEl.textContent);
+    const greaterWeight = Math.max(actualWeight, inputWeight);
+    chargeableWeightEl.textContent = `${greaterWeight.toFixed(1)} KG`;
 
-        // Display volume result
-        volumeResultEl.style.display = 'flex';
-    };
-
-    calculateBtn.addEventListener('click', calculateWeight);
-});
+    volumeResultEl.style.display = 'flex';
+};
+calculateBtn?.addEventListener('click', calculateWeight);

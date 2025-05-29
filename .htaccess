@@ -12,27 +12,6 @@ RewriteCond %{HTTP_HOST} ^rapidshyp\.in$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.rapidshyp\.in$
 RewriteRule ^/?$ "https\:\/\/www\.rapidshyp\.com\/" [R=301,L]
 
-RewriteRule ^channel-integrations/shopify/?$ shopify.php [L]
-RewriteRule ^channel-integrations/unicommerce/?$ unicommerce.php [L]
-RewriteRule ^courier-integrations/india-post/?$ india-post.php [L]
-RewriteRule ^courier-integrations/delhivery/?$ delhivery.php [L]
-RewriteRule ^courier-integrations/dtdc/?$ dtdc.php [L]
-RewriteRule ^courier-integrations/bluedart/?$ bluedart.php [L]
-RewriteRule ^courier-integrations/shadowfax/?$ shadowfax.php [L]
-RewriteRule ^courier-integrations/ecom-express/?$ ecom-express.php [L]
-RewriteRule ^courier-integrations/xpressbees/?$ xpressbees.php [L]
-RewriteRule ^courier-integrations/ekart/?$ ekart.php [L]
-
-RewriteRule ^shopify$ /channel-integrations/shopify [R=301,L]
-RewriteRule ^unicommerce$ /channel-integrations/unicommerce [R=301,L]
-RewriteRule ^india-post$ /courier-integrations/india-post [R=301,L]
-RewriteRule ^delhivery$ /courier-integrations/delhivery [R=301,L]
-RewriteRule ^dtdc$ /courier-integrations/dtdc [R=301,L]
-RewriteRule ^bluedart$ /courier-integrations/bluedart [R=301,L]
-RewriteRule ^shadowfax$ /courier-integrations/shadowfax [R=301,L]
-RewriteRule ^ecom-express$ /courier-integrations/ecom-express [R=301,L]
-RewriteRule ^xpressbees$ /courier-integrations/xpressbees [R=301,L]
-RewriteRule ^ekart$ /courier-integrations/ekart [R=301,L]
 
 # Disable directory listing
 Options -Indexes
