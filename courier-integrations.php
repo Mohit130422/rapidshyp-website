@@ -222,6 +222,25 @@
                         </div>
                     </div>
                 </div>
+                 <!-- velex Card -->
+                <div class="col-md-4 hidden-column">
+                    <div class="card velex-card">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/velex-logo.png" alt="velocity" width="50">
+                        </div>
+                        <div class="body">
+                            <p>With 40+ years in the industry, <b>Velocity Express</b> helps brands streamline operations, reduce costs, and deliver satisfaction at scale.</p>
+                            <ul class="features-list">
+                                <li class="feature-item"><i class="fas fa-check-circle"></i>  40+ Years of Logistics Expertise</li>
+                                <li class="feature-item"><i class="fas fa-check-circle"></i>  700+ Trusted Delivery Agents</li>
+                                <li class="feature-item"><i class="fas fa-check-circle"></i>  Cost-efficient & Optimised Shipping</li>
+                            </ul>
+                        </div>
+                        <div class="footer">
+                            <a href="velocity-express" class="btn btn-custom">Learn More</a>
+                        </div>
+                    </div>
+                </div>
                  <!-- pikndel Card -->
                 <div class="col-md-4 hidden-column">
                     <div class="card pikndel-card">
@@ -253,25 +272,6 @@
                                 <li class="feature-item"><i class="fas fa-check-circle"></i>  Secured Service</li>
                                 <li class="feature-item"><i class="fas fa-check-circle"></i>  Country-wide Network</li>
                                 <li class="feature-item"><i class="fas fa-check-circle"></i>  Real-time Tracking</li>
-                            </ul>
-                        </div>
-                        <div class="footer">
-                            <a href="javascript:void(0)" class="btn btn-custom">Coming Soon</a>
-                        </div>
-                    </div>
-                </div>
-                 <!-- velex Card -->
-                <div class="col-md-4 hidden-column">
-                    <div class="card velex-card">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/velex-logo.png" alt="velocity" width="50">
-                        </div>
-                        <div class="body">
-                            <p>With 40+ years in the industry, <b>Velocity Express</b> helps brands streamline operations, reduce costs, and deliver satisfaction at scale.</p>
-                            <ul class="features-list">
-                                <li class="feature-item"><i class="fas fa-check-circle"></i>  40+ Years of Logistics Expertise</li>
-                                <li class="feature-item"><i class="fas fa-check-circle"></i>  700+ Trusted Delivery Agents</li>
-                                <li class="feature-item"><i class="fas fa-check-circle"></i>  Cost-efficient & Optimised Shipping</li>
                             </ul>
                         </div>
                         <div class="footer">
@@ -407,21 +407,7 @@
     </section>
 
     <?php include 'footer.php';?>
+    <script src="assets/js/main.js"></script>    
+
     
-    <script>
-        document.getElementById('viewMoreBtn').addEventListener('click', function() {
-            const hiddenColumns = document.querySelectorAll('.hidden-column');
-            const isHidden = hiddenColumns[0].style.display === 'none' || hiddenColumns[0].style.display === '';
-
-            // Toggle visibility of hidden columns
-            hiddenColumns.forEach(column => {
-                column.style.display = isHidden ? 'block' : 'none';
-            });
-
-            // Toggle button text
-            this.textContent = isHidden ? 'View Less' : 'View More';
-        });
-    </script>
-
-    <script src="assets/js/main.js"></script>
 </body>

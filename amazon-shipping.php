@@ -4,7 +4,7 @@
 <meta property="og:description" content="Deliver with Amazon Shipping via RapidShyp’s eCommerce platform. Reach 14,000+ pin codes with WhatsApp alerts & real-time tracking for seamless eCommerce shipping." />
 <meta name="title" content="Amazon Shipping Courier Service for eCommerce – RapidShyp"/>
 <meta name="description" content="Deliver with Amazon Shipping via RapidShyp’s eCommerce platform. Reach 14,000+ pin codes with WhatsApp alerts & real-time tracking for seamless eCommerce shipping."/>
-<link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/ekart"/>
+<link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/amazon-shipping"/>
 <title>Amazon Shipping Courier Service for eCommerce – RapidShyp</title>
 
 </head>
@@ -432,7 +432,5 @@
     </section>
 
     <?php include 'footer.php';?>
-
-
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?v=0.0.2"></script>
 </body>

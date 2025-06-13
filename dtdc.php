@@ -4,7 +4,7 @@
 <meta property="og:description" content="Ship with DTDC at the best courier charges. Use our DTDC courier charges calculator to estimate rates. Get end-to-end order tracking." />
 <meta name="title" content="DTDC Courier Services for eCommerce- RapidShyp"/>
 <meta name="description" content="Ship with DTDC at the best courier charges. Use our DTDC courier charges calculator to estimate rates. Get end-to-end order tracking."/>
-<link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/delhivery"/>
+<link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/dtdc"/>
 <title>DTDC Courier Services for eCommerce- RapidShyp</title>
 
 </head>

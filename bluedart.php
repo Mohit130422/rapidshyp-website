@@ -4,7 +4,7 @@
 <meta property="og:description" content="Ship your eCommerce orders with Blue Dart using our technology-backed platform. Enable order verification, automated buyer notifications and much more." />
 <meta name="title" content="Blue Dart Courier Service for eCommerce- RapidShyp"/>
 <meta name="description" content="Ship your eCommerce orders with Blue Dart using our technology-backed platform. Enable order verification, automated buyer notifications and much more."/>
-<link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/blue-dart"/>
+<link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/bluedart"/>
 <title>Blue Dart Courier Service for eCommerce- RapidShyp</title>
 
 </head>
@@ -458,7 +458,5 @@
     </section>
 
     <?php include 'footer.php';?>
-
-
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?v=0.0.2"></script>
 </body>

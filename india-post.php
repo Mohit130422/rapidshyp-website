@@ -4,7 +4,7 @@
 <meta property="og:description" content="Deliver eCommerce orders affordably across India with the trusted India Post, including tier 3 cities and remote locations" />
 <meta name="title" content="Reliable PAN India Delivery with India Post- RapidShyp" />
 <meta name="description" content="Deliver eCommerce orders affordably across India with the trusted India Post, including tier 3 cities and remote locations"/>
-<link rel="canonical" href="https://www.rapidshyp.com/next-day-delivery" />
+<link rel="canonical" href="https://www.rapidshyp.com/courier-integrations/india-post" />
 <title>Reliable PAN India Delivery with India Post- RapidShyp</title>
 
 </head>

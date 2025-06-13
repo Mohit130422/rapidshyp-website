@@ -2,7 +2,7 @@
     <div class="topHeader">
         <p id="countdown"></p>
         <!--<p><strong>Get 50% Cashback* Up to &#8377; 1000</strong>  On Your First Recharge. Use Code: <strong>WELCOME50. </strong>T&C Apply</p>-->
-        <p><strong>Get &#8377;500</strong> shipping credits on first recharge of <strong>&#8377;1000</strong> | Use Code: <strong>FLAT500</strong> | T&C Apply</p>
+        <p><strong>Get &#8377;500</strong> FREE shipping credits on first recharge of <strong>&#8377;1000</strong> | Use Code: <strong>FLAT500</strong> | T&C Apply</p>
         <span onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i class="fas fa-chevron-right"></i></span>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">

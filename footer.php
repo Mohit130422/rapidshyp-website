@@ -1,7 +1,7 @@
 <footer id="contact">
     <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="brand mb-4">
                         <a href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt=""></a>
                     </div>
@@ -20,59 +20,59 @@
                                 src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg" alt=""></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-6">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
-                            <p>Product</p>
-                            <div class="links">
-                                <a href="order-management-system" class="link">Order Management System</a>
-                                <a href="ai-courier-recommendations" class="link">SmartSelect</a>
-                                <span class="link">Xperience Suite</span>
-                                <span class="link">NDR Management</span>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
-                            <p>Features</p>
-                            <div class="links">
-                                <a href="order-verification" class="link">Order Verification <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</a>
-                                <a href="next-day-delivery" class="link">Next Day Delivery</a>
-                                <span class="link">Dedicated Shipping Advisors</span>
-                                <span class="link">RapidCOD</span>
-                                <span class="link">Multi-Carrier Access</span>
-                                <span class="link">RTO Reduction</span>
-                                <span class="link">Shipment Security</span>
-                            </div>
+            <div class="col-lg-4 col-md-6 col-6">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
+                        <p>Product</p>
+                        <div class="links">
+                            <a href="order-management-system" class="link">Order Management System</a>
+                            <a href="ai-courier-recommendations" class="link">SmartSelect</a>
+                            <span class="link">Xperience Suite</span>
+                            <span class="link">NDR Management</span>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-6">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
-                            <p>Resources</p>
-                            <div class="links">
-                                <!-- <a href="https://app.rapidshyp.com" class="link" rel="nofollow">Sign In</a> -->
-                                <!-- <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> -->
-                                <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
-                                <a href="newsroom" class="link">Newsroom</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-8 col-lg-8 m-margin-20">
-                            <p>Contact Us</p>
-                            <div class="links">
-                                <a href="mailto:support@rapidshyp.com" class="link" target="_blank"><i
-                                        class="fas fa-envelope"></i> Support: support@rapidshyp.com</a>
-                                <a href="mailto:connect@rapidshyp.com" class="link" target="_blank"><i
-                                        class="fas fa-envelope"></i> Sales: connect@rapidshyp.com</a>
-                                <!-- <a href="tel:7669007700" class="link" target="_blank"><i class="fas fa-phone-alt"></i>
-                                    7669007700</a> -->
-                                <a href="https://maps.app.goo.gl/TMc7FNnFvwGYSVVLA" target="_blank" class="link"><i
-                                        class="fas fa-map-marker-alt"></i> RapidShyp Head Office <br> 3rd Floor, Unitech
-                                    Trade Centre <br>Sushant Lok Phase-1, Sector 43 <br>Gurgaon, Haryana -122002</a>
-                            </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
+                        <p>Features</p>
+                        <div class="links">
+                            <a href="order-verification" class="link">Order Verification <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</a>
+                            <a href="next-day-delivery" class="link">Next Day Delivery</a>
+                            <span class="link">Dedicated Shipping Advisors</span>
+                            <span class="link">RapidCOD</span>
+                            <span class="link">Multi-Carrier Access</span>
+                            <span class="link">RTO Reduction</span>
+                            <span class="link">Shipment Security</span>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4 col-md-6 col-6">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
+                        <p>Resources</p>
+                        <div class="links">
+                            <!-- <a href="https://app.rapidshyp.com" class="link" rel="nofollow">Sign In</a> -->
+                            <!-- <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> -->
+                            <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
+                            <a href="newsroom" class="link">Newsroom</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 m-margin-20">
+                        <p>Contact Us</p>
+                        <div class="links">
+                            <a href="mailto:support@rapidshyp.com" class="link" target="_blank"><i
+                                    class="fas fa-envelope"></i> Support: support@rapidshyp.com</a>
+                            <a href="mailto:connect@rapidshyp.com" class="link" target="_blank"><i
+                                    class="fas fa-envelope"></i> Sales: connect@rapidshyp.com</a>
+                            <!-- <a href="tel:7669007700" class="link" target="_blank"><i class="fas fa-phone-alt"></i>
+                                7669007700</a> -->
+                            <a href="https://maps.app.goo.gl/TMc7FNnFvwGYSVVLA" target="_blank" class="link"><i
+                                    class="fas fa-map-marker-alt"></i> RapidShyp Head Office <br> 3rd Floor, Unitech
+                                Trade Centre <br>Sushant Lok Phase-1, Sector 43 <br>Gurgaon, Haryana -122002</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/footer-img.png" alt="">
 </footer>
@@ -90,6 +90,7 @@
         </div>
     </div>
 </div>
+
 <div class="blur-overlay" id="joinWaitlistModal">
         <div class="dialog-box">
             <div class="head">
@@ -192,6 +193,7 @@
             </div>
         </div>
 </div>
+
 <div class="blur-overlay d-none" id="thankyou">
         <div class="dialog-box thankyou-box">
             <div class="container">
@@ -214,3 +216,9 @@
             
         </div>
 </div>
+
+
+
+<script src="node_modules/jquery.min.js"></script>
+<script src="node_modules/owl.carousel.min.js"></script>
+<script src="node_modules/bootstrap.bundle.min.js"></script>

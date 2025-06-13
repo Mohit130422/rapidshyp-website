@@ -6124,7 +6124,7 @@ section {
   background: #F7BEDB !important;
 }
 
-.xpbees, .ekart, .amazon-ship, .pikndel {
+.xpbees, .ekart, .amazon-ship, .pikndel, .velex {
   border-radius: 0 0 24px 24px;
 }
 
@@ -6209,6 +6209,26 @@ section {
 
 .pikndel-light-bg {
   background: #B3CDFF !important;
+}
+
+.velex-bg {
+  background: linear-gradient(90deg, #EF7B1B 50%, #B658E8 100%) !important;
+}
+
+.velex-mark mark {
+  padding: 0;
+  background: #EF7B1B;
+  background: linear-gradient(45deg, #EF7B1B 0%, #B658E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 0;
+}
+.velex-mark .content .heading {
+  font-size: 32px;
+}
+
+.velex-light-bg {
+  background: linear-gradient(60deg, #FAB286 0%, #EBCDFF 74%) !important;
 }
 
 .retail-lp-hero .join-us {

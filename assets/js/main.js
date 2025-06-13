@@ -10,6 +10,7 @@ $(window).on("scroll", function () {
     }
 });
 
+
 document.addEventListener('DOMContentLoaded', function () {
     const toggleButton = document.getElementById('resources');
     const toggleDiv = document.getElementById('sub-menu');
@@ -118,7 +119,7 @@ $(document).ready(function () {
                 }
                 $('.loading').hide();
                 gtag_report_conversion(window.location);
-                $('#thankyou').css('display','flex');
+                $('#thankyou').css('display', 'flex');
             },
             error: function (xhr, status, error) {
                 $('.error-message').text('There was an error sending your message. Please try again later.').show();
@@ -472,12 +473,12 @@ $(document).ready(function () {
             // Hide previous error messages
             $errorMessage.hide();
 
-             // Reset rate result table and hide it before starting the new request
-             $rateTableBody.empty();
-             $rateResult.hide();
- 
-             // Show the loader
-             $rateLoader.show();
+            // Reset rate result table and hide it before starting the new request
+            $rateTableBody.empty();
+            $rateResult.hide();
+
+            // Show the loader
+            $rateLoader.show();
 
             // Fetch rates via AJAX
             $.ajax({
@@ -492,8 +493,8 @@ $(document).ready(function () {
                     $rateLoader.hide();
 
                     if (data.result === 'error') {
-                         // If pincode(s) are not serviceable, check which one is invalid and show error near that input
-                         if (data.message.includes('Pincode(s) not serviceable')) {
+                        // If pincode(s) are not serviceable, check which one is invalid and show error near that input
+                        if (data.message.includes('Pincode(s) not serviceable')) {
                             if (data.invalid_pincode === 'pickup') {
                                 showError($pickupPin, 'Pickup pincode not serviceable');
                             } else if (data.invalid_pincode === 'delivery') {
@@ -539,8 +540,8 @@ $(document).ready(function () {
             });
         }
     });
-     // Handle reset button click
-     $('#calForm').on('reset', function () {
+    // Handle reset button click
+    $('#calForm').on('reset', function () {
         // Hide rate result table when reset is clicked
         $rateResult.hide();
         // Hide error message if any
@@ -585,9 +586,9 @@ const showError = (input, message) => {
     input.classList.add('input-error');
     let error = input.parentElement.querySelector('.error-message');
     if (!error) {
-      error = document.createElement('div');
-      error.className = 'error-message';
-      input.parentElement.appendChild(error);
+        error = document.createElement('div');
+        error.className = 'error-message';
+        input.parentElement.appendChild(error);
     }
     error.textContent = message;
 };
@@ -595,7 +596,7 @@ const showSuccess = (input) => {
     input.classList.remove('input-error');
     const error = input.parentElement.querySelector('.error-message');
     if (error) {
-      input.parentElement.removeChild(error);
+        input.parentElement.removeChild(error);
     }
 };
 const calculateWeight = () => {
@@ -603,45 +604,45 @@ const calculateWeight = () => {
     let valid = true;
 
     document.querySelectorAll('.parcel').forEach(parcel => {
-      const length = parcel.querySelector('.length');
-      const width = parcel.querySelector('.width');
-      const height = parcel.querySelector('.height');
+        const length = parcel.querySelector('.length');
+        const width = parcel.querySelector('.width');
+        const height = parcel.querySelector('.height');
 
-      const lengthValue = parseFloat(length?.value);
-      const widthValue = parseFloat(width?.value);
-      const heightValue = parseFloat(height?.value);
+        const lengthValue = parseFloat(length?.value);
+        const widthValue = parseFloat(width?.value);
+        const heightValue = parseFloat(height?.value);
 
-      if (lengthValue > 0 && widthValue > 0 && heightValue > 0) {
-        totalVolume += (lengthValue * widthValue * heightValue) / 5000;
-        showSuccess(length);
-        showSuccess(width);
-        showSuccess(height);
-      } else {
-        [length, width, height].forEach(input => {
-          input?.classList.add('input-error');
-        });
-        const errorMsg = parcel.querySelector('.error-message') || document.createElement('div');
-        errorMsg.className = 'error-message';
-        errorMsg.textContent = 'Please fill in all dimensions correctly.';
-        if (!parcel.contains(errorMsg)) parcel.appendChild(errorMsg);
-        valid = false;
-      }
+        if (lengthValue > 0 && widthValue > 0 && heightValue > 0) {
+            totalVolume += (lengthValue * widthValue * heightValue) / 5000;
+            showSuccess(length);
+            showSuccess(width);
+            showSuccess(height);
+        } else {
+            [length, width, height].forEach(input => {
+                input?.classList.add('input-error');
+            });
+            const errorMsg = parcel.querySelector('.error-message') || document.createElement('div');
+            errorMsg.className = 'error-message';
+            errorMsg.textContent = 'Please fill in all dimensions correctly.';
+            if (!parcel.contains(errorMsg)) parcel.appendChild(errorMsg);
+            valid = false;
+        }
     });
 
     if (!valid) {
-      volumeResultEl.style.display = 'none';
-      return;
+        volumeResultEl.style.display = 'none';
+        return;
     }
 
     actualWeightEl.textContent = `${totalVolume.toFixed(1)} KG`;
 
     const inputWeight = parseFloat(inputWeightEl?.value);
     if (!inputWeight || inputWeight <= 0) {
-      showError(inputWeightEl, 'Please enter a valid weight');
-      volumeResultEl.style.display = 'none';
-      return;
+        showError(inputWeightEl, 'Please enter a valid weight');
+        volumeResultEl.style.display = 'none';
+        return;
     } else {
-      showSuccess(inputWeightEl);
+        showSuccess(inputWeightEl);
     }
 
     const actualWeight = parseFloat(actualWeightEl.textContent);
@@ -651,3 +652,19 @@ const calculateWeight = () => {
     volumeResultEl.style.display = 'flex';
 };
 calculateBtn?.addEventListener('click', calculateWeight);
+
+
+document.getElementById('viewMoreBtn').addEventListener('click', function () {
+    const hiddenColumns = document.querySelectorAll('.hidden-column');
+    console.log('hiddenColumns', hiddenColumns);
+    const isHidden = hiddenColumns[0].style.display === 'none' || hiddenColumns[0].style.display === '';
+    console.log('isHidden', isHidden);
+
+    // Toggle visibility of hidden columns
+    hiddenColumns.forEach(column => {
+        column.style.display = isHidden ? 'block' : 'none';
+    });
+
+    // Toggle button text
+    this.textContent = isHidden ? 'View Less' : 'View More';
+});

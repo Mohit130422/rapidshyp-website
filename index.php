@@ -807,23 +807,8 @@
     </section>
 
     <?php include 'footer.php';?>
-        <script>
-        document.getElementById('viewMoreBtn').addEventListener('click', function() {
-            const hiddenColumns = document.querySelectorAll('.hidden-column');
-            const isHidden = hiddenColumns[0].style.display === 'none' || hiddenColumns[0].style.display === '';
+    <script src="assets/js/main.js?v=0.0.2"></script>
 
-            // Toggle visibility of hidden columns
-            hiddenColumns.forEach(column => {
-                column.style.display = isHidden ? 'block' : 'none';
-            });
-
-            // Toggle button text
-            this.textContent = isHidden ? 'View Less' : 'View More';
-        });
-    </script>
-    
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/utm.js"></script>
 </body>
 
 </html>

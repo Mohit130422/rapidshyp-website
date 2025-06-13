@@ -332,12 +332,8 @@
         </div>
     </section>
 
-
     <?php include 'footer.php';?>
-
-
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/utm.js"></script>
 </body>
 
 </html>
