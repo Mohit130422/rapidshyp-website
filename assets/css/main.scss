@@ -604,8 +604,8 @@ mark{
 
 .topHeader{
     background: linear-gradient(92.72deg, #F3DDFF -1.79%, #FFEEBB 107.62%);
-    padding: 10px 0;
-    font-size: 14px;
+    padding: 8px 0;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -661,7 +661,7 @@ header{
         top: 0;
         z-index: 10;
         padding: 10px 40px;
-        .container{
+        .container-fluid{
             padding: 0;
             .navbar-toggler{
                 border: none;
@@ -679,18 +679,23 @@ header{
                 }
             }
             .navbar-collapse{
-                justify-content: space-evenly;
+                justify-content: end;
+                .navbar-nav{
+                    align-items: center;
+                }
                 .nav-item{
                     position: relative;
                     .nav-link{
                         color: $text-dark;
                         font-weight: 500;
-                        padding: 0 1.25rem;
+                        padding: 0 .75rem;
+                        font-size: 14px;
                         cursor: pointer;
                         &::after{
                             display: none;
                         }
                         img{
+                            width: 12px;
                             transform: rotate(180deg);       
                         }
                     }
@@ -714,7 +719,7 @@ header{
                         li{
                             list-style: none;
                             .nav-link{
-                                padding: 16px;
+                                padding: 12px !important;
                             }
                             &:hover{
                                 background-color: $bg-shade1;
@@ -726,12 +731,37 @@ header{
                         visibility: visible;
                         transform: translateY(0);
                     }
+                    .solid-action-btn{
+                        font-weight: 500;
+                        font-size: 14px;
+                        padding: 8px 20px;
+                        border-radius: 24px;
+                    }
                 }
             }
             .d-flex{
                 align-items: center;
                 button{
                     font-size: 16px;
+                }
+            }
+        }
+        @media(max-width: 1400px) {
+            .container-fluid{
+                .navbar-collapse{
+                    .nav-item{
+                        .nav-link{
+                            padding: 0 1rem;
+                            font-size: 12px;
+                            img{
+                                width: 12px;
+                            }
+                        }
+                        .solid-action-btn{
+                            font-size: 12px;
+                            padding: 6px 16px;
+                        }
+                    }
                 }
             }
         }
@@ -775,12 +805,20 @@ header{
             top: 65px;
             background-color: $light-color;
             .navbar-nav{
+                align-items: unset !important;
                 .nav-item{
                     // border-bottom: 1px solid #e1e1e1;
                     .nav-link{
-                        padding: 1rem !important;
+                        padding: 1rem 1rem !important;
                         border-bottom: 1px solid #e1e1e1;
                         font-size: 14px;
+                    }
+                    .solid-action-btn{
+                        display: block;
+                        font-size: 14px;
+                        width: 100%;
+                        border-radius: 5px;
+                        margin: 0;
                     }
                 }
                 .hover-menu{
@@ -788,6 +826,7 @@ header{
                     top: 40px !important;
                     z-index: 10;
                 }
+
             }
         }
         .d-flex{
@@ -3502,9 +3541,6 @@ section{
             color: $primary-color;
             font-size: 16px;
             font-weight: 700;
-            .fas{
-                
-            }
         }
     }
     img{
@@ -3756,6 +3792,7 @@ section{
         background-color: transparent;
         img{
             width: 100%;
+            border-radius: 12px;
         }
         .body{
             margin: 16px 0;
@@ -5209,6 +5246,10 @@ section{
             color: $light-color;
             .head-title{
                 font-size: 54px;
+                line-height: 1.4;
+                span{
+                    font-weight: 200;
+                }
             }
             .sub-title{
                 font-size: 18px;
@@ -6647,7 +6688,7 @@ section{
     background: #F7BEDB!important;
 }
 
-.xpbees,.ekart,.amazon-ship,.pikndel,.velex{
+.xpbees,.ekart,.amazon-ship,.pikndel,.velex,.shree-maruti,.b2b-hero{
     border-radius: 0 0 24px 24px;
 }
 
@@ -6774,6 +6815,137 @@ section{
 
 .velex-light-bg{  
     background: linear-gradient(60deg, #FAB286 0%, #EBCDFF 74%) !important;
+}
+
+.shree-maruti-bg{
+    background: linear-gradient(90deg, $shrimaruti-color 0%,#A261E7 73% , #B658E8 100%) !important;
+}
+
+.shree-maruti-mark{
+    mark{
+        padding: 0;
+        background: $velex-color;
+        background: linear-gradient(45deg, $shrimaruti-color 0%,#A261E7 73% , #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+    .content{
+        .heading{
+            font-size: 32px;
+        }
+    }
+}
+
+.shree-maruti-light-bg{  
+    background: linear-gradient(60deg, #ECB2B8 0%, #EBCDFF 74%) !important;
+}
+
+.b2b-hero{
+    background: $primary-color !important;
+}
+
+.b2b-mark{
+    mark{
+        padding: 0;
+        background: $bg-shade1;
+        background: linear-gradient(45deg, #E6C0FF 0%, #E6C0FF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+        font-weight: 800;
+    }
+    .content{
+        .heading{
+            font-size: 32px;
+        }
+    }
+}
+
+.b2b-light-bg{  
+    background: #E6C0FF !important;
+}
+
+.b2b-usps{
+    .heading{
+        line-height: 1.4;
+        span{
+            font-weight: 300;
+        }
+    }
+    .card{
+        padding: 1.5rem 1.25rem 0;
+        border-radius: 24px;
+        background-color: #F7F7F7;
+        .card-body{
+            .card-title{
+                font-size: 20px;
+                font-weight: 700;
+                text-align: left;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .grid-container {
+        // width: 100%;
+        .feature {
+            height: 100%;
+            border-radius: 20px;
+            padding: 40px;
+            color: #1c1c1c;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            .image-placeholder {
+              margin-bottom: 2rem;
+              border-radius: 10px;
+              height: 300px;
+              img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+              }
+            }
+            .title {
+              font-weight: 800;
+              font-size: 1.2rem;
+              margin-bottom: 10px;
+            }
+        
+            .desc {
+              font-size: 0.95rem;
+              line-height: 1.4;
+            }        
+        }
+        .c1 {
+            background-color: #E6C0FF;
+        }
+        .c2 {
+            background-color: $primary-color; 
+            color: white; 
+            height: 50%;
+            margin-bottom: 1rem;
+            img{
+               width: 100%;
+               height: 100%;
+               object-fit: contain;
+            }
+        }
+        .c3 {
+            background-color: #fff2b3; 
+        }
+        .c4 {
+            background-color: #f5ebff; 
+        }
+        .c5 {
+            background-color: #ede2ff; 
+        }
+        .c6 {
+            background-color: #f3e2ff;
+        }
+    }
+    
 }
 
 .retail-lp-hero{

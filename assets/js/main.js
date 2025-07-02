@@ -12,10 +12,12 @@ $(window).on("scroll", function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const toggleButton = document.getElementById('resources');
-    const toggleDiv = document.getElementById('sub-menu');
+    const toggleButton = document.getElementById('ship-tools');
+    const toggleDiv = document.getElementById('ship-tools-menu');
     const toggleIntegration = document.getElementById('integrations');
     const toggleIntegrationDiv = document.getElementById('integration-menu');
+    const toggleResources = document.getElementById('resources');
+    const toggleResourcesDiv = document.getElementById('resources-menu');
 
     function showMenu(menu) {
         menu.classList.add('show');
@@ -25,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         menu.classList.remove('show');
     }
 
-    // Handle Resources hover
+    // Handle Ship tools hover
     toggleButton.addEventListener('mouseenter', () => showMenu(toggleDiv));
     toggleButton.addEventListener('mouseleave', () => setTimeout(() => {
         if (!toggleDiv.matches(':hover')) hideMenu(toggleDiv);
@@ -40,6 +42,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 100));
     toggleIntegrationDiv.addEventListener('mouseenter', () => showMenu(toggleIntegrationDiv));
     toggleIntegrationDiv.addEventListener('mouseleave', () => hideMenu(toggleIntegrationDiv));
+
+    // Handle Resources menu hover
+    toggleResources.addEventListener('mouseenter', () => showMenu(toggleResourcesDiv));
+    toggleResources.addEventListener('mouseleave', () => setTimeout(() => {
+        if (!toggleResourcesDiv.matches(':hover')) hideMenu(toggleResourcesDiv);
+    }, 100));
+    toggleResourcesDiv.addEventListener('mouseenter', () => showMenu(toggleResourcesDiv));
+    toggleResourcesDiv.addEventListener('mouseleave', () => hideMenu(toggleResourcesDiv));
 
     // Hide both on scroll
     document.addEventListener('scroll', function () {
@@ -652,6 +662,80 @@ const calculateWeight = () => {
     volumeResultEl.style.display = 'flex';
 };
 calculateBtn?.addEventListener('click', calculateWeight);
+
+function timeAgo(date) {
+    const postDate = new Date(date);
+    const now = new Date();
+    const seconds = Math.floor((now - postDate) / 1000);
+    const interval = Math.floor(seconds / 86400); // days
+
+    if (interval < 1) return "Today";
+    if (interval === 1) return "1 day ago";
+    return `${interval} days ago`;
+  }
+
+    fetch('https://rapidshyp.com/blog/wp-json/wp/v2/posts?_embed&per_page=10')
+    .then(res => res.json())
+    .then(posts => {
+      const container = document.getElementById('blog-posts');
+
+      posts.forEach(post => {
+        const title = post.title.rendered || "Untitled";
+        const excerpt = post.excerpt.rendered.replace(/<[^>]+>/g, '').slice(0, 120) + '...';
+        const link = post.link;
+        const featuredImage = post._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+          'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post1.png';
+        const time = timeAgo(post.date);
+        const author = post._embedded?.author?.[0]?.name || "Admin";
+        const category = post._embedded?.['wp:term']?.[0]?.[0]?.name || "General";
+
+        const html = `
+        <div class="item">
+          <div class="card blog-post">
+            <div class="head">
+              <a href="${link}"><img src="${featuredImage}" alt="${title}"></a>
+            </div>
+            <div class="body">
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="label">${category}</span>
+                <span class="time">${time} by <b>${author}</b></span>
+              </div>
+              <a href="${link}"><p class="content">${title}</p></a>
+            </div>
+            <div class="footer">
+              <a href="${link}">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        `;
+
+        container.innerHTML += html;
+      });
+
+      // ✅ Owl Carousel initialization after content is loaded
+      $('#blog-posts').owlCarousel({
+        loop: true,
+        margin: 20,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        nav: false,
+        navText: [
+          '<i class="fas fa-chevron-left fa-2x"></i>',
+          '<i class="fas fa-chevron-right fa-2x"></i>'
+        ],
+        dots: true,
+        responsive: {
+          0: { items: 1 },
+          600: { items: 2 },
+          1000: { items: 3 }
+        }
+      });
+    })
+    .catch(err => {
+      console.error('Failed to load blog posts:', err);
+      document.getElementById('blog-posts').innerHTML = `<p>Error loading blog posts.</p>`;
+    });
 
 
 document.getElementById('viewMoreBtn').addEventListener('click', function () {

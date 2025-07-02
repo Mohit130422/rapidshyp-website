@@ -1,83 +1,86 @@
 <?php include 'header-section.php';?>
-    <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/couriers.png">
-    <link rel="canonical" href="https:/www.rapidshyp.com" />
-    <meta property="og:title" content="eCommerce Shipping & Courier Aggregator in India - RapidShyp" />
-    <meta property="og:description" content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
-    <meta name="title" content="eCommerce Shipping & Courier Aggregator in India - RapidShyp" />
-    <meta name="description" content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
-    <title>eCommerce Shipping & Courier Aggregator in India - RapidShyp</title>
-    <!-- FAqs schema start -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [{
-            "@type": "Question",
-            "name": "What is RapidShyp?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RapidShyp is a shipping aggregator platform that empowers businesses to navigate their shipping needs across diverse carriers and delivery channels. Businesses can seamlessly integrate their shipping operations, access multiple courier services, and streamline sending packages to customers. RapidShyp aims to simplify logistics management for businesses of all sizes, offering features such as order tracking, label generation, and shipment management to optimise the shipping experience. "
-            }
-        }, {
-            "@type": "Question",
-            "name": "How does RapidShyp work?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RapidShyp works by providing a platform where businesses can manage their shipping operations efficiently. It integrates with various courier services, allowing businesses to compare rates, generate shipping labels, track shipments, and streamline the shipping process. Our AI - enabled carrier recommendation - SmartSelect, uses advanced algorithms and analyzes multiple factors, including shipping cost,delivery SLA, pickup performance, POD facilities, courier serviceability, etc to recommend the best courier for your shipment."
-            }
-        }, {
-            "@type": "Question",
-            "name": "How can I integrate my eCommerce store with RapidShyp?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RapidShyp provides easy-to-use integration tools and plugins for most major eCommerce platforms. Simply follow the step-by-step guide provided on our website or reach out to our support team for assistance."
-            }
-        }, {
-            "@type": "Question",
-            "name": "Which courier partners are integrated with RapidShyp?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RapidShyp has partnered with a wide range of leading courier companies in India, including Xpressbees, DTDC, Delhivery, and many more. This ensures our users can access the broadest pincode coverage and the best delivery options available."
-            }
-        }, {
-            "@type": "Question",
-            "name": "How will RapidShyp help in reducing shipping costs?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RapidShyp's Shipping Automation platform offers features such as courier prioritisation, bulk shipping actions, and automated workflows. These functionalities collectively help businesses reduce operational overheads and avail the best shipping rates."
-            }
-        }, {
-            "@type": "Question",
-            "name": "How does RapidShyp calculate shipping charges?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Shipping charges are calculated based on factors such as package dimensions, weight, destination, and selected shipping service. RapidShyp provides real-time shipping rates for different carriers. You can check the prices by connecting with us at connect@rapidshyp.com"
-            }
-        }, {
-            "@type": "Question",
-            "name": "Does RapidShyp offer security cover for lost shipments?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RapidShyp offers security cover for lost shipments to provide coverage against loss, damage, or theft during transit. For more details connect with us at <a href="mailto:support@rapidshyp.com"><b>support@rapidshyp.com</b></a>"
-            }
-        }, {
-            "@type": "Question",
-            "name": "How does RapidShyp handle shipping to remote or rural areas?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RapidShyp works with its network of courier partners to reach remote or rural areas. However, delivery times can vary. RapidShyp endeavors to ensure timely and reliable delivery to all locations within its service network."
-            }
-        }, {
-            "@type": "Question",
-            "name": "What is the pricing of the platform?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RapidShyp is free for all operating e-commerce sellers, regardless of their current growth phase. You just need to pay freight charges when you ship the order. You can also avail of other value-added services by contacting your dedicated shipping advisor or our customer support desk."
-            }
-        }]
-    }
-    </script>
-    <!-- FAqs schema end -->
+<meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/couriers.png">
+<link rel="canonical" href="https:/www.rapidshyp.com" />
+<meta property="og:title" content="eCommerce Shipping & Courier Aggregator in India - RapidShyp" />
+<meta property="og:description"
+    content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
+<meta name="title" content="eCommerce Shipping & Courier Aggregator in India - RapidShyp" />
+<meta name="description"
+    content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
+<title>eCommerce Shipping & Courier Aggregator in India - RapidShyp</title>
+<!-- FAqs schema start -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+        "@type": "Question",
+        "name": "What is RapidShyp?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RapidShyp is a shipping aggregator platform that empowers businesses to navigate their shipping needs across diverse carriers and delivery channels. Businesses can seamlessly integrate their shipping operations, access multiple courier services, and streamline sending packages to customers. RapidShyp aims to simplify logistics management for businesses of all sizes, offering features such as order tracking, label generation, and shipment management to optimise the shipping experience. "
+        }
+    }, {
+        "@type": "Question",
+        "name": "How does RapidShyp work?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RapidShyp works by providing a platform where businesses can manage their shipping operations efficiently. It integrates with various courier services, allowing businesses to compare rates, generate shipping labels, track shipments, and streamline the shipping process. Our AI - enabled carrier recommendation - SmartSelect, uses advanced algorithms and analyzes multiple factors, including shipping cost,delivery SLA, pickup performance, POD facilities, courier serviceability, etc to recommend the best courier for your shipment."
+        }
+    }, {
+        "@type": "Question",
+        "name": "How can I integrate my eCommerce store with RapidShyp?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RapidShyp provides easy-to-use integration tools and plugins for most major eCommerce platforms. Simply follow the step-by-step guide provided on our website or reach out to our support team for assistance."
+        }
+    }, {
+        "@type": "Question",
+        "name": "Which courier partners are integrated with RapidShyp?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RapidShyp has partnered with a wide range of leading courier companies in India, including Xpressbees, DTDC, Delhivery, and many more. This ensures our users can access the broadest pincode coverage and the best delivery options available."
+        }
+    }, {
+        "@type": "Question",
+        "name": "How will RapidShyp help in reducing shipping costs?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RapidShyp's Shipping Automation platform offers features such as courier prioritisation, bulk shipping actions, and automated workflows. These functionalities collectively help businesses reduce operational overheads and avail the best shipping rates."
+        }
+    }, {
+        "@type": "Question",
+        "name": "How does RapidShyp calculate shipping charges?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shipping charges are calculated based on factors such as package dimensions, weight, destination, and selected shipping service. RapidShyp provides real-time shipping rates for different carriers. You can check the prices by connecting with us at connect@rapidshyp.com"
+        }
+    }, {
+        "@type": "Question",
+        "name": "Does RapidShyp offer security cover for lost shipments?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RapidShyp offers security cover for lost shipments to provide coverage against loss, damage, or theft during transit. For more details connect with us at <a href="
+            mailto: support @rapidshyp.com "><b>support@rapidshyp.com</b></a>"
+        }
+    }, {
+        "@type": "Question",
+        "name": "How does RapidShyp handle shipping to remote or rural areas?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RapidShyp works with its network of courier partners to reach remote or rural areas. However, delivery times can vary. RapidShyp endeavors to ensure timely and reliable delivery to all locations within its service network."
+        }
+    }, {
+        "@type": "Question",
+        "name": "What is the pricing of the platform?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RapidShyp is free for all operating e-commerce sellers, regardless of their current growth phase. You just need to pay freight charges when you ship the order. You can also avail of other value-added services by contacting your dedicated shipping advisor or our customer support desk."
+        }
+    }]
+}
+</script>
+<!-- FAqs schema end -->
 </head>
 
 <body>
@@ -87,11 +90,18 @@
         <div id="hero-area" class="hero-area">
             <div class="floating-elements">
                 <ul class="background">
-                    <li>Expedited Shipping<img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/truck.svg" alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/pink-circle.png" alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/package.svg" alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/yellow-circle.png" alt=""></li>
-                    <li>Quick Support <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/support.svg" alt=""></li>
+                    <li>Expedited Shipping<img
+                            src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/truck.svg" alt="">
+                    </li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/pink-circle.png"
+                            alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/package.svg"
+                            alt=""></li>
+                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/yellow-circle.png"
+                            alt=""></li>
+                    <li>Quick Support <img
+                            src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/support.svg"
+                            alt=""></li>
                 </ul>
             </div>
             <div class="container">
@@ -104,7 +114,10 @@
                                 streamline order fulfillment, integrate everything, save time and cost</p>
                         </div>
                         <div class="join-us mb-2">
-                            <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';"><span>Get Started</span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/send.svg" alt=""></button>
+                            <button class="solid-action-btn"
+                                onclick="location.href = 'https://app.rapidshyp.com/';"><span>Get Started</span><img
+                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/send.svg"
+                                    alt=""></button>
                         </div>
                     </div>
                 </div>
@@ -115,149 +128,152 @@
     <section class="explore-features" id="product">
         <div class="container">
             <div class="row">
-                    <div class="col-12">
-                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade"
-                            data-bs-ride="carousel">
-                            <div class="row">
-                                <div class="col-lg-4 col-xl-4">
-                                    <span class="label">Product</span>
-                                    <h2 class="title">Delve into our product modules </h2>
-                                    <div class="carousel-indicators features">
-                                        <div type="button" data-bs-target="#carouselExampleIndicators"
-                                            data-bs-slide-to="0" class="active" aria-current="true"
-                                            aria-label="Slide 1">
-                                            <div class="item">
-                                                <h5 class="head">Order Management System</h5>
-                                                <p class="body">Manage your orders across multiple marketplaces and
-                                                    sales channels, ensuring automated hassle-free processing,
-                                                    record-keeping, and seamless operations to unlock the door to rapid
-                                                    organizational growth </p>
-                                                <!-- <a href="#" class="footer">Explore The Feature <i class="fas fa-arrow-right"></i></a> -->
-                                                <div class="scroll-path">
-                                                    <span class="progress-bar"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div type="button" data-bs-target="#carouselExampleIndicators"
-                                            data-bs-slide-to="1" aria-label="Slide 2">
-                                            <div class="item">
-                                                <h5 class="head">Courier Recommendation Engine</h5>
-                                                <p class="body">Elevate your shipping game with cutting-edge AI-backed
-                                                    courier recommendation- SmartSelect. It analyzes and advises the
-                                                    best courier partner, for your shipment depending on your
-                                                    preferences</p>
-                                                <div class="scroll-path">
-                                                    <span class="progress-bar"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div type="button" data-bs-target="#carouselExampleIndicators"
-                                            data-bs-slide-to="2" aria-label="Slide 3">
-                                            <div class="item">
-                                                <h5 class="head">Xperience Suite</h5>
-                                                <p class="body">Customize your tracking page with promotional banners,
-                                                    logo; and omnichannel buyer communication providing customers with a
-                                                    personalized touchpoint that reinforces your brand identity and
-                                                    fosters loyalty </p>
-                                                <div class="scroll-path">
-                                                    <span class="progress-bar"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div type="button" data-bs-target="#carouselExampleIndicators"
-                                            data-bs-slide-to="3" aria-label="Slide 4">
-                                            <div class="item">
-                                                <h5 class="head">NDR Management</h5>
-                                                <p class="body">Tackle non-delivery concerns head-on with our
-                                                    comprehensive feature. Ensure swift resolution of undelivered
-                                                    orders, minimizing costs and disruptions while safeguarding customer
-                                                    satisfaction. </p>
-                                                <div class="scroll-path">
-                                                    <span class="progress-bar"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-carousel owl-theme" id="product-carousel">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="row">
+                            <div class="col-lg-4 col-xl-4">
+                                <span class="label">Product</span>
+                                <h2 class="title">Delve into our product modules </h2>
+                                <div class="carousel-indicators features">
+                                    <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1">
                                         <div class="item">
-                                            <div class="img">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Order-management.png" alt="">
-                                            </div>
                                             <h5 class="head">Order Management System</h5>
-                                            <p class="body">Manage your orders across multiple marketplaces and sales
-                                                channels, ensuring automated hassle-free processing, record-keeping, and
-                                                seamless operations to unlock the door to rapid organizational growth
-                                            </p>
+                                            <p class="body">Manage your orders across multiple marketplaces and
+                                                sales channels, ensuring automated hassle-free processing,
+                                                record-keeping, and seamless operations to unlock the door to rapid
+                                                organizational growth </p>
                                             <!-- <a href="#" class="footer">Explore The Feature <i class="fas fa-arrow-right"></i></a> -->
                                             <div class="scroll-path">
                                                 <span class="progress-bar"></span>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                        aria-label="Slide 2">
                                         <div class="item">
-                                            <div class="img">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Courier-recommended.png" alt="">
-                                            </div>
                                             <h5 class="head">Courier Recommendation Engine</h5>
                                             <p class="body">Elevate your shipping game with cutting-edge AI-backed
-                                                courier recommendation- SmartSelect. It analyzes and advises the best
-                                                courier partner, for your shipment depending on your preferences</p>
+                                                courier recommendation- SmartSelect. It analyzes and advises the
+                                                best courier partner, for your shipment depending on your
+                                                preferences</p>
                                             <div class="scroll-path">
                                                 <span class="progress-bar"></span>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                        aria-label="Slide 3">
                                         <div class="item">
-                                            <div class="img">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Xperience-Suite.png" alt="">
-                                            </div>
                                             <h5 class="head">Xperience Suite</h5>
-                                            <p class="body">Customize your tracking page with promotional banners, logo;
-                                                and omnichannel buyer communication providing customers with a
-                                                personalized touchpoint that reinforces your brand identity and fosters
-                                                loyalty </p>
+                                            <p class="body">Customize your tracking page with promotional banners,
+                                                logo; and omnichannel buyer communication providing customers with a
+                                                personalized touchpoint that reinforces your brand identity and
+                                                fosters loyalty </p>
                                             <div class="scroll-path">
                                                 <span class="progress-bar"></span>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                        aria-label="Slide 4">
                                         <div class="item">
-                                            <div class="img">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/NDR-Management.png" alt="">
-                                            </div>
                                             <h5 class="head">NDR Management</h5>
-                                            <p class="body">Tackle non-delivery concerns head-on with our comprehensive
-                                                feature. Ensure swift resolution of undelivered orders, minimizing costs
-                                                and disruptions while safeguarding customer satisfaction. </p>
+                                            <p class="body">Tackle non-delivery concerns head-on with our
+                                                comprehensive feature. Ensure swift resolution of undelivered
+                                                orders, minimizing costs and disruptions while safeguarding customer
+                                                satisfaction. </p>
                                             <div class="scroll-path">
                                                 <span class="progress-bar"></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-8 col-xl-8">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active" data-bs-interval="4000">
+                                <div class="owl-carousel owl-theme" id="product-carousel">
+                                    <div class="item">
+                                        <div class="img">
                                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Order-management.png"
-                                                class="dashboard-image d-block m-auto" alt="...">
+                                                alt="">
                                         </div>
-                                        <div class="carousel-item" data-bs-interval="4000">
+                                        <h5 class="head">Order Management System</h5>
+                                        <p class="body">Manage your orders across multiple marketplaces and sales
+                                            channels, ensuring automated hassle-free processing, record-keeping, and
+                                            seamless operations to unlock the door to rapid organizational growth
+                                        </p>
+                                        <!-- <a href="#" class="footer">Explore The Feature <i class="fas fa-arrow-right"></i></a> -->
+                                        <div class="scroll-path">
+                                            <span class="progress-bar"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img">
                                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Courier-recommended.png"
-                                                class="dashboard-image d-block m-auto" alt="...">
+                                                alt="">
                                         </div>
-                                        <div class="carousel-item" data-bs-interval="4000">
+                                        <h5 class="head">Courier Recommendation Engine</h5>
+                                        <p class="body">Elevate your shipping game with cutting-edge AI-backed
+                                            courier recommendation- SmartSelect. It analyzes and advises the best
+                                            courier partner, for your shipment depending on your preferences</p>
+                                        <div class="scroll-path">
+                                            <span class="progress-bar"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img">
                                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Xperience-Suite.png"
-                                                class="dashboard-image d-block m-auto" alt="...">
+                                                alt="">
                                         </div>
-                                        <div class="carousel-item" data-bs-interval="4000">
+                                        <h5 class="head">Xperience Suite</h5>
+                                        <p class="body">Customize your tracking page with promotional banners, logo;
+                                            and omnichannel buyer communication providing customers with a
+                                            personalized touchpoint that reinforces your brand identity and fosters
+                                            loyalty </p>
+                                        <div class="scroll-path">
+                                            <span class="progress-bar"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img">
                                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/NDR-Management.png"
-                                                class="dashboard-image d-block m-auto" alt="...">
+                                                alt="">
+                                        </div>
+                                        <h5 class="head">NDR Management</h5>
+                                        <p class="body">Tackle non-delivery concerns head-on with our comprehensive
+                                            feature. Ensure swift resolution of undelivered orders, minimizing costs
+                                            and disruptions while safeguarding customer satisfaction. </p>
+                                        <div class="scroll-path">
+                                            <span class="progress-bar"></span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="join-btn mb-4">
-                                    <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
+                            </div>
+                            <div class="col-lg-8 col-xl-8">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="4000">
+                                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Order-management.png"
+                                            class="dashboard-image d-block m-auto" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Courier-recommended.png"
+                                            class="dashboard-image d-block m-auto" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Xperience-Suite.png"
+                                            class="dashboard-image d-block m-auto" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/NDR-Management.png"
+                                            class="dashboard-image d-block m-auto" alt="...">
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="join-btn mb-4">
+                                <button class="solid-action-btn"
+                                    onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
     </section>
@@ -278,9 +294,10 @@
                                         alt="">
                                 </span>
                                 <p class="title">Order Management</p>
-                                <small>Auto-synchronise orders across multiple channels and ship them effortlessly</small>
-                                <a href="order-management-system"class="learnmore">Learn More <i
-                                class="fas fa-arrow-right"></i></a>
+                                <small>Auto-synchronise orders across multiple channels and ship them
+                                    effortlessly</small>
+                                <a href="order-management-system" class="learnmore">Learn More <i
+                                        class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
@@ -290,9 +307,10 @@
                                         alt="">
                                 </span>
                                 <p class="title">Next-day Deliveries</p>
-                                <small>Convert more website visitors into customers and level up your delivery experience</small>
-                                <a href="next-day-delivery"class="learnmore">Learn More <i
-                                class="fas fa-arrow-right"></i></a>
+                                <small>Convert more website visitors into customers and level up your delivery
+                                    experience</small>
+                                <a href="next-day-delivery" class="learnmore">Learn More <i
+                                        class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
@@ -302,9 +320,10 @@
                                         alt="">
                                 </span>
                                 <p class="title">Order Verification</p>
-                                <small>Verify orders and addresses before shipping to optimise your delivery rate</small>
-                                <a href="order-verification"class="learnmore">Learn More <i
-                                class="fas fa-arrow-right"></i></a>
+                                <small>Verify orders and addresses before shipping to optimise your delivery
+                                    rate</small>
+                                <a href="order-verification" class="learnmore">Learn More <i
+                                        class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
@@ -347,7 +366,8 @@
                                         alt="">
                                 </span>
                                 <p class="title">Multi-courier Integration</p>
-                                <small>Access diverse carriers and ensure maximum efficiency with AI-backed recommendations</small>
+                                <small>Access diverse carriers and ensure maximum efficiency with AI-backed
+                                    recommendations</small>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden-column">
@@ -408,7 +428,8 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/label-dash.webp" alt="">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/label-dash.webp"
+                            alt="">
                     </div>
                 </div>
             </div>
@@ -429,7 +450,7 @@
                             <li><i class="far fa-check-circle"></i>View a compiled buyer data</li>
                         </ul>
                         <a href="#" onclick="location.href = 'https://app.rapidshyp.com/';"">Get Started <i
-                                class="fas fa-arrow-right"></i></a>
+                                class=" fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -458,162 +479,15 @@
         </div>
     </section>
 
-    <section class="blogs d-none">
+    <section class="blogs" style="background-color: #fff;">
         <div class="container">
             <div class="row mb-5">
                 <div class="col text-center">
-                    <span class="label">Blog</span>
-                    <h3 class="heading">See Our Blog</h3>
-                    <p class="sub-heading">Stay current with all the latest information, trends and industry <br>
-                        expectation and more. </p>
+                    <h3 class="heading">Blogs</h3>
+                    <p class="sub-heading">Stay updated with the latest industry developments, trends, expectations, and much more with our articles.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-6 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post1.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="label">Marketing</span>
-                                <span class="time">1 day ago</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Explore the blog <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post2.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="label">Marketing</span>
-                                <span class="time">1 day ago</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Explore the blog <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post3.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="label">Marketing</span>
-                                <span class="time">1 day ago</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Explore the blog <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post4.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="label">Marketing</span>
-                                <span class="time">1 day ago</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Explore the blog <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post1.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="label">Marketing</span>
-                                <span class="time">1 day ago</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Explore the blog <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post2.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="label">Marketing</span>
-                                <span class="time">1 day ago</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Explore the blog <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post3.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="label">Marketing</span>
-                                <span class="time">1 day ago</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Explore the blog <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6 mb-5">
-                    <div class="card blog-post">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post4.png" alt="">
-                        </div>
-                        <div class="body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="label">Marketing</span>
-                                <span class="time">1 day ago</span>
-                            </div>
-                            <p class="content">Stay current with all the latest information, trends and industry
-                                expectation and more.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#">Explore the blog <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="owl-carousel owl-theme" id="blog-posts"></div>
         </div>
     </section>
 
@@ -710,7 +584,8 @@
                             <div id="flush-collapseFive" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">RapidShyp's Shipping Automation platform offers features
-                                    such as courier prioritisation, bulk shipping actions, and automated workflows. These functionalities collectively help businesses reduce operational
+                                    such as courier prioritisation, bulk shipping actions, and automated workflows.
+                                    These functionalities collectively help businesses reduce operational
                                     overheads and avail the best shipping rates.</div>
                             </div>
                         </div>
@@ -727,7 +602,8 @@
                                 <div class="accordion-body">Shipping charges are calculated based on factors such as
                                     package dimensions, weight, destination, and selected shipping service. RapidShyp
                                     provides real-time shipping rates for different carriers. You can check the prices
-                                    by connecting with us at <a href="mailto:connect@rapidshyp.com"><b>connect@rapidshyp.com</b></a></div>
+                                    by connecting with us at <a
+                                        href="mailto:connect@rapidshyp.com"><b>connect@rapidshyp.com</b></a></div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -742,7 +618,8 @@
                                 aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">RapidShyp offers security cover for lost shipments to
                                     provide coverage against loss, damage, or theft during transit. For more details
-                                    connect with us at <a href="mailto:support@rapidshyp.com"><b>support@rapidshyp.com</b></a></div>
+                                    connect with us at <a
+                                        href="mailto:support@rapidshyp.com"><b>support@rapidshyp.com</b></a></div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -792,14 +669,19 @@
                         eCommerce shipping solution.</p>
                     <div class="row mt-4 align-items-center">
                         <div class="col-md-12 col-sm-12 mb-4">
-                                <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';"><span>Get Started</span> <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/forward_to_inbox.svg" alt=""></button>
+                            <button class="solid-action-btn"
+                                onclick="location.href = 'https://app.rapidshyp.com/';"><span>Get Started</span> <img
+                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/forward_to_inbox.svg"
+                                    alt=""></button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image">
                         <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/explore.png" alt="">
-                        <span class="note-img"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/notepad.png" alt=""></span>
+                        <span class="note-img"><img
+                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/notepad.png"
+                                alt=""></span>
                     </div>
                 </div>
             </div>
@@ -808,7 +690,6 @@
 
     <?php include 'footer.php';?>
     <script src="assets/js/main.js?v=0.0.2"></script>
-
 </body>
 
 </html>
