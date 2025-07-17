@@ -79,6 +79,8 @@
                 </ol>
                 <p class="mb-3">hereinafter collectively referred to as <b>as “User Information”.</b></p>
                 <p class="mb-3">In order to avail the Services, the Users may also be required to upload/share certain documents (for instance, Aadhaar, PAN Card, GST certificate, etc.), on the Platform and/or e-mail the same to the Company. Accordingly, the term <b>as “User Information”</b> shall also include any such documents uploaded or otherwise provided by the Users. We may also keep records of telephone calls received and made for making inquiries, orders, or other purposes necessary for the administration of Services.</p>
+                <p class="mb-3">We collect limited data through app permissions to support essential features. Camera access is used for capturing barcodes and shipment photos, microphone access is activated only for voice features and recordings are deleted after 90 days. Storage access is restricted to user-selected files like invoices or KYC documents. Location services are optional and may affect certain features if disabled. Notification data is used for alerts and updates, with user control available always. </p>
+                <p class="mb-3">Payments are processed via Razorpay and PayU, with minimal transaction data shared securely for processing and refunds. All sensitive data is encrypted, and we share information only with trusted service providers for storage, analytics and support strictly as needed for functionality. </p>
             </div>
             <div class="mb-4">
                 <h2>Automatic Data Collection:</h2>
@@ -100,53 +102,6 @@
                     is freely available or accessible in public domain or furnished under the Right to Information Act,
                     2005 or any other law shall not qualify as Sensitive Personal Data or Information or Personal
                     Information.</p>
-            </div>
-            <div class="mb-4">
-                <h2>Types of Personal Information collected by the Company:</h2>
-                <p class="mb-3">While using our Services, we may collect the following categories of Personal
-                    Information from the Users:</p>
-                <ol class="mb-3" type="a">
-                    <li>Name;</li>
-                    <li>User ID;</li>
-                    <li>Email Address;</li>
-                    <li>Address (including country and ZIP/postal code);</li>
-                    <li>Gender;</li>
-                    <li>Age;</li>
-                    <li>Phone Number;</li>
-                    <li>Password chosen by the user;</li>
-                    <li>Geographical location through the IP address of the Users;</li>
-                    <li>Financial account information like bank account details, GST certificate, PAN Card, etc. and
-                        transactional information in relation to transactions where the Company is involved;</li>
-                    <li>Any of the aforesaid information pertaining to the customer/buyer of the User; and</li>
-                    <li>All other personally identifiable information/details as the User may share from time to time
-                        (including personally identifiable information/details of the customer/buyer of the User).</li>
-                </ol>
-                <p class="mb-3">hereinafter collectively referred to as <b>“User Information”.</b></p>
-                <p class="mb-3">In order to avail the Services, the Users may also be required to upload/share certain
-                    documents (for instance, Aadhaar, PAN Card, GST certificate, etc.), on the Platform and/or e-mail
-                    the same to the Company. Accordingly, the term <b>“User Information”</b> shall also include any such
-                    documents uploaded or otherwise provided by the Users. We may also keep records of telephone calls
-                    received and made for making inquiries, orders, or other purposes necessary for the administration
-                    of Services.</p>
-            </div>
-            <div class="mb-4">
-                <h2>Automatic Data Collection:</h2>
-                <p class="mb-3">We may also receive and/or hold information about the User’s browsing history including
-                    the Uniform Resource Locator (URL) of the site that the User visited prior to visiting the Platform
-                    as well as the Internet Protocol (IP) address of each User's computer (or the proxy server a User
-                    used to access the World Wide Web), User's computer operating system and type of web browser the
-                    User is using as well as the name of User's Internet Service Provider (ISP). The Platform may use
-                    temporary cookies to store certain data (that is not Sensitive Personal Data or Information) that is
-                    used by Us for the technical administration of the Platform, research and development, and for User
-                    administration. In addition to the above:</p>
-                <ol type="a">
-                    <li>We do not knowingly collect Personal Information from children; and</li>
-                    <li>We may in future include other optional requests for information from the User including through
-                        User surveys in order to help Us customize the Platform to deliver personalized information to
-                        the User and for other purposes as mentioned herein. Such information may also be collected in
-                        the course of surveys/contests conducted by Us. Any such additional Personal Information will
-                        also be processed in accordance with this Privacy Policy.</li>
-                </ol>
             </div>
             <div class="mb-4">
                 <h2>Purposes for which the Company may use the Information:</h2>
@@ -264,7 +219,6 @@
                     the change(s) for updating the Company's records.</p>
                 <p class="mb-3">You hereby acknowledge that the Company is not responsible for any information sent via the internet that has been intercepted beyond Our control after having adopted reasonable security practices and procedures, and You hereby release Us from any and all claims arising out of or related to the use of intercepted information in any unauthorized manner.</p>
                 <p class="mb-3">RapidShyp complies with data protection laws and Amazon's Acceptable Use Policy, ensuring secure API data handling monitoring and role-based access. Data is used solely for its intended purpose, retained only as needed, and securely disposed of per Amazon’s policies. Any unauthorized access is promptly reported, with all usage adhering to Amazon’s guidelines.</p>
-                <p class="mb-3">You hereby acknowledge that the Company is not responsible for any information sent via the internet that has been intercepted beyond Our control after having adopted reasonable security practices and procedures, and You hereby release Us from any and all claims arising out of or related to the use of intercepted information in any unauthorized manner.</p>
                 <p class="mb-3">In case the User does not provide his/her information or consent for usage of Personal
                     Information or subsequently withdraws his/her consent for usage of the Personal Information so
                     collected, the Company reserves the right to discontinue, in part or full, the Services/associated
@@ -272,14 +226,14 @@
             </div>
             <div class="mb-4">
                 <h2>For how long do the Company keep Personal Information:</h2>
-                <p class="mb-3">Any personal information collected or processed in accordance with this Privacy Policy
-                    will be collected by Us, and retained on our behalf either by Us or with Amazon Web Services.
-                    Company will retain your Personal Information for as long as needed to fulfil the purpose for which
-                    it was collected and for any longer period thereafter in order to comply with applicable law. In
-                    case a User has withdrawn or cancelled their registration from the Platform, we are obliged under
-                    law to retain their Personal Information for a period of one hundred and eighty days after such
-                    cancellation. We may retain non-personally identifiable data indefinitely or to the extent allowed
-                    by applicable law.</p>
+                <p class="mb-3">Any personal information collected or processed in accordance with this Privacy Policy will be 
+                collected by Us and retained on our behalf either by Us or with Amazon Web Services. Company 
+                will retain your Personal Information for as long as needed to fulfil the purpose for which it was 
+                collected and for any longer period thereafter in order to comply with applicable law. In case a 
+                User has withdrawn or cancelled their registration from the Platform, we are obliged under law 
+                to retain their Personal Information for a period of one hundred and eighty days after such 
+                cancellation. We may retain non-personally identifiable data indefinitely or to the extent allowed 
+                by applicable law. </p>
             </div>
             <div class="mb-4">
                 <h2>Use of the Platform:</h2>
