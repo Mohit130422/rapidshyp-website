@@ -281,6 +281,14 @@ i {
     -webkit-mask-position: -50%;
   }
 }
+@keyframes scrollRTL {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 mark {
   background-image: linear-gradient(to right, #FDE8E7, #FFEAAB);
   padding: 0 0.4em 0.3em;
@@ -563,13 +571,23 @@ mark {
   }
 }
 
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+}
+.scroll-container .scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollRTL 20s linear infinite;
+}
+.scroll-container .scrolling-text:hover {
+  animation-play-state: paused;
+}
+
 .topHeader {
   background: linear-gradient(92.72deg, #F3DDFF -1.79%, #FFEEBB 107.62%);
-  padding: 8px 0;
+  padding: 10px 0;
   font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 .topHeader p {
@@ -582,7 +600,7 @@ mark {
   padding: 4px 12px;
   font-weight: 500;
   cursor: pointer;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .topHeader span i {
   font-size: 10px;
@@ -750,8 +768,7 @@ header .active-head {
   header .navbar-toggler .hidden .fa-times {
     font-size: 1.5em;
     color: #3E1A51;
-    -webkit-clip-path: unset !important;
-            clip-path: unset !important;
+    clip-path: unset !important;
   }
   header .navbar-collapse {
     position: absolute;
@@ -2524,6 +2541,102 @@ section {
   }
 }
 
+.app_launch {
+  background-color: #F7EAFF;
+  height: 110vh;
+  position: relative;
+  overflow: hidden;
+}
+.app_launch mark {
+  color: #8C3BB7;
+  background: none;
+  padding: 0;
+}
+.app_launch .usps .item {
+  margin-bottom: 16px;
+}
+.app_launch .usps .item .icon {
+  margin-right: 16px;
+}
+.app_launch .usps .item .content h4 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+.app_launch .usps .item .content p {
+  font-size: 16px;
+}
+.app_launch .app-btns {
+  background: #fff;
+  padding: 16px 16px 16px 100px;
+  position: absolute;
+  left: 0;
+  border-radius: 8px;
+}
+.app_launch .app-btns .sub-heading {
+  font-size: 16px;
+  font-weight: 500;
+}
+.app_launch .app-btns .btn {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 12px 0px;
+  justify-content: center;
+}
+.app_launch .app-btns .btn img {
+  margin-right: 8px;
+}
+.app_launch .imgDesk {
+  overflow: hidden;
+}
+.app_launch .imgDesk img {
+  position: absolute;
+  bottom: -50%;
+  width: 80%;
+}
+@media (max-width: 1366px) {
+  .app_launch .heading {
+    font-size: 32px;
+  }
+  .app_launch .sub-heading {
+    font-size: 14px;
+  }
+  .app_launch .usps .item h4 {
+    font-size: 16px !important;
+  }
+  .app_launch .usps .item p {
+    font-size: 14px !important;
+  }
+  .app_launch .app-btns .sub-heading {
+    font-size: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .app_launch {
+    height: auto !important;
+    text-align: center;
+  }
+  .app_launch .usps .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .app_launch .usps .item .icon {
+    margin-bottom: 8px;
+  }
+  .app_launch .app-btns {
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .app_launch .imgDesk img {
+    display: none;
+  }
+}
+
 .tracking::after {
   content: "";
   top: 2%;
@@ -4282,8 +4395,7 @@ section {
   width: 15px;
   height: 15px;
   background-color: #D28DFF;
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   animation: none;
   transform: rotate(45deg);
 }
@@ -6292,25 +6404,36 @@ section {
 
 .b2b-hero {
   background: #3E1A51 !important;
+  border-radius: unset;
 }
 
 .b2b-mark mark {
   padding: 0;
   background: #fbe2f6;
-  background: linear-gradient(45deg, #E6C0FF 0%, #E6C0FF 100%);
+  background: linear-gradient(45deg, #FFC127 0%, #FFEFBE 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-radius: 0;
   font-weight: 800;
 }
-.b2b-mark .content .heading {
+.b2b-mark .contents .head-title {
   font-size: 32px;
+  text-transform: uppercase;
+}
+.b2b-mark .contents h4 {
+  font-weight: 800;
 }
 
 .b2b-light-bg {
   background: #E6C0FF !important;
 }
 
+.b2b-usps {
+  background-color: #FFF5D9;
+  padding-bottom: 100px;
+  border-radius: 0 0 24px 24px;
+  border-bottom: 1px solid #FBBC05;
+}
 .b2b-usps .heading {
   line-height: 1.4;
 }
@@ -6323,67 +6446,116 @@ section {
   background-color: #F7F7F7;
 }
 .b2b-usps .card .card-body .card-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   text-align: left;
   margin-bottom: 0;
 }
-.b2b-usps .grid-container .feature {
-  height: 100%;
-  border-radius: 20px;
-  padding: 40px;
-  color: #1c1c1c;
+
+.why-choose-rs-b2b {
+  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  height: 950px;
 }
-.b2b-usps .grid-container .feature .image-placeholder {
-  margin-bottom: 2rem;
-  border-radius: 10px;
-  height: 300px;
+.why-choose-rs-b2b .container {
+  position: absolute;
+  top: -8%;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
-.b2b-usps .grid-container .feature .image-placeholder img {
+.why-choose-rs-b2b .container .heading {
+  font-size: 32px;
+}
+.why-choose-rs-b2b .container .info {
+  padding: 1rem;
+}
+.why-choose-rs-b2b .container .info .imgdesk {
+  display: block;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.why-choose-rs-b2b .container .info .imgdesk img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
 }
-.b2b-usps .grid-container .feature .title {
+.why-choose-rs-b2b .container .info .title {
   font-weight: 800;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  margin: 27px 0 9px;
 }
-.b2b-usps .grid-container .feature .desc {
-  font-size: 0.95rem;
-  line-height: 1.4;
+.why-choose-rs-b2b .container .info .title mark {
+  color: #B658E8;
+  background: unset;
+  padding: 0;
 }
-.b2b-usps .grid-container .c1 {
-  background-color: #E6C0FF;
+.why-choose-rs-b2b .container .info small {
+  font-size: 14px;
+  line-height: 2;
 }
-.b2b-usps .grid-container .c2 {
-  background-color: #3E1A51;
-  color: white;
-  height: 50%;
-  margin-bottom: 1rem;
+.why-choose-rs-b2b .container .info .learnmore {
+  display: block;
+  font-weight: 800;
+  font-size: 14px;
+  color: #3E1A51;
+  margin-top: 16px;
 }
-.b2b-usps .grid-container .c2 img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+.why-choose-rs-b2b .container .info .yellow {
+  background-color: #ffeed0;
 }
-.b2b-usps .grid-container .c3 {
-  background-color: #fff2b3;
+.why-choose-rs-b2b .container .holographic-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
 }
-.b2b-usps .grid-container .c4 {
-  background-color: #f5ebff;
+.why-choose-rs-b2b .container .holographic-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(0deg, transparent, transparent 30%, #fbe2f6);
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
 }
-.b2b-usps .grid-container .c5 {
-  background-color: #ede2ff;
+.why-choose-rs-b2b .container .holographic-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ffeed0;
+  border-radius: 15px;
 }
-.b2b-usps .grid-container .c6 {
-  background-color: #f3e2ff;
+.why-choose-rs-b2b .container .holographic-card:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+.why-choose-rs-b2b .container .solid-action-btn {
+  background-color: #FBBC05;
+  color: #000000;
+}
+@media (max-width: 576px) {
+  .why-choose-rs-b2b {
+    height: unset;
+    text-align: center;
+  }
+  .why-choose-rs-b2b .container {
+    position: relative;
+    padding: 2rem;
+  }
+  .why-choose-rs-b2b .container .info {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .why-choose-rs-b2b .container .info .imgdesk {
+    margin: auto;
+  }
 }
 
 .retail-lp-hero .join-us {
@@ -6505,6 +6677,15 @@ footer .social-media a {
 footer .social-media a img {
   width: 1.25rem;
   margin-bottom: 0.3rem;
+}
+footer .app-btns .btn {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0;
+}
+footer .app-btns .btn .app-btn {
+  margin-right: 8px;
 }
 footer p {
   font-weight: 700;

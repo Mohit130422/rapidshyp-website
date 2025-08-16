@@ -2,24 +2,36 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="brand mb-4">
-                        <a href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt=""></a>
-                    </div>
-                    <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
-                        shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and
-                        reduced costs.</p>
-                    <div class="social-media mb-4">
-                        <p>Follow Us On:</p>
-                        <a href="https://www.instagram.com/rapidshyp"
-                            target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://in.linkedin.com/company/rapidshyp" target="_blank"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/rapidshyp" target="_blank"><i
-                                class="fab fa-facebook"></i></a>
-                        <a href="https://twitter.com/rapidshyp" target="_blank"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg" alt=""></a>
+                <div class="brand mb-4">
+                    <a href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt=""></a>
+                </div>
+                <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
+                    shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and
+                    reduced costs.</p>
+                <div class="social-media mb-4">
+                    <p>Follow Us On:</p>
+                    <a href="https://www.instagram.com/rapidshyp"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/company/rapidshyp" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/rapidshyp" target="_blank"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/rapidshyp" target="_blank"><img
+                            src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg" alt=""></a>
+                </div>
+                <div class="app-btns mb-4">
+                    <div class="btn">
+                        <a href="https://play.google.com/store/apps/details?id=com.rapidshyp.app" target="_blank"
+                            class="app-btn"><img
+                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/google.svg"
+                                alt=""></a>
+                        <a href="https://apps.apple.com/in/app/rapidshyp/id6449278850" target="_blank"
+                            class="app-btn"><img
+                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/apple.svg"
+                                alt=""></a>
                     </div>
                 </div>
+            </div>
             <div class="col-lg-4 col-md-6 col-6">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">

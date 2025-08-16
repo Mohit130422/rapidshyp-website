@@ -278,6 +278,64 @@
         </div>
     </section>
 
+    <section class="app_launch">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xlg-3 col-lg-5">
+                    <h2 class="heading mb-4">Run Your Business <br> <mark>on the Move...</mark></h2>
+                    <p class="sub-heading mb-4">Handle orders, track shipments, and scale—right from your phone.</p>
+                    <div class="usps mb-4">
+                        <div class="item d-flex">
+                            <div class="icon">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/smart-dashboard.svg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4>Smart Dashboard</h4>
+                                <p>Peace of mind in real-time</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex">
+                            <div class="icon">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/quick-ship.svg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4>Quick Ship</h4>
+                                <p>Orders out in minutes</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex">
+                            <div class="icon">
+                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/track-with-ease.svg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4>Track with Ease</h4>
+                                <p>Stay informed, always</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-btns">
+                        <p class="sub-heading">Now Available on iOS and Android</p>
+                        <div class="btn">
+                            <a href="https://play.google.com/store/apps/details?id=com.rapidshyp.app" target="_blank"
+                                class="app-btn"><img
+                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/google.svg"
+                                    alt=""></a>
+                            <a href="https://apps.apple.com/in/app/rapidshyp/id6449278850" target="_blank"
+                                class="app-btn"><img
+                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/apple.svg"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xlg-9 col-lg-7">
+                    <div class="imgDesk">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/app_launch.png" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="what-makes-better" id="features">
         <div class="container">
             <div class="row">
