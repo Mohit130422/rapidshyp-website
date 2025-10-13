@@ -1,4 +1,4 @@
-<?php include 'header-section.php';?>
+<?php include 'header-section.php'; ?>
 <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/couriers.png">
 <link rel="canonical" href="https:/www.rapidshyp.com" />
 <meta property="og:title" content="eCommerce Shipping & Courier Aggregator in India - RapidShyp" />
@@ -10,83 +10,142 @@
 <title>eCommerce Shipping & Courier Aggregator in India - RapidShyp</title>
 <!-- FAqs schema start -->
 <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-        "@type": "Question",
-        "name": "What is RapidShyp?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RapidShyp is a shipping aggregator platform that empowers businesses to navigate their shipping needs across diverse carriers and delivery channels. Businesses can seamlessly integrate their shipping operations, access multiple courier services, and streamline sending packages to customers. RapidShyp aims to simplify logistics management for businesses of all sizes, offering features such as order tracking, label generation, and shipment management to optimise the shipping experience. "
-        }
-    }, {
-        "@type": "Question",
-        "name": "How does RapidShyp work?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RapidShyp works by providing a platform where businesses can manage their shipping operations efficiently. It integrates with various courier services, allowing businesses to compare rates, generate shipping labels, track shipments, and streamline the shipping process. Our AI - enabled carrier recommendation - SmartSelect, uses advanced algorithms and analyzes multiple factors, including shipping cost,delivery SLA, pickup performance, POD facilities, courier serviceability, etc to recommend the best courier for your shipment."
-        }
-    }, {
-        "@type": "Question",
-        "name": "How can I integrate my eCommerce store with RapidShyp?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RapidShyp provides easy-to-use integration tools and plugins for most major eCommerce platforms. Simply follow the step-by-step guide provided on our website or reach out to our support team for assistance."
-        }
-    }, {
-        "@type": "Question",
-        "name": "Which courier partners are integrated with RapidShyp?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RapidShyp has partnered with a wide range of leading courier companies in India, including Xpressbees, DTDC, Delhivery, and many more. This ensures our users can access the broadest pincode coverage and the best delivery options available."
-        }
-    }, {
-        "@type": "Question",
-        "name": "How will RapidShyp help in reducing shipping costs?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RapidShyp's Shipping Automation platform offers features such as courier prioritisation, bulk shipping actions, and automated workflows. These functionalities collectively help businesses reduce operational overheads and avail the best shipping rates."
-        }
-    }, {
-        "@type": "Question",
-        "name": "How does RapidShyp calculate shipping charges?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Shipping charges are calculated based on factors such as package dimensions, weight, destination, and selected shipping service. RapidShyp provides real-time shipping rates for different carriers. You can check the prices by connecting with us at connect@rapidshyp.com"
-        }
-    }, {
-        "@type": "Question",
-        "name": "Does RapidShyp offer security cover for lost shipments?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RapidShyp offers security cover for lost shipments to provide coverage against loss, damage, or theft during transit. For more details connect with us at <a href="
-            mailto: support @rapidshyp.com "><b>support@rapidshyp.com</b></a>"
-        }
-    }, {
-        "@type": "Question",
-        "name": "How does RapidShyp handle shipping to remote or rural areas?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RapidShyp works with its network of courier partners to reach remote or rural areas. However, delivery times can vary. RapidShyp endeavors to ensure timely and reliable delivery to all locations within its service network."
-        }
-    }, {
-        "@type": "Question",
-        "name": "What is the pricing of the platform?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RapidShyp is free for all operating e-commerce sellers, regardless of their current growth phase. You just need to pay freight charges when you ship the order. You can also avail of other value-added services by contacting your dedicated shipping advisor or our customer support desk."
-        }
-    }]
-}
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "What is RapidShyp?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp is a shipping aggregator platform that empowers businesses to navigate their shipping needs across diverse carriers and delivery channels. Businesses can seamlessly integrate their shipping operations, access multiple courier services, and streamline sending packages to customers. RapidShyp aims to simplify logistics management for businesses of all sizes, offering features such as order tracking, label generation, and shipment management to optimise the shipping experience. "
+            }
+        }, {
+            "@type": "Question",
+            "name": "How does RapidShyp work?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp works by providing a platform where businesses can manage their shipping operations efficiently. It integrates with various courier services, allowing businesses to compare rates, generate shipping labels, track shipments, and streamline the shipping process. Our AI - enabled carrier recommendation - SmartSelect, uses advanced algorithms and analyzes multiple factors, including shipping cost,delivery SLA, pickup performance, POD facilities, courier serviceability, etc to recommend the best courier for your shipment."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How can I integrate my eCommerce store with RapidShyp?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp provides easy-to-use integration tools and plugins for most major eCommerce platforms. Simply follow the step-by-step guide provided on our website or reach out to our support team for assistance."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Which courier partners are integrated with RapidShyp?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp has partnered with a wide range of leading courier companies in India, including Xpressbees, DTDC, Delhivery, and many more. This ensures our users can access the broadest pincode coverage and the best delivery options available."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How will RapidShyp help in reducing shipping costs?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp's Shipping Automation platform offers features such as courier prioritisation, bulk shipping actions, and automated workflows. These functionalities collectively help businesses reduce operational overheads and avail the best shipping rates."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How does RapidShyp calculate shipping charges?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Shipping charges are calculated based on factors such as package dimensions, weight, destination, and selected shipping service. RapidShyp provides real-time shipping rates for different carriers. You can check the prices by connecting with us at connect@rapidshyp.com"
+            }
+        }, {
+            "@type": "Question",
+            "name": "Does RapidShyp offer security cover for lost shipments?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp offers security cover for lost shipments to provide coverage against loss, damage, or theft during transit. For more details connect with us at <a href="
+                mailto: support @rapidshyp.com "><b>support@rapidshyp.com</b></a>"
+            }
+        }, {
+            "@type": "Question",
+            "name": "How does RapidShyp handle shipping to remote or rural areas?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp works with its network of courier partners to reach remote or rural areas. However, delivery times can vary. RapidShyp endeavors to ensure timely and reliable delivery to all locations within its service network."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What is the pricing of the platform?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RapidShyp is free for all operating e-commerce sellers, regardless of their current growth phase. You just need to pay freight charges when you ship the order. You can also avail of other value-added services by contacting your dedicated shipping advisor or our customer support desk."
+            }
+        }]
+    }
 </script>
 <!-- FAqs schema end -->
 </head>
 
 <body>
-    <?php include 'header.php';?>
+    <?php include 'header.php'; ?>
 
-    <section class="hero-area-bg">
+    <!--new hero section Sep 2025-->
+    <section class="lp-hero-new">
+        <div class="carousel-container">
+            <div class="carousel-content">
+                <div class="carousel-slide active" data-heading="Making eCommerce <br> Shipping Simple">
+                    <!-- inside a carousel-slide -->
+                    <h1 class="typing-text">
+                      <span id="typed-heading"></span>
+                      <span class="typed-cursor"></span>
+                    </h1>
+                    <p>Streamline eCommerce shipping with smart, integrated solutions.</p>
+                    <div class="buttons">
+                        <button class="solid-action-btn">Download Free App</button>
+                        <button class="solid-action-btn get-started-btn">Get Started</button>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/rs_d2c.webp" alt="RapidShyp Dashboard">
+                    </div>
+                </div>
+
+                <div class="carousel-slide" data-heading="Scan. Download.<br> Ship.Ship in Seconds">
+                     <h1 class="typing-text">
+                      <span id="typed-heading"></span>
+                      <span class="typed-cursor"></span>
+                    </h1>
+                    <p>Effortlessly manage orders and automate shipping labels with ease.</p>
+                    <div class="buttons">
+                        <button class="solid-action-btn">Download Free App</button>
+                        <button class="solid-action-btn get-started-btn">Get Started</button>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/rs_app.webp" alt="Automated Shipments">
+                    </div>
+                </div>
+
+                <div class="carousel-slide" data-heading="Built for Bulk,<br> Not for Excuses.">
+                    <h1 class="typing-text">
+                      <span id="typed-heading"></span>
+                      <span class="typed-cursor"></span>
+                    </h1>
+                    <p>AI-powered routing. Multi-carrier muscle.</p>
+                    <div class="buttons">
+                        <button class="solid-action-btn">Download Free App</button>
+                        <button class="solid-action-btn get-started-btn">Get Started</button>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/rs_b2b.webp" alt="Tracking and Analytics">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-nav">
+                <span class="nav-dot active" onclick="currentSlide(0)"></span>
+                <span class="nav-dot" onclick="currentSlide(1)"></span>
+                <span class="nav-dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero-area-bg d-none">
         <div id="hero-area" class="hero-area">
             <div class="floating-elements">
                 <ul class="background">
@@ -746,8 +805,56 @@
         </div>
     </section>
 
-    <?php include 'footer.php';?>
+    <?php include 'footer.php'; ?>
+
+    <div class="blur-overlay" id="cargoPromo">
+        <div class="dialog-box cargo-box">
+            <div class="head">
+                <div class="close" id="closePopup">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="img">
+                <a href="cargoplus"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/cargo-promo.png" alt="cargoplus"></a>
+            </div>
+
+        </div>
+    </div>
     <script src="assets/js/main.js?v=0.0.2"></script>
+    <script src="assets/js/carousel.js?v=0.0.2"></script>
+    <script>
+        $(document).ready(function() {
+            function showPopup() {
+                $("#cargoPromo").css("display", "flex");
+            }
+
+            function hidePopup() {
+                $("#cargoPromo").fadeOut();
+            }
+
+            let closedTime = localStorage.getItem("popupClosedTime");
+            let now = new Date().getTime();
+
+            if (!closedTime) {
+                // First visit → show popup immediately
+                showPopup();
+            } else {
+                let timeDiff = now - closedTime;
+                if (timeDiff >= 24 * 60 * 60 * 1000) {
+                    // 24 hours passed → show again
+                    showPopup();
+                }
+            }
+
+            // When user closes popup
+            $("#closePopup").click(function() {
+                hidePopup();
+                let now = new Date().getTime();
+                localStorage.setItem("popupClosedTime", now);
+            });
+        });
+    </script>
+
 </body>
 
 </html>

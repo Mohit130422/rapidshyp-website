@@ -1,3 +1,4 @@
+
 <header class="header">
     <div class="topHeader scroll-container">
         <p id="countdown"></p>
@@ -19,7 +20,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="/#product">Product</a>
+                        <p class="nav-link" id="product">Product <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
+                        <div class="hover-menu" id="product-menu">
+                            <ul>
+                                <li>
+                                    <a class="nav-link" href="cargoplus">Cargo+</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="features">Features</a>

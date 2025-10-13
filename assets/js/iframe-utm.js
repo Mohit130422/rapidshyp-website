@@ -98,7 +98,7 @@ window.onload = function () {
 
     const utmParams = getUTMParams();
     const utmString = Object.keys(utmParams).length ? '?' + new URLSearchParams(utmParams).toString() : '';
-    const iframeUrl = `https://app.rapidshyp.com`;
+    const iframeUrl = `https://qa.rapidshyp.com`;
     // const iframeUrl = `https://qa.rapidshyp.com`;
 
     // console.log("Generated iframe URL:", iframeUrl);

@@ -234,3 +234,6 @@
 <script src="node_modules/jquery.min.js"></script>
 <script src="node_modules/owl.carousel.min.js"></script>
 <script src="node_modules/bootstrap.bundle.min.js"></script>
+<!-- include this once in your page (CDN for Typed.js) -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+

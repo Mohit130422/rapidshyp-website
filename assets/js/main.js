@@ -12,6 +12,8 @@ $(window).on("scroll", function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
+    const toggleProduct = document.getElementById('product');
+    const toggleProductDiv = document.getElementById('product-menu');
     const toggleButton = document.getElementById('ship-tools');
     const toggleDiv = document.getElementById('ship-tools-menu');
     const toggleIntegration = document.getElementById('integrations');
@@ -26,6 +28,14 @@ document.addEventListener('DOMContentLoaded', function () {
     function hideMenu(menu) {
         menu.classList.remove('show');
     }
+
+      // Handle Product menu hover
+    toggleProduct.addEventListener('mouseenter', () => showMenu(toggleProductDiv));
+    toggleProduct.addEventListener('mouseleave', () => setTimeout(() => {
+        if (!toggleProductDiv.matches(':hover')) hideMenu(toggleProductDiv);
+    }, 100));
+    toggleProductDiv.addEventListener('mouseenter', () => showMenu(toggleProductDiv));
+    toggleProductDiv.addEventListener('mouseleave', () => hideMenu(toggleProductDiv));
 
     // Handle Ship tools hover
     toggleButton.addEventListener('mouseenter', () => showMenu(toggleDiv));
