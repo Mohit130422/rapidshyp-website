@@ -212,6 +212,9 @@ if ($utm_campaign){
 if ($utm_term){
     $kylasapi_data['utmTerm'] = $utm_term;
 }
+if ($utm_content){
+    $kylasapi_data['utmContent'] = $utm_content;
+}
 if ($first_utm_source){
     $kylasapi_data['customFieldValues']['cfFirstUtmSource'] = $first_utm_source;
 }

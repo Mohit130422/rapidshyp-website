@@ -18,7 +18,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h1 class="head-title mt-4">Velocity Express Courier Service <br>All Over India</h1>
+                            <h1 class="heading mt-4">Velocity Express Courier Service All Over India</h1>
                             <p class="sub-title">Use Velocity Express on our technology-first courier aggregator platform with built-in order verification, auto notifications, and smart shipping tools.</p>
                             <div class="d-block">
                                 <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>

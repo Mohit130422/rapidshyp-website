@@ -17,7 +17,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a> 
                 <div class="navbar-nav d-flex">
-                    <li class="nav-item" style="list-style: none;"><button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';" style="font-size: 14px;">Get Started <i class="fas fa-chevron-right"></i></button></li>
+                    <li class="nav-item" style="list-style: none;"><button class="solid-action-btn mx-0" onclick="location.href = 'https://app.rapidshyp.com/';" style="font-size: 14px;">Get Started <i class="fas fa-chevron-right"></i></button></li>
                 </div>
             </div>
         </nav>

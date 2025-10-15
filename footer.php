@@ -21,11 +21,11 @@
                 </div>
                 <div class="app-btns mb-4">
                     <div class="btn">
-                        <a href="https://play.google.com/store/apps/details?id=com.rapidshyp.app" target="_blank"
+                        <a href="https://play.google.com/store/apps/details?id=com.osbs.rapidshyp" target="_blank"
                             class="app-btn"><img
                                 src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/google.svg"
                                 alt=""></a>
-                        <a href="https://apps.apple.com/in/app/rapidshyp/id6449278850" target="_blank"
+                        <a href="https://apps.apple.com/in/app/rapidshyp-logistics-services/id6748735938" target="_blank"
                             class="app-btn"><img
                                 src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/apple.svg"
                                 alt=""></a>
@@ -37,9 +37,9 @@
                     <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
                         <p>Product</p>
                         <div class="links">
+                            <a href="cargoplus" class="link">Cargo+ <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</sup></a>
                             <a href="order-management-system" class="link">Order Management System</a>
                             <a href="ai-courier-recommendations" class="link">SmartSelect</a>
-                            <span class="link">Xperience Suite</span>
                             <span class="link">NDR Management</span>
                         </div>
                     </div>
@@ -229,11 +229,8 @@
         </div>
 </div>
 
-
-
 <script src="node_modules/jquery.min.js"></script>
 <script src="node_modules/owl.carousel.min.js"></script>
 <script src="node_modules/bootstrap.bundle.min.js"></script>
 <!-- include this once in your page (CDN for Typed.js) -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-

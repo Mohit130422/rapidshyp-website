@@ -19,7 +19,7 @@ include 'header-section-v2.php'; ?>
                         src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
             </div>
             <div class="row col-reverse">
-                <div class="col-lg-7 col-md-5 col-sm-12 content">
+                <div class="col-lg-6 col-md-5 col-sm-12 content">
                     <div class="body">
                         <h1 class="heading">Streamline Your Business With<br> eCommerce Shipping Solution</h1>
                         <p class="sub-heading">Your Trusted eCommerce Logistics Partner </p>
@@ -35,96 +35,13 @@ include 'header-section-v2.php'; ?>
                             alt="rs-signup-img">
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-7 col-sm-12 signup-form">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link lp-nav-link d-flex active" data-toggle="tab" href="#tabs-1" role="tab" aria-selected="true">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/seller-icon.png">
-                                <div class="tab_tittle">
-                                    <h6>For Sellers </h6>
-                                    <small>Sign up with a FREE account</small>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link lp-nav-link d-flex" data-toggle="tab" href="#tabs-2" role="tab" aria-selected="false">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/buyer-icon.png">
-                                <div class="tab_tittle">
-                                    <h6>For Buyers</h6>
-                                    <small>Track your order instantly</small>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="col-lg-6 col-md-7 col-sm-12 signup-form">
                     <div class="form-container">
                         <div class="head">
                             <h3>Get started with a free account</h3>
                             <p class="mb-3">Discover the best shipping service for your eCommerce business</p>
                         </div>
                         <div id="auth-container"></div>
-                    </div>
-                    <div class="track-container">
-                        <div class="head">
-                            <h3>Track By</h3>
-                        </div>
-                        <form id="lookupForm">
-                            <input type="hidden" id='csrf' name="csrf" value="<?=$rand?>">
-                            <div class="form-group">
-                                <label for="trackByAWB" class="radio pricing">
-                                    <div class="selection d-flex align-items-center">
-                                        <input type="radio" class="radio-input" id="trackByAWB" name="lookupType" value="awb_no" checked>
-                                        <div class="radio-outline"></div>
-                                        AWB
-                                    </div>
-                                </label>
-                                <label for="trackByOrderId" class="radio pricing">
-                                    <div class="selection d-flex align-items-center">
-                                        <input type="radio" class="radio-input" id="trackByOrderId" name="lookupType" value="order_id">
-                                        <div class="radio-outline"></div>
-                                        Order ID
-                                    </div>
-                                </label>
-
-                            </div>
-                            <div class="row mt-4">
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <div id="orderInput" class="row">
-                                        <div class="col-12 text-start">
-                                            <label>Order ID <span>*</span></label>
-                                            <input type="text" placeholder="Enter Order ID" id="order_id">
-                                        </div>
-                                        <div class="col-12 text-start">
-                                            <label>Mobile Number <span>*</span></label>
-                                            <input type="text" placeholder="Enter Phone Number" id="mobile_no">
-                                        </div>
-                                    </div>
-                                    <div id="awbInput" class="hidden">
-                                        <label>Airway Bill Number (AWB) <span>*</span></label>
-                                        <input type="text" placeholder="Enter AWB Number" id="awb_no">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                    <button type="submit" class="btn solid-action-btn">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                        <div class="ship-loading">Loading</div>
-                        <div id="responseMessage"></div>
-                        
-                        <div class="tracking-table hidden">
-                            <div class="order-info">
-                                <p>Order Placed On: <span id="order-date"></span></p>
-                                <p class="mx-4">Order ID: <span id="order-id"></span></p>
-                            </div>
-                            <div class="table-responsive">
-                                <table class="table" id="trackingTable">
-                                    <thead>
-                                    </thead>
-                                    <tbody>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -642,6 +559,7 @@ include 'header-section-v2.php'; ?>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/iframe-utm.js?v=0.7"></script>
     <script src="https://app.rapidshyp.com/js/campaign.js"></script>
+    <!--<script src="https://qa.rapidshyp.com/js/campaign.js"></script>-->
     <script>
         $(".get-start").click(function() {
             $('html, body').animate({

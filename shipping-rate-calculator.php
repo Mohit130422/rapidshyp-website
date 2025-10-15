@@ -407,8 +407,7 @@ include 'header-section.php';?>
     <?php include 'footer.php';?>
 
 
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/utm.js"></script>
+    <script src="assets/js/main.js?v=0.0.5"></script>
 </body>
 
 </html>

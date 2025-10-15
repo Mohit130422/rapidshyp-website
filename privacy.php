@@ -14,7 +14,7 @@
         <div class="container">
             <div class="mb-4">
                 <h1>Privacy Policy for RapidShyp</h1>
-                <p><strong>Last Updated:</strong>13 January 2025</p>
+                <p><strong>Last Updated:</strong>10 July 2025</p>
             </div>
             <div class="mb-4">
                 <p>Open Source Business Solutions Private Limited (<b>“We”</b> or <b>“Our”</b> or <b>“Us”</b> or

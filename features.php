@@ -333,7 +333,7 @@
     </section>
 
     <?php include 'footer.php';?>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?v=0.0.2"></script>
 </body>
 
 </html>

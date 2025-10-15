@@ -28,6 +28,8 @@ if(isset($_POST['csrf']) && $_POST['csrf']==$_SESSION['csrf'])
         CURLOPT_URL => $api_url,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_CUSTOMREQUEST => "POST",
+        CURLOPT_CONNECTTIMEOUT => 10, // time to wait to establish a connection (in seconds)
+        CURLOPT_TIMEOUT => 30,  
         CURLOPT_POSTFIELDS => json_encode($data),
         CURLOPT_HTTPHEADER => array(
             'Content-Type: application/json',
@@ -37,6 +39,7 @@ if(isset($_POST['csrf']) && $_POST['csrf']==$_SESSION['csrf'])
 
     $ch = curl_init();
     curl_setopt_array($ch, $options);
+    
     $response = curl_exec($ch);
     $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
@@ -45,6 +48,8 @@ if(isset($_POST['csrf']) && $_POST['csrf']==$_SESSION['csrf'])
     } else {
         echo json_encode(array('success' => false, 'message' => 'Invalid order ID or AWB number.'));
     }
+    
+    
 
     curl_close($ch);
 }

@@ -275,7 +275,7 @@
                             </ul>
                         </div>
                         <div class="footer">
-                            <a href="javascript:void(0)" class="btn btn-custom">Coming Soon</a>
+                            <a href="shree-maruti" class="btn btn-custom">Learn More</a>
                         </div>
                     </div>
                 </div>

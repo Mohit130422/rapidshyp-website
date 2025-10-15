@@ -22,7 +22,6 @@
         sizes="32x32" />
     <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png"
         sizes="192x192" />
-    <script src="https://kit.fontawesome.com/040f76db56.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../node_modules/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="../node_modules/owl.carousel.min.css">
@@ -48,7 +47,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="../assets/css/main.css?v=0.2.6">
+    <link rel="stylesheet" href="../assets/css/main.css?v=0.2.7">
 
     </script>
     <!-- organization schema end -->

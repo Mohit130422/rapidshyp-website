@@ -37,8 +37,8 @@
             </div>
         </div>
     </section>
-
-    <section class="is-rto-eating-profit" style="height: auto; background: #ffffff;">
+    
+    <section class="is-rto-eating-profit d-none" style="height: auto; background: #ffffff;">
         <div class="container p-0">
             <div class="row w-100">
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
@@ -59,7 +59,7 @@
         <div class="container">
             <div class="row mb-5 justify-content-center">
                 <div class="col-lg-8 col-sm-12 text-center">
-                    <h3 class="heading">Built to Ship Big - <br> <span>Tailored Cargo Solutions for Your Business</span></h3>
+                    <h3 class="heading">Built to Ship Big <br> <span>Tailored Cargo Solutions for Your Business</span></h3>
                 </div>
             </div>
             <div class="row">
@@ -437,9 +437,9 @@
     <?php include 'footer.php';?>
 
 
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/iframe-utm.js"></script>    
     <script src="https://app.rapidshyp.com/js/campaign.js"></script>
+    <script src="assets/js/main.js"></script>
     <script>
         $('.owl-carousel').owlCarousel({
             loop:true,

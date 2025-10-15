@@ -19,7 +19,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
                             <h1 class="heading mt-4">Shadowfax Delivery Services for eCommerce </h1>
-                            <p class="sub-title">Deliver with Shadowfax using our customer-centric platform — branded tracking page, WhatsApp communication and much more</p>
+                            <p class="sub-title">Deliver with Shadowfax using our customer-centric platform — branded tracking page, WhatsApp communication and much more</p>
                             <div class="d-block">
                                 <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>
                             </div>

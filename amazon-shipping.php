@@ -18,7 +18,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h1 class="head-title">Amazon Shipping Courier Service for eCommerce</h1>
+                            <h1 class="heading">Amazon Shipping Courier Service for eCommerce</h1>
                             <p class="sub-title">Deliver happiness with Amazon Shipping via RapidShyp — with multi-channel integration, WhatsApp delivery alerts, and more for your eCommerce shipping needs</p>
                             <div class="d-block">
                                 <button type="submit" class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Get Started</button>

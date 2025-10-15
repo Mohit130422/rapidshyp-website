@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- <base href="https://www.rapidshyp.com"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Tracking and Analytics -->
     <meta name="msvalidate.01" content="0EEEAB0A6F290CF1DFC746D92732C29B" />
@@ -19,10 +20,6 @@
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/owl.carousel.min.css">
     <link rel="stylesheet" href="node_modules/owl.theme.default.min.css">
-    <script src="node_modules/jquery.min.js"></script>
-    <script src="node_modules/owl.carousel.min.js"></script>
-    <script src="node_modules/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/utm.js?v=0.0.2"></script>
     <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -40,7 +37,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.3.15">
+    <link rel="stylesheet" href="assets/css/main.css?v=0.3.38">
 
     <!-- Start of Tawk.to Script -->
     <!-- <script type="text/javascript">
@@ -58,48 +55,6 @@
     </script> -->
     <!--End of Tawk.to Script-->
 
-    <!-- organization schema start -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "RapidShyp",
-        "url": "https://www.rapidshyp.com/",
-        "logo": "https://www.rapidshyp.com/https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg",
-        "alternateName": "RapidShyp",
-        "sameAs": [
-            "https://www.instagram.com/rapidshyp/",
-            "https://www.linkedin.com/company/rapidshyp",
-            "https://twitter.com/rapidshyp"
-        ],
-        "contactPoint": [{
-                "@type": "ContactPoint",
-                "telephone": "7669007700",
-                "contactType": "technical support",
-                "email": "support@rapidshyp.com",
-                "contactOption": "HearingImpairedSupported",
-                "areaServed": "IN",
-                "availableLanguage": [
-                    "en",
-                    "hi"
-                ]
-            },
-            {
-                "@type": "ContactPoint",
-                "telephone": "7669007700",
-                "contactType": "sales",
-                "email": "connect@rapidshyp.com",
-                "contactOption": "HearingImpairedSupported",
-                "areaServed": "IN",
-                "availableLanguage": [
-                    "en",
-                    "hi"
-                ]
-            }
-        ]
-    }
-    </script>
-    <!-- organization schema end -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11397568129"></script>
     <script>
@@ -134,17 +89,18 @@
         return false;
     }
     </script>
+    <script src="assets/js/utm.js?v=0.0.5"></script>
     <!-- End Event snippet for Submit lead form conversion page-->
     
     <!-- start Event One Signal installation code for push notifications-->
-    <!-- <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-    <script>
-      window.OneSignalDeferred = window.OneSignalDeferred || [];
-      OneSignalDeferred.push(async function(OneSignal) {
-        await OneSignal.init({
-          appId: "4e9b76da-89fd-415b-a728-e5b867bb889d",
-          safari_web_id: "web.onesignal.auto.1afe2633-50cf-455e-8f3e-a50d8cbe1d12",
-        });
-      });
-    </script> -->
+    <!--<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>-->
+    <!--<script>-->
+    <!--  window.OneSignalDeferred = window.OneSignalDeferred || [];-->
+    <!--  OneSignalDeferred.push(async function(OneSignal) {-->
+    <!--    await OneSignal.init({-->
+    <!--      appId: "4e9b76da-89fd-415b-a728-e5b867bb889d",-->
+    <!--      safari_web_id: "web.onesignal.auto.1afe2633-50cf-455e-8f3e-a50d8cbe1d12",-->
+    <!--    });-->
+    <!--  });-->
+    <!--</script>-->
     <!-- End Event One Signal installation code for push notifications-->
