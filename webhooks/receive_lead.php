@@ -114,6 +114,32 @@ if ($_SERVER['CONTENT_TYPE'] === 'application/json') {
         if(isset($_COOKIE['landing_page']))
             $landingpage=(isset($_COOKIE['landing_page'])?$_COOKIE['landing_page']:"");
 
+        
+        // >>> NEW DB INSERT (Your Requested Addition)
+
+        $insert_sql = "INSERT INTO cargoplus_leads 
+        (
+            name, email, phone, company, website, shipment_count,
+            utm_source, utm_medium, utm_campaign, utm_content, utm_term, latest_device,
+            first_utm_source, first_utm_medium, first_utm_campaign, first_utm_content, first_utm_term, first_device,
+            referrer, initial_referrer, last_visited_page, landing_page
+        ) 
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
+        $stmt = mysqli_prepare($con, $insert_sql);
+        mysqli_stmt_bind_param(
+            $stmt,
+            "ssssssssssssssssssssss",
+            $name, $email, $phone, $companyName, $websitelink, $shippmentCount,
+            $utm_source, $utm_medium, $utm_campaign, $utm_content, $utm_term, $latest_device,
+            $first_utm_source, $first_utm_medium, $first_utm_campaign, $first_utm_content, $first_utm_term, $first_device,
+            $referrer, $initial_referrer, $lastvisitedpage, $landingpage
+        );
+        mysqli_stmt_execute($stmt);
+        mysqli_stmt_close($stmt);
+
+        // END DB INSERT 
+
         // The data you want to send via POST
         $data = [
             'fields' => [
@@ -183,6 +209,9 @@ $kylasapi_data = array(
       "value" => $email,
       "primary" => true
     )),
+    'pipeline' => array(
+        'id' => 31694 // Default Pipeline Id, you can get it from Kylas Dashboard
+    )
 );
  $kylasapi_data['companyName']= $companyName;
  $kylasapi_data['customFieldValues']['cfWebsite']= $websitelink;
@@ -243,7 +272,6 @@ if ($lastvisitedpage){
     $kylasapi_data['customFieldValues']['cfLastVisitedPage'] = htmlspecialchars($lastvisitedpage);
 }
 // API Execution
-// echo '<pre>';print_r($kylasapi_data);die;
 $curl = curl_init();
 curl_setopt_array($curl, array(
 CURLOPT_URL => 'https://api.kylas.io/v1/leads/',
@@ -263,6 +291,37 @@ CURLOPT_HTTPHEADER => array(
 ));
 $response = curl_exec($curl); //This variable will contain the Kylas API response
 curl_close($curl);
-// echo '<pre>';print_r($response);die;
+$lead_response = json_decode($response, true);
+if (isset($lead_response['id'])) {
+    $lead_id = $lead_response['id'];
+
+    // Step 3: Call Reassign API
+    $reassign_data = [
+        "ownerId" => 71760 // Replace with the user ID you want to assign the lead to
+    ];
+
+    $curl2 = curl_init();
+    curl_setopt_array($curl2, array(
+        CURLOPT_URL => "https://api.kylas.io/v1/leads/$lead_id/owner",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_CUSTOMREQUEST => 'PUT',
+        CURLOPT_POSTFIELDS => json_encode($reassign_data),
+        CURLOPT_HTTPHEADER => array(
+            'api-key: ' . $api_key,
+            'Content-Type: application/json',
+            'Accept: application/json'
+        ),
+    ));
+
+    $reassign_response = curl_exec($curl2);
+    curl_close($curl2);
+    //echo $lead_id;
+
+}
+ /*echo '<pre>';print_r(json_decode($response));
+ echo '<pre>';print_r(json_decode($reassign_response));
+ die;*/
+
 echo json_encode($output);
+
 ?>

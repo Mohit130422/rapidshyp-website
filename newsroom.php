@@ -79,6 +79,15 @@
                         <div class="item">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_13.png" alt="">
                         </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_14.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_15.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_16.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,11 +98,59 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col">
-                    <p class="sub-heading">RapidShyp News: Don’t Miss a Thing</p>
+                    <p class="sub-heading">RapidShyp News: Don't Miss a Thing</p>
                     <h3 class="heading">Crafting Powerful Headlines</h3>
                 </div>
             </div>
             <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_avp.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">3rd October 2025</span>
+                            </div>
+                            <a href="https://news.abplive.com/technology/ai-data-festive-shopping-sprees-how-platforms-predict-manage-impulse-buying-surges-1806061" target="_blank"><p class="content">AI, Data, and Festive Shopping Sprees: How Platforms Predict and Manage Impulse Buying Surges</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://news.abplive.com/technology/ai-data-festive-shopping-sprees-how-platforms-predict-manage-impulse-buying-surges-1806061" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_ET_Insights.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">21st August 2025</span>
+                            </div>
+                            <a href="https://etedge-insights.com/industry/logistics/predict-optimize-transform-why-ai-is-the-logistics-industrys-next-frontier/" target="_blank"><p class="content">Gut Feeling to Data-Driven: Why Logistics Needs AI Now More Than Ever</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://etedge-insights.com/industry/logistics/predict-optimize-transform-why-ai-is-the-logistics-industrys-next-frontier/" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_India_Today.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">12th August 2025</span>
+                            </div>
+                            <a href="https://bestcolleges.indiatoday.in/news-detail/from-manual-to-digital-bridging-the-skills-gap-in-indias-shipping-industry-5361" target="_blank"><p class="content">From Manual to Digital: Bridging the Skills Gap in India's Shipping Industry</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://bestcolleges.indiatoday.in/news-detail/from-manual-to-digital-bridging-the-skills-gap-in-indias-shipping-industry-5361" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">

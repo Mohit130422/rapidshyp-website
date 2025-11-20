@@ -280,13 +280,13 @@
                     terms/Privacy Policy may be informed to the designated Grievance Officer as mentioned below in
                     writing or through email: <a href="mailto:grievanceofficer@rapidshyp.com"
                     style="text-decoration:underline; font-weight:700;">grievance@rapidshyp.com</a></p>
-                <p>Mr. Charu Datta Patil</p>
+                <p>Mr. Rahul Binod</p>
                 <p>Open Source Business Solutions Pvt Ltd,</p>
                 <p>3rd Floor, Unitech Trade Centre, Sector 43, </p>
                 <p>Sushant Lok Phase 1,</p>
                 <p>Gurugram, Haryana-122002</p>
-                <a href="mailto:charudatta.patil@rapidshyp.com"
-                    style="text-decoration:underline; font-weight:700;">charudatta.patil@rapidshyp.com</a>
+                <a href="mailto:rahul.binod@rapidshyp.com"
+                    style="text-decoration:underline; font-weight:700;">rahul.binod@rapidshyp.com</a>
             </div>
         </div>
     </section>

@@ -1,4 +1,4 @@
-<?php include 'header-section-v2.php';?>
+<?php include 'header-section-v2.php'; ?>
 
 <meta property="og:title" content="Powering B2B Bulk & Heavy Shipping with Cargo+" />
 <meta property="og:description" content="Bulk shipping doesn't have to be slow or expensive. Cargo+ is changing the game for B2B brands. Discover what you're missing today! Sorry din me dena bhul gyi thi" />
@@ -18,16 +18,105 @@
                     <i class="fas fa-times"></i>
                 </div>
             </div>
-            <div id="auth-container"></div>
+            <div class="content">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <?php $date = time(); ?>
+                            <form class="php-email-form" method="post">
+                                <input type="hidden" name="access_key"
+                                    value="<?= hash_hmac('sha256', $date, 'cb39d436dc8dad92779a267dd5594144935e56fadb354b8a5b0e50919202ef741d67b0d11d6d83ee143db8d80be4d0f1') ?>">
+                                <input type="hidden" name="key" value="<?php echo $date ?>">
+                                <input type="hidden" id="form-utms-content" name="content" value="">
+                                <input type="hidden" id="form-utms-source" name="source" value="">
+                                <input type="hidden" id="form-utms-medium" name="medium" value="">
+                                <input type="hidden" id="form-utms-term" name="term" value="">
+                                <input type="hidden" id="form-utms-campaign" name="campaign" value="">
+
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">Name</label>
+                                            <input type="text" class="form-control" id="name" name="name"
+                                                placeholder="Enter Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="company" class="form-label">Company Name</label>
+                                            <input type="text" class="form-control" name="company" id="company"
+                                                placeholder="Enter Company Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Email address</label>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping"><i
+                                                        class="far fa-envelope"></i></span>
+                                                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter Email" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="phone" class="form-label">Mobile Number</label>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping"><i
+                                                        class="fas fa-phone"></i></span>
+                                                <input type="number" class="form-control" name="phone" id="phone" placeholder="Mobile Number" onKeyPress="if(this.value.length==10) return false;" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="mb-4">
+                                            <label for="website" class="form-label">Website Link</label>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping"><i
+                                                        class="fas fa-globe"></i></span>
+                                                <input type="text" class="form-control" name="website" id="website"
+                                                    placeholder="https://example.com">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="mb-3">
+                                            <label for="count" class="form-label">How many orders do you receive in a month?</label>
+                                            <select class="form-select" name="count" id="count"
+                                                placeholder="--Select option--" required>
+                                                <option>--Select option--</option>
+                                                <option value="Less than 50 ton">Less than 50 Ton</option>
+                                                <option value="Between 50 to 200 ton">Between 50 to 200 Ton</option>
+                                                <option value="200 to 500 ton">200 to 500 Ton</option>
+                                                <option value="More than 500 ton">More than 500 Ton</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message">Sorry! Invalid Data</div>
+                                    <div class="sent-message">Thank you for showing interest in RapidShyp. Someone from our team will reach out to you soon!
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center text-center">
+                                    <div class="col">
+                                        <button type="submit" class="solid-action-btn m-0" id="submitEmailForm">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
     <header class="header">
         <?php include 'top-strip.php'; ?>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
                 <div class="navbar-nav d-flex">
-                <li class="nav-item"><button class="solid-action-btn openWaitlistModal" style="font-size: 14px;">Get Started <i class="fas fa-chevron-right"></i></button></li>
+                    <li class="nav-item"><button class="solid-action-btn openWaitlistModal" style="font-size: 14px;">Get Started <i class="fas fa-chevron-right"></i></button></li>
                 </div>
             </div>
         </nav>
@@ -43,8 +132,7 @@
                             <h4 class="mt-4">Designed to Suit Every Business</h4>
                             <p class="sub-title mt-4">Automated bulk shipping solutions tailored for your business. Ship heavy-weight cargo across India with ease.</p>
                             <div class="d-block">
-                                <button type="submit" class="solid-action-btn b2b-light-bg openWaitlistModal"
-                                    >Get Started</button>
+                                <button type="submit" class="solid-action-btn b2b-light-bg openWaitlistModal">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -58,7 +146,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="is-rto-eating-profit d-none" style="height: auto; background: #ffffff;">
         <div class="container p-0">
             <div class="row w-100">
@@ -71,7 +159,7 @@
                     <div class="image text-center">
                         <div id="auth-container" style="height: 610px;"></div>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </section>
@@ -146,7 +234,7 @@
         <div class="container">
             <div class="row mb-4 align-items-start">
                 <div class="col-lg-7 col-md-12">
-                    <p class="heading mt-0">Why Choose <img class="logo mb-2" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/cargo_dark.png" alt="cargo plus" width="15%"> for <br>  Heavy-Weight Cargo?</p>
+                    <p class="heading mt-0">Why Choose <img class="logo mb-2" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/cargo_dark.png" alt="cargo plus" width="15%"> for <br> Heavy-Weight Cargo?</p>
                 </div>
                 <div class="col-lg-5 col-md-12">
                     <p class="sub-heading">From pickup to final delivery — stay in control with real-time updates</p>
@@ -199,7 +287,7 @@
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/dedicated.svg"
                                 alt="">
                         </span>
-                        <p class="title"><mark>Dedicated</mark>  Logistics Experts</p>
+                        <p class="title"><mark>Dedicated</mark> Logistics Experts</p>
                         <small>Get proactive assistance from our cargo specialists to plan, optimise, and manage your loads</small>
                     </div>
                 </div>
@@ -212,7 +300,7 @@
                         <p class="title"><mark>Order</mark> Management</p>
                         <small>Manage forward and return orders effortlessly from one platform — in just a few clicks.</small>
                     </div>
-                </div>          
+                </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
@@ -229,7 +317,7 @@
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/ndr.svg"
                                 alt="">
                         </span>
-                        <p class="title"><mark>Non-Delivery</mark>  Reports</p>
+                        <p class="title"><mark>Non-Delivery</mark> Reports</p>
                         <small>Automated workflows let you act on undelivered orders in minutes, reducing RTOs effectively</small>
                     </div>
                 </div>
@@ -260,29 +348,29 @@
             </div>
             <div class="row">
                 <div class="col">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="row align-items-center col-reverse">
-                            <div class="col-12">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/trusted-partner.svg" alt="zepto">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="row align-items-center col-reverse">
+                                <div class="col-12">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/trusted-partner.svg" alt="zepto">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row align-items-center col-reverse">
+                                <div class="col-12">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/trusted-partner.svg" alt="zepto">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row align-items-center col-reverse">
+                                <div class="col-12">
+                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/trusted-partner.svg" alt="zepto">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="row align-items-center col-reverse">
-                            <div class="col-12">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/trusted-partner.svg" alt="zepto">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row align-items-center col-reverse">
-                            <div class="col-12">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/trusted-partner.svg" alt="zepto">
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -300,7 +388,7 @@
                     <div class="image text-center">
                         <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/our-partners.png" alt="" class="m-auto" style="width: 100%;">
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </section>
@@ -394,7 +482,7 @@
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">You can start shipping with loads as low as < X > kg for air and < Y > kg for surface. FTL loads require full truck capacity.</div>
+                                <div class="accordion-body">You can start shipping with loads as low as < X> kg for air and < Y> kg for surface. FTL loads require full truck capacity.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
