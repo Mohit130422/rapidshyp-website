@@ -6762,6 +6762,9 @@ section {
 .b2b-hero .hero-area {
   min-height: 70vh;
 }
+.b2b-hero .head-title {
+  font-size: 52px !important;
+}
 .b2b-hero .head-title .logo img {
   max-width: 2%;
   height: auto;
@@ -6769,6 +6772,15 @@ section {
 .b2b-hero .img-desk {
   position: absolute;
   bottom: 0;
+}
+@media (max-width: 1366px) {
+  .b2b-hero .head-title {
+    font-size: 36px !important;
+  }
+  .b2b-hero .solid-action-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 14px;
+  }
 }
 @media (max-width: 991px) {
   .b2b-hero .hero-area {

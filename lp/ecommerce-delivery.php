@@ -17,13 +17,13 @@ include 'header-section-v2.php';?>
     <section class="signup-section" id="signup">
         <div class="container-fluid">
             <div class="head">
-                <a class="navbar-brand" href="/"><img
-                        src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
+                <span class="navbar-brand"><img
+                        src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></span>
             </div>
             <div class="row col-reverse">
                 <div class="col-lg-7 col-md-5 col-sm-12 content">
                     <div class="body">
-                        <h1 class="heading">Streamline Your Business<br> eCommerce Delivery</h1>
+                        <h1 class="heading">Streamline Your Business <br> eCommerce Delivery</h1>
                         <p class="sub-heading">Your Trusted eCommerce Logistics Partner </p>
                         <ul class="usp-points">
                             <li><i class="fas fa-check-circle"></i> Courier Recommendation Engine</li>
@@ -476,14 +476,13 @@ include 'header-section-v2.php';?>
                         reduced costs.</p>
                     <div class="social-media mb-4">
                         <p>Follow Us On:</p>
-                        <a href="https://www.instagram.com/rapidshyp" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://in.linkedin.com/company/rapidshyp" target="_blank"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/rapidshyp" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="https://twitter.com/rapidshyp" target="_blank"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg"
-                                alt=""></a>
+                        <span><i
+                                class="fab fa-instagram"></i></span>
+                        <span><i
+                                class="fab fa-linkedin"></i></span>
+                        <span><i class="fab fa-facebook"></i></span>
+                        <span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg"
+                                alt=""></span>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 col-6">

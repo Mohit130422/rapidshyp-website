@@ -122,24 +122,28 @@
         </nav>
     </header>
 
-    <section class="lp-hero-ov b2b-hero b2b-mark">
+    <section class="lp-hero-ov b2b-hero b2b-mark" style="padding: 50px 0;">
         <div id="hero-area" class="hero-area">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h1 class="head-title mt-4" style="text-transform: capitalize;"><img class="logo" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/cargo_light.png" alt="cargo plus" width="25%"> <br><mark>One-Stop Solution</mark></h1>
-                            <h4 class="mt-4">Designed to Suit Every Business</h4>
-                            <p class="sub-title mt-4">Automated bulk shipping solutions tailored for your business. Ship heavy-weight cargo across India with ease.</p>
-                            <div class="d-block">
+                            <h1 class="head-title mt-4" style="text-transform: capitalize;"><img class="logo" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/cargo_light.png" alt="cargo plus" width="25%"> <br><mark>Bulk rates that mean <br> business — from ₹6/kg*!</mark></h1>
+                            <ul class="px-3">
+                                <li class="sub-title mb-2">Deliver to 24000+ pin codes.</li>
+                                <li class="sub-title mb-2">Real-time shipment tracking.</li>
+                                <li class="sub-title mb-2">Access to top couriers.</li>
+                                <li class="sub-title mb-2">Appointment-based delivery.</li>
+                            </ul>
+                            <div class="d-block mt-4">
                                 <button type="submit" class="solid-action-btn b2b-light-bg openWaitlistModal"
-                                    >Get Started</button>
+                                    >Start Shipping Today</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/b2b-hero-img.png"
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/cargo-cost-img.png"
                                 alt="">
                         </div>
                     </div>

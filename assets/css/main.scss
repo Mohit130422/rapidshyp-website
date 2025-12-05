@@ -7331,6 +7331,7 @@ section{
         min-height: 70vh;
     }
     .head-title{
+        font-size: 52px !important;
         .logo{
             img{
                 max-width: 2%;
@@ -7341,6 +7342,15 @@ section{
     .img-desk{
         position: absolute;
         bottom: 0;
+    }
+    @media(max-width: 1366px){
+        .head-title{
+            font-size: 36px !important;
+        }
+        .solid-action-btn{
+            padding: .5rem 1.5rem;
+            font-size: 14px;
+        }
     }
     @media(max-width: 991px){
         .hero-area{

@@ -373,7 +373,7 @@
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">You can start shipping with loads as low as < X > kg for air and < Y > kg for surface. FTL loads require full truck capacity.</div>
+                                <div class="accordion-body">You can start shipping with loads as low as 20 kgs for surface. FTL loads require full truck capacity.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
