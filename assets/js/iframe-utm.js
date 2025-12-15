@@ -124,7 +124,7 @@ window.onload = function () {
     
             // Assuming 'url' and 'parsing' are defined in your scope
             if (signupEmail !== 'undefined' && signupPhone !== undefined) {
-                window.location.href = `${iframeUrl}/?email=${signupEmail}&phone=${signupPhone}`;
+                window.location.href = `${iframeUrl}/?email=${signupEmail}&phone=${signupPhone}&success_key=${encodeURIComponent(tokenFromClick)}`;
                 // window.location.href = `${iframeUrl}/session/success?token=${encodeURIComponent(tokenFromClick)}&current_state=MOBILE_VERIFY&agreement_flag=false&sign_up=false`;
             } else {
                 console.warn('Missing required data — redirect not performed');
