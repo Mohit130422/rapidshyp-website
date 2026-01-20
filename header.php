@@ -26,12 +26,31 @@
                                 <li>
                                     <a class="nav-link" href="cargoplus">Cargo+</a>
                                 </li>
+                                <li>
+                                    <a class="nav-link" href="ayumi">Ayumi</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>                    
+                    <li class="nav-item">
+                        <p class="nav-link" id="features">Features <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
+                        <div class="hover-menu" id="features-menu">
+                            <ul>
+                                <li>
+                                    <a class="nav-link" href="order-management-system">Order Management </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="order-verification">Order Verification </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="next-day-delivery">Next Day Delivery</a>
+                                </li>
                             </ul>
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="features">Features</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                             <p class="nav-link" id="ship-tools">Shipping Tools <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
                             <div class="hover-menu" id="ship-tools-menu">
