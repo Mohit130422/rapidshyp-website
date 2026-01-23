@@ -18,6 +18,7 @@ $shopify-color: #96bf48;
 $unicommerce-color: #4787ED;
 $woocommerce-color: #7F54B3;
 $easycom-color: #219C4A;
+$omsguru-color: #1878BB;
 $vinculum-color: #464D81;
 $magento-color: #F26424;
 $amazon-color: #06A7E2;
@@ -3169,13 +3170,6 @@ section{
             }
         }
     }
-    @media(max-height:1000px){
-        .imgDesk{
-            img{
-                bottom: -30%;
-            }
-        }
-    }
     @media (max-width: 1366px) {
         .heading{
             font-size: 32px;
@@ -6320,6 +6314,19 @@ section{
             }
         }
     }
+    .omsguru{
+        box-shadow: 0px 8px 0px $omsguru-color;
+        .footer{
+            .btn-custom{
+                border: 1px solid $omsguru-color;
+                color: $omsguru-color;
+                &:hover {
+                    background-color: $omsguru-color;
+                    color: $light-color;
+                }
+            }
+        }
+    }
     .easycom{
         box-shadow: 0px 8px 0px $easycom-color;
         .footer{
@@ -6973,6 +6980,61 @@ section{
             linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 16px) no-repeat,
             linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 6px) no-repeat,
             linear-gradient(90deg, #873EFF 0%, #d28dff 100%);
+    }
+}
+
+.omsguru-bg{
+    padding-top: 0;
+    background: linear-gradient(45deg, $omsguru-color 10%,  #B658E8 100%);
+    @media(max-width:1366px){
+        .contents{
+            .head-title{
+                font-size: 45px !important;
+            }
+            .sub-title{
+                font-size: 16px !important;
+            }
+        }
+    }
+}
+
+.omsguru-mark{
+    mark{
+        padding: 0;
+        background: $omsguru-color ;
+        background: linear-gradient(45deg, $omsguru-color 0%,  #B658E8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0;
+    }
+}
+
+.omsguru-light-bg{
+    background: linear-gradient(45deg, #91C6EB  0%,  #EBCDFF  100%) !important;
+}
+
+.omsguru-card{
+    .container{
+        .image-container {
+            background: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/omsguru/omsguru-bene01.png') center/contain no-repeat;
+        }
+        .card{
+            background: linear-gradient(45deg, #91C6EB 0%,  #EBCDFF 100%) !important;
+        }
+        .active{
+            background: linear-gradient(45deg, $omsguru-color 0%,  #B658E8 100%) !important;
+        }
+    }
+}
+
+.omsguru-secondary-bg{
+    background: linear-gradient(45deg, #FFFFFF 0%,  #EBEBEB 100%) !important;
+    @media(max-width: 576px){
+        .steps{
+            .step{
+                min-height: 230px !important;
+            }
+        }
     }
 }
 

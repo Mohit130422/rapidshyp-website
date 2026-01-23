@@ -106,6 +106,86 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/rapidshyp_launch.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">23rd December 2025</span>
+                            </div>
+                            <a href="https://etedge-insights.com/trending/rapidshyp-launches-ayumi-ushering-in-a-new-era-of-99-accurate-predictive-logistics-for-indian-ecommerce/" target="_blank"><p class="content">RapidShyp lanches Ayumi Advancing Predictive Logistics for eCommerce</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://etedge-insights.com/trending/rapidshyp-launches-ayumi-ushering-in-a-new-era-of-99-accurate-predictive-logistics-for-indian-ecommerce/" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/ai_vs_ev.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">1st December 2025</span>
+                            </div>
+                            <a href="https://www.entrepreneurindia.com/blog/en/article/ai-and-evs-a-new-era-of-zero-failure-delivery-for-small-businesses.58046" target="_blank"><p class="content">AI and EVs: A New Era of Zero-Failure Delivery for Small Businesses</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://www.entrepreneurindia.com/blog/en/article/ai-and-evs-a-new-era-of-zero-failure-delivery-for-small-businesses.58046" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/how-india-supply.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">31st October 2025</span>
+                            </div>
+                            <a href="https://www.cnbctv18.com/access/opinion/how-indias-supply-chains-can-power-both-e-commerce-and-quick-commerce-efficiently-19734845.htm" target="_blank"><p class="content">How India's supply chains can power both eCommerce and quick commerce efficiently</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://www.cnbctv18.com/access/opinion/how-indias-supply-chains-can-power-both-e-commerce-and-quick-commerce-efficiently-19734845.htm" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/route-optimization.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">24th October 2025</span>
+                            </div>
+                            <a href="https://timestech.in/route-optimisation-2-0-how-technology-cuts-delivery-times-in-half/" target="_blank"><p class="content">Route Optimisation 2.0 – How Technology Cuts Delivery Times in Half</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://timestech.in/route-optimisation-2-0-how-technology-cuts-delivery-times-in-half/" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/instant-order.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">23rd October 2025</span>
+                            </div>
+                            <a href="https://www.outlookbusiness.com/start-up/e-commerce/instant-orders-or-bulk-buys-logistics-firms-gear-up-for-15-lakh-cr-festive-surge" target="_blank"><p class="content">Instant Orders or Bulk Buys? Logistics Firms Gear Up for ₹1.5 Lakh Cr Festive Surge</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://www.outlookbusiness.com/start-up/e-commerce/instant-orders-or-bulk-buys-logistics-firms-gear-up-for-15-lakh-cr-festive-surge" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_avp.png" alt="">
                         </div>
                         <div class="body">
@@ -116,6 +196,22 @@
                         </div>
                         <div class="footer">
                             <a href="https://news.abplive.com/technology/ai-data-festive-shopping-sprees-how-platforms-predict-manage-impulse-buying-surges-1806061" target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <div class="card blog-post">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/api-advantage.png" alt="">
+                        </div>
+                        <div class="body">
+                            <div>
+                                <span class="time">17th September 2025</span>
+                            </div>
+                            <a href="https://www.financialexpress.com/business/brandwagon-bloggers-park-towards-a-unifiednbspe-comm-modelnbsp-3980265/" target="_blank"><p class="content">The API Advantage: How Unified Tech Platforms are Redefining Brand Scalability in India</p></a>
+                        </div>
+                        <div class="footer">
+                            <a href="https://www.financialexpress.com/business/brandwagon-bloggers-park-towards-a-unifiednbspe-comm-modelnbsp-3980265/" target="_blank">Know More</a>
                         </div>
                     </div>
                 </div>
