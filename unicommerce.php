@@ -286,7 +286,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image imgdesk">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/why-unicomm.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/why-unicomm.png" alt="">
                     </div>
                 </div>
             </div>

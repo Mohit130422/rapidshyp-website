@@ -471,7 +471,7 @@ include 'header-section-v2.php';?>
                     <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
                         shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and
                         reduced costs.</p>
-                    <div class="social-media mb-4">
+                    <div class="social-media mb-4 d-none">
                         <p>Follow Us On:</p>
                         <span><i
                                 class="fab fa-instagram"></i></span>
@@ -549,9 +549,8 @@ include 'header-section-v2.php';?>
 
 
     <script src="../assets/js/main.js?v=0.1"></script>
-    <script src="../assets/js/iframe-utm.js?v=0.7"></script>
+    <script src="../assets/js/iframe-utm.js?v=0.8"></script>
     <script src="https://app.rapidshyp.com/js/campaign.js"></script>
-    <!-- <script src="https://qa.rapidshyp.com/js/campaign.js"></script> -->
     <script>
     $(".get-start").click(function() {
         $('html, body').animate({

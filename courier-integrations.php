@@ -143,7 +143,7 @@
                     </div>
                 </div>
                 <!-- ecomexp Card -->
-                <div class="col-md-4">
+                <div class="col-md-4 d-none">
                     <div class="card ecomexp-card">
                         <div class="head">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/ecomexp-logo.png" alt="ecomexpress" width="50">
@@ -163,7 +163,7 @@
                     </div>
                 </div>
                  <!-- amazon Card -->
-                <div class="col-md-4 hidden-column">
+                <div class="col-md-4">
                     <div class="card amazon-card">
                         <div class="head">
                             <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon-ship-logo.png" alt="amazon-shipping" width="50">

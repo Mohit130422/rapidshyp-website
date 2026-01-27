@@ -71,7 +71,7 @@
                             <button class="solid-action-btn">AYUMI Predict</button>
                         </div>
                         <h5 class="heading"><mark>Stops bad orders before they move.</mark></h5>
-                        <p class="body mb-3">Some orders were never meant to be shipped. AYUMI knows which ones.</p>
+                        <p class="body mb-3">Some orders were never meant to be shipped. AYUMI Predict knows which ones.</p>
                         <p class="body mb-3">It reads buyer behaviour, address quality, payment signals, and real delivery history -then flags risky orders before they leave your warehouse.</p>
                         <p class="body mb-3">No drama. No blind dispatch. Just fewer RTOs and quieter warehouses.</p>
                     </div>
@@ -83,7 +83,7 @@
                         </div>
                         <h5 class="heading"><mark>Says the delivery date. And actually means it.</mark></h5>
                         <p class="body mb-3">“Delivered by…” shouldn’t be a guess.</p>
-                        <p class="body mb-3">AYUMI studies lanes, seasons, courier patterns, and live network stress to give delivery dates that hold up in the real world, even during festive spikes.</p>
+                        <p class="body mb-3">AYUMI Promise studies lanes, seasons, courier patterns, and live network stress to give delivery dates that hold up in the real world, even during festive spikes.</p>
                         <p class="body mb-3">When promises are accurate, customers relax. Support tickets drop. Sales come back.</p>
                     </div>
                     <div class="col-lg-4 col-xl-5 mt-4 mb-4 text-center">
@@ -102,7 +102,7 @@
                         </div>
                         <h5 class="heading"><mark>Picks the courier that won't let you down.</mark></h5>
                         <p class="body mb-3">Same order. Same pin code. Different couriers. Very different outcomes.</p>
-                        <p class="body mb-3">AYUMI chooses the courier most likely to deliver successfully —based on lane performance, past outcomes, and real-time network health.</p>
+                        <p class="body mb-3">AYUMI Select chooses the courier most likely to deliver successfully-based on lane performance, past outcomes, and real-time network health.</p>
                         <p class="body mb-3">No favourites. No guesswork. Only results.</p>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                             <button class="solid-action-btn">AYUMI Sense</button>
                         </div>
                         <h5 class="heading"><mark>Your logistics brain. On call.</mark></h5>
-                        <p class="body mb-3">Some orders were never meant to be shipped.AYUMI knows which ones.</p>
+                        <p class="body mb-3">Some orders were never meant to be shipped.AYUMI Sense knows which ones.</p>
                         <p class="body mb-3">It reads buyer behaviour, address quality, payment signals, and real delivery history -then flags risky orders before they leave your warehouse.</p>
                         <p class="body mb-3">No drama. No blind dispatch. Just fewer RTOs and quieter warehouses.</p>
                     </div>
@@ -142,7 +142,7 @@
 
     <div class="festival-overlay" id="festivalOfferModal">
         <div class="dialog-box">
-            <div class="head mb-4">
+            <div class="head">
                 <div class="close" onclick="closeFestivalModal()">
                     <i class="fas fa-times"></i>
                 </div>

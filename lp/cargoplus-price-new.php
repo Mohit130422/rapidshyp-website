@@ -479,7 +479,7 @@
                     <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
                         shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and
                         reduced costs.</p>
-                    <div class="social-media mb-4">
+                    <div class="social-media mb-4 d-none">
                         <p>Follow Us On:</p>
                         <span><i class="fab fa-instagram"></i></span>
                         <span><i class="fab fa-linkedin"></i></span>

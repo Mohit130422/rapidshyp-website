@@ -399,7 +399,7 @@
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Delivery timelines vary by load type and destination — surface (FTL/PTL) may take X–Y days, air cargo A–B days.</div>
+                                <div class="accordion-body">Delivery timelines vary by load type and destination — surface (FTL/PTL) may take 5–7 days.</div>
                             </div>
                         </div>
                         <div class="accordion-item">

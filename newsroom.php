@@ -98,7 +98,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col">
-                    <p class="sub-heading">RapidShyp News: Don't Miss a Thing</p>
+                    <p class="sub-heading">RapidShyp News: Don’t Miss a Thing</p>
                     <h3 class="heading">Crafting Powerful Headlines</h3>
                 </div>
             </div>

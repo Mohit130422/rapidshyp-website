@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <base href="https://www.rapidshyp.com"> -->
+    <base href="https://www.rapidshyp.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Tracking and Analytics -->
     <meta name="msvalidate.01" content="0EEEAB0A6F290CF1DFC746D92732C29B" />
@@ -37,7 +37,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="assets/css/main.css?v=0.3.38">
+    <link rel="stylesheet" href="assets/css/main.css?v=0.3.49">
 
     <!-- Start of Tawk.to Script -->
     <!-- <script type="text/javascript">

@@ -47,7 +47,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WDPFB7D3');
     </script>
     <!--css for whole website-->
-    <link rel="stylesheet" href="../assets/css/main.css?v=0.2.7">
+    <link rel="stylesheet" href="../assets/css/main.css?v=0.2.10">
 
     </script>
     <!-- organization schema end -->

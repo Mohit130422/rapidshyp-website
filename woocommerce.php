@@ -3,7 +3,7 @@
 <meta name="description" content="Integrate your WooCommerce website effortlessly and simplify your eCommerce shipping process like never before."/>
 <meta property="og:title" content="WooCommerce Plugin for eCommerce Shipping- RapidShyp" />
 <meta property="og:description" content="Integrate your WooCommerce website effortlessly and simplify your eCommerce shipping process like never before." />
-<link rel="canonical" href="https://www.rapidshyp.com/channel-integrations/unicommerce" />
+<link rel="canonical" href="https://www.rapidshyp.com/channel-integrations/woocommerce" />
 <title>WooCommerce Plugin for eCommerce Shipping- RapidShyp</title>
 </head>
 

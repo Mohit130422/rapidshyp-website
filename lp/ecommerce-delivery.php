@@ -468,13 +468,13 @@ include 'header-section-v2.php';?>
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="brand mb-4">
-                        <a href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg"
-                                alt=""></a>
+                        <span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg"
+                                alt=""></span>
                     </div>
                     <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
                         shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and
                         reduced costs.</p>
-                    <div class="social-media mb-4">
+                    <div class="social-media mb-4 d-none">
                         <p>Follow Us On:</p>
                         <span><i
                                 class="fab fa-instagram"></i></span>
@@ -552,7 +552,7 @@ include 'header-section-v2.php';?>
 
 
     <script src="../assets/js/main.js?v=0.1"></script>
-    <script src="../assets/js/iframe-utm.js?v=0.7"></script>
+    <script src="../assets/js/iframe-utm.js?v=0.8"></script>
     <script src="https://app.rapidshyp.com/js/campaign.js"></script>
     <script>
     $(".get-start").click(function() {

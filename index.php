@@ -83,66 +83,7 @@
 <body>
     <?php include 'header.php';?>
 
-        <!--new hero section Sep 2025-->
-    <section class="lp-hero-new">
-        <div class="carousel-container">
-            <div class="carousel-content">
-                <div class="carousel-slide active" data-heading="Making eCommerce <br> Shipping Simple">
-                    <!-- inside a carousel-slide -->
-                    <h1 class="typing-text">
-                      <span id="typed-heading"></span>
-                      <span class="typed-cursor"></span>
-                    </h1>
-                    <p>Streamline eCommerce shipping with smart, integrated solutions.</p>
-                    <div class="buttons">
-                        <button class="solid-action-btn">Download Free App</button>
-                        <button class="solid-action-btn get-started-btn">Get Started</button>
-                    </div>
-                    <div class="image-container">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/rs_d2c.webp" alt="RapidShyp Dashboard">
-                    </div>
-                </div>
-
-                <div class="carousel-slide" data-heading="Scan. Download.<br> Ship.Ship in Seconds">
-                     <h1 class="typing-text">
-                      <span id="typed-heading"></span>
-                      <span class="typed-cursor"></span>
-                    </h1>
-                    <p>Effortlessly manage orders and automate shipping labels with ease.</p>
-                    <div class="buttons">
-                        <button class="solid-action-btn">Download Free App</button>
-                        <button class="solid-action-btn get-started-btn">Get Started</button>
-                    </div>
-                    <div class="image-container">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/rs_app.webp" alt="Automated Shipments">
-                    </div>
-                </div>
-
-                <div class="carousel-slide" data-heading="Built for Bulk,<br> Not for Excuses.">
-                    <h1 class="typing-text">
-                      <span id="typed-heading"></span>
-                      <span class="typed-cursor"></span>
-                    </h1>
-                    <p>AI-powered routing. Multi-carrier muscle.</p>
-                    <div class="buttons">
-                        <button class="solid-action-btn">Download Free App</button>
-                        <button class="solid-action-btn get-started-btn">Get Started</button>
-                    </div>
-                    <div class="image-container">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/rs_b2b.webp" alt="Tracking and Analytics">
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-nav">
-                <span class="nav-dot active" onclick="currentSlide(0)"></span>
-                <span class="nav-dot" onclick="currentSlide(1)"></span>
-                <span class="nav-dot" onclick="currentSlide(2)"></span>
-            </div>
-        </div>
-    </section>
-
-    <section class="hero-area-bg d-none">
+    <section class="hero-area-bg">
         <div id="hero-area" class="hero-area">
             <div class="floating-elements">
                 <ul class="background">
@@ -792,8 +733,7 @@
         </div>
     </div>
     
-    <script src="assets/js/main.js?v=0.0.8"></script>
-    <script src="assets/js/carousel.js?v=0.0.2"></script>
+    <script src="assets/js/main.js?v=0.0.9"></script>
     <script>
         $(document).ready(function() {
             function showPopup() {

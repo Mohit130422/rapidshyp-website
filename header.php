@@ -3,12 +3,14 @@
     <div class="topHeader scroll-container">
         <p id="countdown"></p>
         <div class="scrolling-text medium">
-            <p><strong>Get &#8377;500</strong> FREE shipping credits on first recharge of <strong>&#8377;1000</strong> | Use Code: <strong>FLAT500</strong> | T&C Apply <span onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i class="fas fa-chevron-right"></i></span></p>
+            <p><strong>Get &#8377;500</strong> FREE shipping credits on first recharge of <strong>&#8377;1000</strong> | Use Code: <strong>FLAT500</strong> | T&C Apply <span onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i class="fas fa-chevron-right"></i></span> |&nbsp; &nbsp; &nbsp;Celebrate the Season with <strong>Exclusive Christmas & New Year 2026 Deals</strong> <span onclick="location.href = 'https://www.rapidshyp.com/ayumi-newyear';">Know More <i class="fas fa-chevron-right"></i></span></p>
+            <!--<p>This festive season, don't burn your hard-earned money. <strong>Get Rs 750 extra on your first recharge of &#8377;1500</strong> | Use Code: <strong>SPARK25</strong> | T&C Apply <span onclick="location.href = 'https://app.rapidshyp.com/';">Get Started <i class="fas fa-chevron-right"></i></span></p>-->
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
+            <!--<a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Xmas-Logo.png" alt="Logo"></a>-->
             <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +33,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </li>                    
+                    </li>
                     <li class="nav-item">
                         <p class="nav-link" id="features">Features <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
                         <div class="hover-menu" id="features-menu">
@@ -48,9 +50,6 @@
                             </ul>
                         </div>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="features">Features</a>
-                    </li> -->
                     <li class="nav-item">
                             <p class="nav-link" id="ship-tools">Shipping Tools <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
                             <div class="hover-menu" id="ship-tools-menu">
@@ -81,6 +80,9 @@
                             <p class="nav-link" id="resources">Resources <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
                             <div class="hover-menu" id="resources-menu">
                                 <ul>
+                                    <li>
+                                        <a class="nav-link" href="https://docs.rapidshyp.com/docs/api-overview/">API Documentation</a>
+                                    </li>
                                     <li>
                                         <a class="nav-link" href="https://www.rapidshyp.com/blog/">Blog</a>
                                     </li>

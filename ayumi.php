@@ -77,7 +77,7 @@
                                 src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-predict.svg"
                                 alt=""></div>
                         <p class="desc"><b>Identify</b> RTOs Before They Happen</p>
-                        <a href="#ayumiPredict" class="d-inline-block glass-btn">Learn More</a>
+                        <a href="/ayumi#ayumiPredict" class="d-inline-block glass-btn">Learn More</a>
                     </div>
                 </div>
                 <!-- Card 2 -->
@@ -87,7 +87,7 @@
                                 src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-promise.svg"
                                 alt=""></div>
                         <p class="desc">Delivery Date <b>Accuracy</b> Your Buyers Can Trust</p>
-                        <a href="#ayumiPromise" class="d-inline-block glass-btn">Learn More</a>
+                        <a href="/ayumi#ayumiPromise" class="d-inline-block glass-btn">Learn More</a>
                     </div>
                 </div>
                 <!-- Card 3 -->
@@ -97,7 +97,7 @@
                                 src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-select.svg"
                                 alt=""></div>
                         <p class="desc">The <b>Smartest</b> Courier Allocation Engine</p>
-                        <a href="#ayumiSelect" class="d-inline-block glass-btn">Learn More</a>
+                        <a href="/ayumi#ayumiSelect" class="d-inline-block glass-btn">Learn More</a>
                     </div>
                 </div>
                 <!-- Card 4 -->
@@ -107,7 +107,7 @@
                                 src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-sense.svg"
                                 alt=""></div>
                         <p class="desc"><b>AI Assistance</b>, On Demand (Chat + Voice)</p>
-                        <a href="#ayumiSense" class="d-inline-block glass-btn">Learn More</a>
+                        <a href="/ayumi#ayumiSense" class="d-inline-block glass-btn">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -423,7 +423,7 @@
 
     <section class="faq ayumi-bg ayumi-faq">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center justify-content-center">
                 <div class="col-lg-10 col-md-10 col-sm-12 text-center m-auto mb-5">
                     <h3 class="heading">Frequently <mark>Asked</mark> Questions</h3>
                     <p class="sub-heading">These are the most commonly asked questions about AYUMI.</p>
@@ -435,7 +435,7 @@
                         <span class="glass-label mx-auto">Select</span>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-10 col-md-12 col-sm-12">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
 
                         <!-- Q1 -->

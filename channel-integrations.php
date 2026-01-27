@@ -65,7 +65,7 @@
                 <div class="col-md-4">
                     <div class="card unicom">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce.svg" alt="Shopify" width="50">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce.svg" alt="unicommerce" width="50">
                         </div>
                         <div class="body">
                             <p>Streamline your operations for unmatched efficiency and scalability by combining <b>Unicommerce's</b> order management and inventory control capabilities with our logistics tech and expertise
@@ -85,7 +85,7 @@
                 <div class="col-md-4">
                     <div class="card woocommerce">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woo-commerce.svg" alt="Shopify" width="50">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woo-commerce.svg" alt="woocomerce" width="50">
                         </div>
                         <div class="body">
                             <p>Combine <b>WooCommerce's</b> flexibility in designing and managing your online store with RapidShyp's flexibility in courier selection and buyer communication, for a top-notch seller experience</p>
@@ -100,11 +100,30 @@
                         </div>
                     </div>
                 </div>
+                <!-- omsguru Card -->
+                <div class="col-md-4">
+                    <div class="card omsguru">
+                        <div class="head">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/omsguru.svg" alt="omsguru" width="50">
+                        </div>
+                        <div class="body">
+                            <p>Integrate <b>OMSGuru</b> with RapidShyp to automate order sync, smart courier allocation, and faster eCommerce fulfilment.</p>
+                            <ul class="features-list">
+                                <li class="feature-item"><i class="fas fa-check-circle"></i>  Automatic Order Sync</li>
+                                <li class="feature-item"><i class="fas fa-check-circle"></i>  AWB Number Update</li>
+                                <li class="feature-item"><i class="fas fa-check-circle"></i>  Real-time Tracking Updates</li>
+                            </ul>
+                        </div>
+                        <div class="footer">
+                            <a href="omsguru" class="btn btn-custom">Learn More</a>
+                        </div>
+                    </div>
+                </div>
                 <!-- easycom Card -->
                 <div class="col-md-4">
                     <div class="card easycom">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/easyecom.svg" alt="Shopify" width="50">
+                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/easyecom.svg" alt="easyecom" width="50">
                         </div>
                         <div class="body">
                             <p>Integrate <b>EasyEcom's</b> omnichannel operating system with our comprehensive shipping platform to simplify everything—from order creation and shipping to tracking and returns</p>
@@ -127,20 +146,6 @@
                         </div>
                         <div class="body">
                             <p>Connect <b>Vinculum's</b> omnichannel warehouse, inventory, and order management platform with our cutting-edge shipping platform to enjoy benefits like order verification, 2-day COD remittance, and more</p>
-                        </div>
-                        <div class="footer">
-                            <a href="javascript:void(0)" class="btn btn-custom">Coming Soon</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- magento Card -->
-                <div class="col-md-4">
-                    <div class="card magento">
-                        <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/magento.svg" alt="Shopify" width="50">
-                        </div>
-                        <div class="body">
-                            <p>Managing your online store on <b>Magento?</b> Process your orders effortlessly and ship them faster through automated workflows, with bulk actions available</p>
                         </div>
                         <div class="footer">
                             <a href="javascript:void(0)" class="btn btn-custom">Coming Soon</a>

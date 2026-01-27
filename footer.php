@@ -1,7 +1,7 @@
 <footer id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="col-lg-3 col-md-12 col-sm-12">
                 <div class="brand mb-4">
                     <a href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt=""></a>
                 </div>
@@ -37,6 +37,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-6 m-margin-20">
                         <p>Product</p>
                         <div class="links">
+                            <a href="ayumi" class="link">Ayumi <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</sup></a>
                             <a href="cargoplus" class="link">Cargo+ <sup class="delivered new" style="background-color: unset; padding: 0; font-size: 12px;">New</sup></a>
                             <a href="order-management-system" class="link">Order Management System</a>
                             <a href="ai-courier-recommendations" class="link">SmartSelect</a>
@@ -57,13 +58,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-6">
+            <div class="col-lg-5 col-md-6 col-6">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4 m-margin-20">
                         <p>Resources</p>
                         <div class="links">
-                            <!-- <a href="https://app.rapidshyp.com" class="link" rel="nofollow">Sign In</a> -->
-                            <!-- <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> -->
+                            <a href="https://docs.rapidshyp.com/docs/api-overview/" class="link">API Documentation</a> 
+                             <a href="https://www.rapidshyp.com/blog/" class="link" rel="nofollow">Blog</a> 
                             <a href="https://support.rapidshyp.in" class="link">Help Centre</a>
                             <a href="newsroom" class="link">Newsroom</a>
                         </div>
@@ -93,7 +94,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                &copy; Copyright 2025 <strong><span>RapidShyp</span></strong> | <a href="privacy">Privacy
+                &copy; Copyright 2026 <strong><span>RapidShyp</span></strong> | <a href="privacy">Privacy
                     Policy</a>
                  | <a href="tnc">Terms & Conditions</a> | <a href="shipping-return-policy">Refund and
                     Cancellation
@@ -232,5 +233,3 @@
 <script src="node_modules/jquery.min.js"></script>
 <script src="node_modules/owl.carousel.min.js"></script>
 <script src="node_modules/bootstrap.bundle.min.js"></script>
-<!-- include this once in your page (CDN for Typed.js) -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

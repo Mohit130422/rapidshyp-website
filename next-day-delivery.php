@@ -20,7 +20,7 @@
                         <div class="contents">
                             <h1 class="head-title mt-4"> Next-day Delivery <br> Made Easy</h2>
                             <p class="sub-title">Race past logistics hurdles to deliver the speed your online customers expect, winning their trust and loyalty.</p>
-                            <div class="d-block mb-5"><button class="solid-action-btn" style="border-radius: 8px; background-color: #ffffff20; color: #ffffff; box-shadow: none;">Starts at <mark class="ndd-mark">₹17.25/500gm</mark> only</button></div>
+                            <div class="d-block mb-5"><button class="solid-action-btn" style="border-radius: 8px; background-color: #ffffff20; color: #ffffff; box-shadow: none;">Starts at <mark class="ndd-mark">₹21/500gm</mark> only</button></div>
                             <div class="d-block">
                                 <button class="solid-action-btn" onclick="location.href = 'https://app.rapidshyp.com/';">Ship Now</button>
                             </div>
@@ -324,7 +324,7 @@
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Next-day delivery starts at ₹17.25 per 500g.</div>
+                                <div class="accordion-body">Next-day delivery starts at ₹21 per 500g.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
