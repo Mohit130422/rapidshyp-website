@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img
-                        src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
+                        src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg" alt="Logo"></a>
                 <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
                         </li>
                         <li class="nav-item">
                             <p class="nav-link" id="resources">Shipping Tools <img
-                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg"
+                                    src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/arrow-down.svg"
                                     alt=""></p>
                             <div class="hover-menu" id="sub-menu">
                                 <ul>
@@ -70,7 +70,7 @@
     <section class="diwali-lp-hero ny-lp-hero">
         <div class="imgs">
             <img class="imgDesk"
-                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/newyear-bg.png"
+                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/newyear-bg.png"
                 loading="lazy">
         </div>
         <div class="hero-area">
@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 d-flex align-items-end">
-                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/offer-img.png"
+                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/offer-img.png"
                         alt="NEWYEAR25">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 d-flex align-items-center justify-content-center flex-column">
@@ -123,7 +123,7 @@
                 <div class="col-lg-8 col-sm-12 text-center">
                     <p class="heading">Deliver a Successful 2025</p>
                     <p class="sub-heading">Gear up for a year full of business growth</p>
-                    <img class="custm-border" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/border-line.png"
+                    <img class="custm-border" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/border-line.png"
                         alt="">
                 </div>
                 <div class="col-lg-8 col-sm-12 text-center">
@@ -141,11 +141,11 @@
                                     <div class="col-lg-6 col-xl-6 mb-4">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active" data-bs-interval="4000">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/slide-img01.png"
+                                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/slide-img01.png"
                                                     class="dashboard-image d-block m-auto" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="4000">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/slide-img02.png"
+                                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/slide-img02.png"
                                                     class="dashboard-image d-block m-auto" alt="...">
                                             </div>
                                         </div>
@@ -239,11 +239,11 @@
                                     <div class="col-lg-6 col-xl-6 mb-4">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active" data-bs-interval="4000">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/slide-img03.png"
+                                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/slide-img03.png"
                                                     class="dashboard-image d-block m-auto" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="4000">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/slide-img04.png"
+                                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/slide-img04.png"
                                                     class="dashboard-image d-block m-auto" alt="...">
                                             </div>
                                         </div>
@@ -281,11 +281,11 @@
                                     <div class="col-lg-6 col-xl-6 mb-4">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active" data-bs-interval="4000">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/slide-img05.png"
+                                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/slide-img05.png"
                                                     class="dashboard-image d-block m-auto" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="4000">
-                                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/slide-img06.png"
+                                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/slide-img06.png"
                                                     class="dashboard-image d-block m-auto" alt="...">
                                             </div>
                                         </div>
@@ -334,7 +334,7 @@
                     <h1 class="mb-4">This Year is <strong>One in a Billion</strong></h1>
                     <p>2025 is brimming with opportunities in the Indian eCommerce space</p>
                 </div>
-                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/ecom-img.png" alt="">
+                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/ecom-img.png" alt="">
             </div>
             <div class="row mt-4">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center">
@@ -425,7 +425,7 @@
     </section>
 
     <footer id="contact">
-        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/ny-footer-img.png" alt="">
+        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/ny-footer-img.png" alt="">
     </footer>
 
 
@@ -541,9 +541,9 @@
     <div class="blur-overlay" id="diwaliOffer">
         <div class="dialog-box diwalioffer">
             <div class="lamps">
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/lamp2.svg"
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/lamp2.svg"
                         loading="lazy"></li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/lamp2.svg"
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/lamp2.svg"
                         loading="lazy"></li>
             </div>
             <div class="head mb-4">
@@ -559,7 +559,7 @@
                             <h2 class="fw-bolder mb-3">Get FLAT 50% Cashback</h2>
                             <p class="fw-bold mb-3">(Up to ₹1000)</p>
                             <h5 class="fw-bold mb-3"><img
-                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/coin.svg"
+                                    src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/coin.svg"
                                     loading="lazy">on Your First Recharge</h5>
                         </div>
                     </div>

@@ -25,7 +25,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/order-management/order-management-img.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/order-management/order-management-img.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/order-management/om-process01.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/order-management/om-process01.png"
                             alt="">
                     </div>
                 </div>
@@ -59,7 +59,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/order-management/om-process02.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/order-management/om-process02.png"
                             alt="">
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/order-management/om-process03.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/order-management/om-process03.png"
                             alt="">
                     </div>
                 </div>
@@ -91,7 +91,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/order-management/om-process04.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/order-management/om-process04.png"
                             alt="">
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                             <div class="feature-item">WhatsApp Buyer communication</div>
                         </div>
                         <div class="image-container">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/order-management/not-just-another.png" alt="" width="100%">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/order-management/not-just-another.png" alt="" width="100%">
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                                 <p class="content">"Since implementing the proactive order verification tool, <mark>we've reduced RTO by 40%.</mark> The automation has saved us hours of manual work!" </p>
                             </div>
                             <div class="col-lg-4 col-md-5 col-sm-12">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/order-verification/zepto.png" alt="zepto">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/order-verification/zepto.png" alt="zepto">
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                                 <p class="content">"Since implementing the proactive order verification tool, <mark>we've reduced RTO by 40%.</mark> The automation has saved us hours of manual work!" </p>
                             </div>
                             <div class="col-lg-4 col-md-5 col-sm-12">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/order-verification/zepto.png" alt="zepto">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/order-verification/zepto.png" alt="zepto">
                             </div>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                                 <p class="content">"Since implementing the proactive order verification tool, <mark>we've reduced RTO by 40%.</mark> The automation has saved us hours of manual work!" </p>
                             </div>
                             <div class="col-lg-4 col-md-5 col-sm-12">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/order-verification/zepto.png" alt="zepto">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/order-verification/zepto.png" alt="zepto">
                             </div>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/rateCal_model.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/rateCal_model.png" alt="">
                     </div>
                 </div>
             </div>

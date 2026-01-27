@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/pikndel-hero-img.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/pikndel-hero-img.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,21 +46,21 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content border-right">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/timely-delivery.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/timely-delivery.svg" alt="">
                         <h3 class="heading">24 Hour</h3>
                         <p class="sub-heading">Delivery Capability</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/end-to-end.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/end-to-end.svg" alt="">
                         <h3 class="heading">End-to-end</h3>
                         <p class="sub-heading">Shipment Tracking</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/wallet-rates.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/wallet-rates.svg" alt="">
                         <h3 class="heading">Affordable</h3>
                         <p class="sub-heading">Shipping Rates</p>
                     </div>
@@ -80,7 +80,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/why-pd01.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/why-pd01.png"
                             alt="">
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/why-pd02.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/why-pd02.png"
                             alt="">
                     </div>
                 </div>
@@ -108,7 +108,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/why-pd03.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/why-pd03.png"
                             alt="">
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/why-pd04.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/why-pd04.png"
                             alt="">
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/pkd-areas.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/pkd-areas.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@
             <div class="row align-items-center col-reverse w-100">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel/delivery-your-ecommerce.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel/delivery-your-ecommerce.svg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-4">

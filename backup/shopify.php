@@ -14,13 +14,13 @@
         <div id="hero-area" class="hero-area shopify-hero-area">
             <div class="floating-elements">
                 <ul class="background">
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/truck-light.svg"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/truck-light.svg"
                             alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/shop-light.svg"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/shop-light.svg"
                             alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/box-light.svg"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/box-light.svg"
                             alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/cart-light.svg"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/cart-light.svg"
                             alt=""></li>
                 </ul>
             </div>
@@ -49,7 +49,7 @@
                     <p class="sub-heading" style="margin-bottom: 50px">Shopify allows you to sell products online effortlessly and attract a broad audience. With RapidShyp's all-in-one shipping app, you can streamline your shipping process and enhance the customer experience like never before. Expand your reach, simplify your operations, and watch your business thrive.</p>
                 </div>
                 <div class="col-lg-10 col-12 m-0">
-                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/about-shopify.png"
+                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/about-shopify.png"
                         alt="rate Variable">
                 </div>
             </div>
@@ -68,7 +68,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="benefits">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/benefit01.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-features/benefit01.png"
                                     alt="shopify benefits">
                                 <div class="content">
                                     <h5>Free</h5>
@@ -78,7 +78,7 @@
                         </div>
                         <div class="col-12">
                             <div class="benefits">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/benefit02.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-features/benefit02.png"
                                     alt="shopify benefits">
                                 <div class="content left">
                                     <h5>15+</h5>
@@ -94,7 +94,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="benefits">
-                                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/benefit03.png"
+                                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-features/benefit03.png"
                                             alt="shopify benefits">
                                         <div class="content">
                                             <h5>Easy</h5>
@@ -104,7 +104,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="benefits">
-                                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/benefit04.png"
+                                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-features/benefit04.png"
                                             alt="shopify benefits">
                                         <div class="content bottom">
                                             <h5>Zero</h5>
@@ -116,7 +116,7 @@
                         </div>
                         <div class="col-md-7">
                             <div class="benefits">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/benefit06.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-features/benefit06.png"
                                     alt="shopify benefits">
                                 <div class="content bottom">
                                     <h5>29000+</h5>
@@ -128,7 +128,7 @@
                     <div class="row">
                         <div class="col-md-9">
                             <div class="benefits">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/benefit05.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-features/benefit05.png"
                                     alt="shopify benefits">
                                 <div class="content">
                                     <h5>INR 21/500gm*</h5>
@@ -138,7 +138,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="benefits">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/benefit07.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-features/benefit07.png"
                                     alt="shopify benefits">
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/auto-sync.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-features/auto-sync.png"
                             alt="">
                     </div>
                 </div>
@@ -172,7 +172,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-features/rapidship-best-shipper.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-features/rapidship-best-shipper.png"
                             alt="">
                     </div>
                 </div>

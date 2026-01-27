@@ -23,7 +23,7 @@
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12">
                         <div class="img-desk text-center">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/woocom-hero-img.png" alt="" style="width: 80%;">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/woocom-hero-img.png" alt="" style="width: 80%;">
                         </div>
                     </div>
                 </div>
@@ -44,19 +44,19 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="cards">
-                        <div class="card active" onclick="expandCard(this, 'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/woocom-bene01.png')">
+                        <div class="card active" onclick="expandCard(this, 'https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/woocom-bene01.png')">
                             <div class="card-header">Auto-ship  <br>Mode</div>
                             <div class="card-content">Enable auto-pilot mode and our platform will process your shipments for you without any manual effort</div>
                         </div>
-                        <div class="card" onclick="expandCard(this, 'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/woocom-bene02.png')">
+                        <div class="card" onclick="expandCard(this, 'https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/woocom-bene02.png')">
                             <div class="card-header">Advanced <br>Controls</div>
                             <div class="card-content">Customise whether you want to push tracking events, sync order statuses, and map payment statuses</div>
                         </div>
-                        <div class="card" onclick="expandCard(this, 'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/woocom-bene03.png')">
+                        <div class="card" onclick="expandCard(this, 'https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/woocom-bene03.png')">
                             <div class="card-header">Smart Courier<br>Allocation</div>
                             <div class="card-content">Drive optimum delivery performance with intelligent, AI-backed courier allocation</div>
                         </div>
-                        <div class="card" onclick="expandCard(this, 'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/woocom-bene04.png')">
+                        <div class="card" onclick="expandCard(this, 'https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/woocom-bene04.png')">
                             <div class="card-header">WhatsApp  <br>Notifications</div>
                             <div class="card-content">Share delivery notifications with your buyers on WhatsApp, enhancing their delivery experience</div>
                         </div>
@@ -83,11 +83,11 @@
                             <div class="step" onclick="showStep(5)">Step: 05</div>
                         </div>
                         <div class="image-container">
-                            <img id="step1" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/wi-step01.png" class="active">
-                            <img id="step2" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/wi-step02.png">
-                            <img id="step3" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/wi-step03.png">
-                            <img id="step4" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/wi-step04.png">
-                            <img id="step5" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/wi-step05.png">
+                            <img id="step1" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/wi-step01.png" class="active">
+                            <img id="step2" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/wi-step02.png">
+                            <img id="step3" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/wi-step03.png">
+                            <img id="step4" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/wi-step04.png">
+                            <img id="step5" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/wi-step05.png">
                         </div>
                     </div>
                     <div class="content-mob woocommerce-secondary-bg">
@@ -153,7 +153,7 @@
                         <div class="col-lg-5 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits05.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/shopify/benefits05.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>15+ Courier Partners</p>
@@ -163,7 +163,7 @@
                         <div class="col-lg-7 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/benefits02.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/benefits02.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>Order & Address Verification</p>
@@ -175,7 +175,7 @@
                         <div class="col-lg-4 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container py-2">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits03.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/shopify/benefits03.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>Zero Platform Fee</p>
@@ -185,7 +185,7 @@
                         <div class="col-lg-4 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits04.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/shopify/benefits04.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>INR 21/500gm* Starting Rates</p>
@@ -195,7 +195,7 @@
                         <div class="col-lg-4 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/benefits05.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/benefits05.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>2-day COD Remittance</p>
@@ -207,7 +207,7 @@
                 <div class="col-md-4 col-sm-12 py-3">
                     <div class="benefits h-100">
                         <div class="image-container">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits06.png" alt="shopify benefits">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/shopify/benefits06.png" alt="shopify benefits">
                         </div>
                         <div class="content">
                             <p>29000+ Pin   <br>Code Coverage</p>
@@ -287,7 +287,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image imgdesk">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woocommerce/why-woocommerce.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woocommerce/why-woocommerce.png" alt="">
                     </div>
                 </div>
             </div>

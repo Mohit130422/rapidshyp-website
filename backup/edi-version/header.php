@@ -107,7 +107,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img
-                        src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
+                        src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg" alt="Logo"></a>
                 <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -127,7 +127,7 @@
                         </li>
                         <li class="nav-item">
                             <p class="nav-link" id="resources">Resources <img
-                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg"
+                                    src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/arrow-down.svg"
                                     alt=""></p>
                             <div class="hover-menu" id="sub-menu">
                                 <ul>

@@ -15,7 +15,7 @@ include 'header-section-v2.php';?>
     <section class="signup-section" id="signup">
         <div class="container-fluid">
             <div class="head">
-                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo">
+                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg" alt="Logo">
             </div>
             <div class="row">
                 <div class="col-lg-7 col-md-5 col-sm-12 content">
@@ -30,7 +30,7 @@ include 'header-section-v2.php';?>
                         </ul>
                     </div>
                     <div class="footer">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/sign-up.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/signup/sign-up.png"
                             alt="rs-signup-img">
                     </div>
                 </div>
@@ -38,7 +38,7 @@ include 'header-section-v2.php';?>
                     <ul class="nav" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link lp-nav-link d-flex active" data-toggle="tab" href="#tabs-1" role="tab" aria-selected="true">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/seller-icon.png">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/signup/seller-icon.png">
                                 <div class="tab_tittle">
                                     <h6>For Sellers </h6>
                                     <small>Sign up with a FREE account</small>
@@ -47,7 +47,7 @@ include 'header-section-v2.php';?>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link lp-nav-link d-flex" data-toggle="tab" href="#tabs-2" role="tab" aria-selected="false">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/buyer-icon.png">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/signup/buyer-icon.png">
                                 <div class="tab_tittle">
                                     <h6>For Buyers</h6>
                                     <small>Track your order instantly</small>
@@ -133,11 +133,11 @@ include 'header-section-v2.php';?>
     <section class="what-makes-better hero-area pannel-partners" id="features">
         <div class="floating-elements">
             <ul class="background">
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/plus.svg" alt="">
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/signup/plus.svg" alt="">
                 </li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/plus.svg" alt="">
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/signup/plus.svg" alt="">
                 </li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/signup/plus.svg" alt="">
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/signup/plus.svg" alt="">
                 </li>
             </ul>
         </div>
@@ -160,45 +160,45 @@ include 'header-section-v2.php';?>
                     <div class="content" id="courier">
                         <div class="owl-carousel owl-theme" id="courier-slide">
                             <div class="imgDesk"><img
-                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt5.png"
+                                    src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt5.png"
                                     alt="Ekart"></div>
                             <div class="imgDesk"><img
-                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt1.png"
+                                    src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt1.png"
                                     alt="Delhivery"></div>
                             <div class="imgDesk"><img
-                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt2.png"
+                                    src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt2.png"
                                     alt="Ecom Express"></div>
                             <div class="imgDesk"><img
-                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt3.png"
+                                    src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt3.png"
                                     alt="DTDC"></div>
                             <div class="imgDesk"><img
-                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt6.png"
+                                    src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt6.png"
                                     alt="Shadowfax"></div>
                             <div class="imgDesk"><img
-                                    src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt4.png"
+                                    src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt4.png"
                                     alt="xpressbees"></div>
                         </div>
                     </div>
                     <div class="content hidden" id="channel">
                         <div class="owl-carousel owl-theme" id="channel-slide">
                             <div class="imgDesk">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt7.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt7.png"
                                     alt="Ekart">
                             </div>
                             <div class="imgDesk">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt8.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt8.png"
                                     alt="Delhivery">
                             </div>
                             <div class="imgDesk">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt9.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt9.png"
                                     alt="Ecom Express">
                             </div>
                             <div class="imgDesk">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt10.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt10.png"
                                     alt="Ecom Express">
                             </div>
                             <div class="imgDesk">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt11.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt11.png"
                                     alt="Ecom Express">
                             </div>
                         </div>
@@ -222,7 +222,7 @@ include 'header-section-v2.php';?>
                     <div class="item">
                         <div class="card pink">
                             <div class="icon">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/hook1.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/hook1.png"
                                     alt="">
                             </div>
                             <div class="body">
@@ -236,7 +236,7 @@ include 'header-section-v2.php';?>
                     <div class="item">
                         <div class="card yellow">
                             <div class="icon">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/hook2.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/hook2.png"
                                     alt="">
                             </div>
                             <div class="body">
@@ -250,7 +250,7 @@ include 'header-section-v2.php';?>
                     <div class="item">
                         <div class="card pink">
                             <div class="icon">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/hook3.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/hook3.png"
                                     alt="">
                             </div>
                             <div class="body">
@@ -284,7 +284,7 @@ include 'header-section-v2.php';?>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div>
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/rtos1.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/rtos1.png"
                                     alt="">
                             </div>
                         </div>
@@ -296,7 +296,7 @@ include 'header-section-v2.php';?>
                     <div class="row align-items-center wrapper">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div>
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/rtos2.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/rtos2.png"
                                     alt="">
                             </div>
                         </div>
@@ -324,7 +324,7 @@ include 'header-section-v2.php';?>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div>
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/rtos3.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/rtos3.png"
                                     alt="">
                             </div>
                         </div>
@@ -343,7 +343,7 @@ include 'header-section-v2.php';?>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
                             <div class="grip info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl01.svg"
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl01.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Unified Dashboard</p>
@@ -353,7 +353,7 @@ include 'header-section-v2.php';?>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
                             <div class="grip info">
                                 <span class="imgdesk yellow">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl02.svg"
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl02.svg"
                                         alt="">
                                 </span>
                                 <p class="title">29,000+ Pin Codes</p>
@@ -363,7 +363,7 @@ include 'header-section-v2.php';?>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
                             <div class="grip info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl03.svg"
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl03.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Economical Shipping Rates</p>
@@ -373,7 +373,7 @@ include 'header-section-v2.php';?>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
                             <div class="grip info">
                                 <span class="imgdesk yellow">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl04.svg"
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl04.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Splendid OMS</p>
@@ -383,7 +383,7 @@ include 'header-section-v2.php';?>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
                             <div class="grip info">
                                 <span class="imgdesk">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl05.svg"
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl05.svg"
                                         alt="">
                                 </span>
                                 <p class="title">Shipping Rate Calculator</p>
@@ -394,7 +394,7 @@ include 'header-section-v2.php';?>
                         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
                             <div class="grip info">
                                 <span class="imgdesk yellow">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl06.svg"
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl06.svg"
                                         alt="">
                                 </span>
                                 <p class="title">RapidCOD</p>
@@ -407,7 +407,7 @@ include 'header-section-v2.php';?>
                     <div class="owl-carousel owl-theme grip" id="feature-slide">
                         <div class="grip info">
                             <span class="imgdesk">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl01.svg"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl01.svg"
                                     alt="">
                             </span>
                             <p class="title">Unified Dashboard</p>
@@ -415,7 +415,7 @@ include 'header-section-v2.php';?>
                         </div>
                         <div class="grip info">
                             <span class="imgdesk yellow">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl02.svg"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl02.svg"
                                     alt="">
                             </span>
                             <p class="title">29,000+ Pin Codes</p>
@@ -423,7 +423,7 @@ include 'header-section-v2.php';?>
                         </div>
                         <div class="grip info">
                             <span class="imgdesk">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl03.svg"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl03.svg"
                                     alt="">
                             </span>
                             <p class="title">Economical Shipping Rates</p>
@@ -431,7 +431,7 @@ include 'header-section-v2.php';?>
                         </div>
                         <div class="grip info">
                             <span class="imgdesk yellow">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl04.svg"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl04.svg"
                                     alt="">
                             </span>
                             <p class="title">Splendid OMS</p>
@@ -439,7 +439,7 @@ include 'header-section-v2.php';?>
                         </div>
                         <div class="grip info">
                             <span class="imgdesk">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl05.svg"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl05.svg"
                                     alt="">
                             </span>
                             <p class="title">Shipping Rate Calculator</p>
@@ -448,7 +448,7 @@ include 'header-section-v2.php';?>
                         </div>
                         <div class="grip info">
                             <span class="imgdesk yellow">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ctrl06.svg"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ctrl06.svg"
                                     alt="">
                             </span>
                             <p class="title">RapidCOD</p>
@@ -477,7 +477,7 @@ include 'header-section-v2.php';?>
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="brand mb-4">
-                        <span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg"
+                        <span><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg"
                                 alt=""></span>
                     </div>
                     <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
@@ -490,7 +490,7 @@ include 'header-section-v2.php';?>
                         <span><i
                                 class="fab fa-linkedin"></i></span>
                         <span><i class="fab fa-facebook"></i></span>
-                        <span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg"
+                        <span><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/x-twitter.svg"
                                 alt=""></span>
                     </div>
                 </div>
@@ -546,7 +546,7 @@ include 'header-section-v2.php';?>
                 </div>
             </div>
         </div>
-        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/footer-img.png" alt="">
+        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/footer-img.png" alt="">
     </footer>
 
     <div class="adlinks">

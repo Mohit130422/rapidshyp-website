@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/shree-maruti-hero-img.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/shree-maruti-hero-img.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,21 +46,21 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content border-right">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/legacy.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/legacy.svg" alt="">
                         <h3 class="heading">40+ Years</h3>
                         <p class="sub-heading">Legacy</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/teams.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/teams.svg" alt="">
                         <h3 class="heading">2500</h3>
                         <p class="sub-heading">Team Size</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/hubs.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/hubs.svg" alt="">
                         <h3 class="heading">150+</h3>
                         <p class="sub-heading">Hubs</p>
                     </div>
@@ -80,7 +80,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/why-sm01.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/why-sm01.png"
                             alt="">
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/why-sm02.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/why-sm02.png"
                             alt="">
                     </div>
                 </div>
@@ -108,7 +108,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/why-sm03.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/why-sm03.png"
                             alt="">
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/why-sm04.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/why-sm04.png"
                             alt="">
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/sm-areas.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/sm-areas.png" alt="">
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@
             <div class="row align-items-center col-reverse w-100">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shree-maruti/delivery-your-ecommerce.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shree-maruti/delivery-your-ecommerce.svg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-4">

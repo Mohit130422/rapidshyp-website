@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/amazon-bg.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/amazon-bg.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,21 +46,21 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content border-right">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/pincodes.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/pincodes.svg" alt="">
                         <h3 class="heading">14000+</h3>
                         <p class="sub-heading">Deliverable Pin Codes</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/delivered.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/delivered.svg" alt="">
                         <h3 class="heading">97%+</h3>
                         <p class="sub-heading">Delivery Success Rate</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/cod.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/cod.svg" alt="">
                         <h3 class="heading">50%</h3>
                         <p class="sub-heading">Faster COD Disbursement</p>
                     </div>
@@ -237,7 +237,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/why-as01.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/why-as01.png"
                             alt="">
                     </div>
                 </div>
@@ -257,7 +257,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/why-as02.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/why-as02.png"
                             alt="">
                     </div>
                 </div>
@@ -265,7 +265,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/why-as03.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/why-as03.png"
                             alt="">
                     </div>
                 </div>
@@ -285,7 +285,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/why-as04.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/why-as04.png"
                             alt="">
                     </div>
                 </div>
@@ -307,7 +307,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/as-areas.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/as-areas.png" alt="">
                     </div>
                 </div>
             </div>
@@ -378,7 +378,7 @@
             <div class="row align-items-center col-reverse w-100">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon/delivery-your-ecommerce.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon/delivery-your-ecommerce.svg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-4">

@@ -12,7 +12,7 @@
     <?php include 'header.php';?>
     <section class="diwali-lp-hero ny-lp-hero retail-lp-hero">
         <div class="imgs">
-            <img class="imgDesk" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/retail-hero-bg.png"
+            <img class="imgDesk" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/retail-hero-bg.png"
                 loading="lazy">
         </div>
         <div class="hero-area">
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="image imgdesk">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/want-ship-package.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/want-ship-package.png" alt="">
                     </div>
                 </div>
             </div>

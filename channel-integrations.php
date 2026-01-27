@@ -25,7 +25,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/ci-lp-hero.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/ci-lp-hero.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify.svg" alt="Shopify" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/shopify.svg" alt="Shopify" width="50">
                         </div>
                         <div class="body">
                             <p>Grow your online store created on <b>Shopify</b> with seamless shipping. Also available on the Shopify App Store, our one-click integration simplifies your post-order process for faster fullfillment</p>
@@ -65,7 +65,7 @@
                 <div class="col-md-4">
                     <div class="card unicom">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce.svg" alt="unicommerce" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce.svg" alt="unicommerce" width="50">
                         </div>
                         <div class="body">
                             <p>Streamline your operations for unmatched efficiency and scalability by combining <b>Unicommerce's</b> order management and inventory control capabilities with our logistics tech and expertise
@@ -85,7 +85,7 @@
                 <div class="col-md-4">
                     <div class="card woocommerce">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/woo-commerce.svg" alt="woocomerce" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/woo-commerce.svg" alt="woocomerce" width="50">
                         </div>
                         <div class="body">
                             <p>Combine <b>WooCommerce's</b> flexibility in designing and managing your online store with RapidShyp's flexibility in courier selection and buyer communication, for a top-notch seller experience</p>
@@ -104,7 +104,7 @@
                 <div class="col-md-4">
                     <div class="card omsguru">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/omsguru.svg" alt="omsguru" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/omsguru.svg" alt="omsguru" width="50">
                         </div>
                         <div class="body">
                             <p>Integrate <b>OMSGuru</b> with RapidShyp to automate order sync, smart courier allocation, and faster eCommerce fulfilment.</p>
@@ -123,7 +123,7 @@
                 <div class="col-md-4">
                     <div class="card easycom">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/easyecom.svg" alt="easyecom" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/easyecom.svg" alt="easyecom" width="50">
                         </div>
                         <div class="body">
                             <p>Integrate <b>EasyEcom's</b> omnichannel operating system with our comprehensive shipping platform to simplify everything—from order creation and shipping to tracking and returns</p>
@@ -142,7 +142,7 @@
                  <div class="col-md-4">
                     <div class="card vinculum">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/vinculum.svg" alt="Shopify" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/vinculum.svg" alt="Shopify" width="50">
                         </div>
                         <div class="body">
                             <p>Connect <b>Vinculum's</b> omnichannel warehouse, inventory, and order management platform with our cutting-edge shipping platform to enjoy benefits like order verification, 2-day COD remittance, and more</p>
@@ -156,7 +156,7 @@
                 <div class="col-md-4 hidden-column">
                     <div class="card amazon">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/amazon-ship.svg" alt="amazon" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/amazon-ship.svg" alt="amazon" width="50">
                         </div>
                         <div class="body">
                             <p>As more customers discover your products on <b>Amazon,</b> RapidShyp ensures your orders reach them anywhere across 29,000+ pin codes,</p>
@@ -170,7 +170,7 @@
                  <div class="col-md-4 hidden-column">
                     <div class="card clickpost">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/clickpost.svg" alt="Shopify" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/clickpost.svg" alt="Shopify" width="50">
                         </div>
                         <div class="body">
                             <p>No need to choose multiple couriers separately for your orders on <b>ClickPost.</b> Simply connect your account with RapidShyp and unlock access to 15+ courier options in one place</p>
@@ -217,7 +217,7 @@
                 <div class="col-12">
                     <div class="features-section">
                         <div class="image-container">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/why-rapidshyp.png" alt="" width="100%">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/why-rapidshyp.png" alt="" width="100%">
                         </div>
                         <div class="features-list">
                             <div class="feature-item">Multi-channel integration</div>
@@ -304,7 +304,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image imgdesk">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/simplify-shipping-today.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/simplify-shipping-today.png" alt="">
                     </div>
                 </div>
             </div>

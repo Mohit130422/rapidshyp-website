@@ -23,7 +23,7 @@
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12">
                         <div class="img-desk text-center">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/unicom-hero-img.png" alt="" style="width: 80%;">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/unicom-hero-img.png" alt="" style="width: 80%;">
                         </div>
                     </div>
                 </div>
@@ -44,19 +44,19 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="cards">
-                        <div class="card active" onclick="expandCard(this, 'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/unicom-bene01.png')">
+                        <div class="card active" onclick="expandCard(this, 'https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/unicom-bene01.png')">
                             <div class="card-header">Seamless  <br>Order Fetching</div>
                             <div class="card-content">Our system fetches orders and cancellations well in time, without needing manual effort</div>
                         </div>
-                        <div class="card" onclick="expandCard(this, 'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/unicom-bene02.png')">
+                        <div class="card" onclick="expandCard(this, 'https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/unicom-bene02.png')">
                             <div class="card-header">Effortless <br>Order Processing</div>
                             <div class="card-content">Quickly convert orders into shipments with bulk actions and automated documentation</div>
                         </div>
-                        <div class="card" onclick="expandCard(this, 'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/unicom-bene03.png')">
+                        <div class="card" onclick="expandCard(this, 'https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/unicom-bene03.png')">
                             <div class="card-header">Custom Courier<br>Rules</div>
                             <div class="card-content">Set your own courier rules & priority, and auto-select the next best courier for non-serviceable orders</div>
                         </div>
-                        <div class="card" onclick="expandCard(this, 'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/unicom-bene04.png')">
+                        <div class="card" onclick="expandCard(this, 'https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/unicom-bene04.png')">
                             <div class="card-header">Instant Buyer  <br>Communication</div>
                             <div class="card-content">Send delivery updates to your buyers in real time, enhancing their delivery experience</div>
                         </div>
@@ -83,11 +83,11 @@
                             <div class="step" onclick="showStep(5)">Step: 05</div>
                         </div>
                         <div class="image-container">
-                            <img id="step1" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/ui-step01.png" class="active">
-                            <img id="step2" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/ui-step02.png">
-                            <img id="step3" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/ui-step03.png">
-                            <img id="step4" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/ui-step04.png">
-                            <img id="step5" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/ui-step05.png">
+                            <img id="step1" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/ui-step01.png" class="active">
+                            <img id="step2" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/ui-step02.png">
+                            <img id="step3" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/ui-step03.png">
+                            <img id="step4" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/ui-step04.png">
+                            <img id="step5" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/ui-step05.png">
                         </div>
                     </div>
                     <div class="content-mob unicommerce-secondary-bg">
@@ -152,7 +152,7 @@
                         <div class="col-lg-5 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits05.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/shopify/benefits05.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>15+ Courier Partners</p>
@@ -162,7 +162,7 @@
                         <div class="col-lg-7 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/benefits02.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/benefits02.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>Order & Address Verification</p>
@@ -174,7 +174,7 @@
                         <div class="col-lg-4 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container py-2">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits03.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/shopify/benefits03.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>Zero Platform Fee</p>
@@ -184,7 +184,7 @@
                         <div class="col-lg-4 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits04.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/shopify/benefits04.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>INR 21/500gm* Starting Rates</p>
@@ -194,7 +194,7 @@
                         <div class="col-lg-4 col-sm-12 py-3">
                             <div class="benefits">
                                 <div class="image-container">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/unicommerce/benefits05.png" alt="shopify benefits">
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/unicommerce/benefits05.png" alt="shopify benefits">
                                 </div>
                                 <div class="content">
                                     <p>2-day COD Remittance</p>
@@ -206,7 +206,7 @@
                 <div class="col-md-4 col-sm-12 py-3">
                     <div class="benefits h-100">
                         <div class="image-container">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/channel-integration/shopify/benefits06.png" alt="shopify benefits">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/channel-integration/shopify/benefits06.png" alt="shopify benefits">
                         </div>
                         <div class="content">
                             <p>29000+ Pin   <br>Code Coverage</p>

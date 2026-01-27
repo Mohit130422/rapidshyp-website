@@ -15,7 +15,7 @@
         </div>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a> 
+                <a class="navbar-brand" href="/"><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg" alt="Logo"></a> 
                 <div class="navbar-nav d-flex">
                     <li class="nav-item" style="list-style: none;"><button class="solid-action-btn mx-0" onclick="location.href = 'https://app.rapidshyp.com/';" style="font-size: 14px;">Get Started <i class="fas fa-chevron-right"></i></button></li>
                 </div>
@@ -26,28 +26,28 @@
     <section class="diwali-lp-hero">
         <div class="left-hand">
            <div class="position-relative">
-                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/first-hand.png"
+                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/first-hand.png"
                     loading="lazy" class="flower-bush-left">
-                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/right-spark.svg" alt="" class="right-spark bush">
+                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/right-spark.svg" alt="" class="right-spark bush">
            </div>
         </div>
         <div class="right-hand">
             <div class="position-relative">
-                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/second-hand.png"
+                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/second-hand.png"
                     loading="lazy" class="flower-bush-right">
-                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/left-spark.svg" alt="" class="left-spark bush">
+                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/left-spark.svg" alt="" class="left-spark bush">
             </div>
         </div>
         <div class="imgs">
-            <img class="imgDesk" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/diwali-hero-bg.png"
+            <img class="imgDesk" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/diwali-hero-bg.png"
                 loading="lazy">
         </div>
         <div class="hero-area">
             <div class="floating-elements">
                 <ul class="background lamps">
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/lamp-left.svg"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/lamp-left.svg"
                     loading="lazy" class="lamp-left"></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/lamp-right.svg"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/lamp-right.svg"
                             loading="lazy" class="lamp-right"></li>
                 </ul>
             </div>
@@ -55,7 +55,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-7 col-md-6 col-sm-12 text-center">
                         <div class="contents">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/spark-sparkle.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/spark-sparkle.svg"
                                 loading="lazy" width="100%">
                             <p class="description">Because every spark in your store deserves a seamless journey - we make it happen!</p>
                         </div>
@@ -72,9 +72,9 @@
     <section class="what-makes-better ready-to-light-up opportunity-is-brighter" id="features">
         <div class="floating-stars">
             <ul class="background">
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/star01.svg"
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/star01.svg"
                         loading="lazy"></li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/star02.svg"
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/star02.svg"
                         loading="lazy"></li>
             </ul>
         </div>
@@ -117,13 +117,13 @@
     <section class="what-makes-better2 feature-fuel-sparkle">
         <div class="floating-stars">
             <ul class="background">
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/feature-sparkle1.svg"
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/feature-sparkle1.svg"
                         loading="lazy"></li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/feature-sparkle2.svg"
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/feature-sparkle2.svg"
                         loading="lazy"></li>
             </ul>
         </div>
-        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/feature-header.png" alt="" class="feature-header">
+        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/feature-header.png" alt="" class="feature-header">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-sm-12 text-center">
@@ -132,7 +132,7 @@
                 <div class="row mt-4 align-items-center justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="feature-img text-center text-md-end">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/feature1.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/feature1.png"
                                 alt="">
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="feature-img text-center text-md-start">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/feature2.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/feature2.png"
                                 alt="">
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="feature-img text-center text-md-end">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/feature3.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/feature3.png"
                                 alt="">
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="feature-img text-center text-md-start">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/feature4.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/feature4.png"
                                 alt="">
                         </div>
                     </div>
@@ -188,7 +188,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="feature-img text-center text-md-end">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/feature5.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/feature5.png"
                                 alt="">
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                 </div>
             </div>
         </div>
-        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/feature-footer.png" alt="">
+        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/feature-footer.png" alt="">
     </section>
 
     <section class="what-makes-better ready-to-light-up opportunity-is-brighter" style="height: auto; padding-bottom:0;">
@@ -220,7 +220,7 @@
                             <strong>Neha Kapoor</strong><br>
                             <span>Gifting brand owner</span>
                         </div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/quote.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/quote.svg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
@@ -231,7 +231,7 @@
                             <strong>Raj Mehta</strong><br>
                             <span>Healthcare E-commerce brand</span>
                         </div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/quote.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/quote.svg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
@@ -242,7 +242,7 @@
                             <strong>Arjun Nair</strong><br>
                             <span>Founder, Women's clothing brand</span>
                         </div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/quote.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/quote.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -318,7 +318,7 @@
                 </div>
             </div>
         </div>
-        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/deliver-big.svg" alt="" width="100%" class="deliver-big">
+        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/deliver-big.svg" alt="" width="100%" class="deliver-big">
     </section>
 
     <footer id="contact" class="bg-white">
@@ -326,7 +326,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="brand mb-4">
-                        <a href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg"
+                        <a href="/"><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg"
                                 alt=""></a>
                     </div>
                     <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
@@ -340,7 +340,7 @@
                                 class="fab fa-linkedin"></i></a>
                         <a href="https://www.facebook.com/rapidshyp" target="_blank"><i class="fab fa-facebook"></i></a>
                         <a href="https://twitter.com/rapidshyp" target="_blank"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/x-twitter.svg"
                                 alt=""></a>
                     </div>
                 </div>
@@ -394,7 +394,7 @@
                 </div>
             </div>
         </div>
-        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/footer-img.png" alt="">
+        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/footer-img.png" alt="">
     </footer>
 
     <div class="adlinks bg-white">
@@ -423,7 +423,7 @@
                     <div class="row mb-4">
                         <div class="col-12 text-center">
                             <h2 class="fw-bolder mb-3">A Little <mark>Extra Spark</mark> from Us</h2>
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/diwali2K25/diwali-offer.svg" loading="lazy">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/diwali2K25/diwali-offer.svg" loading="lazy">
                         </div>
                     </div>
                 </div>

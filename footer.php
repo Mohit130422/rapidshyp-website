@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-12 col-sm-12">
                 <div class="brand mb-4">
-                    <a href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt=""></a>
+                    <a href="/"><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg" alt=""></a>
                 </div>
                 <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
                     shipping, real-time tracking, and NDR management, ensuring efficient order fulfillment and
@@ -17,17 +17,17 @@
                     <a href="https://www.facebook.com/rapidshyp" target="_blank"><i
                             class="fab fa-facebook"></i></a>
                     <a href="https://twitter.com/rapidshyp" target="_blank"><img
-                            src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg" alt=""></a>
+                            src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/x-twitter.svg" alt=""></a>
                 </div>
                 <div class="app-btns mb-4">
                     <div class="btn">
                         <a href="https://play.google.com/store/apps/details?id=com.osbs.rapidshyp" target="_blank"
                             class="app-btn"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/google.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/google.svg"
                                 alt=""></a>
                         <a href="https://apps.apple.com/in/app/rapidshyp-logistics-services/id6748735938" target="_blank"
                             class="app-btn"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/apple.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/apple.svg"
                                 alt=""></a>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
             </div>
         </div>
     </div>
-    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/footer-img.png" alt="">
+    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/footer-img.png" alt="">
 </footer>
 
 <div class="adlinks">
@@ -213,7 +213,7 @@
                 <div class="row mb-4">
                     <div class="col-12 text-center mb-4">
                         <div class="img">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/thankyou.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/thankyou.png" alt="">
                         </div>
                         <div class="content">
                             <h3>Thank you for showing interest in RapidShyp. </h3>

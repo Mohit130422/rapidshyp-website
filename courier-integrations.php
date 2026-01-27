@@ -25,7 +25,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/ci-lp-hero.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/ci-lp-hero.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                  <div class="col-md-4">
                     <div class="card indiapost-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/india-post-logo.png" alt="india-post" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/india-post-logo.png" alt="india-post" width="50">
                         </div>
                         <div class="body">
                             <p><b>India Post’s</b> unmatched reach and legacy of trust ensure your shipments are delivered reliably—even in the most remote parts of the country.</p>
@@ -66,7 +66,7 @@
                 <div class="col-md-4">
                     <div class="card delhivery-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/delhivery-logo.png" alt="delhivery" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/delhivery-logo.png" alt="delhivery" width="50">
                         </div>
                         <div class="body">
                             <p>Deliver anywhere in India with <b>Delhivery’s</b> wide-reaching courier network and trusted logistics infrastructure, built for reliability, scale, and speed.</p>
@@ -86,7 +86,7 @@
                 <div class="col-md-4">
                     <div class="card bluedart-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/bluedart-logo.png" alt="bluedart" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/bluedart-logo.png" alt="bluedart" width="50">
                         </div>
                         <div class="body">
                             <p>With over four decades of courier expertise, <b>Blue Dart</b> helps you reach 55000+ locations across India—ensuring speed, precision, and consistently high customer satisfaction.</p>
@@ -106,7 +106,7 @@
                 <div class="col-md-4">
                     <div class="card dtdc-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/dtdc-logo.png" alt="dtdc" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/dtdc-logo.png" alt="dtdc" width="50">
                         </div>
                         <div class="body">
                             <p>Leverage <b>DTDC's</b> logistics expertise combined with our modern shipping technology to scale your online business faster than ever before.</p>
@@ -126,7 +126,7 @@
                 <div class="col-md-4">
                     <div class="card shadowfax-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shadowfax-logo.png" alt="shadowfax" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shadowfax-logo.png" alt="shadowfax" width="50">
                         </div>
                         <div class="body">
                             <p><b>Shadowfax’s</b> efficient delivery routes and fast transit times help your brand offer a consistently smooth and reliable delivery experience.</p>
@@ -146,7 +146,7 @@
                 <div class="col-md-4 d-none">
                     <div class="card ecomexp-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/ecomexp-logo.png" alt="ecomexpress" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/ecomexp-logo.png" alt="ecomexpress" width="50">
                         </div>
                         <div class="body">
                             <p><b>Ecom Express's</b> courier network is built for scale—empowering your business with fast, reliable deliveries across India.</p>
@@ -166,7 +166,7 @@
                 <div class="col-md-4">
                     <div class="card amazon-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/amazon-ship-logo.png" alt="amazon-shipping" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/amazon-ship-logo.png" alt="amazon-shipping" width="50">
                         </div>
                         <div class="body">
                             <p>Experience faster, dependable logistics with <b>Amazon Shipping</b>—your trusted partner for seamless eCommerce shipping across India.</p>
@@ -186,7 +186,7 @@
                 <div class="col-md-4 hidden-column">
                     <div class="card xbees-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees-logo.png" alt="xpressbees" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees-logo.png" alt="xpressbees" width="50">
                         </div>
                         <div class="body">
                             <p>Scale smarter with <b>Xpressbees</b> — a courier partner built for faster deliveries, better control, and reduced logistics costs.</p>
@@ -206,7 +206,7 @@
                 <div class="col-md-4 hidden-column">
                     <div class="card ekart-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/ekart-logo.png" alt="ekart" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/ekart-logo.png" alt="ekart" width="50">
                         </div>
                         <div class="body">
                             <p><b>Ekart</b> powers deliveries across India with a robust network and one of the highest first-attempt delivery success rates in the industry.</p>
@@ -226,7 +226,7 @@
                 <div class="col-md-4 hidden-column">
                     <div class="card velex-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/velex-logo.png" alt="velocity" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/velex-logo.png" alt="velocity" width="50">
                         </div>
                         <div class="body">
                             <p>With 40+ years in the industry, <b>Velocity Express</b> helps brands streamline operations, reduce costs, and deliver satisfaction at scale.</p>
@@ -245,7 +245,7 @@
                 <div class="col-md-4 hidden-column">
                     <div class="card pikndel-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/pikndel-logo.png" alt="pikndel" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/pikndel-logo.png" alt="pikndel" width="50">
                         </div>
                         <div class="body">
                             <p>From streamlined operations to enhanced customer satisfaction, <b>Pikndel</b> helps eCommerce brands grow without the usual logistics roadblocks.</p>
@@ -264,7 +264,7 @@
                 <div class="col-md-4 hidden-column">
                     <div class="card shrimaruti-card">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/shrimaruti-logo.png" alt="shrimaruti" width="50">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/shrimaruti-logo.png" alt="shrimaruti" width="50">
                         </div>
                         <div class="body">
                             <p><b>Shri Maruti’s</b> reliable courier service is built to satisfy customer expectations through safe, timely deliveries across India.</p>
@@ -312,7 +312,7 @@
                 <div class="col-12">
                     <div class="features-section">
                         <div class="image-container">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/why-rapidshyp.png" alt="" width="100%">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/why-rapidshyp.png" alt="" width="100%">
                         </div>
                         <div class="features-list">
                             <div class="feature-item">15+ courier options</div>
@@ -399,7 +399,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image imgdesk">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/simplify-shipping-today.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/simplify-shipping-today.png" alt="">
                     </div>
                 </div>
             </div>

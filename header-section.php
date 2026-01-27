@@ -3,18 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <base href="https://www.rapidshyp.com">
+    <!-- <base href="https://www.rapidshyp.com"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Tracking and Analytics -->
     <meta name="msvalidate.01" content="0EEEAB0A6F290CF1DFC746D92732C29B" />
     <meta name="facebook-domain-verification" content="g2yq7dt5v0crk4gyidro1pc39uq2h0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="shortcut icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon.ico"
+    <link rel="shortcut icon" href="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/favicon.ico"
         type="image/x-icon">
-    <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon.png"
+    <link rel="icon" href="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/favicon.png"
         sizes="32x32" />
-    <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png"
+    <link rel="icon" href="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/favicon-192.png"
         sizes="192x192" />
     <link rel="stylesheet" href="node_modules/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap.min.css">

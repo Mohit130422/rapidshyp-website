@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/xpbees-hero-bg.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/xpbees-hero-bg.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,21 +46,21 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content border-right">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/parcel.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/parcel.svg" alt="">
                         <h3 class="heading">2 Million+</h3>
                         <p class="sub-heading">Shipments Daily</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/truck.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/truck.svg" alt="">
                         <h3 class="heading">4500+</h3>
                         <p class="sub-heading">Fulfillment Centers</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/home-pin.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/home-pin.svg" alt="">
                         <h3 class="heading">19000+</h3>
                         <p class="sub-heading">Pin Codes Covered</p>
                     </div>
@@ -237,7 +237,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/why-xb01.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/why-xb01.png"
                             alt="">
                     </div>
                 </div>
@@ -257,7 +257,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/why-xb02.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/why-xb02.png"
                             alt="">
                     </div>
                 </div>
@@ -265,7 +265,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/why-xb03.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/why-xb03.png"
                             alt="">
                     </div>
                 </div>
@@ -285,7 +285,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/why-xb04.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/why-xb04.png"
                             alt="">
                     </div>
                 </div>
@@ -307,7 +307,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/xb-areas.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/xb-areas.png" alt="">
                     </div>
                 </div>
             </div>
@@ -378,7 +378,7 @@
             <div class="row align-items-center col-reverse w-100">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/courier-integration/xpbees/delivery-your-ecommerce.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/courier-integration/xpbees/delivery-your-ecommerce.svg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-4">

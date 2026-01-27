@@ -30,9 +30,9 @@
     <section class="publication">
         <div class="floating-elements">
             <ul class="background">
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/pink-circle.png" alt=""></li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/yellow-circle.png" alt=""></li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/yellow-circle.png" alt=""></li>
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/pink-circle.png" alt=""></li>
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/yellow-circle.png" alt=""></li>
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/yellow-circle.png" alt=""></li>
             </ul>
         </div>
         <div class="container">
@@ -41,52 +41,52 @@
                     <h4 class="heading">Featured in Top Publications</h4>
                     <div class="owl-carousel owl-theme publishers" id="publishers">
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_01.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_01.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_02.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_02.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_03.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_03.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_04.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_04.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_05.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_05.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_06.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_06.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_07.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_07.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_08.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_08.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_09.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_09.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_10.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_10.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_11.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_11.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_12.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_12.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_13.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_13.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_14.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_14.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_15.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_15.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/Publication_Logos_16.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/Publication_Logos_16.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/rapidshyp_launch.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/rapidshyp_launch.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -122,7 +122,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/ai_vs_ev.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/ai_vs_ev.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -138,7 +138,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/how-india-supply.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/how-india-supply.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -154,7 +154,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/route-optimization.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/route-optimization.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -170,7 +170,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/instant-order.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/instant-order.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -186,7 +186,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_avp.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/banner_avp.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -202,7 +202,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/api-advantage.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/api-advantage.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -218,7 +218,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_ET_Insights.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/banner_ET_Insights.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -234,7 +234,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_India_Today.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/banner_India_Today.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -250,7 +250,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/cargo-talk-Banner.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/cargo-talk-Banner.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -266,7 +266,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/press-trust-Banner.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/press-trust-Banner.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -282,7 +282,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/et-government-Banner.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/et-government-Banner.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -298,7 +298,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/yourstory2-Banner.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/yourstory2-Banner.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -314,7 +314,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/YourStory_Banner .jpg" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/YourStory_Banner .jpg" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -330,7 +330,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/APN_NEWS_Banner.jpg" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/APN_NEWS_Banner.jpg" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -346,7 +346,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_CXO_Today.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/banner_CXO_Today.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -362,7 +362,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_Fnancial_Express.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/banner_Fnancial_Express.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -378,7 +378,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_Logistics_Insider.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/banner_Logistics_Insider.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -394,7 +394,7 @@
                 <div class="col-lg-4 col-md-4 col-12 mb-5">
                     <div class="card blog-post">
                         <div class="head">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/publication/banner_Yourstory.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/publication/banner_Yourstory.png" alt="">
                         </div>
                         <div class="body">
                             <div>
@@ -423,7 +423,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/delivery-partners.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/delivery-partners.png" alt="">
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@
     <section class="xmasHero xmasBg">
         <div class="imgs">
             <img class="imgDesk"
-                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/christmas/christmas-border.png"
+                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/christmas/christmas-border.png"
                 loading="lazy">
         </div>
         <div class="container h-100 position-relative">
@@ -46,7 +46,7 @@
                         <p>Our AI-backed logistics engine, AYUMI makes sure every parcel reaches the right location on
                             time, every time.</p>
                     </div>
-                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/christmas/ayumi-logo.svg"
+                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/christmas/ayumi-logo.svg"
                         alt="ayumi-logo" class="ayumi-logo" loading="lazy">
                 </div>
             </div>
@@ -63,7 +63,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center mb-5">
                     <div class="col-lg-4 col-xl-5 mt-4 mb-4 text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/christmas/magic1.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/christmas/magic1.png"
                             alt="">
                     </div>
                     <div class="col-lg-4 col-xl-5 mb-4">
@@ -87,13 +87,13 @@
                         <p class="body mb-3">When promises are accurate, customers relax. Support tickets drop. Sales come back.</p>
                     </div>
                     <div class="col-lg-4 col-xl-5 mt-4 mb-4 text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/christmas/magic2.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/christmas/magic2.png"
                             alt="">
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-center mb-5">
                     <div class="col-lg-4 col-xl-5 mt-4 mb-4 text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/christmas/magic3.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/christmas/magic3.png"
                             alt="">
                     </div>
                     <div class="col-lg-4 col-xl-5 mb-4">
@@ -117,7 +117,7 @@
                         <p class="body mb-3">No drama. No blind dispatch. Just fewer RTOs and quieter warehouses.</p>
                     </div>
                     <div class="col-lg-4 col-xl-5 mt-4 mb-4 text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/christmas/magic4.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/christmas/magic4.png"
                             alt="">
                     </div>
                 </div>

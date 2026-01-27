@@ -35,7 +35,7 @@ echo "<script>
     exit;
 }
 ?>
-<!-- <meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/feature-og.png"> -->
+<!-- <meta property="og:image" content="https://storage.googleapis.com/rapidshyp-website-cdn/temp/feature-og.png"> -->
 <meta property="og:title" content="Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp" />
 <meta name="title" content="Courier/Shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?> - RapidShyp" />
 <meta name="description" content="Looking for the shipping rates from <?php echo htmlspecialchars($fromCity); ?> to <?php echo htmlspecialchars($toCity); ?>? Use our shipping rate calculator to get courier charges instantly.">
@@ -63,7 +63,7 @@ echo "<script>
                     </div>
                 </div>
             </div>
-            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shiprate-hero-img.png" alt="" width="100%">
+            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/shiprate-hero-img.png" alt="" width="100%">
         </div>
     </section>
 
@@ -179,7 +179,7 @@ echo "<script>
                         </div>
                         <div class="col-md-12 col-lg-4 col-sm-12 p-0 d-flex align-items-center">
                             <div class="illustration">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-rateCal-img.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-rateCal-img.png"
                                     alt="Illustration">
                             </div>
                         </div>
@@ -244,7 +244,7 @@ echo "<script>
                     <div class="owl-carousel owl-theme" id="shiprates-carousel" >
                         <div class="item">
                             <div class="icon">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/delivery-boy.svg" alt="">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/delivery-boy.svg" alt="">
                             </div>
                             <div class="card">
                                 <div class="body">
@@ -255,7 +255,7 @@ echo "<script>
                         </div>
                         <div class="item">
                             <div class="icon">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/chat-bot.svg" alt="">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/chat-bot.svg" alt="">
                             </div>
                             <div class="card">
                                 <div class="body">
@@ -266,7 +266,7 @@ echo "<script>
                         </div>
                         <div class="item">
                             <div class="icon">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/shield.svg" alt="">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/shield.svg" alt="">
                             </div>
                             <div class="card">
                                 <div class="body">
@@ -277,7 +277,7 @@ echo "<script>
                         </div>
                         <div class="item">
                             <div class="icon">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/return-box.svg" alt="">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/return-box.svg" alt="">
                             </div>
                             <div class="card">
                                 <div class="body">
@@ -405,7 +405,7 @@ echo "<script>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/track-experience.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/track-experience.png" alt="">
                     </div>
                 </div>
             </div>

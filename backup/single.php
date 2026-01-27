@@ -308,7 +308,7 @@ the_post();
                         </div>
                         <div class="col-md-12 col-lg-4 col-sm-12 p-0">
                             <div class="illustration">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/calculator.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/calculator.png"
                                     alt="Illustration">
                             </div>
                         </div>

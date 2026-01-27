@@ -16,11 +16,11 @@
     <meta name="description"
         content="RapidShyp is an eCommerce shipping platform for eCommerce brands looking to scale their business with reliable logistics services that meets their customers’ delivery expectations of faster delivery speed and superior post-purchase experience." />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="shortcut icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon.ico"
+    <link rel="shortcut icon" href="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/favicon.ico"
         type="image/x-icon">
-    <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon.png"
+    <link rel="icon" href="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/favicon.png"
         sizes="32x32" />
-    <link rel="icon" href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/favicon-192.png"
+    <link rel="icon" href="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/favicon-192.png"
         sizes="192x192" />
     <link rel="stylesheet" href="../node_modules/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../node_modules/bootstrap.min.css">

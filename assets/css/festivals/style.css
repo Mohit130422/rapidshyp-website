@@ -25,7 +25,7 @@
   animation-duration: 0.5s;
   z-index: 10000;
   padding: 16px 25px;
-  background-image: url("https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/christmas/modal-bg.svg");
+  background-image: url("https://storage.googleapis.com/rapidshyp-website-cdn/temp/christmas/modal-bg.svg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -106,7 +106,7 @@
 }
 
 .xmasGradientbg {
-  background-image: url("https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/christmas/christmas-tree.png") !important;
+  background-image: url("https://storage.googleapis.com/rapidshyp-website-cdn/temp/christmas/christmas-tree.png") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

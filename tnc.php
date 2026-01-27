@@ -102,11 +102,11 @@
                 <p class="mb-3"><strong>Last Updated: </strong>31st January 2025</p>
             </div>
             <div class="mb-4">
-            <a href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/terms-of-services.pdf#toolbar=0" target="_blank" class="solid-action-btn mx-0 fs-6 py-2">Download Merchant Agreement.</a>
-            <!-- <object class="pdf" data="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/terms-of-services.pdf#toolbar=0"
+            <a href="https://storage.googleapis.com/rapidshyp-website-cdn/temp/terms-of-services.pdf#toolbar=0" target="_blank" class="solid-action-btn mx-0 fs-6 py-2">Download Merchant Agreement.</a>
+            <!-- <object class="pdf" data="https://storage.googleapis.com/rapidshyp-website-cdn/temp/terms-of-services.pdf#toolbar=0"
                     width="800" height="800" controlsList="nodownload" type="application/pdf">
                     <p>Your web browser doesn't have a PDF plugin.
-                        Instead you can <a href="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/terms-of-services.pdf#toolbar=0" style="color: #3598e9">Click here to
+                        Instead you can <a href="https://storage.googleapis.com/rapidshyp-website-cdn/temp/terms-of-services.pdf#toolbar=0" style="color: #3598e9">Click here to
                             download the Agreement.</a></p>
                 </object> -->
             </div>

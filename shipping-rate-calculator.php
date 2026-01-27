@@ -3,7 +3,7 @@ session_start();
 $rand=mt_rand(11111111,99999999);
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
-<meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-rate-og.jpg">
+<meta property="og:image" content="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-rate-og.jpg">
 <meta property="og:title" content="Shipping Rates Calculator | Calculate Courier Charges - RapidShyp" />
 <meta property="og:description" content="Calculate estimated courier costs for your parcels. Get shipping charges per Kg for all professional couriers of your choice using our shipping rate calculator" />
 <meta name="title" content="Shipping Rates Calculator | Calculate Courier Charges - RapidShyp" />
@@ -20,11 +20,11 @@ include 'header-section.php';?>
         <div id="hero-area" class="hero-area rateCal">
             <div class="floating-elements">
                 <ul class="background">
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/local_shipping.svg"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/local_shipping.svg"
                             alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/yellow-circle.png"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/yellow-circle.png"
                             alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/box.svg" alt="">
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/box.svg" alt="">
                     </li>
                 </ul>
             </div>
@@ -149,7 +149,7 @@ include 'header-section.php';?>
                         </div>
                         <div class="col-md-12 col-lg-4 col-sm-12 p-0">
                             <div class="illustration">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/calculator.png"
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/calculator.png"
                                     alt="Illustration">
                             </div>
                         </div>
@@ -214,7 +214,7 @@ include 'header-section.php';?>
                         shipping rate calculator to determine accurate costs and keep your margins intact!</p>
                 </div>
                 <div class="col-12">
-                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/calvariable.png"
+                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/calvariable.png"
                         alt="rate Variable">
                 </div>
             </div>
@@ -231,31 +231,31 @@ include 'header-section.php';?>
                 </div>
                 <div class="partners">
                     <img class="img-desk"
-                        src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt.png"
+                        src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt.png"
                         alt="">
                     <ul class="floating-partner">
                         <li class="shipping-option">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt1.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt1.png"
                                 alt="Delhivery">
                         </li>
                         <li class="shipping-option">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt2.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt2.png"
                                 alt="Ecom Express">
                         </li>
                         <li class="shipping-option">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt3.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt3.png"
                                 alt="XpressBees">
                         </li>
                         <li class="shipping-option">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt4.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt4.png"
                                 alt="STC">
                         </li>
                         <li class="shipping-option">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt5.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt5.png"
                                 alt="XpressBees">
                         </li>
                         <li class="shipping-option">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/ship-opt6.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/ship-opt6.png"
                                 alt="STC">
                         </li>
                     </ul>
@@ -276,7 +276,7 @@ include 'header-section.php';?>
                             <div class="steps">
                                 <span class="label">Step 01</span>
                                 <div class="img">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/local_shipping.svg"
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/local_shipping.svg"
                                         alt="">
                                 </div>
                                 <p>Pick-up Area Pincode</p>
@@ -287,7 +287,7 @@ include 'header-section.php';?>
                             <div class="steps">
                                 <span class="label">Step 02</span>
                                 <div class="img yellow">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/scale.svg"
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/scale.svg"
                                         alt="">
                                 </div>
                                 <p>Weight (Kg)</p>
@@ -298,7 +298,7 @@ include 'header-section.php';?>
                             <div class="steps">
                                 <span class="label">Step 03</span>
                                 <div class="img">
-                                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/box.svg"
+                                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/box.svg"
                                         alt="">
                                 </div>
                                 <p>Dimensions (Cm)</p>
@@ -325,7 +325,7 @@ include 'header-section.php';?>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ship-option/rateCal_model.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ship-option/rateCal_model.png"
                             alt="">
                     </div>
                 </div>

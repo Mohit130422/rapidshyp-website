@@ -3,7 +3,7 @@ session_start();
 $rand=mt_rand(11111111,99999999);;
 $_SESSION['csrf']=$rand;
 include 'header-section.php';?>
-<meta property="og:image" content="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/vol-weight-og.jpg">
+<meta property="og:image" content="https://storage.googleapis.com/rapidshyp-website-cdn/temp/vol-weight-og.jpg">
 <meta property="og:title" content="Volumetric Weight Calculator - Calculate Volumetric Charges - RapidShyp" />
 <meta property="og:description" content="Easily Calculate volumetric weight by volumetric weight calculator. Perfect for ecommerce brands to avoid extra courier costs and ship nationwide efficiently." />
 <meta name="title" content="Volumetric Weight Calculator - Calculate Volumetric Charges - RapidShyp" />
@@ -20,11 +20,11 @@ include 'header-section.php';?>
         <div id="hero-area" class="hero-area rateCal">
             <div class="floating-elements">
                 <ul class="background">
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/local_shipping.svg"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/local_shipping.svg"
                             alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/yellow-circle.png"
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/yellow-circle.png"
                             alt=""></li>
-                    <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/box.svg" alt="">
+                    <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/box.svg" alt="">
                     </li>
                 </ul>
             </div>
@@ -125,7 +125,7 @@ include 'header-section.php';?>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/what-is-vol.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/what-is-vol.png" alt="">
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@ include 'header-section.php';?>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/product-box.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/product-box.png" alt="">
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@ include 'header-section.php';?>
                     <p class="sub-heading">15+ courier partners to solve all your shipping woes!</p>
                 </div>
                 <div class="col-lg-8 col-sm-12 best-partners">
-                    <img class="img-desk" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/rapidshyp-truck.png" alt="">
+                    <img class="img-desk" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/rapidshyp-truck.png" alt="">
                 </div>                
             </div>
         </div>
@@ -182,7 +182,7 @@ include 'header-section.php';?>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="image">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/rs-boy.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/rs-boy.png"
                             alt="">
                     </div>
                 </div>

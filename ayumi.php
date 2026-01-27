@@ -15,13 +15,13 @@
     <section class="ayumi-bg ayumi-lp-hero">
         <div class="floating-elements">
             <ul class="background">
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/star-big.svg" alt="">
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/star-big.svg" alt="">
                 </li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/star-small.svg"
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/star-small.svg"
                         alt=""></li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bot.png" alt="">
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bot.png" alt="">
                 </li>
-                <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/user-rating.png"
+                <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/user-rating.png"
                         alt=""></li>
             </ul>
         </div>
@@ -34,7 +34,7 @@
                         <p class="sub-heading">AI That Understands Your Deliveries</p>
                     </div>
                     <button class="solid-action-btn" onclick="location.href = 'https://ayumi.rapidshyp.com';">Switch to <img
-                            src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ayumi-mono.svg"
+                            src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ayumi-mono.svg"
                             alt=""></button>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="glass-card">
                         <div class="brand"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-predict.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-predict.svg"
                                 alt=""></div>
                         <p class="desc"><b>Identify</b> RTOs Before They Happen</p>
                         <a href="/ayumi#ayumiPredict" class="d-inline-block glass-btn">Learn More</a>
@@ -84,7 +84,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="glass-card">
                         <div class="brand"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-promise.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-promise.svg"
                                 alt=""></div>
                         <p class="desc">Delivery Date <b>Accuracy</b> Your Buyers Can Trust</p>
                         <a href="/ayumi#ayumiPromise" class="d-inline-block glass-btn">Learn More</a>
@@ -94,7 +94,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="glass-card">
                         <div class="brand"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-select.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-select.svg"
                                 alt=""></div>
                         <p class="desc">The <b>Smartest</b> Courier Allocation Engine</p>
                         <a href="/ayumi#ayumiSelect" class="d-inline-block glass-btn">Learn More</a>
@@ -104,7 +104,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="glass-card">
                         <div class="brand"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-sense.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-sense.svg"
                                 alt=""></div>
                         <p class="desc"><b>AI Assistance</b>, On Demand (Chat + Voice)</p>
                         <a href="/ayumi#ayumiSense" class="d-inline-block glass-btn">Learn More</a>
@@ -123,7 +123,7 @@
                     <ul class="p-0">
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Instant High-Risk Order Detection </h6>
                                 <p>Flags risky orders before dispatch to prevent RTO losses.</p>
@@ -131,7 +131,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Behavior & Intent Scoring</h6>
                                 <p>Uses buyer signals, history, and location trust to predict RTOs.</p>
@@ -139,7 +139,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Geo-Location Intelligence</h6>
                                 <p>Checks address quality and delivery complexity to assess risk.</p>
@@ -147,7 +147,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Learns at Scale </h6>
                                 <p>Improves continuously using millions of delivery outcomes.</p>
@@ -155,7 +155,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Stop Losses Before Dispatch </h6>
                                 <p>Cut RTO costs in shipping, packaging, time, and effort.</p>
@@ -163,7 +163,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Scale with Confidence </h6>
                                 <p>Maintain lower RTO rates for better margins and predictable revenue.</p>
@@ -177,7 +177,7 @@
                     <ul class="p-0">
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Hyper-Accurate EDDs </h6>
                                 <p>Predicts delivery dates using historical + real-time logistics signals.</p>
@@ -185,7 +185,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Lane-Level Intelligence</h6>
                                 <p>Shows route performance by courier and region to plan fulfilment better.</p>
@@ -193,7 +193,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Live Courier Insights</h6>
                                 <p>Tracks delays and network load to keep EDDs dynamic, not guesses.</p>
@@ -201,7 +201,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Fewer WISMO Tickets </h6>
                                 <p>Reduces “Where is my order?” queries with clearer delivery promises.</p>
@@ -209,7 +209,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Higher Conversions & Repeat </h6>
                                 <p>Trustworthy delivery dates drive purchases and loyalty.</p>
@@ -217,7 +217,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Seasonality-Ready </h6>
                                 <p>Tracks delays and network load to keep EDDs dynamic, not guesses.</p>
@@ -231,7 +231,7 @@
                     <ul class="p-0">
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Smart Courier Recommendations</h6>
                                 <p>Auto-picks the best courier per shipment using data, not instinct.</p>
@@ -239,7 +239,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Pre-Dispatch Success Score </h6>
                                 <p>Each choice comes with a delivery-probability rating.</p>
@@ -247,7 +247,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Real-Time Network Signals </h6>
                                 <p>Factors in delays, load, and hub congestion for dynamic allocation.</p>
@@ -255,7 +255,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Reliability + Speed History </h6>
                                 <p>Learns from past outcomes across regions and seasons.</p>
@@ -263,7 +263,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Faster, Higher First-Attempt Delivery </h6>
                                 <p>Fewer delays and reattempts for a smoother buyer experience.</p>
@@ -271,7 +271,7 @@
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Ship with Confidence</h6>
                                 <p>Every order goes to the courier most likely to deliver successfully.</p>
@@ -286,28 +286,28 @@
                     <ul class="p-0">
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Process orders instantly</h6>
                             </div>
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Get answers to shipping queries</h6>
                             </div>
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Understand performance</h6>
                             </div>
                         </li>
                         <li class="bullets">
                             <img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-bullet.svg">
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-bullet.svg">
                             <div class="content">
                                 <h6>Make data-backed decisions in seconds Ask,<br> and Ayumi acts.</h6>
                             </div>
@@ -318,19 +318,19 @@
             <div class="images" id="images">
                 <div class="image-container" id="imageContainer">
                     <div class="image-slide">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ayumi-predict.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ayumi-predict.png"
                             alt="Ayumi Predict" loading="lazy">
                     </div>
                     <div class="image-slide">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ayumi-promise.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ayumi-promise.png"
                             alt="Ayumi Promise" loading="lazy">
                     </div>
                     <div class="image-slide">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ayumi-select.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ayumi-select.png"
                             alt="Ayumi Select" loading="lazy">
                     </div>
                     <div class="image-slide">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ayumi-sense.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ayumi-sense.png"
                             alt="Ayumi Sense" loading="lazy">
                     </div>
                 </div>
@@ -350,31 +350,31 @@
                 <div class="owl-carousel owl-theme sticky-features" id="ai-features">
                     <div class="glass-card">
                         <div class="brand"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-feature01.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-feature01.svg"
                                 alt=""></div>
                         <p class="desc"><mark>Reduced</mark> RTOs</p>
                     </div>
                     <div class="glass-card">
                         <div class="brand"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-feature02.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-feature02.svg"
                                 alt=""></div>
                         <p class="desc"><mark>Accurate</mark> deliveries</p>
                     </div>
                     <div class="glass-card">
                         <div class="brand"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-feature03.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-feature03.svg"
                                 alt=""></div>
                         <p class="desc"><mark>End-to-end</mark> shipment intelligence</p>
                     </div>
                     <div class="glass-card">
                         <div class="brand"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-feature04.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-feature04.svg"
                                 alt=""></div>
                         <p class="desc"><mark>Automated</mark> operations</p>
                     </div>
                     <div class="glass-card">
                         <div class="brand"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-feature05.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-feature05.svg"
                                 alt=""></div>
                         <p class="desc"><mark>Higher</mark> profitability</p>
                     </div>
@@ -392,28 +392,28 @@
                         deserves a system that thinks, learns, and acts with you.</p>
                 </div>
                 <div class="col-12 text-center mt-4">
-                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/group-ayumi-feature.svg"
+                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/group-ayumi-feature.svg"
                         alt="Ayumi features" class="d-md-none d-sm-block w-100" loading="lazy">
                     <div class="orbital-container d-none d-md-block">
                         <div class="glow"></div>
                         <div class="center-circle">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/ai-ecosystem.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/ai-ecosystem.svg"
                                 alt="Ayumi Logo">
                         </div>
                         <div class="feature shipping"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/local_shipping.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/local_shipping.svg"
                                 alt=""> Shipping</div>
                         <div class="feature courier"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/delivery_truck_speed.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/delivery_truck_speed.svg"
                                 alt=""> Courier allocation</div>
                         <div class="feature tracking"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/distance.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/distance.svg"
                                 alt=""> Tracking</div>
                         <div class="feature analytics"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/donut_small.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/donut_small.svg"
                                 alt=""> Analytics</div>
                         <div class="feature support"><img
-                                src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ayumi/headphones.svg"
+                                src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/ayumi/headphones.svg"
                                 alt=""> Support</div>
                     </div>
                 </div>

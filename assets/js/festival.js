@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 
 let width, height, particles = [];
 const snowImg = new Image();
-snowImg.src = 'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/christmas/Snowflake.svg'; // path to your image
+snowImg.src = 'https://storage.googleapis.com/rapidshyp-website-cdn/temp/christmas/Snowflake.svg'; // path to your image
 
 function init() {
     width = window.innerWidth;

@@ -34,7 +34,7 @@
         <?php include 'top-strip.php'; ?>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <span class="navbar-brand"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></span>
+                <span class="navbar-brand"><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg" alt="Logo"></span>
                 <div class="navbar-nav d-flex">
                 <li class="nav-item"><button class="solid-action-btn openWaitlistModal mx-0" style="font-size: 14px;">Get Started <i class="fas fa-chevron-right"></i></button></li>
                 </div>
@@ -48,7 +48,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="contents">
-                            <h1 class="head-title mt-4" style="text-transform: capitalize;"><img class="logo" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/cargo_light.png" alt="cargo plus" width="25%"> <br><mark>Bulk rates that mean <br> business — from ₹6/kg*!</mark></h1>
+                            <h1 class="head-title mt-4" style="text-transform: capitalize;"><img class="logo" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/cargo_light.png" alt="cargo plus" width="25%"> <br><mark>Bulk rates that mean <br> business — from ₹6/kg*!</mark></h1>
                             <ul class="px-3">
                                 <li class="sub-title mb-2">Deliver to 24000+ pin codes.</li>
                                 <li class="sub-title mb-2">Real-time shipment tracking.</li>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/cargo-cost-img.png"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/cargo-cost-img.png"
                                 alt="">
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                     <h3 class="heading">Sign up with your FREE Account Today</h3>
                     <p class="sub-heading mb-4">No platform fee, no hidden charges. Pay only for shipping.</p>
-                    <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/cargoplus-truck.svg" alt="rapidshyp cargo plus" style="width: 80%; margin-top: 30px;">
+                    <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/cargoplus-truck.svg" alt="rapidshyp cargo plus" style="width: 80%; margin-top: 30px;">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image text-center">
@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="card">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/usp01.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/usp01.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Full and Partial Truckload</h5>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="card">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/usp02.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/usp02.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Real Time Vehicle Movement Tracking</h5>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="card">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/usp03.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/usp03.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Appointment-Based Deliveries</h5>
@@ -126,7 +126,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="card">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/usp04.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/usp04.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">AI Courier Recommendation Engine</h5>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="card">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/usp05.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/usp05.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Door-to-Door Deliveries</h5>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="card">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/usp06.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/usp06.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CSD and Mall Deliveries</h5>
@@ -159,7 +159,7 @@
         <div class="container">
             <div class="row mb-4 align-items-start">
                 <div class="col-lg-7 col-md-12">
-                    <p class="heading mt-0">Why Choose <img class="logo mb-2" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/cargo_dark.png" alt="cargo plus" width="15%"> for <br>  Heavy-Weight Cargo?</p>
+                    <p class="heading mt-0">Why Choose <img class="logo mb-2" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/cargo_dark.png" alt="cargo plus" width="15%"> for <br>  Heavy-Weight Cargo?</p>
                 </div>
                 <div class="col-lg-5 col-md-12">
                     <p class="sub-heading">From pickup to final delivery — stay in control with real-time updates</p>
@@ -169,7 +169,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/end-to-end.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/end-to-end.svg"
                                 alt="">
                         </span>
                         <p class="title"><mark>End-to-End</mark> Logistics Solution</p>
@@ -179,7 +179,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/affordable.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/affordable.svg"
                                 alt="">
                         </span>
                         <p class="title"><mark>Affordable</mark> & Transparent Pricing</p>
@@ -189,7 +189,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/pan-india.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/pan-india.svg"
                                 alt="">
                         </span>
                         <p class="title"><mark>PAN India </mark> Reach</p>
@@ -199,7 +199,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/integrated.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/integrated.svg"
                                 alt="">
                         </span>
                         <p class="title"><mark>Integrated</mark> With Your Workflow</p>
@@ -209,7 +209,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/dedicated.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/dedicated.svg"
                                 alt="">
                         </span>
                         <p class="title"><mark>Dedicated</mark>  Logistics Experts</p>
@@ -219,7 +219,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/management.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/management.svg"
                                 alt="">
                         </span>
                         <p class="title"><mark>Order</mark> Management</p>
@@ -229,7 +229,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/multi-carrier.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/multi-carrier.svg"
                                 alt="">
                         </span>
                         <p class="title"><mark>Multiple Carrier </mark> Options</p>
@@ -239,7 +239,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/ndr.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/ndr.svg"
                                 alt="">
                         </span>
                         <p class="title"><mark>Non-Delivery</mark>  Reports</p>
@@ -249,7 +249,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                     <div class="info holographic-card">
                         <span class="imgdesk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/communication.svg"
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/communication.svg"
                                 alt="">
                         </span>
                         <p class="title"><mark>B2B </mark> Communication</p>
@@ -277,21 +277,21 @@
                     <div class="item">
                         <div class="row align-items-center col-reverse">
                             <div class="col-12">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/trusted-partner.svg" alt="zepto">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/trusted-partner.svg" alt="zepto">
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row align-items-center col-reverse">
                             <div class="col-12">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/trusted-partner.svg" alt="zepto">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/trusted-partner.svg" alt="zepto">
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row align-items-center col-reverse">
                             <div class="col-12">
-                                <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/trusted-partner.svg" alt="zepto">
+                                <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/trusted-partner.svg" alt="zepto">
                             </div>
                         </div>
                     </div>
@@ -311,7 +311,7 @@
                 </div>
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <div class="image text-center">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/b2b/our-partners.png" alt="" class="m-auto" style="width: 100%;">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/b2b/our-partners.png" alt="" class="m-auto" style="width: 100%;">
                     </div>
                 </div>                
             </div>
@@ -322,7 +322,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col text-center">
-                    <p class="heading fw-lighter">More Related to <img class="logo mb-2" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/cargo_dark.png" alt="cargo plus" width="10%"></p>
+                    <p class="heading fw-lighter">More Related to <img class="logo mb-2" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/cargo_dark.png" alt="cargo plus" width="10%"></p>
                     <p class="sub-heading">Explore our blog for shipping tips and updates</p>
                 </div>
             </div>
@@ -473,7 +473,7 @@
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="brand mb-4">
-                        <span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg"
+                        <span><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg"
                                 alt=""></span>
                     </div>
                     <p class="mb-4">An eCommerce shipping platform offering logistics automation, multi-carrier
@@ -484,7 +484,7 @@
                         <span><i class="fab fa-instagram"></i></span>
                         <span><i class="fab fa-linkedin"></i></span>
                         <span><i class="fab fa-facebook"></i></span>
-                        <span><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/x-twitter.svg"
+                        <span><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/x-twitter.svg"
                                 alt=""></span>
                     </div>
                 </div>
@@ -540,7 +540,7 @@
                 </div>
             </div>
         </div>
-        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/footer-img.png" alt="">
+        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/footer-img.png" alt="">
     </footer>
 
     <div class="adlinks">

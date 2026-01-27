@@ -157,7 +157,7 @@ while($data=mysqli_fetch_array($query))
 
 
 $surface_icon="<i class='fas fa-truck'></i>";
-$air_icon="<img src='https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/flightsmode.svg' alt=''>";
+$air_icon="<img src='https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/flightsmode.svg' alt=''>";
 
 
 foreach ($result as $results) {

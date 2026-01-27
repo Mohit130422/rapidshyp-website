@@ -467,7 +467,7 @@ mark{
         }
         .footer{
             .code{
-                background-image: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/offer-border.svg');
+                background-image: url('https://storage.googleapis.com/rapidshyp-website-cdn/temp/offer-border.svg');
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-size: contain;
@@ -524,7 +524,7 @@ mark{
         }
     }
     .ny-offer{
-        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/popup-bg.png);
+        background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/popup-bg.png);
         background-repeat: no-repeat;
         background-size: contain;
         height: 500px;
@@ -791,7 +791,7 @@ section{
         right: 0;
         width: 270px;
         height: 675px;
-        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/vector2.png);
+        background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/vector2.png);
         background-repeat: no-repeat;
         animation: fadeUp 3s ease-in-out;
     }
@@ -804,7 +804,7 @@ section{
         left: 0px;
         width: 270px;
         height: 675px;
-        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/vector1.png);
+        background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/vector1.png);
         background-repeat: no-repeat;
         animation: fadeUp 3s ease-in-out;
     }
@@ -925,7 +925,7 @@ section{
         top: 15%;
         right: -8%;
         border-radius: 50%;
-        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/Isolation_Mode.svg);
+        background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/Isolation_Mode.svg);
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -944,7 +944,7 @@ section{
                     height: 40px;
                     box-shadow: none !important;
                     background-color: unset !important;
-                    background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/floating-star.svg);
+                    background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/floating-star.svg);
                     background-repeat: no-repeat;
                     background-size: contain;
                     animation: none !important;
@@ -955,7 +955,7 @@ section{
                     left: 50vw !important;
                     width: 20px;
                     height: 20px;
-                    background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/floating-star.svg);
+                    background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/floating-star.svg);
                     background-repeat: no-repeat;
                     background-size: contain;
                     animation: none !important;
@@ -1069,7 +1069,7 @@ section{
         top: 3%;
         left: -1%;
         border-radius: 50%;
-        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/Isolation_Mode_left.png);
+        background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/Isolation_Mode_left.png);
         background-repeat: no-repeat;
         background-size: contain;
     } 
@@ -1141,7 +1141,7 @@ section{
 
 .ready-to-light-up{
     padding: 0 0 16px;
-    background-image: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/ready-to-light-up.png');
+    background-image: url('https://storage.googleapis.com/rapidshyp-website-cdn/temp/ready-to-light-up.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1228,7 +1228,7 @@ section{
 
 .opportunity-is-brighter{
     margin-top: 70px;
-    background-image: url('https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/opportunity-is-bigger.png');
+    background-image: url('https://storage.googleapis.com/rapidshyp-website-cdn/temp/opportunity-is-bigger.png');
     .row{
         margin-bottom: 2rem !important;
     }
@@ -1380,7 +1380,7 @@ section{
 .lets-ace-this-festive{
     padding: 0px 0 70px;
     .d-block{
-        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/lets-ace-festive.png);
+        background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/lets-ace-festive.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -1451,7 +1451,7 @@ section{
 .ny-ace{
     padding: 70px 0 70px !important;
     .d-block{
-        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/bg.png);
+        background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/bg.png);
         background-size: cover;
         border-radius: 15px;
     }
@@ -1504,7 +1504,7 @@ section{
         top: 5%;
         left: -1%;
         border-radius: 50%;
-        background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/Isolation_Mode_left.png);
+        background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/Isolation_Mode_left.png);
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -1523,7 +1523,7 @@ section{
                     height: 40px;
                     box-shadow: none !important;
                     background-color: unset !important;
-                    background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/floating-star.svg);
+                    background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/floating-star.svg);
                     background-repeat: no-repeat;
                     background-size: contain;
                     animation: none !important;
@@ -1533,7 +1533,7 @@ section{
                     left: 93vw !important;
                     width: 40px;
                     height: 40px;
-                    background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/newyear2025/floating-star.svg);
+                    background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/newyear2025/floating-star.svg);
                     background-repeat: no-repeat;
                     background-size: contain;
                     animation: none !important;
@@ -4838,7 +4838,7 @@ section{
 }
 
 .shopify-hero{
-    background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/shopify-bg.png);
+    background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/shopify-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5040,7 +5040,7 @@ section{
 }
 
 .how-sync-order{
-    background-image: url(https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/auto-sync-bg.png);
+    background-image: url(https://storage.googleapis.com/rapidshyp-website-cdn/temp/auto-sync-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

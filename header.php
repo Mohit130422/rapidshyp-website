@@ -9,8 +9,8 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Logo.svg" alt="Logo"></a>
-            <!--<a class="navbar-brand" href="/"><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/Xmas-Logo.png" alt="Logo"></a>-->
+            <a class="navbar-brand" href="/"><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Logo.svg" alt="Logo"></a>
+            <!--<a class="navbar-brand" href="/"><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/Xmas-Logo.png" alt="Logo"></a>-->
             <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <p class="nav-link" id="product">Product <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
+                        <p class="nav-link" id="product">Product <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/arrow-down.svg" alt=""></p>
                         <div class="hover-menu" id="product-menu">
                             <ul>
                                 <li>
@@ -35,7 +35,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <p class="nav-link" id="features">Features <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
+                        <p class="nav-link" id="features">Features <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/arrow-down.svg" alt=""></p>
                         <div class="hover-menu" id="features-menu">
                             <ul>
                                 <li>
@@ -51,7 +51,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                            <p class="nav-link" id="ship-tools">Shipping Tools <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
+                            <p class="nav-link" id="ship-tools">Shipping Tools <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/arrow-down.svg" alt=""></p>
                             <div class="hover-menu" id="ship-tools-menu">
                                 <ul>
                                     <li>
@@ -64,7 +64,7 @@
                             </div>
                     </li>
                     <li class="nav-item">
-                            <p class="nav-link" id="integrations">Integrations <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
+                            <p class="nav-link" id="integrations">Integrations <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/arrow-down.svg" alt=""></p>
                             <div class="hover-menu" id="integration-menu">
                                 <ul>
                                     <li>
@@ -77,7 +77,7 @@
                             </div>
                     </li>
                     <li class="nav-item">
-                            <p class="nav-link" id="resources">Resources <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/arrow-down.svg" alt=""></p>
+                            <p class="nav-link" id="resources">Resources <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/arrow-down.svg" alt=""></p>
                             <div class="hover-menu" id="resources-menu">
                                 <ul>
                                     <li>

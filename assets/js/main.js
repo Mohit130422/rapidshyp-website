@@ -369,7 +369,7 @@ $(document).ready(function () {
                             additionalInfo = ` (+${product_details.length - 1} more products)`;
                             tableRows += `
                             <tr>
-                                <td class="align-middle" width="30%">${product_details[0].product_name} <img class="d-none" src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/info.svg"
+                                <td class="align-middle" width="30%">${product_details[0].product_name} <img class="d-none" src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/info.svg"
                                                     alt="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                     title="More Products: ${additionalProducts}"> <p>${additionalInfo}</p></td>
                                 <td class="align-middle">${item.courier_name}</td>
@@ -381,7 +381,7 @@ $(document).ready(function () {
                             additionalInfo = `SKU: ${product_details[0].product_sku}`;
                             tableRows += `
                             <tr>
-                                <td class="align-middle" width="30%">${product_details[0].product_name} <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/icon/info.svg"
+                                <td class="align-middle" width="30%">${product_details[0].product_name} <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/icon/info.svg"
                                                     alt="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                     title="${additionalInfo}"></td>
                                 <td class="align-middle">${item.courier_name}</td>
@@ -704,7 +704,7 @@ function timeAgo(date) {
         const excerpt = post.excerpt.rendered.replace(/<[^>]+>/g, '').slice(0, 120) + '...';
         const link = post.link;
         const featuredImage = post._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
-          'https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/post1.png';
+          'https://storage.googleapis.com/rapidshyp-website-cdn/temp/post1.png';
         const time = timeAgo(post.date);
         const author = post._embedded?.author?.[0]?.name || "Admin";
         const category = post._embedded?.['wp:term']?.[0]?.[0]?.name || "General";

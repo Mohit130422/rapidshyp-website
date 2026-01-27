@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="img-desk">
-                            <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-hero-img.png" alt="">
+                            <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/ip-hero-img.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,21 +46,21 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/certified-icon.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/certified-icon.svg" alt="">
                         <h3 class="heading">170+</h3>
                         <p class="sub-heading">Years in Service</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/letter-box-icon.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/letter-box-icon.svg" alt="">
                         <h3 class="heading">1.6 Lakh+</h3>
                         <p class="sub-heading">Post Offices</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
                     <div class="content">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-coverage.svg" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/ip-coverage.svg" alt="">
                         <h3 class="heading">89%+</h3>
                         <p class="sub-heading">Rural Coverage</p>
                     </div>
@@ -71,9 +71,9 @@
 
     <section class="what-makes-better2 reduce-rto trust-in-delivery" id="solution">
         <ul class="background">
-            <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-bgshade01.svg" alt=""></li>
-            <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-bgshade02.svg" alt=""></li>
-            <li><img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-bgshade03.svg" alt=""></li>
+            <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/ip-bgshade01.svg" alt=""></li>
+            <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/ip-bgshade02.svg" alt=""></li>
+            <li><img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/ip-bgshade03.svg" alt=""></li>
         </ul>
         <div class="container position-relative">
             <div class="row mb-5 justify-content-center">
@@ -93,7 +93,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-service01.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/ip-service01.png"
                             alt="">
                     </div>
                 </div>
@@ -101,7 +101,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-service02.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/ip-service02.png"
                             alt="">
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-service03.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/ip-service03.png"
                             alt="">
                     </div>
                 </div>
@@ -133,7 +133,7 @@
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-6 col-sm-12 p-3">
                     <div>
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/ip-service04.png"
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/ip-service04.png"
                             alt="">
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                 </div>
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <div class="image imgdesk">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/access-couriers.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/access-couriers.png" alt="">
                     </div>
                 </div>
             </div>
@@ -228,7 +228,7 @@
             <div class="row  align-items-center col-reverse w-100">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="image imgdesk">
-                        <img src="https://rapidshyp-website-cdn.s3.ap-south-1.amazonaws.com/temp/india-post/want-fast-growth.png" alt="">
+                        <img src="https://storage.googleapis.com/rapidshyp-website-cdn/temp/india-post/want-fast-growth.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 px-5">
